@@ -17,6 +17,15 @@ div#menu_side_container {
 
     div#content_container {
         float: left !important;
+        background-color: #F9F9F9;
+    }
+
+    div#body_header {
+        background-color: #F9F9F9;
+    }
+
+    div#footer {
+        display: none
     }
 
     .menu_side_contract {

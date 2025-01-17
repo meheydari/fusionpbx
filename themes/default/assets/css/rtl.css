@@ -109,6 +109,6 @@ div#menu_side_container {
     }
 
     a.menu_side_item_sub {
-        text-align: right;
+        text-align: right !important;
     }
 }

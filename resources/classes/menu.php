@@ -1121,7 +1121,7 @@ if (!class_exists('menu')) {
 						}
 						$html .= "<div class='menu-container-codarx'>";
 						if (!empty($menu_item_main['menu_item_icon'])) {
-							$html .= "<i class='menu_side_item_icon fas ".$menu_item_main['menu_item_icon']." fa-fw' style='z-index: 99800; margin-left: 8px;'></i>";
+							$html .= "<i class='menu_side_item_icon fas ".$menu_item_main['menu_item_icon']." fa-fw' style='z-index: 99800;'></i>";
 						}
 						$html .= "<span class='menu_side_item_title' ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "style='display: none;'" : null).">".$menu_item_main['menu_language_title']."</span>";
 						$html .= "</div>\n";

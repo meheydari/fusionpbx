@@ -15,4 +15,9 @@ div#menu_side_container {
     .menu_side_contract{
         display: none;
     }
+    #menu_side_control_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

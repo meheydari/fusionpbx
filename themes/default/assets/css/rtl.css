@@ -9,13 +9,21 @@ div#menu_side_container {
 }
 
 @media (min-width: 576px) {
+    #main_content {
+        margin: 0 28px;
+        display: inline-block;
+        width: unset;
+    }
+
     div#content_container {
         float: left !important;
     }
-    .menu_side_contract{
+
+    .menu_side_contract {
         display: none;
     }
-    #menu_side_control_container{
+
+    #menu_side_control_container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,7 +58,8 @@ div#menu_side_container {
         -khtml-border-radius: 12px;
         border-radius: 12px;
     }
-    div#menu_side_control_container{
+
+    div#menu_side_control_container {
         background-color: #232323;
     }
 }

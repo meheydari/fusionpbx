@@ -135,3 +135,9 @@ div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div >
     text-align: right;
 
 }
+
+a.menu_side_item_sub {
+    padding: 14px 20px 14px 45px;
+    text-align: right;
+
+}

@@ -125,3 +125,7 @@ div#menu_side_container > a.menu_side_item_main:hover, div#menu_side_container >
     color: #ffffff;
     background: #DCBF79;
 }
+a.menu_side_item_sub:hover, a.menu_side_item_sub:focus, a.menu_side_item_sub:active {
+    color: #ffffff;
+    background: #DCBF79;
+}

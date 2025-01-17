@@ -111,6 +111,9 @@ div#menu_side_container {
     a.menu_side_item_sub {
         text-align: right !important;
     }
+    a.menu_side_item_sub {
+        background: #232323;
+    }
     .menu_side_sub .menu_side_item_title{
         margin-right: 28px;
     }

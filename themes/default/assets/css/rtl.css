@@ -129,3 +129,9 @@ a.menu_side_item_sub:hover, a.menu_side_item_sub:focus, a.menu_side_item_sub:act
     color: #ffffff;
     background: #DCBF79;
 }
+
+div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div > a.menu_side_item_main, div#menu_side_container > div#menu_side_control_container a.menu_side_item_main {
+    padding: 12px 20px;
+    text-align: right;
+
+}

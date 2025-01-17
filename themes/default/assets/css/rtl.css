@@ -1,4 +1,15 @@
-body{
+body {
     direction: rtl;
     font-family: 'Yekan Bakh FaNum', serif;
+}
+
+div#menu_side_container {
+    left: unset;
+    right: 0;
+}
+
+@media (min-width: 576px) {
+    div#content_container {
+        float: left !important;
+    }
 }

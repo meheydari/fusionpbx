@@ -111,7 +111,7 @@ div#menu_side_container {
     a.menu_side_item_sub {
         text-align: right !important;
     }
-    .menu_side_item_title{
+    .menu_side_sub .menu_side_item_title{
         margin-right: 28px;
     }
 }

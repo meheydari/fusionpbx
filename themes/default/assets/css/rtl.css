@@ -95,4 +95,10 @@ div#menu_side_container {
     div#menu_side_control_container {
         background-color: #232323;
     }
+
+    .menu_side_item_main {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
 }

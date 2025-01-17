@@ -12,4 +12,7 @@ div#menu_side_container {
     div#content_container {
         float: left !important;
     }
+    .menu_side_contract{
+        display: none;
+    }
 }

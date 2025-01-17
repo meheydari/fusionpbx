@@ -30,6 +30,7 @@ div#menu_side_container {
     }
     div#menu_side_container{
         background-color: #232323;
+        margin: 10px 10px 10px 0;
     }
     div#menu_side_control_container{
         background-color: #232323;

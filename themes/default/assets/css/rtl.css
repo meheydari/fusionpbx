@@ -9,6 +9,12 @@ div#menu_side_container {
     right: 0;
 }
 
+@media (min-width: 990px){
+    .menu_side_control_state{
+        display: none;
+    }
+}
+
 @media (min-width: 576px) {
     #main_content {
         margin: 0 28px;

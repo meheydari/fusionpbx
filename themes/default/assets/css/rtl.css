@@ -97,8 +97,14 @@ div#menu_side_container {
     }
 
     .menu_side_item_main {
-        display: flex;
+        display: flex !important;
         justify-content: space-between;
         flex-direction: row-reverse;
+    }
+
+    .menu-container-codarx {
+        display: flex;
+        align-items: center;
+        gap: 4px;
     }
 }

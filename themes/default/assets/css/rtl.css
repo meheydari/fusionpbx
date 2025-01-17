@@ -28,4 +28,7 @@ div#menu_side_container {
         max-height: unset;
         margin-left: unset;
     }
+    div#menu_side_control_container{
+        background-color: #232323;
+    }
 }

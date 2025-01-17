@@ -7,7 +7,7 @@
 		<!DOCTYPE html>
 	{/if}
 
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='fa' lang='fa'>
 <head>
 <meta charset='utf-8'>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
@@ -21,6 +21,8 @@
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/bootstrap/css/bootstrap-colorpicker.min.css.php'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/fontawesome/css/all.min.css.php'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/css.php'>
+		<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/assets/font/fontiran.css'>
+	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/assets/css/rtl.css'>
 {*//link to custom css file *}
 	{if !empty($settings.theme.custom_css)}
 		<link rel='stylesheet' type='text/css' href='{$settings.theme.custom_css}'>

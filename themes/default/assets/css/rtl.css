@@ -107,4 +107,8 @@ div#menu_side_container {
         align-items: center;
         gap: 4px;
     }
+
+    a.menu_side_item_sub {
+        text-align: right;
+    }
 }

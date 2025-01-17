@@ -20,6 +20,7 @@ div#menu_side_container {
         justify-content: center;
         align-items: center;
     }
+
     img#menu_brand_image_expanded {
         border: none;
         height: auto;
@@ -28,9 +29,26 @@ div#menu_side_container {
         max-height: unset;
         margin-left: unset;
     }
-    div#menu_side_container{
+
+    div#menu_side_container {
         background-color: #232323;
         margin: 10px 10px 10px 0;
+        z-index: 99900;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 260px;
+        height: calc(100% - 10px);
+        overflow: auto;
+        -webkit-box-shadow: unset;
+        -moz-box-shadow: unset;
+        box-shadow: unset;
+        border-color: unset;
+        border-width: unset;
+        -moz-border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -khtml-border-radius: 12px;
+        border-radius: 12px;
     }
     div#menu_side_control_container{
         background-color: #232323;

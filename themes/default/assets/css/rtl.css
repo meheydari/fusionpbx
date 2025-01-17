@@ -20,4 +20,12 @@ div#menu_side_container {
         justify-content: center;
         align-items: center;
     }
+    img#menu_brand_image_expanded {
+        border: none;
+        height: auto;
+        width: 100px;
+        max-width: unset;
+        max-height: unset;
+        margin-left: unset;
+    }
 }

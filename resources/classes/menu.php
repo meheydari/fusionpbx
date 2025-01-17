@@ -1119,10 +1119,12 @@ if (!class_exists('menu')) {
 						if (is_array($menu_item_main['menu_items']) && sizeof($menu_item_main['menu_items']) != 0 && $_SESSION['theme']['menu_side_item_main_sub_icons']['boolean'] == 'true') {
 							$html .= "	<div class='menu_side_item_main_sub_icons' style='float: right; margin-right: -1px; ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "display: none;" : null)."'><i id='sub_arrow_".$menu_item_main['menu_item_uuid']."' class='sub_arrows fas fa-".(!empty($_SESSION['theme']['menu_side_item_main_sub_icon_expand']['text']) ? $_SESSION['theme']['menu_side_item_main_sub_icon_expand']['text'] : 'chevron-down')." fa-xs'></i></div>\n";
 						}
+						$html .= "<div class='menu-container-codarx'>";
 						if (!empty($menu_item_main['menu_item_icon'])) {
 							$html .= "<i class='menu_side_item_icon fas ".$menu_item_main['menu_item_icon']." fa-fw' style='z-index: 99800; margin-right: 8px;'></i>";
 						}
 						$html .= "<span class='menu_side_item_title' ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "style='display: none;'" : null).">".$menu_item_main['menu_language_title']."</span>";
+						$html .= "</div>\n";
 						$html .= "</a>\n";
 						//sub menu items
 							if (is_array($menu_item_main['menu_items']) && sizeof($menu_item_main['menu_items']) != 0) {

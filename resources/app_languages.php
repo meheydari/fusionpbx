@@ -319,7 +319,7 @@ $text['message-authentication_failed']['tr-tr'] = "Authentication Failed";
 $text['message-authentication_failed']['zh-cn'] = "Authentication Failed";
 $text['message-authentication_failed']['ja-jp'] = "Authentication Failed";
 $text['message-authentication_failed']['ko-kr'] = "Authentication Failed";
-$text['message-authentication_failed']['fa'] = "Authentication Failed";
+$text['message-authentication_failed']['fa'] = "اطلاعات وارد شده اشتباه است.";
 
 $text['message-invalid_token']['en-us'] = "Invalid Token";
 $text['message-invalid_token']['en-gb'] = "Invalid Token";

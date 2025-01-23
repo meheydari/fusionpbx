@@ -205,3 +205,8 @@ input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.bu
     background-image: unset;
     color: #fff3d1;
 }
+
+button:not(.btn-link) > span.button-label.pad {
+    margin-left: unset;
+    margin-right: 6px;
+}

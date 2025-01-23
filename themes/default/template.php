@@ -7,7 +7,7 @@
 		<!DOCTYPE html>
 	{/if}
 
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='fa' lang='fa'>
 <head>
 <meta charset='utf-8'>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
@@ -21,6 +21,8 @@
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/bootstrap/css/bootstrap-colorpicker.min.css.php'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/fontawesome/css/all.min.css.php'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/css.php'>
+		<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/assets/font/fontiran.css'>
+	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/assets/css/rtl.css'>
 {*//link to custom css file *}
 	{if !empty($settings.theme.custom_css)}
 		<link rel='stylesheet' type='text/css' href='{$settings.theme.custom_css}'>
@@ -1143,12 +1145,16 @@
 
 	{*//login page *}
 		{if !empty($login_page)}
-			<div id='default_login'>
-				<a href='{$project_path}/'><img id='login_logo' style='width: {$login_logo_width}; height: {$login_logo_height};' src='{$login_logo_source}'></a><br />
-				{$document_body}
-			</div>
-			<div id='footer_login'>
-				<span class='footer'>{$settings.theme.footer}</span>
+		    <div class="container">
+		        <div class="col-lg-6 col-12">
+                    <div id='codarx_login'>
+                        <a href='{$project_path}/'><img id='login_logo' style='width: {$login_logo_width}; height: {$login_logo_height};' src='{$login_logo_source}'></a><br />
+                    </div>
+
+                    <div id='footer_login'>
+                        <span class='footer'>{$settings.theme.footer}</span>
+                    </div>
+                </div>
 			</div>
 
 	{*//other pages *}

@@ -235,6 +235,40 @@ a#header_logout_icon {
     color: #D9214E;
     padding: 8px;
 }
-.vtable{
+
+.vtable {
     text-align: right;
+}
+
+.vncellreq {
+    background: #ffffff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 7px 8px;
+    text-align: right;
+    color: #5E6278;
+    font-family: 'Yekan Bakh FaNum';
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.vncell {
+    background: #ffffff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0;
+    border-right: unset;
+    border-bottom: unset;
+    padding: 7px 8px;
+    text-align: right;
+    color: #5E6278;
+    font-family: 'Yekan Bakh FaNum';
+    font-size: 18px;
+    vertical-align: top;
 }

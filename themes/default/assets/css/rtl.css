@@ -320,6 +320,6 @@ th a, th a:visited, th a:active {
     background: #ffffff;
 }
 
-.center * {
+.center span {
     text-align: center !important;
 }

@@ -224,3 +224,14 @@ button:not(.btn-link) > span.button-label.pad {
 .header-avatar a {
     color: #5E6278;
 }
+
+a#header_logout_icon {
+    display: inline-block;
+    font-size: 11pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
+    margin-right: 0px;
+    color: #D9214E;
+    padding: 8px;
+}

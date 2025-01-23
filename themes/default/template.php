@@ -1145,9 +1145,8 @@
 
 	{*//login page *}
 		{if !empty($login_page)}
-			<div id='default_login'>
+			<div id='codarx_login'>
 				<a href='{$project_path}/'><img id='login_logo' style='width: {$login_logo_width}; height: {$login_logo_height};' src='{$login_logo_source}'></a><br />
-				{$document_body}
 			</div>
 			<div id='footer_login'>
 				<span class='footer'>{$settings.theme.footer}</span>

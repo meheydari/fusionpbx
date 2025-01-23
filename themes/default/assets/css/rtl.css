@@ -148,3 +148,17 @@ div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div >
     font-size: 16px;
 
 }
+
+select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[type=password].txt, label.txt, select.formfld, textarea.formfld, input[type=text].formfld, input[type=number].formfld, input[type=url].formfld, input[type=password].formfld, label.formfld {
+    width: 100%;
+    margin-bottom: 8px;
+    height: 48px;
+    background: #ffffff;
+    box-shadow: unset;
+    border: unset;
+    border-radius: 6px;
+    text-align: right;
+    font-family: 'Yekan Bakh FaNum';
+    color: #8C8C8C;
+    font-size: 13px;
+}

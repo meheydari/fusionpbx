@@ -9,12 +9,15 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     background: #ffffff;
     box-shadow: unset;
     border: unset;
-    border-radius: 6px;
     text-align: right !important;
     font-family: 'Yekan Bakh FaNum';
     color: #8C8C8C;
     font-size: 13px;
     outline-color: #dcc079;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 

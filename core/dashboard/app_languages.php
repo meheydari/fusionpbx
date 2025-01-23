@@ -600,6 +600,49 @@ $text['button-expand_all']['tr-tr'] = "Hepsini genişlet";
 $text['button-expand_all']['zh-cn'] = "展开全部";
 $text['button-expand_all']['ja-jp'] = "すべて展開";
 $text['button-expand_all']['ko-kr'] = "모두 펼치기";
-$text['button-expand_all']['fa'] = "بازکردن همه";
+
+
+$text['label-group_uuid']['fa'] = "شناسه یکتای گروه";
+
+$text['description-group_uuid']['fa'] = "شناسه یکتای گروه را وارد کنید.";
+
+$text['label-dashboard_name']['fa'] = "نام";
+
+$text['description-dashboard_name']['fa'] = "نام ویجت پیشخوان را وارد کنید.";
+
+$text['label-dashboard_path']['fa'] = "مسیر";
+
+$text['description-dashboard_path']['fa'] = "مسیر ویجت پیشخوان را وارد کنید.";
+
+$text['label-dashboard_groups']['fa'] = "گروه‌ها";
+
+$text['description-dashboard_groups']['fa'] = "گروه‌هایی را اضافه کنید که اجازه دسترسی به این ویجت دارند.";
+
+$text['label-dashboard_column_span']['fa'] = "گستره ستون";
+
+$text['description-dashboard_column_span']['fa'] = "گستره ستون ویجت پیشخوان را وارد کنید.";
+
+$text['label-dashboard_details_state']['fa'] = "وضعیت جزئیات";
+
+$text['description-dashboard_details_state']['fa'] = "وضعیت پیش‌فرض جزئیات ویجت را تنظیم کنید.";
+
+$text['label-dashboard_order']['fa'] = "ترتیب";
+
+$text['description-dashboard_order']['fa'] = "ترتیب ویجت پیشخوان را وارد کنید.";
+
+$text['label-dashboard_enabled']['fa'] = "فعال";
+
+$text['description-dashboard_enabled']['fa'] = "فعال بودن ویجت پیشخوان را وارد کنید.";
+
+$text['label-dashboard_description']['fa'] = "توضیحات";
+
+$text['description-dashboard_description']['fa'] = "توضیحات ویجت پیشخوان را وارد کنید.";
+
+$text['label-welcome']['fa'] = "خوش آمدید:";
+
+$text['button-collapse_all']['fa'] = "بستن همه";
+
+$text['button-expand_all']['fa'] = "باز کردن همه";
+
 
 ?>

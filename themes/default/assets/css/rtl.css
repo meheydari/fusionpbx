@@ -150,7 +150,7 @@ div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div >
 }
 
 select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[type=password].txt, label.txt, select.formfld, textarea.formfld, input[type=text].formfld, input[type=number].formfld, input[type=url].formfld, input[type=password].formfld, label.formfld {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 8px;
     height: 48px;
     background: #ffffff;

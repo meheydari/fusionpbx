@@ -324,12 +324,23 @@ td.center{
     text-align: center!important;
 }
 
-.list-search{
-    width: 100px!important;
-    margin-bottom: 0!important;
+.list-search {
+    width: 100px !important;
+    margin-bottom: 0 !important;
 }
 
 .modal-window .modal-message {
 
     text-align: right;
+}
+
+.modal-window .modal-title {
+
+    font-family: 'Yekan Bakh FaNum';
+    text-align: right;
+}
+
+.modal-close {
+    right: 0;
+    left: unset;
 }

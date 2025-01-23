@@ -218,5 +218,9 @@ button:not(.btn-link) > span.button-label.pad {
     background-color: #F1F1F2;
     padding: 8px;
     border-radius: 6px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
+}
+
+.header-avatar a {
+    color: #F1F1F2;
 }

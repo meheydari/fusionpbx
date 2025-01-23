@@ -346,7 +346,7 @@
 						first_submit = document.createElement('input');
 						first_submit.type = 'submit';
 						first_submit.id = 'default_submit';
-						first_submit.setAttribute('style','position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;');
+						first_submit.setAttribute('style','position: absolute; right: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;');
 						first_form.prepend(first_submit);
 						window.addEventListener('keydown',function(e){
 							modal_input_class = e.target.className;

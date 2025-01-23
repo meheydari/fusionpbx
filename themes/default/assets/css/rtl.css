@@ -341,6 +341,6 @@ td.center{
 }
 
 .modal-close {
-    right: 0;
-    left: unset;
+    left: 0;
+    right: unset;
 }

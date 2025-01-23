@@ -327,3 +327,7 @@ th a, th a:visited, th a:active {
 td.center{
     text-align: center!important;
 }
+
+.list-search{
+    width: 200px;
+}

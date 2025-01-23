@@ -1173,7 +1173,7 @@ if (!class_exists('menu')) {
 					}
 				//logout icon
 					if (!empty($_SESSION['username']) && $_SESSION['theme']['logout_icon_visible']['text'] == "true") {
-						$html .= "<a id='header_logout_icon' href='#' class='header-avatar' title=\"".$this->text['theme-label-logout']."\" onclick=\"modal_open('modal-logout','btn_logout');\"><span style='margin-right: 4px' class='fas fa-sign-out-alt'></span>خروج</a>";
+						$html .= "<a id='header_logout_icon' href='#' class='header-avatar' title=\"".$this->text['theme-label-logout']."\" onclick=\"modal_open('modal-logout','btn_logout');\"><span style='margin-left: 4px' class='fas fa-sign-out-alt'></span>خروج</a>";
 					}
 				$html .= "</div>";
 			$html .= "	</div>\n";

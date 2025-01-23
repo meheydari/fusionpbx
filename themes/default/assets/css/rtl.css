@@ -156,3 +156,11 @@ div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div >
 .list-row > td:not(.action-button) {
     text-align: right !important;
 }
+
+div.action_bar > div.heading {
+    float: right !important;
+}
+
+div.action_bar > div.actions {
+    float: left !important;
+}

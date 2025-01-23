@@ -1117,4 +1117,97 @@ $text['button-block']['zh-cn'] = "堵塞";
 $text['button-block']['ja-jp'] = "ブロック";
 $text['button-block']['ko-kr'] = "차단하다";
 
+
+
+$text['title-call-block']['fa'] = "مسدود کردن تماس";
+
+$text['heading-recent_calls']['fa'] = "تماس‌های اخیر";
+
+$text['heading-block_recent_calls']['fa'] = "مسدود کردن تماس‌های اخیر";
+
+$text['label-update-complete']['fa'] = "به‌روزرسانی کامل شد";
+
+$text['label-reject']['fa'] = "رد کردن";
+
+$text['label-provide-number']['fa'] = "لطفاً شماره را ارائه دهید";
+
+$text['label-provide-name']['fa'] = "لطفاً نام را ارائه دهید";
+
+$text['label-provide-enabled']['fa'] = "لطفاً وضعیت فعال را ارائه دهید";
+
+$text['label-country_code']['fa'] = "کد کشور";
+
+$text['label-number']['fa'] = "شماره";
+
+$text['label-message']['fa'] = "پیام";
+
+$text['label-ivr_menus']['fa'] = "منوهای IVR";
+
+$text['label-ivr']['fa'] = "IVR";
+
+$text['label-ring_groups']['fa'] = "گروه‌های زنگ";
+
+$text['label-ring_group']['fa'] = "گروه زنگ";
+
+$text['label-local']['fa'] = "محلی";
+
+$text['label-inbound']['fa'] = "ورودی";
+
+$text['label-outbound']['fa'] = "خروجی";
+
+$text['label-destination']['fa'] = "مقصد";
+
+$text['label-edit-note']['fa'] = "مسدود کردن تماس‌ها از یک شماره. نام را ویرایش و فعال/غیرفعال کنید.";
+
+$text['label-edit-edit']['fa'] = "مسدود کردن تماس";
+
+$text['label-edit-add']['fa'] = "مسدود کردن تماس";
+
+$text['label-duration']['fa'] = "مدت زمان";
+
+$text['label-delete-complete']['fa'] = "حذف کامل شد";
+
+$text['label-date-added']['fa'] = "تاریخ اضافه شدن";
+
+$text['label-count']['fa'] = "تعداد";
+
+$text['label-called']['fa'] = "تماس گرفته‌شده";
+
+$text['label-busy']['fa'] = "مشغول";
+
+$text['label-hold']['fa'] = "در انتظار";
+
+$text['label-missed']['fa'] = "از دست رفته";
+
+$text['label-voicemail']['fa'] = "پیام صوتی";
+
+$text['label-add-note']['fa'] = "مسدود کردن تماس‌ها از یک شماره. یک شماره از لیست بالا انتخاب کنید یا شماره، نام و وضعیت فعال را وارد کنید.";
+
+$text['label-add-complete']['fa'] = "اضافه کردن کامل شد";
+
+$text['label-action']['fa'] = "عملکرد";
+
+$text['label-direction']['fa'] = "جهت";
+
+$text['description-direction']['fa'] = "جهت تماس‌هایی که باید مسدود شوند را انتخاب کنید.";
+
+$text['description-call_block_name']['fa'] = "نام شناسه تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
+
+$text['description-country_code']['fa'] = "پیشوند کد کشور را وارد کنید.";
+
+$text['description-call_block_number']['fa'] = "کد کشور و شماره تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
+
+$text['description-extension']['fa'] = "داخلی‌ای که باید تحت تأثیر قرار بگیرد را انتخاب کنید.";
+
+$text['description-enable']['fa'] = "برای فعال کردن مسدود کردن تماس‌ها برای این شماره، این گزینه را روی 'بله' تنظیم کنید.";
+
+$text['description-call-block']['fa'] = "لیستی از شماره‌ها برای مسدود کردن تماس‌ها.";
+
+$text['description-action']['fa'] = "برای تماس‌های این شماره یک عملکرد تعیین کنید.";
+
+$text['confirm-block']['fa'] = "آیا واقعاً می‌خواهید این شماره را مسدود کنید؟";
+
+$text['button-block']['fa'] = "مسدود کردن";
+
+
 ?>

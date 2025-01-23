@@ -6,7 +6,7 @@ secure/mailto.bat
 secure/*.db
 secure/*.sqlite
 .DS_Store
-
+test.html
 *.php~
 
 app/yealink/resources/firmware/*

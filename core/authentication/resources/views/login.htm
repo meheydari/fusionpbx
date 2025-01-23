@@ -23,7 +23,7 @@
 			{literal}
 			function display_message(msg, mood, delay) {
 				mood = mood !== undefined ? mood : 'default';
-				delay = delay !== undefined ? delay : {/literal}{$message_delay}{literal};
+				delay = 5000;
 				if (msg !== '') {
 					var message_text = $(document.createElement('div'));
 					message_text.addClass('message_text message_mood_'+mood);
@@ -89,6 +89,7 @@ color:#181C32">ورود به فونیک</h2>
 									{if !empty($username)}
 									{$login_password_description}
 									<br/><br/>
+
 									<input type='hidden' name='username' id='username' value="{$username}"/>
 									{else}
 									<input type='text' class='txt login'

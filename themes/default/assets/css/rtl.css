@@ -293,6 +293,7 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     vertical-align: middle;
     height: 34px;
     margin-bottom: 6px;
+    outline: none;
 }
 
 th a, th a:visited, th a:active {

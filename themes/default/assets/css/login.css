@@ -31,3 +31,8 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
 }
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}

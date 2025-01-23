@@ -101,16 +101,23 @@ color:#181C32">ورود به فونیک</h2>
 										<input type='text' class='txt login form-control'
 
 											   required
-											   name='username'  id='username' placeholder="نام کاربری"/>
+											   name='username' id='username' placeholder="نام کاربری"/>
 										{/if}
 
 									</div>
 
 
-									<input type='password' class='txt login'
+									<div class="form-group has-feedback d-flex align-items-center">
+										<span class="form-control-feedback">
+											<img src="{$project_path}/themes/default/images/icon/security.svg" alt="">
+										</span>
+										<input type='password' class='txt login'
+											   required
+											   name='password' placeholder="رمز عبور"/>
 
-										   required
-										   name='password' placeholder="رمز عبور"/><br/>
+									</div>
+
+
 								</div>
 								<div>
 									<input type='submit' id='btn_login' class='btn'

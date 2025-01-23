@@ -328,3 +328,8 @@ td.center{
     width: 100px!important;
     margin-bottom: 0!important;
 }
+
+.modal-window .modal-message {
+
+    text-align: right;
+}

@@ -299,3 +299,27 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     height: 34px;
     margin-bottom: 6px;
 }
+
+th a, th a:visited, th a:active {
+    color: #4C4C4C;
+    text-decoration: none;
+    font-family: 'Yekan Bakh FaNum';
+}
+
+.list-row > td:not(.action-button) {
+    border-bottom: 1px dashed #E1E3EA;
+    color: #000;
+    font-family: 'Yekan Bakh FaNum';
+    font-size: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.list-row:nth-child(even) > :not(.action-button) {
+    background: #ffffff;
+}
+
+.center * {
+    text-align: center !important;
+}

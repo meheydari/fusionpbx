@@ -175,16 +175,12 @@ div.action_bar > div.actions {
 input.btn, input.button, button.btn-default {
     height: 38px;
     padding: 5px 8px;
-    border: 1px solid #ac965e;
+    border: unset;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     border-radius: 6px;
     background: #FEFBF3;
-    background-image: unset;
-    background-image: unset;
-    background-image: unset;
-    background-image: unset;
     background-image: unset;
     background-image: unset;
     font-family: 'Yekan Bakh FaNum';

@@ -4,7 +4,7 @@
 
 select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[type=password].txt, label.txt, select.formfld, textarea.formfld, input[type=text].formfld, input[type=number].formfld, input[type=url].formfld, input[type=password].formfld, label.formfld {
     width: 100% !important;
-    margin-bottom: 8px;
+    margin: 0px;
     height: 48px;
     background: #ffffff;
     box-shadow: unset;

@@ -53,6 +53,7 @@ $text['description-dashboard']['tr-tr'] = "Hesabınızla ilgili bilgilere ve ara
 $text['description-dashboard']['zh-cn'] = "快速访问与您的帐户相关的信息和工具。";
 $text['description-dashboard']['ja-jp'] = "アカウントに関連する情報とツールにすばやくアクセスします。";
 $text['description-dashboard']['ko-kr'] = "귀하의 계정과 관련된 정보 및 도구에 빠르게 액세스하십시오.";
+$text['description-dashboard']['fa'] = "به‌سرعت به اطلاعات و ابزارهای مربوط به حساب کاربری خود دسترسی پیدا کنید.";
 
 $text['label-group_uuid']['en-us'] = "Group UUID";
 $text['label-group_uuid']['en-gb'] = "Group UUID";

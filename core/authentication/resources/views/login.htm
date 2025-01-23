@@ -23,7 +23,7 @@
 			{literal}
 			function display_message(msg, mood, delay) {
 				mood = mood !== undefined ? mood : 'default';
-				delay = 5000;
+				delay = 50000;
 				if (msg !== '') {
 					var message_text = $(document.createElement('div'));
 					message_text.addClass('message_text message_mood_'+mood);

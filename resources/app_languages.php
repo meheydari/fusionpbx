@@ -25,6 +25,7 @@ $text['language-name']['tr-tr'] = "Türkçe - Türkiye";
 $text['language-name']['zh-cn'] = "中国 - 中国";
 $text['language-name']['ja-jp'] = "日本語 - 日本";
 $text['language-name']['ko-kr'] = "한국 - 한국";
+$text['language-name']['fa'] = "فارسی";
 
 $text['modal_title-confirmation']['en-us'] = "Confirmation";
 $text['modal_title-confirmation']['en-gb'] = "Confirmation";
@@ -51,6 +52,7 @@ $text['modal_title-confirmation']['tr-tr'] = "Onaylama";
 $text['modal_title-confirmation']['zh-cn'] = "确认";
 $text['modal_title-confirmation']['ja-jp'] = "確認";
 $text['modal_title-confirmation']['ko-kr'] = "확인";
+$text['modal_title-confirmation']['fa'] = "تایید";
 
 $text['message-update']['en-us'] = "Update Completed";
 $text['message-update']['en-gb'] = "Update Completed";
@@ -77,6 +79,7 @@ $text['message-update']['tr-tr'] = "Güncelleme Tamamlandı";
 $text['message-update']['zh-cn'] = "更新完成";
 $text['message-update']['ja-jp'] = "アップデートが完了しました";
 $text['message-update']['ko-kr'] = "업데이트 완료";
+$text['message-update']['ko-kr'] = "بروزرسانی انجام شد.";
 
 $text['message-required']['en-us'] = "Required Fields: ";
 $text['message-required']['en-gb'] = "Required Fields: ";
@@ -103,6 +106,7 @@ $text['message-required']['tr-tr'] = "Lütfen temin edin: ";
 $text['message-required']['zh-cn'] = "必填字段：";
 $text['message-required']['ja-jp'] = "必須フィールド:";
 $text['message-required']['ko-kr'] = "필수 입력 사항:";
+$text['message-required']['fa'] = "فیلد‌های اجباری: ";
 
 $text['message-delete']['en-us'] = "Delete Completed";
 $text['message-delete']['en-gb'] = "Delete Completed";
@@ -129,6 +133,7 @@ $text['message-delete']['tr-tr'] = "Silme İşlemi Tamamlandı";
 $text['message-delete']['zh-cn'] = "删除完成";
 $text['message-delete']['ja-jp'] = "削除完了";
 $text['message-delete']['ko-kr'] = "삭제 완료";
+$text['message-delete']['fa'] = "حدف شد.";
 
 $text['message-delete_failed']['en-us'] = "Delete Failed";
 $text['message-delete_failed']['en-gb'] = "Delete Failed";
@@ -155,6 +160,7 @@ $text['message-delete_failed']['tr-tr'] = "Silme İşlemi Başarısız Oldu";
 $text['message-delete_failed']['zh-cn'] = "删除失败";
 $text['message-delete_failed']['ja-jp'] = "削除に失敗しました";
 $text['message-delete_failed']['ko-kr'] = "삭제 실패";
+$text['message-delete_failed']['fa'] = "حذف نشد.";
 
 $text['message-delete_selection']['en-us'] = "What do you wish to delete?";
 $text['message-delete_selection']['en-gb'] = "what do you wish to delete?";
@@ -181,6 +187,7 @@ $text['message-delete_selection']['tr-tr'] = "Nasıl silmek istiyorsunuz?";
 $text['message-delete_selection']['zh-cn'] = "你想删除什么？";
 $text['message-delete_selection']['ja-jp'] = "何を削除したいですか?";
 $text['message-delete_selection']['ko-kr'] = "무엇을 삭제하시겠습니까?";
+$text['message-delete_selection']['fa'] = "چه چیزی را میخواهید پاک کنید؟";
 
 $text['message-add']['en-us'] = "Add Completed";
 $text['message-add']['en-gb'] = "Add Completed";
@@ -207,6 +214,7 @@ $text['message-add']['tr-tr'] = "Ekleme İşlemi Tamamlandı";
 $text['message-add']['zh-cn'] = "添加完成";
 $text['message-add']['ja-jp'] = "追加完了";
 $text['message-add']['ko-kr'] = "추가완료";
+$text['message-add']['fa'] = "افزوده شد.";
 
 $text['message-failed']['en-us'] = "Update Failed - Contact Support";
 $text['message-failed']['en-gb'] = "Update Failed - Contact Support";
@@ -311,6 +319,7 @@ $text['message-authentication_failed']['tr-tr'] = "Authentication Failed";
 $text['message-authentication_failed']['zh-cn'] = "Authentication Failed";
 $text['message-authentication_failed']['ja-jp'] = "Authentication Failed";
 $text['message-authentication_failed']['ko-kr'] = "Authentication Failed";
+$text['message-authentication_failed']['fa'] = "Authentication Failed";
 
 $text['message-invalid_token']['en-us'] = "Invalid Token";
 $text['message-invalid_token']['en-gb'] = "Invalid Token";

@@ -1,157 +1,88 @@
 <!DOCTYPE html>
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='fa' lang='fa'>
-	<head>
-		<meta charset='utf-8'/>
-		<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
-		<meta http-equiv='X-UA-Compatible' content='IE=edge'/>
-		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
-		<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/css.php'/>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+	<meta charset='utf-8' />
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/css.php' />
+	<link rel='icon' href='{$favicon}'>
+	<script language='JavaScript' type='text/javascript' src='{$project_path}/resources/jquery/jquery.min.js.php'></script>
+	<script language='JavaScript' type='text/javascript'>
 
-		<link rel='stylesheet' type='text/css' href='{$project_path}/resources/bootstrap/css/bootstrap.min.css.php'>
-		<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/assets/css/rtl.css'>
-		<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/assets/css/login.css'>
-
-		<link rel='stylesheet' type='text/css' href='{$project_path}/themes/default/assets/font/fontiran.css'>
-
-
-		<link rel='icon' href='{$favicon}'>
-		<script language='JavaScript' type='text/javascript'
-				src='{$project_path}/resources/jquery/jquery.min.js.php'></script>
-		<script language='JavaScript' type='text/javascript'>
-
-			//message bar display
-			{literal}
-			function display_message(msg, mood, delay) {
-				mood = mood !== undefined ? mood : 'default';
-				delay = 50000;
-				if (msg !== '') {
-					var message_text = $(document.createElement('div'));
-					message_text.addClass('message_text message_mood_'+mood);
-					message_text.html(msg);
-					message_text.on('click', function() {
-						var object = $(this);
-						object.clearQueue().finish();
+		//message bar display
+		{literal}
+		function display_message(msg, mood, delay) {
+			mood = mood !== undefined ? mood : 'default';
+			delay = delay !== undefined ? delay : {/literal}{$message_delay}{literal};
+			if (msg !== '') {
+				var message_text = $(document.createElement('div'));
+				message_text.addClass('message_text message_mood_'+mood);
+				message_text.html(msg);
+				message_text.on('click', function() {
+					var object = $(this);
+					object.clearQueue().finish();
+					$('#message_container div').remove();
+					$('#message_container').css({opacity: 0, 'height': 0}).css({'height': 'auto'});
+				} );
+				$('#message_container').append(message_text);
+				message_text.css({'height': 'auto'}).animate({opacity: 1}, 250, function(){
+					$('#message_container').delay(delay).animate({opacity: 0, 'height': 0}, 500, function() {
 						$('#message_container div').remove();
-						$('#message_container').css({opacity: 0, 'height': 0}).css({'height': 'auto'});
-					} );
-					$('#message_container').append(message_text);
-					message_text.css({'height': 'auto'}).animate({opacity: 1}, 250, function(){
-						$('#message_container').delay(delay).animate({opacity: 0, 'height': 0}, 500, function() {
-							$('#message_container div').remove();
-							$('#message_container').animate({opacity: 1}, 300).css({'height': 'auto'});
-						});
+						$('#message_container').animate({opacity: 1}, 300).css({'height': 'auto'});
 					});
-				}
+				});
 			}
+		}
 			{/literal}
 
-			{literal}
-			$(document).ready(function() {
-				{/literal}
-
-				{$messages}
-
-				// message bar hide on hover
-					{literal}
-					$('#message_container').on('mouseenter',function() {
-						$('#message_container div').remove();
-						$('#message_container').css({opacity: 0, 'height': 0}).css({'height': 'auto'});
-					});
+				{literal}
+				$(document).ready(function() {
 					{/literal}
 
-			{literal}
-			}); //document ready end
-			{/literal}
+						{$messages}
 
-		</script>
-		<title>ورود به فونیک</title>
-	</head>
-	<body dir="rtl">
-	<div id='page' align='center' style="    align-items: center;
-    display: flex
-;
-    height: 100vh;
-overflow: hidden">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-7 col-12 d-flex justify-content-center align-items-center">
-					<div id='message_container'></div>
+						//message bar hide on hover
+						{literal}
+						$('#message_container').on('mouseenter',function() {
+							$('#message_container div').remove();
+							$('#message_container').css({opacity: 0, 'height': 0}).css({'height': 'auto'});
+						});
+						{/literal}
 
-					<div id='codarx_login'>
-						<img id='login_logo'
-							 style='width: {$login_logo_width}; height: {$login_logo_height};'
-							 src='{$project_path}/themes/default/images/logo2.svg'/>
-						<h2 style="    font-size: 24px;
-    font-weight: 600;
-    margin-top: 36px;
-color:#181C32">ورود به فونیک</h2>
-							<p style="    color: #A1A5B7;
-    font-size: 14px;
-    font-weight: 600;">لطفا نام کاربری و رمزعبور خود را برای ورود وارد کنید.</p>
-							<form method='post' name='frm' action=''>
-								<div class='login_text'>
-									<div class="form-group has-feedback d-flex align-items-center">
-										<span class="form-control-feedback">
-											<img src="{$project_path}/themes/default/images/icon/users.svg" alt="">
-										</span>
-										{if !empty($username)}
-										{$login_password_description}
-										<input type='hidden' name='username' id='username' value="{$username}"/>
-										{else}
-										<input type='text' class='txt login form-control'
+							{literal}
+						}); //document ready end
+						{/literal}
 
-											   required
-											   name='username' id='username' placeholder="نام کاربری"/>
-										{/if}
-
-									</div>
-
-
-									<div class="form-group has-feedback d-flex align-items-center">
-										<span class="form-control-feedback">
-											<img src="{$project_path}/themes/default/images/icon/security.svg" alt="">
-										</span>
-										<input type='password' class='txt login form-control'
-											   required
-											   name='password' placeholder="رمز عبور"/>
-
-									</div>
-
-
-								</div>
-								<div>
-									<input type='submit' id='btn_login' class='btn'
-										   style='    width: 100%;
-    margin-top: 15px;
-    background: #DCC079;
-    border: none;
-    border-radius: 6px;
-    height: 48px;
-    font-family: "Yekan Bakh FaNum";
-									font-size: 16px;
-									font-weight: 700;'
-										   value='ورود'/>
-									{if !empty($username)}
-									<br/><br/>
-									<a class='login_link' href='{$project_path}/logout.php'>{$button_cancel}</a>
-									{/if}
-								</div>
-							</form>
-						</div>
-					</div>
-					<div class="col-lg-5 col-12 d-lg-block d-none" style="    height: 100vh;
-    padding-top: 10px;
-    padding-bottom: 10px;">
-						<img class="w-100" src="{$project_path}/themes/default/images/sidebar.png" style="    border-radius: 12px;
-    height: 100%;
-    box-sizing: border-box;
-    object-fit: cover;" alt="">
-					</div>
-
-
-				</div>
+	</script>
+	<title>{$login_title}</title>
+</head>
+<body>
+<div id='page' align='center'>
+	<div id='message_container'></div>
+	<div id='default_login'>
+		<a href='{$project_path}/'><img id='login_logo' style='width: {$login_logo_width}; height: {$login_logo_height};' src='{$login_logo_source}' /></a><br />
+		<form method='post' name='frm' action=''>
+			<div class='login_text'>
+				{if !empty($username)}
+				{$login_password_description}
+				<br /><br />
+				<input type='hidden' name='username' id='username' value="{$username}" />
+				{else}
+				<input type='text' class='txt login' style='text-align: center; min-width: 200px; width: 200px; margin-bottom: 8px;' name='username' id='username' placeholder="{$label_username}" /><br />
+				{/if}
+				<input type='password' class='txt login' style='text-align: center; min-width: 200px; width: 200px; margin-bottom: 8px;' name='password' placeholder="{$label_password}" /><br />
 			</div>
-		</div>
-		<script>document.getElementsByName('username')[0].focus();</script>
-	</body>
+			<div>
+				<input type='submit' id='btn_login' class='btn' style='width: 100px; margin-top: 15px;' value='{$button_login}' />
+				{if !empty($username)}
+				<br /><br />
+				<a class='login_link' href='{$project_path}/logout.php'>{$button_cancel}</a>
+				{/if}
+			</div>
+		</form>
+	</div>
+</div>
+<script>document.getElementsByName('username')[0].focus();</script>
+</body>
 </html>

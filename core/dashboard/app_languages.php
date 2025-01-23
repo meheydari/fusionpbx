@@ -25,6 +25,8 @@ $text['title-dashboard']['tr-tr'] = "Gösterge Paneli";
 $text['title-dashboard']['zh-cn'] = "仪表板";
 $text['title-dashboard']['ja-jp'] = "ダッシュボード";
 $text['title-dashboard']['ko-kr'] = "계기반";
+$text['title-dashboard']['fa'] = "پیشخوان";
+
 
 $text['description-dashboard']['en-us'] = "Quickly access information and tools related to your account.";
 $text['description-dashboard']['en-gb'] = "Quickly access information and tools related to your account.";
@@ -597,5 +599,6 @@ $text['button-expand_all']['tr-tr'] = "Hepsini genişlet";
 $text['button-expand_all']['zh-cn'] = "展开全部";
 $text['button-expand_all']['ja-jp'] = "すべて展開";
 $text['button-expand_all']['ko-kr'] = "모두 펼치기";
+$text['button-expand_all']['fa'] = "بازکردن همه";
 
 ?>

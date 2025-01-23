@@ -187,6 +187,7 @@ input.btn, input.button, button.btn-default {
     color: #AC965E;
     font-weight: 600;
     font-size: 12px;
+    outline: none;
 }
 
 input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.button:active, input.button:focus, button.btn-default:hover, button.btn-default:active, button.btn-default:focus {
@@ -197,9 +198,7 @@ input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.bu
     background-image: -moz-linear-gradient(top, #000000 0%, #000000 100%);
     background-image: -o-linear-gradient(top, #000000 0%, #000000 100%);
     background-image: unset;
-    background-image: unset;
-    background-image: unset;
-    color: #fff3d1;
+    color: white;
 }
 
 button:not(.btn-link) > span.button-label.pad {

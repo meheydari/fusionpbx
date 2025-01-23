@@ -90,12 +90,9 @@ color:#181C32">ورود به فونیک</h2>
     font-weight: 600;">لطفا نام کاربری و رمزعبور خود را برای ورود وارد کنید.</p>
 							<form method='post' name='frm' action=''>
 								<div class='login_text'>
-									{if !empty($username)}
-									{$login_password_description}
-									<br/><br/>
-
 									<div class="form-group has-feedback">
-										<label class="control-label">Username</label>
+										{if !empty($username)}
+										{$login_password_description}
 										<input type='hidden' name='username' id='username' value="{$username}"/>
 										{else}
 										<input type='text' class='txt login form-control'

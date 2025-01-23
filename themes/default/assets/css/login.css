@@ -14,4 +14,5 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     font-family: 'Yekan Bakh FaNum';
     color: #8C8C8C;
     font-size: 13px;
+    outline-color: #dcc079;
 }

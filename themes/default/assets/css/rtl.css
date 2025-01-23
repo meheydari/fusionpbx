@@ -323,3 +323,7 @@ th a, th a:visited, th a:active {
 .center span {
     text-align: center !important;
 }
+
+td.center{
+    text-align: center!important;
+}

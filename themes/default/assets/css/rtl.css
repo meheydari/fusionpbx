@@ -308,9 +308,10 @@ th a, th a:visited, th a:active {
 
 .list-row > td:not(.action-button) {
     border-bottom: 1px dashed #E1E3EA;
-    color: #000;
+    color: #767676;
     font-family: 'Yekan Bakh FaNum';
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 400;
     vertical-align: middle;
 }
 

@@ -101,8 +101,13 @@ color:#181C32">ورود به فونیک</h2>
 								</div>
 								<div>
 									<input type='submit' id='btn_login' class='btn'
-										   style='width: 100px; margin-top: 15px;'
-										   value='{$button_login}'/>
+										   style='width: 100%;
+    margin-top: 15px;
+    background: #DCC079;
+    border: none;
+    border-radius: 6px;
+    height: 48px;'
+										   value='ورود'/>
 									{if !empty($username)}
 									<br/><br/>
 									<a class='login_link' href='{$project_path}/logout.php'>{$button_cancel}</a>

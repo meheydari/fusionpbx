@@ -2598,113 +2598,222 @@ $text['button-permissions']['zh-cn'] = "权限";
 $text['button-permissions']['ja-jp'] = "パーミッション";
 $text['button-permissions']['ko-kr'] = "권한";
 
+
 $text['title-users']['fa'] = "کاربران";
+
 $text['title-user_edit']['fa'] = "ویرایش کاربر";
+
 $text['title-user_import']['fa'] = "وارد کردن کاربر";
-$text['description-users']['fa'] = "افزودن، ویرایش، حذف و جستجوی کاربران.";
+
+$text['description-users']['fa'] = "اضافه کردن، ویرایش، حذف و جستجوی کاربران.";
+
 $text['title-user_manager']['fa'] = "مدیریت کاربران";
+
 $text['title-user']['fa'] = "کاربر";
+
 $text['option-true']['fa'] = "صحیح";
-$text['option-on_break']['fa'] = "در استراحت";
+
+$text['option-on_break']['fa'] = "در حال استراحت";
+
 $text['option-logged_out']['fa'] = "خارج شده";
-$text['option-global']['fa'] = "عمومی";
+
+$text['option-global']['fa'] = "سراسری";
+
 $text['option-false']['fa'] = "غلط";
+
 $text['option-do_not_disturb']['fa'] = "مزاحم نشوید";
-$text['option-available_on_demand']['fa'] = "در دسترس (بر حسب تقاضا)";
-$text['option-available']['fa'] = "در دسترس";
-$text['option-select']['fa'] = "انتخاب";
+
+$text['option-available_on_demand']['fa'] = "دردسترس (درخواست‌شده)";
+
+$text['option-available']['fa'] = "دردسترس";
+
+$text['option-select']['fa'] = "انتخاب کنید";
+
 $text['option-switch_round']['fa'] = "سوئیچ گرد";
-$text['option-switch_square']['fa'] = "سوئیچ مربعی";
-$text['message-username_exists']['fa'] = "نام کاربری از قبل وجود دارد";
+
+$text['option-switch_square']['fa'] = "سوئیچ مربع";
+
+$text['message-username_exists']['fa'] = "نام کاربری از قبل موجود است";
+
 $text['message-password_mismatch']['fa'] = "عدم تطابق رمز عبور";
+
 $text['message-password_blank']['fa'] = "رمز عبور نامعتبر";
-$text['message-password_requirements']['fa'] = "نیازمندی‌های رمز عبور";
+
+$text['message-password_requirements']['fa'] = "الزامات رمز عبور";
+
 $text['message-maximum_users']['fa'] = "حداکثر کاربران:";
-$text['message-copy']['fa'] = "کپی انجام شد";
-$text['message-cannot_delete_own_account']['fa'] = "شما نمی‌توانید حساب کاربری خود را حذف کنید. لطفاً به عنوان کاربر دیگری وارد شوید و دوباره امتحان کنید.";
+
+$text['message-copy']['fa'] = "کپی کامل شد";
+
+$text['message-cannot_delete_own_account']['fa'] = "شما نمی‌توانید حساب کاربری خودتان را حذف کنید. لطفاً با یک حساب کاربری دیگر وارد شوید و دوباره تلاش کنید.";
+
 $text['message-invalid_user']['fa'] = "کاربر نامعتبر";
-$text['message-unsaved_changes']['fa'] = "تغییرات ذخیره نشده";
-$text['message-green_border_passwords_match']['fa'] = "حاشیه سبز نشان‌دهنده تطابق رمزهای عبور وارد شده است.";
+
+$text['message-unsaved_changes']['fa'] = "تغییرات ذخیره‌نشده";
+
+$text['message-green_border_passwords_match']['fa'] = "کادرهای سبز نشان می‌دهند که رمزهای عبور مطابقت دارند.";
+
 $text['label-web_fonts']['fa'] = "فونت‌های وب";
+
 $text['label-username']['fa'] = "نام کاربری";
+
 $text['label-user_language']['fa'] = "زبان";
+
 $text['label-user_info']['fa'] = "اطلاعات کاربر";
+
 $text['label-uppercase_letters']['fa'] = "حروف بزرگ";
+
 $text['label-top']['fa'] = "بالا";
+
 $text['label-time_zone']['fa'] = "منطقه زمانی";
+
 $text['label-text']['fa'] = "متن";
+
 $text['label-status']['fa'] = "وضعیت";
-$text['label-static']['fa'] = "ثابت";
-$text['label-special_characters']['fa'] = "کاراکترهای ویژه";
+
+$text['label-static']['fa'] = "ایستا";
+
+$text['label-special_characters']['fa'] = "کاراکترهای خاص";
+
 $text['label-right']['fa'] = "راست";
+
 $text['label-reference']['fa'] = "مشاهده";
-$text['label-permission_permissions']['fa'] = "مجوزها";
+
+$text['label-permission_permissions']['fa'] = "دسترسی‌ها";
+
 $text['label-permission_description']['fa'] = "توضیحات";
+
 $text['label-password']['fa'] = "رمز عبور";
+
 $text['label-other']['fa'] = "سایر";
+
 $text['label-numbers']['fa'] = "اعداد";
-$text['label-none']['fa'] = "هیچ‌کدام";
+
+$text['label-none']['fa'] = "هیچ";
+
 $text['label-lowercase_letters']['fa'] = "حروف کوچک";
+
 $text['label-left']['fa'] = "چپ";
+
 $text['label-last_name']['fa'] = "نام خانوادگی";
-$text['label-inline']['fa'] = "درون خطی";
+
+$text['label-inline']['fa'] = "خطی";
+
 $text['label-image']['fa'] = "تصویر";
+
 $text['label-groups']['fa'] = "گروه‌ها";
+
 $text['label-group']['fa'] = "گروه";
+
 $text['label-organization']['fa'] = "سازمان";
-$text['label-global']['fa'] = "عمومی";
+
+$text['label-global']['fa'] = "سراسری";
+
 $text['label-fixed']['fa'] = "ثابت";
+
 $text['label-first_name']['fa'] = "نام";
+
 $text['label-email']['fa'] = "ایمیل";
+
 $text['label-domain']['fa'] = "دامنه";
+
 $text['label-contact']['fa'] = "تماس";
+
 $text['label-confirm_password']['fa'] = "تأیید رمز عبور";
+
 $text['label-company_name']['fa'] = "نام شرکت";
+
 $text['label-characters']['fa'] = "طول رمز عبور نامعتبر";
-$text['label-required']['fa'] = "الزامی";
+
+$text['label-required']['fa'] = "اجباری";
+
 $text['label-number']['fa'] = "عدد";
+
 $text['label-lowercase']['fa'] = "حروف کوچک";
+
 $text['label-uppercase']['fa'] = "حروف بزرگ";
-$text['label-special']['fa'] = "ویژه";
+
+$text['label-special']['fa'] = "خاص";
+
 $text['label-center']['fa'] = "مرکز";
+
 $text['label-bottom']['fa'] = "پایین";
+
 $text['label-api_key']['fa'] = "کلید API";
+
 $text['label-message_key']['fa'] = "کلید پیام";
+
 $text['label-user_enabled']['fa'] = "فعال";
+
 $text['label-additional_info']['fa'] = "اطلاعات اضافی";
-$text['label-24-hour']['fa'] = "24 ساعته";
-$text['label-12-hour']['fa'] = "12 ساعته";
+
+$text['label-24-hour']['fa'] = "۲۴ ساعته";
+
+$text['label-12-hour']['fa'] = "۱۲ ساعته";
+
 $text['label-dynamic']['fa'] = "پویا";
+
 $text['label-single']['fa'] = "تکی";
+
 $text['label-multiple']['fa'] = "چندتایی";
+
 $text['header-user_manager']['fa'] = "کاربران";
+
 $text['header-user_edit']['fa'] = "کاربر";
+
 $text['header-user_add']['fa'] = "کاربر";
+
 $text['header-user_import']['fa'] = "وارد کردن کاربر";
+
 $text['header-user_settings']['fa'] = "تنظیمات کاربر";
-$text['header_description-user_settings']['fa'] = "تنظیمات این کاربر که باید جایگزین تنظیمات تعریف شده در دامنه یا تنظیمات پیش‌فرض شود.";
-$text['description-user_manager']['fa'] = "افزودن، ویرایش، حذف و جستجوی کاربران.";
+
+$text['header_description-user_settings']['fa'] = "تنظیمات برای این کاربر که بر تنظیمات دامنه یا پیش‌فرض اولویت دارد.";
+
+$text['description-user_manager']['fa'] = "اضافه کردن، ویرایش، حذف و جستجوی کاربران.";
+
 $text['description-user_language']['fa'] = "زبان را انتخاب کنید.";
-$text['description-user_edit']['fa'] = "ویرایش اطلاعات کاربر و عضویت در گروه‌ها.";
-$text['description-user_add']['fa'] = "برای افزودن کاربر، لطفاً این فرم را به طور کامل پر کنید. همه فیلدها الزامی هستند.";
+
+$text['description-user_edit']['fa'] = "اطلاعات کاربر و عضویت در گروه را ویرایش کنید.";
+
+$text['description-user_add']['fa'] = "برای افزودن کاربر، این فرم را به طور کامل پر کنید. تمام فیلدها الزامی هستند.";
+
 $text['description-time_zone']['fa'] = "منطقه زمانی پیش‌فرض را انتخاب کنید.";
-$text['description-status']['fa'] = "وضعیت حضور کاربر را تنظیم کنید.";
-$text['description-enabled']['fa'] = "وضعیت این حساب را تنظیم کنید.";
-$text['description-contact_view']['fa'] = "مشاهده";
-$text['description-contact']['fa'] = "یک مخاطب به این حساب کاربری اختصاص دهید.";
-$text['description-api_key']['fa'] = "از دکمه تولید برای ایجاد کلید استفاده کنید.";
-$text['description-message_key']['fa'] = "از دکمه تولید برای ایجاد کلید استفاده کنید.";
+
+$text['description-status']['fa'] = "حضور کاربر را تنظیم کنید.";
+
+$text['description-enabled']['fa'] = "وضعیت این حساب کاربری را تنظیم کنید.";
+
+$text['description-contact_view']['fa'] = "نمایش";
+
+$text['description-contact']['fa'] = "یک تماس به این حساب کاربری اختصاص دهید.";
+
+$text['description-api_key']['fa'] = "از دکمه تولید برای ایجاد یک کلید استفاده کنید.";
+
+$text['description-message_key']['fa'] = "از دکمه تولید برای ایجاد یک کلید استفاده کنید.";
+
 $text['label-user_type']['fa'] = "نوع";
-$text['description-user_type']['fa'] = "برای فعال کردن ورود، پیش‌فرض را انتخاب کنید یا برای غیرفعال کردن ورود، مجازی را انتخاب کنید.";
+
+$text['description-user_type']['fa'] = "پیش‌فرض را برای فعال کردن ورود انتخاب کنید یا برای غیرفعال کردن ورود، مجازی را انتخاب کنید.";
+
 $text['label-user_totp_secret']['fa'] = "TOTP";
-$text['description-user_totp_secret']['fa'] = "برای تولید رمز عبور یک‌بار مصرف مبتنی بر زمان، دکمه تنظیم را فشار دهید.";
+
+$text['description-user_totp_secret']['fa'] = "دکمه تنظیم را فشار دهید تا رمز یکبار مصرف مبتنی بر زمان تولید شود.";
+
 $text['description-user_totp_qr_code']['fa'] = "کد QR را با یک برنامه احراز هویت اسکن کنید.";
-$text['description-user_totp_view']['fa'] = "نمایش، مخفی کردن یا غیرفعال کردن کد QR.";
+
+$text['description-user_totp_view']['fa'] = "کد QR را نمایش دهید، پنهان کنید یا غیرفعال کنید.";
+
 $text['confirm-delete']['fa'] = "آیا واقعاً می‌خواهید این را حذف کنید؟";
+
 $text['button-show_all']['fa'] = "نمایش همه";
+
 $text['button-generate']['fa'] = "تولید";
+
 $text['button-create_account']['fa'] = "ایجاد حساب";
-$text['button-add_member']['fa'] = "افزودن عضو";
-$text['button-permissions']['fa'] = "مجوزها";
+
+$text['button-add_member']['fa'] = "اضافه کردن عضو";
+
+$text['button-permissions']['fa'] = "دسترسی‌ها";
+
 
 ?>

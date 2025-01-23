@@ -17,24 +17,20 @@
 		<script language='JavaScript' type='text/javascript'>
 
 			//message bar display
-			{
-				literal
-			}
-
+			{literal}
 			function display_message(msg, mood, delay) {
 				mood = mood !== undefined ? mood : 'default';
-				delay = delay !== undefined ? delay : {
-				/literal}{$message_delay}{literal};
+				delay = 50000;
 				if (msg !== '') {
 					var message_text = $(document.createElement('div'));
-					message_text.addClass('message_text message_mood_' + mood);
+					message_text.addClass('message_text message_mood_'+mood);
 					message_text.html(msg);
-					message_text.on('click', function () {
+					message_text.on('click', function() {
 						var object = $(this);
 						object.clearQueue().finish();
 						$('#message_container div').remove();
 						$('#message_container').css({opacity: 0, 'height': 0}).css({'height': 'auto'});
-					});
+					} );
 					$('#message_container').append(message_text);
 					message_text.css({'height': 'auto'}).animate({opacity: 1}, 250, function(){
 						$('#message_container').delay(delay).animate({opacity: 0, 'height': 0}, 500, function() {
@@ -46,34 +42,23 @@
 			}
 			{/literal}
 
-			{literal}
-			$(document).ready(function() {
-				{
-					/literal}
+				{literal}
+				$(document).ready(function() {
+					{/literal}
 
-					{
-						$messages
-					}
+						{$messages}
 
-					//message bar hide on hover
-					{
-						literal
-					}
-					$('#message_container').on('mouseenter', function () {
-						$('#message_container div').remove();
-						$('#message_container').css({opacity: 0, 'height': 0}).css({'height': 'auto'});
-					});
-					{
-						/literal}
+						// message bar hide on hover
+						{literal}
+						$('#message_container').on('mouseenter',function() {
+							$('#message_container div').remove();
+							$('#message_container').css({opacity: 0, 'height': 0}).css({'height': 'auto'});
+						});
+						{/literal}
 
-						{
-							literal
-						}
-					}
-				)
-					; //document ready end
-					{
-						/literal}
+							{literal}
+						}); //document ready end
+						{/literal}
 
 		</script>
 		<title>کد تایید</title>

@@ -171,3 +171,37 @@ div.action_bar > div.actions {
     font-weight: 700 !important;
     font-family: 'Yekan Bakh FaNum' !important;
 }
+
+input.btn, input.button, button.btn-default {
+    height: 38px;
+    padding: 5px 8px;
+    border: 1px solid #ac965e;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    background: #FEFBF3;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    font-family: 'Yekan Bakh FaNum';
+    color: #AC965E;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.button:active, input.button:focus, button.btn-default:hover, button.btn-default:active, button.btn-default:focus {
+    cursor: pointer;
+    border-color: #232323;
+    background: #232323;
+    background-image: -ms-linear-gradient(top, #000000 0%, #000000 100%);
+    background-image: -moz-linear-gradient(top, #000000 0%, #000000 100%);
+    background-image: -o-linear-gradient(top, #000000 0%, #000000 100%);
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    color: #fff3d1;
+}

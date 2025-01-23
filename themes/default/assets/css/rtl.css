@@ -296,5 +296,6 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     -khtml-border-radius: 6px;
     border-radius: 6px;
     vertical-align: middle;
-    height: 38px;
+    height: 34px;
+    margin-bottom: 6px;
 }

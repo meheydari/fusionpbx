@@ -443,4 +443,39 @@ $text['theme-message-menu_reset']['zh-cn'] = "菜单状态重置";
 $text['theme-message-menu_reset']['ja-jp'] = "メニュー状態のリセット";
 $text['theme-message-menu_reset']['ko-kr'] = "메뉴 상태 재설정";
 
+
+$text['theme-label-logout']['fa'] = "خروج";
+
+$text['theme-confirm-logout']['fa'] = "آیا واقعاً می‌خواهید خارج شوید؟";
+
+$text['theme-label-open_selector']['fa'] = "انتخابگر دامنه [ESC]";
+
+$text['theme-title-domains']['fa'] = "دامنه‌ها";
+
+$text['theme-button-close']['fa'] = "بستن";
+
+$text['theme-label-search']['fa'] = "جستجو...";
+
+$text['theme-label-copyright']['fa'] = "کپی‌رایت";
+
+$text['theme-label-all_rights_reserved']['fa'] = "کلیه حقوق محفوظ است.";
+
+$text['theme-label-user']['fa'] = "کاربر";
+
+$text['theme-label-domain']['fa'] = "دامنه";
+
+$text['theme-label-expand_menu']['fa'] = "باز کردن منو";
+
+$text['theme-label-contract_menu']['fa'] = "بستن منو";
+
+$text['theme-label-pin_menu']['fa'] = "منو را سنجاق کنید";
+
+$text['theme-label-unpin_menu']['fa'] = "سنجاق منو را بردارید";
+
+$text['theme-message-menu_expanded']['fa'] = "منو سنجاق شد";
+
+$text['theme-message-menu_contracted']['fa'] = "منو سنجاق برداشته شد";
+
+$text['theme-message-menu_reset']['fa'] = "وضعیت منو بازنشانی شد";
+
 ?>

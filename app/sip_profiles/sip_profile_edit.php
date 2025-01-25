@@ -409,7 +409,7 @@
 			echo button::create(['type'=>'button','label'=>$text['button-delete'],'icon'=>$_SESSION['theme']['button_icon_delete'],'name'=>'btn_delete','style'=>$button_margin,'onclick'=>"modal_open('modal-delete','btn_delete');"]);
 		}
 	}
-	echo button::create(['type'=>'button','label'=>$text['button-save'],'icon'=>$_SESSION['theme']['button_icon_save'],'id'=>'btn_save','style'=>'margin-left: 15px;','onclick'=>"if (document.getElementById('sip_profile_name').value != '' && !sip_profile_names_other.includes(document.getElementById('sip_profile_name').value)) { $('#frm').submit(); } else { display_message('".$text['message-sip_profile_unique']."', 'negative', 5000); }"]);
+	echo button::create(['type'=>'button','label'=>$text['button-save'],'icon'=>$_SESSION['theme']['button_icon_save'],'id'=>'btn_save','style'=>'','onclick'=>"if (document.getElementById('sip_profile_name').value != '' && !sip_profile_names_other.includes(document.getElementById('sip_profile_name').value)) { $('#frm').submit(); } else { display_message('".$text['message-sip_profile_unique']."', 'negative', 5000); }"]);
 	echo "	</div>\n";
 	echo "	<div style='clear: both;'></div>\n";
 	echo "</div>\n";

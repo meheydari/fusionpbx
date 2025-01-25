@@ -191,7 +191,7 @@
 	}
 	if (permission_exists('dashboard_edit')) {
 		echo button::create(['type'=>'button','label'=>$text['button-back'],'icon'=>$_SESSION['theme']['button_icon_back'],'id'=>'btn_back','name'=>'btn_back','style'=>'display: none;','onclick'=>"edit_mode('off');"]);
-		echo button::create(['type'=>'submit','label'=>$text['button-save'],'icon'=>$_SESSION['theme']['button_icon_save'],'id'=>'btn_save','name'=>'btn_save','style'=>'display: none; margin-left: 15px;']);
+		echo button::create(['type'=>'submit','label'=>$text['button-save'],'icon'=>$_SESSION['theme']['button_icon_save'],'id'=>'btn_save','name'=>'btn_save','style'=>'display: none; ']);
 	}
 	echo "<span id='expand_contract'>\n";
 		echo button::create(['type'=>'button','label'=>$text['button-expand_all'],'icon'=>$_SESSION['theme']['button_icon_expand'],'id'=>'btn_expand','name'=>'btn_expand','style'=>($expanded_all ? 'display: none;' : null),'onclick'=>"$('.hud_details').slideDown('fast'); $(this).hide(); $('#btn_contract').show();"]);

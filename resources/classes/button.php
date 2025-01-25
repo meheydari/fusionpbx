@@ -96,13 +96,22 @@ if (!class_exists('button')) {
 					if (!empty($array['icon']) && $button_icons != 'always' && $button_icons != 'never' && isset($array['collapse']) && $array['collapse'] !== false) {
 						if ($array['collapse'] != '') {
 							$collapse_class = $array['collapse'];
-						}
-						else if (self::$collapse !== false) {
+						} else if (self::$collapse !== false) {
 							$collapse_class = self::$collapse;
 						}
 					}
 					$pad_class = !empty($array['icon']) ? 'pad' : null;
-					$button .= "<span class='button-label ".($collapse_class ?? '')." ".$pad_class."'>".$array['label']."</span>";
+					if ($array['codarx'] == 'boolean_icon') {
+						if ($array['label'] == 'True') {
+							$button .= "<img src='../../themes/default/images/icon/done.svg'/>";
+						}
+						if ($array['label'] == 'False') {
+							$button .= "<img src='../../themes/default/images/icon/fail.svg'/>";
+						}
+					} else {
+						$button .= "<span class='button-label " . ($collapse_class ?? '') . " " . $pad_class . "'>" . $array['label'] . "</span>";
+
+					}
 				}
 			//button: close
 				$button .= "</button>";

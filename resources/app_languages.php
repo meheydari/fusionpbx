@@ -1126,6 +1126,8 @@ $text['button-edit']['tr-tr'] = "Düzenle";
 $text['button-edit']['zh-cn'] = "编辑";
 $text['button-edit']['ja-jp'] = "編集";
 $text['button-edit']['ko-kr'] = "편집하다";
+$text['button-edit']['fa'] = "ویرایش";
+
 
 $text['button-delete']['en-us'] = "Delete";
 $text['button-delete']['en-gb'] = "Delete";
@@ -1152,6 +1154,8 @@ $text['button-delete']['tr-tr'] = "Sil";
 $text['button-delete']['zh-cn'] = "删除";
 $text['button-delete']['ja-jp'] = "消去";
 $text['button-delete']['ko-kr'] = "삭제";
+$text['button-delete']['fa'] = "حذف";
+
 
 $text['button-add']['en-us'] = "Add";
 $text['button-add']['en-gb'] = "Add";
@@ -1178,6 +1182,8 @@ $text['button-add']['tr-tr'] = "Ekle";
 $text['button-add']['zh-cn'] = "添加";
 $text['button-add']['ja-jp'] = "追加";
 $text['button-add']['ko-kr'] = "추가하다";
+$text['button-add']['fa'] = "افزودن";
+
 
 $text['button-reload']['en-us'] = "Reload";
 $text['button-reload']['en-gb'] = "Reload";
@@ -1257,6 +1263,7 @@ $text['button-export']['el-gr'] = "Εξαγωγή εξαγωγών";
 $text['button-export']['zh-cn'] = "出口";
 $text['button-export']['ja-jp'] = "輸出";
 $text['button-export']['ko-kr'] = "내보내다";
+$text['button-export']['fa'] = "خروجی گرفتن";
 
 $text['button-execute']['en-us'] = "Execute";
 $text['button-execute']['en-gb'] = "Execute";
@@ -1309,6 +1316,7 @@ $text['button-view']['tr-tr'] = "Görüntüle";
 $text['button-view']['zh-cn'] = "看法";
 $text['button-view']['ja-jp'] = "意見";
 $text['button-view']['ko-kr'] = "보다";
+$text['button-view']['fa'] = "مشاهده";
 
 $text['button-upload']['en-us'] = "Upload";
 $text['button-upload']['en-gb'] = "Upload";
@@ -1699,6 +1707,7 @@ $text['button-import']['tr-tr'] = "İçe Aktar";
 $text['button-import']['zh-cn'] = "进口";
 $text['button-import']['ja-jp'] = "輸入";
 $text['button-import']['ko-kr'] = "수입";
+$text['button-import']['fa'] = "درون ریزی";
 
 $text['button-qr_code']['en-us'] = "QR Code";
 $text['button-qr_code']['en-gb'] = "QR Code";
@@ -1881,6 +1890,7 @@ $text['button-remove']['tr-tr'] = "Sil";
 $text['button-remove']['zh-cn'] = "消除";
 $text['button-remove']['ja-jp'] = "削除";
 $text['button-remove']['ko-kr'] = "제거하다";
+$text['button-remove']['fa'] = "حذف کردن";
 
 $text['button-continue']['en-us'] = "Continue";
 $text['button-continue']['en-gb'] = "Continue";

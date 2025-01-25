@@ -307,11 +307,11 @@
 			//echo "	<td>".escape($row['add_date'])."</td>\n";
 			if (permission_exists('user_edit')) {
 				echo "	<td class='no-link center'>\n";
-				echo button::create(['type'=>'submit','class'=>'link','label'=>$text['label-'.$row['user_enabled']],'title'=>$text['button-toggle'],'onclick'=>"list_self_check('checkbox_".$x."'); list_action_set('toggle'); list_form_submit('form_list')"]);
+				echo button::create(['codarx'=>'boolean_icon','type'=>'submit','class'=>'link','label'=>$text['label-'.$row['user_enabled']],'title'=>$text['button-toggle'],'onclick'=>"list_self_check('checkbox_".$x."'); list_action_set('toggle'); list_form_submit('form_list')"]);
 			}
 			else {
 				echo "	<td class='center'>\n";
-				echo $text['label-'.$row['user_enabled']]. 'ads';
+				echo $text['label-'.$row['user_enabled']];
 			}
 			echo "	</td>\n";
 			if (permission_exists('user_edit') && $list_row_edit_button == 'true') {

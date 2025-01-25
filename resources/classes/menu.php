@@ -1163,8 +1163,8 @@ if (!class_exists('menu')) {
 				$html .= "<div class='float-right' style='white-space: nowrap;'>";
 				//current user
 					$html .= "<span class='header-avatar'>\n";
-					$html .= "	<a href='".PROJECT_PATH."/core/users/user_edit.php?id=user' title=\"".$this->text['theme-label-user']."\"><i class='fas fa-".($_SESSION['theme']['body_header_icon_user']['text'] != '' ? $_SESSION['theme']['body_header_icon_user']['text'] : 'user-circle')." fa-lg fa-fw' style='margin-top: 6px; margin-right: 5px;'></i>".$_SESSION['username']."</a>";
-					$html .= "</span>\n";
+			$html .= "	<a href='" . PROJECT_PATH . "/core/users/user_edit.php?id=user' title=\"" . $this->text['theme-label-user'] . "\"><img src='../../themes/default/images/icon/profile.svg'/>" . $_SESSION['username'] . "</a>";
+			$html .= "</span>\n";
 				//domain name/selector (sm+)
 					if (!empty($_SESSION['username']) && permission_exists('domain_select') && count($_SESSION['domains']) > 1 && $_SESSION['theme']['domain_visible']['text'] == 'true') {
 						$html .= "<span style='display: inline-block; padding-right: 10px; font-size: 90%;'>\n";

@@ -378,3 +378,8 @@ div.action_bar.scroll{
 input[type=text].list-search{
     width: 200px !important;
 }
+
+
+th {
+    border-bottom: 1px dashed #E1E3EA;
+}

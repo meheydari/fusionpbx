@@ -238,6 +238,10 @@ a#header_logout_icon {
     padding-bottom: 24px;
 }
 
+.vtable input{
+    margin-bottom: 0;
+}
+
 .vncellreq {
     background: #ffffff;
     -moz-border-radius: 0;

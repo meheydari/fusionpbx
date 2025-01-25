@@ -86,7 +86,10 @@ if (!class_exists('button')) {
 					)) {
 					$icon_class = is_array($array['icon']) ? $array['icon']['text'] : 'fas fa-' . $array['icon'];
 					if (is_array($array['icon'])) {
-						$button .= "<img src='../../themes/default/images/icon/" . $array['icon']['text'] . ".svg' />";
+						$filename = "../../themes/default/images/icon/" . $array['icon']['text'] . ".svg";
+						if (file_exists($filename)) {
+							$button .= "<img src='../../themes/default/images/icon/" . $array['icon']['text'] . ".svg' />";
+						}
 
 					}
 //					$button .= "<span class='".$icon_class." fa-fw'></span>";

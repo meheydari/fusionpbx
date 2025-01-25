@@ -1163,7 +1163,7 @@ if (!class_exists('menu')) {
 				$html .= "<div class='float-right' style='white-space: nowrap;'>";
 				//current user
 					$html .= "<span class='header-avatar'>\n";
-			$html .= "	<a href='" . PROJECT_PATH . "/core/users/user_edit.php?id=user' title=\"" . $this->text['theme-label-user'] . "\"><img src='../../themes/default/images/icon/profile.svg'/>" . $_SESSION['username'] . "</a>";
+			$html .= "	<a href='" . PROJECT_PATH . "/core/users/user_edit.php?id=user' title=\"" . $this->text['theme-label-user'] . "\"><img style='margin-left: 6px;' src='../../themes/default/images/icon/profile.svg'/>" . $_SESSION['username'] . "</a>";
 			$html .= "</span>\n";
 				//domain name/selector (sm+)
 					if (!empty($_SESSION['username']) && permission_exists('domain_select') && count($_SESSION['domains']) > 1 && $_SESSION['theme']['domain_visible']['text'] == 'true') {

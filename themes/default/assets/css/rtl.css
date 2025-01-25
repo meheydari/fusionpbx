@@ -390,3 +390,17 @@ th {
     font-weight: 400;
 
 }
+
+div.hud_box {
+    height: auto;
+    vertical-align: top;
+    text-align: center;
+    background: #F9F9F9;
+    background-image: unset;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    border: unset;
+    overflow: hidden;
+    margin: unset;
+}

@@ -381,5 +381,5 @@ input[type=text].list-search{
 
 
 th {
-    border-bottom: 1px dashed #E1E3EA;
+    border-bottom: 1px dashed #E1E3EA !important;
 }

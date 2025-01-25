@@ -236,6 +236,9 @@ a#header_logout_icon {
     font-family: 'Yekan Bakh FaNum';
     border-bottom: unset;
     padding-bottom: 24px;
+    color: #A1A5B7;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .vtable input{

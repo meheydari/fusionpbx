@@ -366,6 +366,10 @@ td.center{
     display: none;
 }
 
+#form_search a{
+    display: none;
+}
+
 div.action_bar.scroll{
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;

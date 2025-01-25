@@ -361,3 +361,8 @@ td.center{
     font-size: 16px;
     font-weight: 600;
 }
+
+div.action_bar.scroll{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}

@@ -404,6 +404,10 @@ div.hud_box {
     overflow: hidden;
     margin: unset;
 }
-span.hud_expander{
+span.hud_expander {
+    display: none;
+}
+
+div.hud_details {
     display: none;
 }

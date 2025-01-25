@@ -383,3 +383,10 @@ input[type=text].list-search{
 th {
     border-bottom: 1px dashed #E1E3EA !important;
 }
+
+.list-header > th {
+    color: #4C4C4C;
+    font-size: 15px;
+    font-weight: 400;
+
+}

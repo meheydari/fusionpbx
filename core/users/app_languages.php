@@ -2813,6 +2813,8 @@ $text['button-create_account']['fa'] = "ایجاد حساب";
 
 $text['button-add_member']['fa'] = "اضافه کردن عضو";
 
+$text['button-add']['fa'] = "ذخیره تغییرات";
+
 $text['button-permissions']['fa'] = "دسترسی‌ها";
 
 

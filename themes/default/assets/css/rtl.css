@@ -234,6 +234,7 @@ a#header_logout_icon {
 .vtable {
     text-align: right;
     font-family: 'Yekan Bakh FaNum';
+    border-bottom: unset;
 }
 
 .vncellreq {

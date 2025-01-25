@@ -374,3 +374,7 @@ div.action_bar.scroll{
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
+
+input[type=text].list-search{
+    width: 200px;
+}

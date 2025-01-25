@@ -103,10 +103,10 @@ if (!class_exists('button')) {
 					$pad_class = !empty($array['icon']) ? 'pad' : null;
 					if ($array['codarx'] == 'boolean_icon') {
 						if ($array['label'] == 'True') {
-							$button .= "<img src='../../themes/default/images/icon/done.svg'/>";
+							$button .= "<img style='padding: 10px' src='../../themes/default/images/icon/done.svg'/>";
 						}
 						if ($array['label'] == 'False') {
-							$button .= "<img src='../../themes/default/images/icon/fail.svg'/>";
+							$button .= "<img style='padding: 10px' src='../../themes/default/images/icon/fail.svg'/>";
 						}
 					} else {
 						$button .= "<span class='button-label " . ($collapse_class ?? '') . " " . $pad_class . "'>" . $array['label'] . "</span>";

@@ -376,5 +376,5 @@ div.action_bar.scroll{
 }
 
 input[type=text].list-search{
-    width: 200px;
+    width: 200px !important;
 }

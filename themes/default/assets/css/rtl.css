@@ -235,6 +235,7 @@ a#header_logout_icon {
     text-align: right;
     font-family: 'Yekan Bakh FaNum';
     border-bottom: unset;
+    padding-bottom: 16px;
 }
 
 .vncellreq {

@@ -1160,7 +1160,7 @@ if (!class_exists('menu')) {
 				}
 				$html .= "</div>\n";
 			//header: right
-				$html .= "<div class='float-right' style='white-space: nowrap;'>";
+				$html .= "<div class='float-right' style='white-space: nowrap; margin-bottom: 24px;'>";
 				//current user
 					$html .= "<span class='header-avatar'>\n";
 			$html .= "	<a href='" . PROJECT_PATH . "/core/users/user_edit.php?id=user' title=\"" . $this->text['theme-label-user'] . "\"><img style='margin-left: 6px;' src='../../themes/default/images/icon/profile.svg'/>" . $_SESSION['username'] . "</a>";

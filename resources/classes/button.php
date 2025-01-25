@@ -91,7 +91,7 @@ if (!class_exists('button')) {
 				if (!empty($array['label']) && (
 					$button_icons != 'only' ||
 					!$array['icon'] ||
-					$array['class'] == 'link'
+			 		$array['class'] == 'link'
 					)) {
 					if (!empty($array['icon']) && $button_icons != 'always' && $button_icons != 'never' && isset($array['collapse']) && $array['collapse'] !== false) {
 						if ($array['collapse'] != '') {

@@ -311,7 +311,7 @@
 			}
 			else {
 				echo "	<td class='center'>\n";
-				echo $text['label-'.$row['user_enabled']];
+				echo $text['label-'.$row['user_enabled']]. 'ads';
 			}
 			echo "	</td>\n";
 			if (permission_exists('user_edit') && $list_row_edit_button == 'true') {

@@ -85,7 +85,7 @@ if (!class_exists('button')) {
 					!$array['label']
 					)) {
 					$icon_class = is_array($array['icon']) ? $array['icon']['text'] : 'fas fa-'.$array['icon'];
-					$button .= "<img src='../../themes/default/images/icon/".$array['icon']."'.svg />";
+					$button .= "<img src='../../themes/default/images/icon/".$array['icon']['text']."'.svg />";
 //					$button .= "<span class='".$icon_class." fa-fw'></span>";
 				}
 			//label

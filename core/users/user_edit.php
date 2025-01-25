@@ -1024,7 +1024,7 @@
 			}
 			echo "</select>";
 			if ($action == 'edit') {
-				echo button::create(['type'=>'button','label'=>$text['button-add'],'icon'=>$_SESSION['theme']['button_icon_add'],'onclick'=>'submit_form();']);
+				echo button::create(['type'=>'button','label'=>$text['button-add'],'onclick'=>'submit_form();']);
 			}
 		}
 		unset($sql, $parameters, $groups, $field);

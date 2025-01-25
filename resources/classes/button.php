@@ -89,10 +89,12 @@ if (!class_exists('button')) {
 						$filename = "../../themes/default/images/icon/" . $array['icon']['text'] . ".svg";
 						if (file_exists($filename)) {
 							$button .= "<img src='../../themes/default/images/icon/" . $array['icon']['text'] . ".svg' />";
+						} else {
+							$button .= "<span class='" . $icon_class . " fa-fw'></span>";
+
 						}
 
 					}
-//					$button .= "<span class='".$icon_class." fa-fw'></span>";
 				}
 			//label
 				if (!empty($array['label']) && (

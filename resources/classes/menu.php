@@ -1101,7 +1101,7 @@ if (!class_exists('menu')) {
 				}
 				if ($_SESSION['theme']['menu_brand_type']['text'] == 'image' || $_SESSION['theme']['menu_brand_type']['text'] == 'image_text' || $_SESSION['theme']['menu_brand_type']['text'] == '') {
 					$menu_brand_image_contracted = !empty($_SESSION['theme']['menu_side_brand_image_contracted']['text']) ? $_SESSION['theme']['menu_side_brand_image_contracted']['text'] : PROJECT_PATH."/themes/default/images/logo_side_contracted.png";
-					$menu_brand_image_expanded = !empty($_SESSION['theme']['menu_side_brand_image_expanded']['text']) ? $_SESSION['theme']['menu_side_brand_image_expanded']['text'] : PROJECT_PATH."/themes/default/images/logo_side_expanded.png";
+					$menu_brand_image_expanded = PROJECT_PATH."/themes/default/images/logo-sidebar.svg";
 					$html .= "		<a class='menu_brand_image' href='".PROJECT_PATH."/'>";
 					$html .= 			"<img id='menu_brand_image_contracted' style='".($_SESSION['theme']['menu_side_state']['text'] == 'expanded' ? "display: none;" : null)."' src='".escape($menu_brand_image_contracted)."' title=\"".escape($menu_brand_text)."\">";
 					$html .= 			"<img id='menu_brand_image_expanded' ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "style='display: none;'" : null)." src='".escape($menu_brand_image_expanded)."' title=\"".escape($menu_brand_text)."\">";

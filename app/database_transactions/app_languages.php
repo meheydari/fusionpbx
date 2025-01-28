@@ -890,79 +890,79 @@ $text['message-required']['ja-jp'] = "どうか提供してください：";
 $text['message-required']['ko-kr'] = "제공 부탁드립니다:";
 
 
-$text['title-database_transactions']['fa'] = "تراکنش‌های پایگاه داده";
+$text['title-database_transactions']['fa-ir'] = "تراکنش‌های پایگاه داده";
 
-$text['title-database_transaction']['fa'] = "تراکنش پایگاه داده";
+$text['title-database_transaction']['fa-ir'] = "تراکنش پایگاه داده";
 
-$text['description-database_transactions']['fa'] = "پیگیری تغییرات در پایگاه داده. تاریخ تغییرات، کاربر و آدرس کاربری که تغییرات را انجام داده است را ثبت کنید. گزینه‌ای برای بازگردانی حذف و به‌روزرسانی تراکنش‌ها ارائه دهید.";
+$text['description-database_transactions']['fa-ir'] = "پیگیری تغییرات در پایگاه داده. تاریخ تغییرات، کاربر و آدرس کاربری که تغییرات را انجام داده است را ثبت کنید. گزینه‌ای برای بازگردانی حذف و به‌روزرسانی تراکنش‌ها ارائه دهید.";
 
-$text['label-user']['fa'] = "کاربر";
+$text['label-user']['fa-ir'] = "کاربر";
 
-$text['label-user_uuid']['fa'] = "کاربر";
+$text['label-user_uuid']['fa-ir'] = "کاربر";
 
-$text['description-user_uuid']['fa'] = "تراکنش کاربر.";
+$text['description-user_uuid']['fa-ir'] = "تراکنش کاربر.";
 
-$text['label-app_name']['fa'] = "برنامه";
+$text['label-app_name']['fa-ir'] = "برنامه";
 
-$text['description-app_name']['fa'] = "نام برنامه.";
+$text['description-app_name']['fa-ir'] = "نام برنامه.";
 
-$text['label-app_uuid']['fa'] = "شناسه برنامه";
+$text['label-app_uuid']['fa-ir'] = "شناسه برنامه";
 
-$text['description-app_uuid']['fa'] = "نام برنامه.";
+$text['description-app_uuid']['fa-ir'] = "نام برنامه.";
 
-$text['label-transaction_code']['fa'] = "کد";
+$text['label-transaction_code']['fa-ir'] = "کد";
 
-$text['description-transaction_code']['fa'] = "کد تراکنش.";
+$text['description-transaction_code']['fa-ir'] = "کد تراکنش.";
 
-$text['label-transaction_address']['fa'] = "آدرس IP";
+$text['label-transaction_address']['fa-ir'] = "آدرس IP";
 
-$text['description-transaction_address']['fa'] = "آدرس IP کاربر.";
+$text['description-transaction_address']['fa-ir'] = "آدرس IP کاربر.";
 
-$text['label-transaction_type']['fa'] = "نوع";
+$text['label-transaction_type']['fa-ir'] = "نوع";
 
-$text['description-transaction_type']['fa'] = "نوع: افزودن، به‌روزرسانی، حذف";
+$text['description-transaction_type']['fa-ir'] = "نوع: افزودن، به‌روزرسانی، حذف";
 
-$text['label-transaction_date']['fa'] = "تاریخ";
+$text['label-transaction_date']['fa-ir'] = "تاریخ";
 
-$text['description-transaction_date']['fa'] = "تاریخ تراکنش.";
+$text['description-transaction_date']['fa-ir'] = "تاریخ تراکنش.";
 
-$text['label-transaction_old']['fa'] = "قبل";
+$text['label-transaction_old']['fa-ir'] = "قبل";
 
-$text['description-transaction_old']['fa'] = "آرایه قبل از تراکنش.";
+$text['description-transaction_old']['fa-ir'] = "آرایه قبل از تراکنش.";
 
-$text['label-transaction_new']['fa'] = "بعد";
+$text['label-transaction_new']['fa-ir'] = "بعد";
 
-$text['description-transaction_new']['fa'] = "آرایه بعد از تراکنش.";
+$text['description-transaction_new']['fa-ir'] = "آرایه بعد از تراکنش.";
 
-$text['label-transaction_result']['fa'] = "نتیجه";
+$text['label-transaction_result']['fa-ir'] = "نتیجه";
 
-$text['description-transaction_result']['fa'] = "نتیجه تراکنش.";
+$text['description-transaction_result']['fa-ir'] = "نتیجه تراکنش.";
 
-$text['label-true']['fa'] = "درست";
+$text['label-true']['fa-ir'] = "درست";
 
-$text['label-false']['fa'] = "نادرست";
+$text['label-false']['fa-ir'] = "نادرست";
 
-$text['button-add']['fa'] = "افزودن";
+$text['button-add']['fa-ir'] = "افزودن";
 
-$text['button-edit']['fa'] = "ویرایش";
+$text['button-edit']['fa-ir'] = "ویرایش";
 
-$text['button-delete']['fa'] = "حذف";
+$text['button-delete']['fa-ir'] = "حذف";
 
-$text['button-save']['fa'] = "ذخیره";
+$text['button-save']['fa-ir'] = "ذخیره";
 
-$text['button-view']['fa'] = "مشاهده";
+$text['button-view']['fa-ir'] = "مشاهده";
 
-$text['button-back']['fa'] = "بازگشت";
+$text['button-back']['fa-ir'] = "بازگشت";
 
-$text['confirm-delete']['fa'] = "آیا مطمئن هستید که می‌خواهید این داده را حذف کنید؟";
+$text['confirm-delete']['fa-ir'] = "آیا مطمئن هستید که می‌خواهید این داده را حذف کنید؟";
 
-$text['message-add']['fa'] = "افزودن انجام شد";
+$text['message-add']['fa-ir'] = "افزودن انجام شد";
 
-$text['message-update']['fa'] = "به‌روزرسانی انجام شد";
+$text['message-update']['fa-ir'] = "به‌روزرسانی انجام شد";
 
-$text['message-delete']['fa'] = "حذف انجام شد";
+$text['message-delete']['fa-ir'] = "حذف انجام شد";
 
-$text['message-required']['fa'] = "لطفاً مقادیر لازم را پر کنید: ";
+$text['message-required']['fa-ir'] = "لطفاً مقادیر لازم را پر کنید: ";
 
 
 ?>

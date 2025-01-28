@@ -25,7 +25,7 @@ $text['title-dashboard']['tr-tr'] = "Gösterge Paneli";
 $text['title-dashboard']['zh-cn'] = "仪表板";
 $text['title-dashboard']['ja-jp'] = "ダッシュボード";
 $text['title-dashboard']['ko-kr'] = "계기반";
-$text['title-dashboard']['fa'] = "پیشخوان";
+$text['title-dashboard']['fa-ir'] = "پیشخوان";
 
 
 $text['description-dashboard']['en-us'] = "Quickly access information and tools related to your account.";
@@ -53,7 +53,7 @@ $text['description-dashboard']['tr-tr'] = "Hesabınızla ilgili bilgilere ve ara
 $text['description-dashboard']['zh-cn'] = "快速访问与您的帐户相关的信息和工具。";
 $text['description-dashboard']['ja-jp'] = "アカウントに関連する情報とツールにすばやくアクセスします。";
 $text['description-dashboard']['ko-kr'] = "귀하의 계정과 관련된 정보 및 도구에 빠르게 액세스하십시오.";
-$text['description-dashboard']['fa'] = "به‌سرعت به اطلاعات و ابزارهای مربوط به حساب کاربری خود دسترسی پیدا کنید.";
+$text['description-dashboard']['fa-ir'] = "به‌سرعت به اطلاعات و ابزارهای مربوط به حساب کاربری خود دسترسی پیدا کنید.";
 
 $text['label-group_uuid']['en-us'] = "Group UUID";
 $text['label-group_uuid']['en-gb'] = "Group UUID";
@@ -602,47 +602,47 @@ $text['button-expand_all']['ja-jp'] = "すべて展開";
 $text['button-expand_all']['ko-kr'] = "모두 펼치기";
 
 
-$text['label-group_uuid']['fa'] = "شناسه یکتای گروه";
+$text['label-group_uuid']['fa-ir'] = "شناسه یکتای گروه";
 
-$text['description-group_uuid']['fa'] = "شناسه یکتای گروه را وارد کنید.";
+$text['description-group_uuid']['fa-ir'] = "شناسه یکتای گروه را وارد کنید.";
 
-$text['label-dashboard_name']['fa'] = "نام";
+$text['label-dashboard_name']['fa-ir'] = "نام";
 
-$text['description-dashboard_name']['fa'] = "نام ویجت پیشخوان را وارد کنید.";
+$text['description-dashboard_name']['fa-ir'] = "نام ویجت پیشخوان را وارد کنید.";
 
-$text['label-dashboard_path']['fa'] = "مسیر";
+$text['label-dashboard_path']['fa-ir'] = "مسیر";
 
-$text['description-dashboard_path']['fa'] = "مسیر ویجت پیشخوان را وارد کنید.";
+$text['description-dashboard_path']['fa-ir'] = "مسیر ویجت پیشخوان را وارد کنید.";
 
-$text['label-dashboard_groups']['fa'] = "گروه‌ها";
+$text['label-dashboard_groups']['fa-ir'] = "گروه‌ها";
 
-$text['description-dashboard_groups']['fa'] = "گروه‌هایی را اضافه کنید که اجازه دسترسی به این ویجت دارند.";
+$text['description-dashboard_groups']['fa-ir'] = "گروه‌هایی را اضافه کنید که اجازه دسترسی به این ویجت دارند.";
 
-$text['label-dashboard_column_span']['fa'] = "گستره ستون";
+$text['label-dashboard_column_span']['fa-ir'] = "گستره ستون";
 
-$text['description-dashboard_column_span']['fa'] = "گستره ستون ویجت پیشخوان را وارد کنید.";
+$text['description-dashboard_column_span']['fa-ir'] = "گستره ستون ویجت پیشخوان را وارد کنید.";
 
-$text['label-dashboard_details_state']['fa'] = "وضعیت جزئیات";
+$text['label-dashboard_details_state']['fa-ir'] = "وضعیت جزئیات";
 
-$text['description-dashboard_details_state']['fa'] = "وضعیت پیش‌فرض جزئیات ویجت را تنظیم کنید.";
+$text['description-dashboard_details_state']['fa-ir'] = "وضعیت پیش‌فرض جزئیات ویجت را تنظیم کنید.";
 
-$text['label-dashboard_order']['fa'] = "ترتیب";
+$text['label-dashboard_order']['fa-ir'] = "ترتیب";
 
-$text['description-dashboard_order']['fa'] = "ترتیب ویجت پیشخوان را وارد کنید.";
+$text['description-dashboard_order']['fa-ir'] = "ترتیب ویجت پیشخوان را وارد کنید.";
 
-$text['label-dashboard_enabled']['fa'] = "فعال";
+$text['label-dashboard_enabled']['fa-ir'] = "فعال";
 
-$text['description-dashboard_enabled']['fa'] = "فعال بودن ویجت پیشخوان را وارد کنید.";
+$text['description-dashboard_enabled']['fa-ir'] = "فعال بودن ویجت پیشخوان را وارد کنید.";
 
-$text['label-dashboard_description']['fa'] = "توضیحات";
+$text['label-dashboard_description']['fa-ir'] = "توضیحات";
 
-$text['description-dashboard_description']['fa'] = "توضیحات ویجت پیشخوان را وارد کنید.";
+$text['description-dashboard_description']['fa-ir'] = "توضیحات ویجت پیشخوان را وارد کنید.";
 
-$text['label-welcome']['fa'] = "خوش آمدید:";
+$text['label-welcome']['fa-ir'] = "خوش آمدید:";
 
-$text['button-collapse_all']['fa'] = "بستن همه";
+$text['button-collapse_all']['fa-ir'] = "بستن همه";
 
-$text['button-expand_all']['fa'] = "باز کردن همه";
+$text['button-expand_all']['fa-ir'] = "باز کردن همه";
 
 
 ?>

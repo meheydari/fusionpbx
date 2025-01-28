@@ -7413,7 +7413,7 @@ $text['label-permissions']['zh-cn'] = "权限";
 $text['label-permissions']['ja-jp'] = "権限";
 $text['label-permissions']['ko-kr'] = "권한";
 
-$text['label-search']['fa'] = "جست و جو ...";
+$text['label-search']['fa-ir'] = "جست و جو ...";
 
 
 ?>

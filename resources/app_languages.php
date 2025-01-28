@@ -25,7 +25,7 @@ $text['language-name']['tr-tr'] = "Türkçe - Türkiye";
 $text['language-name']['zh-cn'] = "中国 - 中国";
 $text['language-name']['ja-jp'] = "日本語 - 日本";
 $text['language-name']['ko-kr'] = "한국 - 한국";
-$text['language-name']['fa'] = "فارسی";
+$text['language-name']['fa-ir'] = "فارسی";
 
 $text['modal_title-confirmation']['en-us'] = "Confirmation";
 $text['modal_title-confirmation']['en-gb'] = "Confirmation";
@@ -52,7 +52,7 @@ $text['modal_title-confirmation']['tr-tr'] = "Onaylama";
 $text['modal_title-confirmation']['zh-cn'] = "确认";
 $text['modal_title-confirmation']['ja-jp'] = "確認";
 $text['modal_title-confirmation']['ko-kr'] = "확인";
-$text['modal_title-confirmation']['fa'] = "تایید";
+$text['modal_title-confirmation']['fa-ir'] = "تایید";
 
 $text['message-update']['en-us'] = "Update Completed";
 $text['message-update']['en-gb'] = "Update Completed";
@@ -106,7 +106,7 @@ $text['message-required']['tr-tr'] = "Lütfen temin edin: ";
 $text['message-required']['zh-cn'] = "必填字段：";
 $text['message-required']['ja-jp'] = "必須フィールド:";
 $text['message-required']['ko-kr'] = "필수 입력 사항:";
-$text['message-required']['fa'] = "فیلد‌های اجباری: ";
+$text['message-required']['fa-ir'] = "فیلد‌های اجباری: ";
 
 $text['message-delete']['en-us'] = "Delete Completed";
 $text['message-delete']['en-gb'] = "Delete Completed";
@@ -133,7 +133,7 @@ $text['message-delete']['tr-tr'] = "Silme İşlemi Tamamlandı";
 $text['message-delete']['zh-cn'] = "删除完成";
 $text['message-delete']['ja-jp'] = "削除完了";
 $text['message-delete']['ko-kr'] = "삭제 완료";
-$text['message-delete']['fa'] = "حدف شد.";
+$text['message-delete']['fa-ir'] = "حدف شد.";
 
 $text['message-delete_failed']['en-us'] = "Delete Failed";
 $text['message-delete_failed']['en-gb'] = "Delete Failed";
@@ -160,7 +160,7 @@ $text['message-delete_failed']['tr-tr'] = "Silme İşlemi Başarısız Oldu";
 $text['message-delete_failed']['zh-cn'] = "删除失败";
 $text['message-delete_failed']['ja-jp'] = "削除に失敗しました";
 $text['message-delete_failed']['ko-kr'] = "삭제 실패";
-$text['message-delete_failed']['fa'] = "حذف نشد.";
+$text['message-delete_failed']['fa-ir'] = "حذف نشد.";
 
 $text['message-delete_selection']['en-us'] = "What do you wish to delete?";
 $text['message-delete_selection']['en-gb'] = "what do you wish to delete?";
@@ -187,7 +187,7 @@ $text['message-delete_selection']['tr-tr'] = "Nasıl silmek istiyorsunuz?";
 $text['message-delete_selection']['zh-cn'] = "你想删除什么？";
 $text['message-delete_selection']['ja-jp'] = "何を削除したいですか?";
 $text['message-delete_selection']['ko-kr'] = "무엇을 삭제하시겠습니까?";
-$text['message-delete_selection']['fa'] = "چه چیزی را میخواهید پاک کنید؟";
+$text['message-delete_selection']['fa-ir'] = "چه چیزی را میخواهید پاک کنید؟";
 
 $text['message-add']['en-us'] = "Add Completed";
 $text['message-add']['en-gb'] = "Add Completed";
@@ -214,7 +214,7 @@ $text['message-add']['tr-tr'] = "Ekleme İşlemi Tamamlandı";
 $text['message-add']['zh-cn'] = "添加完成";
 $text['message-add']['ja-jp'] = "追加完了";
 $text['message-add']['ko-kr'] = "추가완료";
-$text['message-add']['fa'] = "افزوده شد.";
+$text['message-add']['fa-ir'] = "افزوده شد.";
 
 $text['message-failed']['en-us'] = "Update Failed - Contact Support";
 $text['message-failed']['en-gb'] = "Update Failed - Contact Support";
@@ -319,7 +319,7 @@ $text['message-authentication_failed']['tr-tr'] = "Authentication Failed";
 $text['message-authentication_failed']['zh-cn'] = "Authentication Failed";
 $text['message-authentication_failed']['ja-jp'] = "Authentication Failed";
 $text['message-authentication_failed']['ko-kr'] = "Authentication Failed";
-$text['message-authentication_failed']['fa'] = "اطلاعات وارد شده اشتباه است.";
+$text['message-authentication_failed']['fa-ir'] = "اطلاعات وارد شده اشتباه است.";
 
 $text['message-invalid_token']['en-us'] = "Invalid Token";
 $text['message-invalid_token']['en-gb'] = "Invalid Token";
@@ -1126,7 +1126,7 @@ $text['button-edit']['tr-tr'] = "Düzenle";
 $text['button-edit']['zh-cn'] = "编辑";
 $text['button-edit']['ja-jp'] = "編集";
 $text['button-edit']['ko-kr'] = "편집하다";
-$text['button-edit']['fa'] = "ویرایش";
+$text['button-edit']['fa-ir'] = "ویرایش";
 
 
 $text['button-delete']['en-us'] = "Delete";
@@ -1154,7 +1154,7 @@ $text['button-delete']['tr-tr'] = "Sil";
 $text['button-delete']['zh-cn'] = "删除";
 $text['button-delete']['ja-jp'] = "消去";
 $text['button-delete']['ko-kr'] = "삭제";
-$text['button-delete']['fa'] = "حذف";
+$text['button-delete']['fa-ir'] = "حذف";
 
 
 $text['button-add']['en-us'] = "Add";
@@ -1182,7 +1182,7 @@ $text['button-add']['tr-tr'] = "Ekle";
 $text['button-add']['zh-cn'] = "添加";
 $text['button-add']['ja-jp'] = "追加";
 $text['button-add']['ko-kr'] = "추가하다";
-$text['button-add']['fa'] = "افزودن";
+$text['button-add']['fa-ir'] = "افزودن";
 
 
 $text['button-reload']['en-us'] = "Reload";
@@ -1263,7 +1263,7 @@ $text['button-export']['el-gr'] = "Εξαγωγή εξαγωγών";
 $text['button-export']['zh-cn'] = "出口";
 $text['button-export']['ja-jp'] = "輸出";
 $text['button-export']['ko-kr'] = "내보내다";
-$text['button-export']['fa'] = "خروجی گرفتن";
+$text['button-export']['fa-ir'] = "خروجی گرفتن";
 
 $text['button-execute']['en-us'] = "Execute";
 $text['button-execute']['en-gb'] = "Execute";
@@ -1316,7 +1316,7 @@ $text['button-view']['tr-tr'] = "Görüntüle";
 $text['button-view']['zh-cn'] = "看法";
 $text['button-view']['ja-jp'] = "意見";
 $text['button-view']['ko-kr'] = "보다";
-$text['button-view']['fa'] = "مشاهده";
+$text['button-view']['fa-ir'] = "مشاهده";
 
 $text['button-upload']['en-us'] = "Upload";
 $text['button-upload']['en-gb'] = "Upload";
@@ -1707,7 +1707,7 @@ $text['button-import']['tr-tr'] = "İçe Aktar";
 $text['button-import']['zh-cn'] = "进口";
 $text['button-import']['ja-jp'] = "輸入";
 $text['button-import']['ko-kr'] = "수입";
-$text['button-import']['fa'] = "درون ریزی";
+$text['button-import']['fa-ir'] = "درون ریزی";
 
 $text['button-qr_code']['en-us'] = "QR Code";
 $text['button-qr_code']['en-gb'] = "QR Code";
@@ -1890,7 +1890,7 @@ $text['button-remove']['tr-tr'] = "Sil";
 $text['button-remove']['zh-cn'] = "消除";
 $text['button-remove']['ja-jp'] = "削除";
 $text['button-remove']['ko-kr'] = "제거하다";
-$text['button-remove']['fa'] = "حذف کردن";
+$text['button-remove']['fa-ir'] = "حذف کردن";
 
 $text['button-continue']['en-us'] = "Continue";
 $text['button-continue']['en-gb'] = "Continue";
@@ -5973,7 +5973,7 @@ $text['button-hide']['zh-cn'] = "隐藏";
 $text['button-hide']['ja-jp'] = "隠れる";
 $text['button-hide']['ko-kr'] = "숨다";
 
-$text['label-search']['fa'] = "جست و جو ...";
+$text['label-search']['fa-ir'] = "جست و جو ...";
 
 
 ?>

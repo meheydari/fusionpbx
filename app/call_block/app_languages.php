@@ -1119,95 +1119,95 @@ $text['button-block']['ko-kr'] = "차단하다";
 
 
 
-$text['title-call-block']['fa'] = "مسدود کردن تماس";
+$text['title-call-block']['fa-ir'] = "مسدود کردن تماس";
 
-$text['heading-recent_calls']['fa'] = "تماس‌های اخیر";
+$text['heading-recent_calls']['fa-ir'] = "تماس‌های اخیر";
 
-$text['heading-block_recent_calls']['fa'] = "مسدود کردن تماس‌های اخیر";
+$text['heading-block_recent_calls']['fa-ir'] = "مسدود کردن تماس‌های اخیر";
 
-$text['label-update-complete']['fa'] = "به‌روزرسانی کامل شد";
+$text['label-update-complete']['fa-ir'] = "به‌روزرسانی کامل شد";
 
-$text['label-reject']['fa'] = "رد کردن";
+$text['label-reject']['fa-ir'] = "رد کردن";
 
-$text['label-provide-number']['fa'] = "لطفاً شماره را ارائه دهید";
+$text['label-provide-number']['fa-ir'] = "لطفاً شماره را ارائه دهید";
 
-$text['label-provide-name']['fa'] = "لطفاً نام را ارائه دهید";
+$text['label-provide-name']['fa-ir'] = "لطفاً نام را ارائه دهید";
 
-$text['label-provide-enabled']['fa'] = "لطفاً وضعیت فعال را ارائه دهید";
+$text['label-provide-enabled']['fa-ir'] = "لطفاً وضعیت فعال را ارائه دهید";
 
-$text['label-country_code']['fa'] = "کد کشور";
+$text['label-country_code']['fa-ir'] = "کد کشور";
 
-$text['label-number']['fa'] = "شماره";
+$text['label-number']['fa-ir'] = "شماره";
 
-$text['label-message']['fa'] = "پیام";
+$text['label-message']['fa-ir'] = "پیام";
 
-$text['label-ivr_menus']['fa'] = "منوهای IVR";
+$text['label-ivr_menus']['fa-ir'] = "منوهای IVR";
 
-$text['label-ivr']['fa'] = "IVR";
+$text['label-ivr']['fa-ir'] = "IVR";
 
-$text['label-ring_groups']['fa'] = "گروه‌های زنگ";
+$text['label-ring_groups']['fa-ir'] = "گروه‌های زنگ";
 
-$text['label-ring_group']['fa'] = "گروه زنگ";
+$text['label-ring_group']['fa-ir'] = "گروه زنگ";
 
-$text['label-local']['fa'] = "محلی";
+$text['label-local']['fa-ir'] = "محلی";
 
-$text['label-inbound']['fa'] = "ورودی";
+$text['label-inbound']['fa-ir'] = "ورودی";
 
-$text['label-outbound']['fa'] = "خروجی";
+$text['label-outbound']['fa-ir'] = "خروجی";
 
-$text['label-destination']['fa'] = "مقصد";
+$text['label-destination']['fa-ir'] = "مقصد";
 
-$text['label-edit-note']['fa'] = "مسدود کردن تماس‌ها از یک شماره. نام را ویرایش و فعال/غیرفعال کنید.";
+$text['label-edit-note']['fa-ir'] = "مسدود کردن تماس‌ها از یک شماره. نام را ویرایش و فعال/غیرفعال کنید.";
 
-$text['label-edit-edit']['fa'] = "مسدود کردن تماس";
+$text['label-edit-edit']['fa-ir'] = "مسدود کردن تماس";
 
-$text['label-edit-add']['fa'] = "مسدود کردن تماس";
+$text['label-edit-add']['fa-ir'] = "مسدود کردن تماس";
 
-$text['label-duration']['fa'] = "مدت زمان";
+$text['label-duration']['fa-ir'] = "مدت زمان";
 
-$text['label-delete-complete']['fa'] = "حذف کامل شد";
+$text['label-delete-complete']['fa-ir'] = "حذف کامل شد";
 
-$text['label-date-added']['fa'] = "تاریخ اضافه شدن";
+$text['label-date-added']['fa-ir'] = "تاریخ اضافه شدن";
 
-$text['label-count']['fa'] = "تعداد";
+$text['label-count']['fa-ir'] = "تعداد";
 
-$text['label-called']['fa'] = "تماس گرفته‌شده";
+$text['label-called']['fa-ir'] = "تماس گرفته‌شده";
 
-$text['label-busy']['fa'] = "مشغول";
+$text['label-busy']['fa-ir'] = "مشغول";
 
-$text['label-hold']['fa'] = "در انتظار";
+$text['label-hold']['fa-ir'] = "در انتظار";
 
-$text['label-missed']['fa'] = "از دست رفته";
+$text['label-missed']['fa-ir'] = "از دست رفته";
 
-$text['label-voicemail']['fa'] = "پیام صوتی";
+$text['label-voicemail']['fa-ir'] = "پیام صوتی";
 
-$text['label-add-note']['fa'] = "مسدود کردن تماس‌ها از یک شماره. یک شماره از لیست بالا انتخاب کنید یا شماره، نام و وضعیت فعال را وارد کنید.";
+$text['label-add-note']['fa-ir'] = "مسدود کردن تماس‌ها از یک شماره. یک شماره از لیست بالا انتخاب کنید یا شماره، نام و وضعیت فعال را وارد کنید.";
 
-$text['label-add-complete']['fa'] = "اضافه کردن کامل شد";
+$text['label-add-complete']['fa-ir'] = "اضافه کردن کامل شد";
 
-$text['label-action']['fa'] = "عملکرد";
+$text['label-action']['fa-ir'] = "عملکرد";
 
-$text['label-direction']['fa'] = "جهت";
+$text['label-direction']['fa-ir'] = "جهت";
 
-$text['description-direction']['fa'] = "جهت تماس‌هایی که باید مسدود شوند را انتخاب کنید.";
+$text['description-direction']['fa-ir'] = "جهت تماس‌هایی که باید مسدود شوند را انتخاب کنید.";
 
-$text['description-call_block_name']['fa'] = "نام شناسه تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
+$text['description-call_block_name']['fa-ir'] = "نام شناسه تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
 
-$text['description-country_code']['fa'] = "پیشوند کد کشور را وارد کنید.";
+$text['description-country_code']['fa-ir'] = "پیشوند کد کشور را وارد کنید.";
 
-$text['description-call_block_number']['fa'] = "کد کشور و شماره تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
+$text['description-call_block_number']['fa-ir'] = "کد کشور و شماره تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
 
-$text['description-extension']['fa'] = "داخلی‌ای که باید تحت تأثیر قرار بگیرد را انتخاب کنید.";
+$text['description-extension']['fa-ir'] = "داخلی‌ای که باید تحت تأثیر قرار بگیرد را انتخاب کنید.";
 
-$text['description-enable']['fa'] = "برای فعال کردن مسدود کردن تماس‌ها برای این شماره، این گزینه را روی 'بله' تنظیم کنید.";
+$text['description-enable']['fa-ir'] = "برای فعال کردن مسدود کردن تماس‌ها برای این شماره، این گزینه را روی 'بله' تنظیم کنید.";
 
-$text['description-call-block']['fa'] = "لیستی از شماره‌ها برای مسدود کردن تماس‌ها.";
+$text['description-call-block']['fa-ir'] = "لیستی از شماره‌ها برای مسدود کردن تماس‌ها.";
 
-$text['description-action']['fa'] = "برای تماس‌های این شماره یک عملکرد تعیین کنید.";
+$text['description-action']['fa-ir'] = "برای تماس‌های این شماره یک عملکرد تعیین کنید.";
 
-$text['confirm-block']['fa'] = "آیا واقعاً می‌خواهید این شماره را مسدود کنید؟";
+$text['confirm-block']['fa-ir'] = "آیا واقعاً می‌خواهید این شماره را مسدود کنید؟";
 
-$text['button-block']['fa'] = "مسدود کردن";
+$text['button-block']['fa-ir'] = "مسدود کردن";
 
 
 ?>

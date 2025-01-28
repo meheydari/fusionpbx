@@ -2599,223 +2599,223 @@ $text['button-permissions']['ja-jp'] = "パーミッション";
 $text['button-permissions']['ko-kr'] = "권한";
 
 
-$text['title-users']['fa-ir'] = "کاربران";
+$text['title-users']['fa'] = "کاربران";
 
-$text['title-user_edit']['fa-ir'] = "ویرایش کاربر";
+$text['title-user_edit']['fa'] = "ویرایش کاربر";
 
-$text['title-user_import']['fa-ir'] = "وارد کردن کاربر";
+$text['title-user_import']['fa'] = "وارد کردن کاربر";
 
-$text['description-users']['fa-ir'] = "اضافه کردن، ویرایش، حذف و جستجوی کاربران.";
+$text['description-users']['fa'] = "اضافه کردن، ویرایش، حذف و جستجوی کاربران.";
 
-$text['title-user_manager']['fa-ir'] = "مدیریت کاربران";
+$text['title-user_manager']['fa'] = "مدیریت کاربران";
 
-$text['title-user']['fa-ir'] = "کاربر";
+$text['title-user']['fa'] = "کاربر";
 
-$text['option-true']['fa-ir'] = "صحیح";
+$text['option-true']['fa'] = "صحیح";
 
-$text['option-on_break']['fa-ir'] = "در حال استراحت";
+$text['option-on_break']['fa'] = "در حال استراحت";
 
-$text['option-logged_out']['fa-ir'] = "خارج شده";
+$text['option-logged_out']['fa'] = "خارج شده";
 
-$text['option-global']['fa-ir'] = "سراسری";
+$text['option-global']['fa'] = "سراسری";
 
-$text['option-false']['fa-ir'] = "غلط";
+$text['option-false']['fa'] = "غلط";
 
-$text['option-do_not_disturb']['fa-ir'] = "مزاحم نشوید";
+$text['option-do_not_disturb']['fa'] = "مزاحم نشوید";
 
-$text['option-available_on_demand']['fa-ir'] = "دردسترس (درخواست‌شده)";
+$text['option-available_on_demand']['fa'] = "دردسترس (درخواست‌شده)";
 
-$text['option-available']['fa-ir'] = "دردسترس";
+$text['option-available']['fa'] = "دردسترس";
 
-$text['option-select']['fa-ir'] = "انتخاب کنید";
+$text['option-select']['fa'] = "انتخاب کنید";
 
-$text['option-switch_round']['fa-ir'] = "سوئیچ گرد";
+$text['option-switch_round']['fa'] = "سوئیچ گرد";
 
-$text['option-switch_square']['fa-ir'] = "سوئیچ مربع";
+$text['option-switch_square']['fa'] = "سوئیچ مربع";
 
-$text['message-username_exists']['fa-ir'] = "نام کاربری از قبل موجود است";
+$text['message-username_exists']['fa'] = "نام کاربری از قبل موجود است";
 
-$text['message-password_mismatch']['fa-ir'] = "عدم تطابق رمز عبور";
+$text['message-password_mismatch']['fa'] = "عدم تطابق رمز عبور";
 
-$text['message-password_blank']['fa-ir'] = "رمز عبور نامعتبر";
+$text['message-password_blank']['fa'] = "رمز عبور نامعتبر";
 
-$text['message-password_requirements']['fa-ir'] = "الزامات رمز عبور";
+$text['message-password_requirements']['fa'] = "الزامات رمز عبور";
 
-$text['message-maximum_users']['fa-ir'] = "حداکثر کاربران:";
+$text['message-maximum_users']['fa'] = "حداکثر کاربران:";
 
-$text['message-copy']['fa-ir'] = "کپی کامل شد";
+$text['message-copy']['fa'] = "کپی کامل شد";
 
-$text['message-cannot_delete_own_account']['fa-ir'] = "شما نمی‌توانید حساب کاربری خودتان را حذف کنید. لطفاً با یک حساب کاربری دیگر وارد شوید و دوباره تلاش کنید.";
+$text['message-cannot_delete_own_account']['fa'] = "شما نمی‌توانید حساب کاربری خودتان را حذف کنید. لطفاً با یک حساب کاربری دیگر وارد شوید و دوباره تلاش کنید.";
 
-$text['message-invalid_user']['fa-ir'] = "کاربر نامعتبر";
+$text['message-invalid_user']['fa'] = "کاربر نامعتبر";
 
-$text['message-unsaved_changes']['fa-ir'] = "تغییرات ذخیره‌نشده";
+$text['message-unsaved_changes']['fa'] = "تغییرات ذخیره‌نشده";
 
-$text['message-green_border_passwords_match']['fa-ir'] = "کادرهای سبز نشان می‌دهند که رمزهای عبور مطابقت دارند.";
+$text['message-green_border_passwords_match']['fa'] = "کادرهای سبز نشان می‌دهند که رمزهای عبور مطابقت دارند.";
 
-$text['label-web_fonts']['fa-ir'] = "فونت‌های وب";
+$text['label-web_fonts']['fa'] = "فونت‌های وب";
 
-$text['label-username']['fa-ir'] = "نام کاربری";
+$text['label-username']['fa'] = "نام کاربری";
 
-$text['label-user_language']['fa-ir'] = "زبان";
+$text['label-user_language']['fa'] = "زبان";
 
-$text['label-user_info']['fa-ir'] = "اطلاعات کاربر";
+$text['label-user_info']['fa'] = "اطلاعات کاربر";
 
-$text['label-uppercase_letters']['fa-ir'] = "حروف بزرگ";
+$text['label-uppercase_letters']['fa'] = "حروف بزرگ";
 
-$text['label-top']['fa-ir'] = "بالا";
+$text['label-top']['fa'] = "بالا";
 
-$text['label-time_zone']['fa-ir'] = "منطقه زمانی";
+$text['label-time_zone']['fa'] = "منطقه زمانی";
 
-$text['label-text']['fa-ir'] = "متن";
+$text['label-text']['fa'] = "متن";
 
-$text['label-status']['fa-ir'] = "وضعیت";
+$text['label-status']['fa'] = "وضعیت";
 
-$text['label-static']['fa-ir'] = "ایستا";
+$text['label-static']['fa'] = "ایستا";
 
-$text['label-special_characters']['fa-ir'] = "کاراکترهای خاص";
+$text['label-special_characters']['fa'] = "کاراکترهای خاص";
 
-$text['label-right']['fa-ir'] = "راست";
+$text['label-right']['fa'] = "راست";
 
-$text['label-reference']['fa-ir'] = "مشاهده";
+$text['label-reference']['fa'] = "مشاهده";
 
-$text['label-permission_permissions']['fa-ir'] = "دسترسی‌ها";
+$text['label-permission_permissions']['fa'] = "دسترسی‌ها";
 
-$text['label-permission_description']['fa-ir'] = "توضیحات";
+$text['label-permission_description']['fa'] = "توضیحات";
 
-$text['label-password']['fa-ir'] = "رمز عبور";
+$text['label-password']['fa'] = "رمز عبور";
 
-$text['label-other']['fa-ir'] = "سایر";
+$text['label-other']['fa'] = "سایر";
 
-$text['label-numbers']['fa-ir'] = "اعداد";
+$text['label-numbers']['fa'] = "اعداد";
 
-$text['label-none']['fa-ir'] = "هیچ";
+$text['label-none']['fa'] = "هیچ";
 
-$text['label-lowercase_letters']['fa-ir'] = "حروف کوچک";
+$text['label-lowercase_letters']['fa'] = "حروف کوچک";
 
-$text['label-left']['fa-ir'] = "چپ";
+$text['label-left']['fa'] = "چپ";
 
-$text['label-last_name']['fa-ir'] = "نام خانوادگی";
+$text['label-last_name']['fa'] = "نام خانوادگی";
 
-$text['label-inline']['fa-ir'] = "خطی";
+$text['label-inline']['fa'] = "خطی";
 
-$text['label-image']['fa-ir'] = "تصویر";
+$text['label-image']['fa'] = "تصویر";
 
-$text['label-groups']['fa-ir'] = "گروه‌ها";
+$text['label-groups']['fa'] = "گروه‌ها";
 
-$text['label-group']['fa-ir'] = "گروه";
+$text['label-group']['fa'] = "گروه";
 
-$text['label-organization']['fa-ir'] = "سازمان";
+$text['label-organization']['fa'] = "سازمان";
 
-$text['label-global']['fa-ir'] = "سراسری";
+$text['label-global']['fa'] = "سراسری";
 
-$text['label-fixed']['fa-ir'] = "ثابت";
+$text['label-fixed']['fa'] = "ثابت";
 
-$text['label-first_name']['fa-ir'] = "نام";
+$text['label-first_name']['fa'] = "نام";
 
-$text['label-email']['fa-ir'] = "ایمیل";
+$text['label-email']['fa'] = "ایمیل";
 
-$text['label-domain']['fa-ir'] = "دامنه";
+$text['label-domain']['fa'] = "دامنه";
 
-$text['label-contact']['fa-ir'] = "تماس";
+$text['label-contact']['fa'] = "تماس";
 
-$text['label-confirm_password']['fa-ir'] = "تأیید رمز عبور";
+$text['label-confirm_password']['fa'] = "تأیید رمز عبور";
 
-$text['label-company_name']['fa-ir'] = "نام شرکت";
+$text['label-company_name']['fa'] = "نام شرکت";
 
-$text['label-characters']['fa-ir'] = "طول رمز عبور نامعتبر";
+$text['label-characters']['fa'] = "طول رمز عبور نامعتبر";
 
-$text['label-required']['fa-ir'] = "اجباری";
+$text['label-required']['fa'] = "اجباری";
 
-$text['label-number']['fa-ir'] = "عدد";
+$text['label-number']['fa'] = "عدد";
 
-$text['label-lowercase']['fa-ir'] = "حروف کوچک";
+$text['label-lowercase']['fa'] = "حروف کوچک";
 
-$text['label-uppercase']['fa-ir'] = "حروف بزرگ";
+$text['label-uppercase']['fa'] = "حروف بزرگ";
 
-$text['label-special']['fa-ir'] = "خاص";
+$text['label-special']['fa'] = "خاص";
 
-$text['label-center']['fa-ir'] = "مرکز";
+$text['label-center']['fa'] = "مرکز";
 
-$text['label-bottom']['fa-ir'] = "پایین";
+$text['label-bottom']['fa'] = "پایین";
 
-$text['label-api_key']['fa-ir'] = "کلید API";
+$text['label-api_key']['fa'] = "کلید API";
 
-$text['label-message_key']['fa-ir'] = "کلید پیام";
+$text['label-message_key']['fa'] = "کلید پیام";
 
-$text['label-user_enabled']['fa-ir'] = "فعال";
+$text['label-user_enabled']['fa'] = "فعال";
 
-$text['label-additional_info']['fa-ir'] = "اطلاعات اضافی";
+$text['label-additional_info']['fa'] = "اطلاعات اضافی";
 
-$text['label-24-hour']['fa-ir'] = "۲۴ ساعته";
+$text['label-24-hour']['fa'] = "۲۴ ساعته";
 
-$text['label-12-hour']['fa-ir'] = "۱۲ ساعته";
+$text['label-12-hour']['fa'] = "۱۲ ساعته";
 
-$text['label-dynamic']['fa-ir'] = "پویا";
+$text['label-dynamic']['fa'] = "پویا";
 
-$text['label-single']['fa-ir'] = "تکی";
+$text['label-single']['fa'] = "تکی";
 
-$text['label-multiple']['fa-ir'] = "چندتایی";
+$text['label-multiple']['fa'] = "چندتایی";
 
-$text['header-user_manager']['fa-ir'] = "کاربران";
+$text['header-user_manager']['fa'] = "کاربران";
 
-$text['header-user_edit']['fa-ir'] = "کاربر";
+$text['header-user_edit']['fa'] = "کاربر";
 
-$text['header-user_add']['fa-ir'] = "کاربر";
+$text['header-user_add']['fa'] = "کاربر";
 
-$text['header-user_import']['fa-ir'] = "وارد کردن کاربر";
+$text['header-user_import']['fa'] = "وارد کردن کاربر";
 
-$text['header-user_settings']['fa-ir'] = "تنظیمات کاربر";
+$text['header-user_settings']['fa'] = "تنظیمات کاربر";
 
-$text['header_description-user_settings']['fa-ir'] = "تنظیمات برای این کاربر که بر تنظیمات دامنه یا پیش‌فرض اولویت دارد.";
+$text['header_description-user_settings']['fa'] = "تنظیمات برای این کاربر که بر تنظیمات دامنه یا پیش‌فرض اولویت دارد.";
 
-$text['description-user_manager']['fa-ir'] = "اضافه کردن، ویرایش، حذف و جستجوی کاربران.";
+$text['description-user_manager']['fa'] = "اضافه کردن، ویرایش، حذف و جستجوی کاربران.";
 
-$text['description-user_language']['fa-ir'] = "زبان را انتخاب کنید.";
+$text['description-user_language']['fa'] = "زبان را انتخاب کنید.";
 
-$text['description-user_edit']['fa-ir'] = "اطلاعات کاربر و عضویت در گروه را ویرایش کنید.";
+$text['description-user_edit']['fa'] = "اطلاعات کاربر و عضویت در گروه را ویرایش کنید.";
 
-$text['description-user_add']['fa-ir'] = "برای افزودن کاربر، این فرم را به طور کامل پر کنید. تمام فیلدها الزامی هستند.";
+$text['description-user_add']['fa'] = "برای افزودن کاربر، این فرم را به طور کامل پر کنید. تمام فیلدها الزامی هستند.";
 
-$text['description-time_zone']['fa-ir'] = "منطقه زمانی پیش‌فرض را انتخاب کنید.";
+$text['description-time_zone']['fa'] = "منطقه زمانی پیش‌فرض را انتخاب کنید.";
 
-$text['description-status']['fa-ir'] = "حضور کاربر را تنظیم کنید.";
+$text['description-status']['fa'] = "حضور کاربر را تنظیم کنید.";
 
-$text['description-enabled']['fa-ir'] = "وضعیت این حساب کاربری را تنظیم کنید.";
+$text['description-enabled']['fa'] = "وضعیت این حساب کاربری را تنظیم کنید.";
 
-$text['description-contact_view']['fa-ir'] = "نمایش";
+$text['description-contact_view']['fa'] = "نمایش";
 
-$text['description-contact']['fa-ir'] = "یک تماس به این حساب کاربری اختصاص دهید.";
+$text['description-contact']['fa'] = "یک تماس به این حساب کاربری اختصاص دهید.";
 
-$text['description-api_key']['fa-ir'] = "از دکمه تولید برای ایجاد یک کلید استفاده کنید.";
+$text['description-api_key']['fa'] = "از دکمه تولید برای ایجاد یک کلید استفاده کنید.";
 
-$text['description-message_key']['fa-ir'] = "از دکمه تولید برای ایجاد یک کلید استفاده کنید.";
+$text['description-message_key']['fa'] = "از دکمه تولید برای ایجاد یک کلید استفاده کنید.";
 
-$text['label-user_type']['fa-ir'] = "نوع";
+$text['label-user_type']['fa'] = "نوع";
 
-$text['description-user_type']['fa-ir'] = "پیش‌فرض را برای فعال کردن ورود انتخاب کنید یا برای غیرفعال کردن ورود، مجازی را انتخاب کنید.";
+$text['description-user_type']['fa'] = "پیش‌فرض را برای فعال کردن ورود انتخاب کنید یا برای غیرفعال کردن ورود، مجازی را انتخاب کنید.";
 
-$text['label-user_totp_secret']['fa-ir'] = "TOTP";
+$text['label-user_totp_secret']['fa'] = "TOTP";
 
-$text['description-user_totp_secret']['fa-ir'] = "دکمه تنظیم را فشار دهید تا رمز یکبار مصرف مبتنی بر زمان تولید شود.";
+$text['description-user_totp_secret']['fa'] = "دکمه تنظیم را فشار دهید تا رمز یکبار مصرف مبتنی بر زمان تولید شود.";
 
-$text['description-user_totp_qr_code']['fa-ir'] = "کد QR را با یک برنامه احراز هویت اسکن کنید.";
+$text['description-user_totp_qr_code']['fa'] = "کد QR را با یک برنامه احراز هویت اسکن کنید.";
 
-$text['description-user_totp_view']['fa-ir'] = "کد QR را نمایش دهید، پنهان کنید یا غیرفعال کنید.";
+$text['description-user_totp_view']['fa'] = "کد QR را نمایش دهید، پنهان کنید یا غیرفعال کنید.";
 
-$text['confirm-delete']['fa-ir'] = "آیا واقعاً می‌خواهید این را حذف کنید؟";
+$text['confirm-delete']['fa'] = "آیا واقعاً می‌خواهید این را حذف کنید؟";
 
-$text['button-show_all']['fa-ir'] = "نمایش همه";
+$text['button-show_all']['fa'] = "نمایش همه";
 
-$text['button-generate']['fa-ir'] = "تولید";
+$text['button-generate']['fa'] = "تولید";
 
-$text['button-create_account']['fa-ir'] = "ایجاد حساب";
+$text['button-create_account']['fa'] = "ایجاد حساب";
 
-$text['button-add_member']['fa-ir'] = "اضافه کردن عضو";
+$text['button-add_member']['fa'] = "اضافه کردن عضو";
 
-$text['button-add']['fa-ir'] = "افزودن";
+$text['button-add']['fa'] = "افزودن";
 
-$text['button-permissions']['fa-ir'] = "دسترسی‌ها";
+$text['button-permissions']['fa'] = "دسترسی‌ها";
 
 
 ?>

@@ -420,3 +420,7 @@ div.hud_details {
     background: #F1F1F2;
     color: #7E8299;
 }
+
+div#menu_side_container > a:first-of-type {
+    flex-direction: row;
+}

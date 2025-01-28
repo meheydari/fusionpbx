@@ -1156,7 +1156,7 @@ if (!class_exists('menu')) {
 				$html .= button::create(['type'=>'button','id'=>'menu_side_state_hidden_button','title'=>$this->text['theme-label-expand_menu'],'icon'=>'bars','class'=>'default '.($_SESSION['theme']['menu_side_state']['text'] != 'hidden' ? 'hide-sm-up ' : null).'float-left','onclick'=>'menu_side_expand();']);
 				$body_header_brand_text = !empty($_SESSION['theme']['body_header_brand_text']['text']) ? escape($_SESSION['theme']['body_header_brand_text']['text']) : "FusionPBX";
 				if ($_SESSION['theme']['body_header_brand_type']['text'] == 'image' || $_SESSION['theme']['body_header_brand_type']['text'] == 'image_text') {
-					$body_header_brand_image = !empty($_SESSION['theme']['body_header_brand_image']['text']) ? $_SESSION['theme']['body_header_brand_image']['text'] : PROJECT_PATH."/themes/default/images/logo_side_expanded.png";
+					$body_header_brand_image = !empty($_SESSION['theme']['body_header_brand_image']['text']) ? $_SESSION['theme']['body_header_brand_image']['text'] : PROJECT_PATH."/themes/default/images/logo-sidebar.svg";
 					$html .= 	"<div id='body_header_brand_image'>";
 					$html .= 		"<a href='".PROJECT_PATH."/'><img id='body_header_brand_image' src='".escape($body_header_brand_image)."' title=\"".escape($body_header_brand_text)."\"></a>";
 					$html .= 	"</div>";

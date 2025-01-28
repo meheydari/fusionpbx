@@ -424,3 +424,7 @@ div.hud_details {
 div#menu_side_container > a:first-of-type {
     flex-direction: row;
 }
+
+.codarx-menu-icon{
+    margin-left: 14px;
+}

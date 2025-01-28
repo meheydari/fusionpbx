@@ -1121,9 +1121,10 @@ if (!class_exists('menu')) {
 						}
 						$html .= "<div class='menu-container-codarx'>";
 						if (!empty($menu_item_main['menu_item_icon'])) {
-							$filename = "../../themes/default/images/icon/" . $array['icon']['text'] . ".svg";
+							$menu_icon_name = 'fas '.$menu_item_main['menu_item_icon'];
+							$filename = "../../themes/default/images/icon/" . $menu_icon_name . ".svg";
 							if (file_exists($filename)) {
-								$html .= "<img src='../../themes/default/images/icon/" . $array['icon']['text'] . ".svg' />";
+								$html .= "<img src='../../themes/default/images/icon/" . $menu_icon_name . ".svg' />";
 							} else {
 								$html .= "<i class='menu_side_item_icon fas ".$menu_item_main['menu_item_icon']." fa-fw' style='z-index: 99800;'></i>";
 							}

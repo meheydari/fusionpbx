@@ -5978,6 +5978,8 @@ $text['label-status']['fa'] = "وضعیت";
 $text['label-enabled']['fa'] = "وضعیت";
 $text['button-back']['fa'] = "بازگشت";
 $text['button-save']['fa'] = "ذخیره تغییرات";
+$text['label-description']['fa'] = "توضیحات";
+
 
 
 ?>

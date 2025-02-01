@@ -1083,7 +1083,7 @@ if (!class_exists('menu')) {
 
 			//menu brand image and/or text
 				$html .= "	<div id='menu_side_control_container'>\n";
-				$html .= "		<div class='menu_side_control_state' style='float: right; ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? 'display: none' : null)."'>\n";
+				$html .= "		<div class='menu_side_control_state d-lg-none' style='float: right; ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? 'display: none' : null)."'>\n";
 				if ($_SESSION['theme']['menu_brand_type']['text'] != 'none') {
 					$html .= "		<a class='menu_side_item_main menu_side_contract' onclick='menu_side_contract();' style='padding: 8px 15px !important; ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "display: none;" : null)."'><i class='fas fa-bars fa-fw'></i></a>\n";
 				}

@@ -2369,4 +2369,6 @@ $text['description-conditions_and_actions']['fa'] = "شرایط، اقدامات
 $text['billing-warning']['fa'] = "اگر از اپلیکیشن صورتحساب FusionPBX استفاده می‌کنید، مطمئن شوید که متغیرهای accountcode و carrier را اضافه کرده‌اید.";
 
 $text['label-order']['fa'] = "ترتیب";
+$text['label-enabled']['fa'] = "وضعیت";
+$text['label-description']['fa'] = "توضیحات";
 ?>

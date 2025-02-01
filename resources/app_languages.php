@@ -5974,6 +5974,8 @@ $text['button-hide']['ja-jp'] = "隠れる";
 $text['button-hide']['ko-kr'] = "숨다";
 
 $text['label-search']['fa'] = "جست و جو ...";
+$text['label-status']['fa'] = "وضعیت";
+
 
 
 ?>

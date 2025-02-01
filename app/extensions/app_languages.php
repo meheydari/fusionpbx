@@ -3662,7 +3662,7 @@ $text['label-line']['fa'] = "خط";
 
 $text['label-max_registrations']['fa'] = "حداکثر ثبت‌نام‌ها";
 
-$text['label-limit_max']['fa'] = "حداکثر محدودیت";
+$text['label-limit_max']['fa'] = "حداکثر تعداد تماس های خروجی";
 
 $text['label-limit_destination']['fa'] = "مقصد محدودیت";
 

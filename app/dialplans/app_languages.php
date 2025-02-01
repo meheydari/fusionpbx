@@ -2314,7 +2314,7 @@ $text['label-hostname']['fa'] = "نام میزبان";
 
 $text['label-continue']['fa'] = "ادامه";
 
-$text['label-context']['fa'] = "متن";
+$text['label-context']['fa'] = "دامنه";
 
 $text['label-condition_2']['fa'] = "شرط ۲";
 

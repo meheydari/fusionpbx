@@ -432,3 +432,7 @@ div#menu_side_container > a:first-of-type {
 .codarx-menu-icon{
     margin-left: 8px;
 }
+
+select.formfld {
+    width: auto !important;
+}

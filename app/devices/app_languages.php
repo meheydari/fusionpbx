@@ -23,6 +23,8 @@ $text['title-devices']['uk-ua'] = "Пристрої";
 $text['title-devices']['zh-cn'] = "设备";
 $text['title-devices']['ja-jp'] = "デバイス";
 $text['title-devices']['ko-kr'] = "장치";
+$text['title-devices']['fa'] = "دستگاه‌ها";
+
 
 $text['title-device']['en-us'] = "Device";
 $text['title-device']['en-gb'] = "Device";
@@ -6655,5 +6657,323 @@ $text['label-column_name']['uk-ua'] = "Назва стовпа";
 $text['label-column_name']['zh-cn'] = "列名";
 $text['label-column_name']['ja-jp'] = "列名";
 $text['label-column_name']['ko-kr'] = "열 이름";
+
+
+$text['title-devices']['fa'] = "دستگاه‌ها";
+$text['title-device']['fa'] = "دستگاه";
+$text['title-device_import']['fa'] = "وارد کردن دستگاه";
+$text['title-device_export']['fa'] = "صادر کردن دستگاه";
+$text['title-device_profiles']['fa'] = "پروفایل‌های دستگاه";
+$text['title-device_profile']['fa'] = "پروفایل دستگاه";
+$text['title-device_keys']['fa'] = "کلیدهای دستگاه";
+$text['title-device_key']['fa'] = "کلید دستگاه";
+$text['select-global']['fa'] = "سراسری";
+$text['message_device']['fa'] = "آدرس جدید را وارد کنید";
+$text['message-maximum_devices']['fa'] = "حداکثر دستگاه‌ها:";
+$text['message-duplicate_username']['fa'] = "نام کاربری تکراری شناسایی شد";
+$text['message-duplicate']['fa'] = "تکراری شناسایی شد";
+$text['message-command_sent']['fa'] = "دستور ارسال شد";
+$text['label-zero_sp_touch']['fa'] = "Zero-Sp-Touch";
+$text['label-zero_touch']['fa'] = "Zero Touch";
+$text['label-xml_directory']['fa'] = "دایرکتوری XML";
+$text['label-xml_phonebook']['fa'] = "دفترچه تلفن XML";
+$text['label-xml_group']['fa'] = "گروه XML";
+$text['label-xml_browser']['fa'] = "مرورگر XML";
+$text['label-voicemail']['fa'] = "پیام‌گیر صوتی";
+$text['label-user']['fa'] = "کاربر";
+$text['label-user_id']['fa'] = "شناسه کاربر";
+$text['label-url_record']['fa'] = "ثبت URL";
+$text['label-url']['fa'] = "URL";
+$text['label-transfer']['fa'] = "انتقال";
+$text['label-tools']['fa'] = "ابزارها";
+$text['label-switch_account_up']['fa'] = "تغییر حساب به بالا";
+$text['label-switch_account_down']['fa'] = "تغییر حساب به پایین";
+$text['label-status']['fa'] = "وضعیت";
+$text['label-user_agent']['fa'] = "نماینده کاربر";
+$text['label-speed_dial_active']['fa'] = "شماره‌گیری سریع فعال";
+$text['label-speed_dial']['fa'] = "شماره‌گیری سریع";
+$text['label-speed_dial_prefix']['fa'] = "پیشوند شماره‌گیری سریع";
+$text['label-sms']['fa'] = "پیامک";
+$text['label-sip_transport']['fa'] = "حمل و نقل";
+$text['label-sip_port']['fa'] = "پورت";
+$text['label-shared_line']['fa'] = "خط مشترک";
+$text['label-settings']['fa'] = "تنظیمات";
+$text['label-server_address']['fa'] = "آدرس سرور";
+$text['label-server_address_primary']['fa'] = "آدرس اصلی";
+$text['label-server_address_secondary']['fa'] = "آدرس ثانویه";
+$text['label-register_expires']['fa'] = "انقضای ثبت‌نام";
+$text['label-redirect']['fa'] = "تغییر مسیر";
+$text['label-redial']['fa'] = "تماس مجدد";
+$text['label-record']['fa'] = "ضبط";
+$text['label-pickup']['fa'] = "پاسخ";
+$text['label-public_hold']['fa'] = "نگه‌داشت عمومی";
+$text['label-programmable']['fa'] = "قابل برنامه‌ریزی";
+$text['label-device_profile_name']['fa'] = "نام";
+$text['label-device_profile_enabled']['fa'] = "فعال";
+$text['label-profile_domain']['fa'] = "دامنه";
+
+$text['label-dial_dtmf']['fa'] = "شماره‌گیری DTMF";
+
+$text['label-device_vendor']['fa'] = "تولیدکننده";
+
+$text['label-device_location']['fa'] = "مکان";
+
+$text['label-device_key_vendor']['fa'] = "تولیدکننده";
+
+$text['label-device_uuid_alternate']['fa'] = "جایگزین";
+
+$text['label-device_username']['fa'] = "نام کاربری";
+
+$text['label-device_time_zone']['fa'] = "منطقه زمانی";
+
+$text['label-device_template']['fa'] = "قالب";
+
+$text['label-device_setting_value']['fa'] = "مقدار";
+
+$text['label-device_setting_name']['fa'] = "نام";
+
+$text['label-device_setting_description']['fa'] = "توضیحات";
+
+$text['label-device_profiles']['fa'] = "پروفایل‌ها";
+
+$text['label-device_enabled']['fa'] = "فعال شده";
+
+$text['label-device_password']['fa'] = "رمز عبور";
+
+$text['label-device_profile']['fa'] = "پروفایل";
+
+$text['label-device_profile_keys']['fa'] = "کلیدها";
+
+$text['label-device_profile_settings']['fa'] = "تنظیمات";
+
+$text['label-device_model']['fa'] = "مدل";
+
+$text['label-device_address']['fa'] = "آدرس";
+
+$text['label-download']['fa'] = "دانلود";
+
+$text['label-device_label']['fa'] = "برچسب";
+
+$text['label-device_key_value']['fa'] = "مقدار";
+
+$text['label-device_key_type']['fa'] = "نوع";
+
+$text['label-device_key_subtype']['fa'] = "زیرنوع";
+
+$text['label-device_key_line']['fa'] = "خط";
+
+$text['label-device_key_label']['fa'] = "برچسب";
+
+$text['label-device_key_icon']['fa'] = "آیکون";
+
+$text['label-device_key_id']['fa'] = "کلید";
+
+$text['label-device_key_extension']['fa'] = "داخلی";
+
+$text['label-device_key_category']['fa'] = "دسته‌بندی";
+
+$text['label-device_firmware_version']['fa'] = "نسخه سیستم‌عامل";
+
+$text['label-device_description']['fa'] = "توضیحات";
+
+$text['label-device_status']['fa'] = "وضعیت";
+
+$text['label-device']['fa'] = "دستگاه";
+
+$text['label-conference']['fa'] = "کنفرانس";
+
+$text['label-call_return']['fa'] = "بازگشت تماس";
+
+$text['label-call_pickup']['fa'] = "برداشت تماس";
+
+$text['label-call_park']['fa'] = "پارک تماس";
+
+$text['label-call_agent']['fa'] = "نماینده تماس";
+
+$text['label-button']['fa'] = "دکمه";
+
+$text['label-phonebook']['fa'] = "دفترچه تلفن";
+
+$text['label-broadsoft_phonebook']['fa'] = "دفترچه تلفن Broadsoft";
+
+$text['label-broadsoft_group']['fa'] = "گروه Broadsoft";
+
+$text['label-blf_bxfer']['fa'] = "انتقال کور BLF";
+
+$text['label-blf_axfer']['fa'] = "انتقال با نظارت BLF";
+
+$text['label-blf_xfer']['fa'] = "انتقال BLF";
+
+$text['label-blf_list']['fa'] = "لیست BLF";
+
+$text['label-blf']['fa'] = "BLF";
+
+$text['label-blf_new']['fa'] = "BLF/تماس جدید";
+
+$text['label-blf_new_video']['fa'] = "تماس ویدیویی جدید BLF";
+
+$text['label-blf_conference']['fa'] = "BLF/کنفرانس";
+
+$text['label-callers']['fa'] = "تماس‌گیرندگان";
+
+$text['label-xfer']['fa'] = "انتقال";
+
+$text['label-automata']['fa'] = "خودکار";
+
+$text['label-messages']['fa'] = "پیام‌ها";
+
+$text['label-micmute']['fa'] = "قطع میکروفن";
+
+$text['label-null']['fa'] = "تهی";
+
+$text['label-speeddial']['fa'] = "شماره‌گیری سریع";
+
+$text['label-direct_pickup']['fa'] = "برداشت مستقیم";
+
+$text['label-speeddialmenu']['fa'] = "منوی شماره‌گیری سریع";
+
+$text['label-auto_answer']['fa'] = "پاسخ خودکار";
+
+$text['label-auth_id']['fa'] = "شناسه احراز هویت";
+
+$text['label-action_url']['fa'] = "URL عملیات";
+
+$text['label-acd']['fa'] = "مرکز توزیع خودکار تماس (ACD)";
+
+$text['label-not_programmed']['fa'] = "برنامه‌ریزی نشده";
+
+$text['label-call_log']['fa'] = "گزارش تماس";
+
+$text['label-phone_book']['fa'] = "دفترچه تلفن";
+
+$text['label-advisory_message']['fa'] = "پیام مشاوره‌ای روشن/خاموش";
+
+$text['label-pc_application']['fa'] = "برنامه PC";
+
+$text['label-headset_on_off']['fa'] = "هدست روشن/خاموش";
+
+$text['label-rss_feed']['fa'] = "خوراک RSS";
+
+$text['label-html_application']['fa'] = "برنامه HTML";
+
+$text['label-speed_dial_blf']['fa'] = "شماره‌گیری سریع + BLF";
+
+$text['label-ent_phone_book']['fa'] = "دفترچه تلفن سازمانی";
+
+$text['label-missed_calls']['fa'] = "تماس‌های از دست رفته";
+
+$text['label-received_calls']['fa'] = "تماس‌های دریافتی";
+
+$text['label-dialed_calls']['fa'] = "تماس‌های گرفته شده";
+
+$text['label-enable_account']['fa'] = "فعال/غیرفعال کردن حساب SIP";
+
+$text['label-provison_now']['fa'] = "پیکربندی خودکار فوری";
+
+$text['label-paging_list']['fa'] = "لیست پخش";
+
+$text['label-auto_answer_intercom']['fa'] = "پاسخ خودکار داخلی";
+
+$text['label-acd_sign_on_off']['fa'] = "ورود/خروج ACD";
+
+$text['label-blind_transfer']['fa'] = "انتقال کور";
+
+$text['label-block_anonymous_call']['fa'] = "مسدود کردن تماس ناشناس";
+
+$text['label-block_caller_id']['fa'] = "مسدود کردن شناسه تماس‌گیرنده";
+
+$text['label-busy_lamp_field']['fa'] = "فیلد چراغ مشغول (BLF)";
+
+$text['label-call_appearance']['fa'] = "ظاهر تماس";
+
+$text['label-call_park_monitor']['fa'] = "نظارت بر پارک تماس";
+
+$text['label-call_waiting']['fa'] = "انتظار تماس";
+
+$text['label-disposition_code']['fa'] = "کد وضعیت";
+
+$text['label-do_not_disturb']['fa'] = "مزاحم نشوید";
+
+$text['label-do_not_ring']['fa'] = "زنگ نخوردن";
+
+$text['label-exec_filter_on_off']['fa'] = "فیلتر اجرایی روشن/خاموش";
+
+$text['label-exec_assistant']['fa'] = "دستیار اجرایی";
+
+$text['label-hoteling']['fa'] = "هتلینگ";
+
+$text['label-line_monitor']['fa'] = "نظارت بر خط";
+
+$text['label-next_tab']['fa'] = "تب بعدی";
+
+$text['label-message_status']['fa'] = "وضعیت پیام";
+
+$text['label-page_group_1']['fa'] = "گروه پخش 1";
+
+$text['label-page_group_2']['fa'] = "گروه پخش 2";
+
+$text['label-presence_monitor']['fa'] = "نظارت بر حضور";
+
+$text['label-security_class']['fa'] = "رده امنیتی";
+
+$text['label-add_to_conference']['fa'] = "افزودن به کنفرانس";
+
+$text['label-custom']['fa'] = "سفارشی";
+
+$text['label-fields']['fa'] = "فیلدها";
+
+$text['header-device_import']['fa'] = "وارد کردن دستگاه";
+
+$text['header-device_export']['fa'] = "صادرات دستگاه";
+
+$text['header-profiles']['fa'] = "پروفایل‌ها";
+
+$text['header-profile']['fa'] = "پروفایل";
+
+$text['header-devices']['fa'] = "دستگاه‌ها";
+
+$text['header-device']['fa'] = "دستگاه";
+
+$text['description-device_export']['fa'] = "فیلدهایی را که می‌خواهید در صادرات درج کنید، انتخاب کنید.";
+
+$text['description-user']['fa'] = "یک کاربر به این دستگاه اختصاص دهید.";
+
+$text['description-user_id']['fa'] = "شناسه کاربر را وارد کنید.";
+
+$text['description-sip_transport']['fa'] = "پروتکل حمل و نقل SIP را وارد کنید.";
+
+$text['description-sip_port']['fa'] = "پورت SIP را وارد کنید.";
+
+$text['description-server_address']['fa'] = "آدرس سرور را انتخاب کنید.";
+
+$text['description-register_expires']['fa'] = "زمان انقضا برای ثبت SIP را وارد کنید.";
+
+$text['description-device_profiles']['fa'] = "یک مجموعه کلید را به عنوان پروفایل تعریف کنید. هرگونه تغییر در پروفایل بر همه دستگاه‌های اختصاص داده شده به پروفایل تأثیر می‌گذارد.";
+
+$text['description-profile_name']['fa'] = "یک نام برای شناسایی این پروفایل وارد کنید.";
+
+$text['description-profile_enabled']['fa'] = "وضعیت فعلی این پروفایل را انتخاب کنید.";
+
+$text['description-profile_description']['fa'] = "جزئیات اضافی درباره این پروفایل.";
+
+$text['description-profile2']['fa'] = "یک پروفایل کلید انتخاب کنید و/یا کلیدهای سفارشی را در زیر تعریف کنید.";
+
+$text['description-profile']['fa'] = "تنظیمات این پروفایل را تعریف کنید.";
+
+$text['description-password']['fa'] = "رمز عبور را وارد کنید.";
+
+$text['description-outbound_proxy']['fa'] = "پروکسی خروجی را وارد کنید.";
+
+$text['description-line_number']['fa'] = "شماره خط را انتخاب کنید.";
+
+$text['description-extension']['fa'] = "داخلی و شماره‌های خط را به دستگاه اختصاص دهید.";
+
+$text['description-display_name']['fa'] = "نام نمایشی را وارد کنید.";
+
+$text['description-devices']['fa'] = "دستگاه‌ها نقاط انتهایی هستند که به یک یا چند داخلی ثبت می‌شوند. آنها به صورت دستی یا خودکار زمانی که دستگاه اطلاعات پیکربندی را از طریق HTTP/HTTPS درخواست می‌کند، به لیست افزوده می‌شوند.";
+
+$text['description-device_vendor']['fa'] = "تولیدکننده دستگاه را تعریف می‌کند.";
+
+
 
 ?>

@@ -1154,7 +1154,7 @@ if (!class_exists('menu')) {
 			//header: left
 				$html .= "<div class='float-left'>\n";
 				$html .= button::create(['type'=>'button','id'=>'menu_side_state_hidden_button','title'=>$this->text['theme-label-expand_menu'],'icon'=>'bars','class'=>'default '.($_SESSION['theme']['menu_side_state']['text'] != 'hidden' ? 'hide-sm-up ' : null).'float-left','onclick'=>'menu_side_expand();']);
-				$body_header_brand_text = !empty($_SESSION['theme']['body_header_brand_text']['text']) ? escape($_SESSION['theme']['body_header_brand_text']['text']) : "FusionPBX";
+				$body_header_brand_text = !empty($_SESSION['theme']['body_header_brand_text']['text']) ? escape($_SESSION['theme']['body_header_brand_text']['text']) : "فونیک";
 				if ($_SESSION['theme']['body_header_brand_type']['text'] == 'image' || $_SESSION['theme']['body_header_brand_type']['text'] == 'image_text') {
 					$body_header_brand_image = PROJECT_PATH."/themes/default/images/logo-sidebar.svg";
 					$html .= 	"<div id='body_header_brand_image'>";

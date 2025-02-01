@@ -3700,7 +3700,7 @@ $text['label-description']['fa'] = "توضیحات";
 
 $text['label-cidr']['fa'] = "CIDR";
 
-$text['label-call_timeout']['fa'] = "زمان‌سنج تماس";
+$text['label-call_timeout']['fa'] = "تایم اوت تماس";
 
 $text['label-call_screen_enabled']['fa'] = "صفحه نمایش تماس فعال است";
 

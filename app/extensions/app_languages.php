@@ -2449,6 +2449,7 @@ $text['description-voicemail_file']['ko-kr'] = "이메일 알림에 포함할 �
 
 $text['description-voicemail_enabled']['en-us'] = "Enable/disable voicemail for this extension.";
 $text['description-voicemail_enabled']['en-gb'] = "Enable/disable voicemail for this extension.";
+$text['description-voicemail_enabled']['fa'] = "غعال/غیرفعال سازی صندوق صوتی برای این داخلی";
 $text['description-voicemail_enabled']['ar-eg'] = "البريد الصوتي الميسر/المعوق لهذا التمديد.";
 $text['description-voicemail_enabled']['de-at'] = "Mailbox für diese Nebenstelle Ein- oder Ausschalten.";
 $text['description-voicemail_enabled']['de-ch'] = "Mailbox für diese Nebenstelle Ein- oder Ausschalten.";
@@ -2929,6 +2930,7 @@ $text['description-force_ping']['ko-kr'] = "OPTIONS를 사용하여 내선 번�
 
 $text['description-missed_call']['en-us'] = "Select the notification type, and enter the appropriate destination.";
 $text['description-missed_call']['en-gb'] = "Select the notification type, and enter the appropriate destination.";
+$text['description-missed_call']['fa'] = "نوع نوتیفیکیشن را انتخاب کنید و مقصد را مشخص نمایید";
 $text['description-missed_call']['ar-eg'] = "حدد نوع الإشعار ، وأدخل الوجهة المناسبة.";
 $text['description-missed_call']['de-at'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
 $text['description-missed_call']['de-ch'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
@@ -2953,6 +2955,7 @@ $text['description-missed_call']['ko-kr'] = "알림 유형을 선택하고 적�
 
 $text['description-max_registrations']['en-us'] = "Enter the maximum concurrent registrations allowed.";
 $text['description-max_registrations']['en-gb'] = "Enter the maximum concurrent registrations allowed.";
+$text['description-max_registrations']['fa'] = "وارد کردن حداکثر تعداد تماس های خروجی مجاز داخلی";
 $text['description-max_registrations']['ar-eg'] = "أدخل الحد الأقصى من التسجيلات المتزامنة المسموح بها.";
 $text['description-max_registrations']['de-at'] = "Geben Sie die maximal zulässige Anzahl gleichzeitiger Registrierungen ein.";
 $text['description-max_registrations']['de-ch'] = "Geben Sie die maximal zulässige Anzahl gleichzeitiger Registrierungen ein.";
@@ -3072,6 +3075,7 @@ $text['description-extensions']['ja-jp'] = "これを使用して SIP 拡張機�
 $text['description-extensions']['ko-kr'] = "이를 사용하여 SIP 확장을 구성합니다.";
 
 $text['description-extension']['en-us'] = "Enter the alphanumeric extension. The default configuration allows 2 - 15 digit extensions.";
+$text['description-extension']['fa'] = "یک داخلی عددی وارد کنید. بصورت پیش فرض می توانید داخلی های ۲ تا ۱۵ رقمی ایجاد کنید";
 $text['description-extension']['en-gb'] = "Enter the alphanumeric extension. The default configuration allows 2 - 15 digit extensions.";
 $text['description-extension']['ar-eg'] = "أدخل التمديد الألفي The default formation allows 2 - 15 digit extensions.";
 $text['description-extension']['de-at'] = "Geben Sie die alphanumerische Erweiterung ein. Die Standardkonfiguration ermöglicht 2- bis 15-stellige Durchwahlen.";
@@ -3216,6 +3220,7 @@ $text['description-emergency_caller_id_name-select']['ja-jp'] = "緊急発信者
 $text['description-emergency_caller_id_name-select']['ko-kr'] = "긴급 발신자 ID 이름을 선택합니다.";
 
 $text['description-effective_caller_id_number']['en-us'] = "Enter the internal caller ID number here.";
+$text['description-effective_caller_id_number']['fa'] = "شماره کالر آیدی داخلی را اینجا وارد کنید";
 $text['description-effective_caller_id_number']['en-gb'] = "Enter the internal caller ID number here.";
 $text['description-effective_caller_id_number']['ar-eg'] = "أدخل رقم هوية المتصل الداخلي هنا";
 $text['description-effective_caller_id_number']['de-at'] = "Geben Sie die interne Anruferkennung (Nummer) an.";
@@ -3241,6 +3246,7 @@ $text['description-effective_caller_id_number']['ko-kr'] = "여기에 내부 발
 
 $text['description-effective_caller_id_name']['en-us'] = "Enter the internal caller ID name here.";
 $text['description-effective_caller_id_name']['en-gb'] = "Enter the internal caller ID name here.";
+$text['description-effective_caller_id_name']['fa'] = "نام کالر آیدی داخلی را اینجا وارد کنید";
 $text['description-effective_caller_id_name']['ar-eg'] = "أدخل اسم المتصل الداخلي هنا";
 $text['description-effective_caller_id_name']['de-at'] = "Geben Sie die interne Anruferkennung (Name) an.";
 $text['description-effective_caller_id_name']['de-ch'] = "Geben Sie die interne Anruferkennung (Name) an.";
@@ -3264,6 +3270,7 @@ $text['description-effective_caller_id_name']['ja-jp'] = "ここに内部発信�
 $text['description-effective_caller_id_name']['ko-kr'] = "여기에 내부 발신자 ID 이름을 입력합니다.";
 
 $text['description-directory_visible']['en-us'] = "Select whether to hide the name from the directory.";
+$text['description-directory_visible']['fa'] = "نمایش یا عدم نمایش نام دایرکتوری";
 $text['description-directory_visible']['en-gb'] = "Select whether to hide the name from the directory.";
 $text['description-directory_visible']['ar-eg'] = "اختيار ما إذا كان لإخفاء الاسم من الدليل.";
 $text['description-directory_visible']['de-at'] = "Wählen Sie ob der Name im Verzeichnis angegeben werden soll.";
@@ -3312,6 +3319,7 @@ $text['description-directory_full_name']['ja-jp'] = "名、姓の順に入力し
 $text['description-directory_full_name']['ko-kr'] = "이름 다음에 성을 입력하십시오.";
 
 $text['description-directory_exten_visible']['en-us'] = "Select whether announce the extension when calling the directory.";
+$text['description-directory_exten_visible']['fa'] = "اعلام یا عدم اعلام به داخلی هنگام تماس با دایرکتوری";
 $text['description-directory_exten_visible']['en-gb'] = "Select whether announce the extension when calling the directory.";
 $text['description-directory_exten_visible']['ar-eg'] = "إختارْ ما إذا يُعلنُ التمديدَ عندما يَدْعو الدليلَ.";
 $text['description-directory_exten_visible']['de-at'] = "Geben Sie an, ob die Nebenstelle beim Aufruf des Verzeichnises angekündigt werden soll.";
@@ -3480,6 +3488,7 @@ $text['description-auth_acl']['ja-jp'] = "ここに認証 ACL を入力します
 $text['description-auth_acl']['ko-kr'] = "여기에 인증 ACL을 입력합니다.";
 
 $text['description-accountcode']['en-us'] = "Enter the account code here.";
+$text['description-accountcode']['fa'] = "کد کاربر را اینجا وارد کنید";
 $text['description-accountcode']['en-gb'] = "Enter the account code here.";
 $text['description-accountcode']['ar-eg'] = "أدخل رمز الحساب هنا";
 $text['description-accountcode']['de-at'] = "Geben Sie den Account Code hier an.";
@@ -3666,7 +3675,7 @@ $text['label-limit_max']['fa'] = "حداکثر تعداد تماس های خرو
 
 $text['label-limit_destination']['fa'] = "مقصد محدودیت";
 
-$text['label-hold_music']['fa'] = "موسیقی انتظار";
+$text['label-hold_music']['fa'] = "موزیک انتظار";
 
 $text['label-extension']['fa'] = "شماره داخلی";
 
@@ -3692,7 +3701,7 @@ $text['label-directory_exten_visible']['fa'] = "در دسترس بودن دای�
 
 $text['label-dial_string']['fa'] = "رشته شماره‌گیری";
 
-$text['label-device_template']['fa'] = "قالب دستگاه";
+$text['label-device_template']['fa'] = "قالب";
 
 $text['label-device_address']['fa'] = "آدرس دستگاه";
 
@@ -3702,7 +3711,7 @@ $text['label-cidr']['fa'] = "CIDR";
 
 $text['label-call_timeout']['fa'] = "تایم اوت تماس";
 
-$text['label-call_screen_enabled']['fa'] = "صفحه نمایش تماس فعال است";
+$text['label-call_screen_enabled']['fa'] = "قابلیت call screen";
 
 $text['label-call_group']['fa'] = "گروه تماس";
 
@@ -3730,7 +3739,7 @@ $text['label-undefined']['fa'] = "تعریف نشده";
 
 $text['label-extension_only']['fa'] = "فقط داخلی";
 
-$text['label-extension_type']['fa'] = "نوع";
+$text['label-extension_type']['fa'] = " نوع داخلی";
 
 $text['description-extension_type']['fa'] = "برای فعال‌سازی ثبت‌نام، پیش‌فرض را انتخاب کنید یا برای غیرفعال کردن ثبت‌نام، مجازی را انتخاب کنید.";
 
@@ -3746,7 +3755,7 @@ $text['header-extension-edit']['fa'] = "ویرایش داخلی";
 
 $text['header-extension-add']['fa'] = "افزودن داخلی جدید";
 
-$text['description-voicemail_password']['fa'] = "رمز عبور عددی پست صوتی را اینجا وارد کنید.";
+$text['description-voicemail_password']['fa'] = "پسورد عددی صندوق صوتی را اینجا وارد کنید";
 
 $text['description-voicemail_mail_to']['fa'] = "آدرس ایمیل را برای ارسال پست صوتی وارد کنید (اختیاری).";
 
@@ -3760,7 +3769,7 @@ $text['description-voicemail_enabled']['fa'] = "پست صوتی را برای ا
 
 $text['description-user_record']['fa'] = "انتخاب کنید که آیا ضبط به صورت محلی، ورودی، خروجی یا همه باشد.";
 
-$text['description-user_list']['fa'] = "کاربری را به این داخلی اختصاص دهید.";
+$text['description-user_list']['fa'] = "اختصاص کاربر به داخلی";
 
 $text['description-user_context']['fa'] = "زمینه کاربر را اینجا وارد کنید.";
 
@@ -3772,9 +3781,9 @@ $text['description-sip_force_contact']['fa'] = "انتخاب کنید که آی�
 
 $text['description-sip_bypass_media']['fa'] = "انتخاب کنید که آیا جریان رسانه به صورت نقطه به نقطه ارسال شود یا در حالت پروکسی شفاف.";
 
-$text['description-range']['fa'] = "تعداد داخلی‌هایی که باید ایجاد شوند را وارد کنید. هر داخلی به مقدار 1 افزایش می‌یابد.";
+$text['description-range']['fa'] = "تعداد داخلی های خود را وارد کنید. از شماره داخلی موردنظر شروع شده و به تعداد وارد شده بصورت دسته ای داخلی ایجاد می شود";
 
-$text['description-provisioning']['fa'] = "یک دستگاه و شماره خط را برای اختصاص به این داخلی انتخاب کنید.";
+$text['description-provisioning']['fa'] = "یک دیوایس انتخاب کنید و شماره خط را به این داخلی اختصاص دهید";
 
 $text['description-password']['fa'] = "رمز عبور را اینجا وارد کنید.";
 
@@ -3782,9 +3791,9 @@ $text['description-outbound_caller_id_number-select']['fa'] = "شماره شنا
 
 $text['description-outbound_caller_id_number-custom']['fa'] = "شماره شناسه تماس گیرنده خارجی (عمومی) را اینجا وارد کنید.";
 
-$text['description-outbound_caller_id_name-select']['fa'] = "نام شناسه تماس گیرنده خارجی (عمومی) را انتخاب کنید.";
+$text['description-outbound_caller_id_name-select']['fa'] = "نام و نام خانوادگی را وارد کنید";
 
-$text['description-outbound_caller_id_name-custom']['fa'] = "نام شناسه تماس گیرنده خارجی (عمومی) را اینجا وارد کنید.";
+$text['description-outbound_caller_id_name-custom']['fa'] = "نام و نام خانوادگی را وارد کنید";
 
 $text['description-number_alias']['fa'] = "اگر داخلی عددی باشد، عدد مستعار اختیاری است.";
 

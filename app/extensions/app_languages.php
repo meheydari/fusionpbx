@@ -3684,11 +3684,11 @@ $text['label-effective_cid_name']['fa'] = "نام CID مؤثر";
 
 $text['label-domain']['fa'] = "دامنه";
 
-$text['label-directory_visible']['fa'] = "قابل مشاهده در فهرست";
+$text['label-directory_visible']['fa'] = "در دسترس بودن دایرکتوری";
 
 $text['label-directory_full_name']['fa'] = "نام کامل در فهرست";
 
-$text['label-directory_exten_visible']['fa'] = "نمایش داخلی در فهرست";
+$text['label-directory_exten_visible']['fa'] = "در دسترس بودن دایرکتوری داخلی";
 
 $text['label-dial_string']['fa'] = "رشته شماره‌گیری";
 

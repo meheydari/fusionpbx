@@ -364,6 +364,9 @@ td.center{
 #btn_search{
     display: none;
 }
+#btn_copy{
+    display: none;
+}
 
 #form_search a{
     display: none;

@@ -114,11 +114,10 @@ if (!class_exists('button')) {
 						if ($array['label'] == 'True') {
 							$button .= "<img style='padding: 10px' src='../../themes/default/images/icon/done.svg'/>";
 						}
-						if ($array['label'] == 'False') {
+						elseif ($array['label'] == 'False') {
 							$button .= "<img style='padding: 10px' src='../../themes/default/images/icon/fail.svg'/>";
 						}else{
 							$button .= "<span class='button-label " . ($collapse_class ?? '') . " " . $pad_class . "'>" . $array['label'] . "</span>";
-
 						}
 					} else {
 						$button .= "<span class='button-label " . ($collapse_class ?? '') . " " . $pad_class . "'>" . $array['label'] . "</span>";

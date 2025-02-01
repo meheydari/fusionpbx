@@ -2266,7 +2266,7 @@ $text['option-day_of_week']['fa'] = "روز هفته";
 
 $text['option-day_of_month']['fa'] = "روز ماه";
 
-$text['option-context']['fa'] = "متن";
+$text['option-context']['fa'] = "دامنه";
 
 $text['option-condition']['fa'] = "شرط";
 

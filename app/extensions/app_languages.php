@@ -3580,7 +3580,7 @@ $text['message-maximum_extensions']['fa'] = "حداکثر داخلی‌ها:";
 
 $text['message-extension']['fa'] = "داخلی جدید را وارد کنید...";
 
-$text['label-voicemail_password']['fa'] = "رمز عبور پست صوتی";
+$text['label-voicemail_password']['fa'] = "پسورد صندوق صوتی";
 
 $text['label-voicemail_mail_to']['fa'] = "ارسال پست صوتی به";
 

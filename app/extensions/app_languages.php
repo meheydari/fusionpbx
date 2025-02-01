@@ -3760,7 +3760,7 @@ $text['description-voicemail_enabled']['fa'] = "پست صوتی را برای ا
 
 $text['description-user_record']['fa'] = "انتخاب کنید که آیا ضبط به صورت محلی، ورودی، خروجی یا همه باشد.";
 
-$text['description-user_list']['fa'] = "کاربران را به این داخلی اختصاص دهید.";
+$text['description-user_list']['fa'] = "کاربر را به این داخلی اختصاص دهید.";
 
 $text['description-user_context']['fa'] = "زمینه کاربر را اینجا وارد کنید.";
 

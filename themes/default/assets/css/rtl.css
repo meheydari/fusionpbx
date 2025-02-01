@@ -299,7 +299,7 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     border-radius: 6px;
     vertical-align: middle;
     height: 34px;
-    margin-bottom: 6px;
+    margin-bottom: 0;
     outline: none;
     font-weight: 600;
     font-size: 12px;

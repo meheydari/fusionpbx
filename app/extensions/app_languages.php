@@ -2153,6 +2153,7 @@ $text['label-extension_type']['ko-kr'] = "유형";
 
 $text['description-extension_type']['en-us'] = "Select Default to enable registration or to disable registration select Virtual.";
 $text['description-extension_type']['en-gb'] = "Select Default to enable registration or to disable registration select Virtual.";
+$text['description-extension_type']['fa'] = " Default و برای غیرفعال کردن آن Virtual را انتخاب نمایید. برای فعال سازی امکان لاگین";
 $text['description-extension_type']['ar-eg'] = "حدد افتراضي لتمكين التسجيل أو لتعطيل التسجيل حدد افتراضي.";
 $text['description-extension_type']['de-at'] = "Wählen Sie „Standard“, um die Registrierung zu aktivieren, oder wählen Sie „Virtuell“, um die Registrierung zu deaktivieren.";
 $text['description-extension_type']['de-ch'] = "Wählen Sie „Standard“, um die Registrierung zu aktivieren, oder wählen Sie „Virtuell“, um die Registrierung zu deaktivieren.";
@@ -3028,6 +3029,7 @@ $text['description-limit_destination']['ko-kr'] = "최대 발신 통화 수에 �
 
 $text['description-hold_music']['en-us'] = "Select the MOH Category here.";
 $text['description-hold_music']['en-gb'] = "Select the MOH Category here.";
+$text['description-hold_music']['fa'] = "انتخاب گروه موزیگ انتظار";
 $text['description-hold_music']['ar-eg'] = '"إختاروا "الموه الفئة هنا';
 $text['description-hold_music']['de-at'] = "Wählen Sie die Wartemusik Kategorie.";
 $text['description-hold_music']['de-ch'] = "Wählen Sie die Wartemusik Kategorie.";
@@ -3101,6 +3103,7 @@ $text['description-extension']['ko-kr'] = "영숫자 확장자를 입력합니�
 
 $text['description-enabled']['en-us'] = "Set the status of the extension.";
 $text['description-enabled']['en-gb'] = "Set the status of the extension.";
+$text['description-enabled']['fa'] = "تنظیم وضعیت داخلی";
 $text['description-enabled']['ar-eg'] = "اضبط حالة الامتداد.";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Nebenstelle.";
 $text['description-enabled']['de-ch'] = "Setzen Sie den Status dieser Nebenstelle.";
@@ -3392,6 +3395,7 @@ $text['description-cidr']['ja-jp'] = "許可されるアドレス/範囲を CIDR
 $text['description-cidr']['ko-kr'] = "허용되는 주소/범위를 CIDR 표기법(쉼표로 구분)으로 입력하세요.";
 
 $text['description-call_timeout']['en-us'] = "Enter the ring time (delay in seconds) before sending a call to voicemail.";
+$text['description-call_timeout']['fa'] = "مدت زمانی که داخلی قبل از ارسال تماس به صندوق صوتی، زنگ میخورد (به ثانیه) را وارد کنید";
 $text['description-call_timeout']['en-gb'] = "Enter the ring time (delay in seconds) before sending a call to voicemail.";
 $text['description-call_timeout']['ar-eg'] = "أدخل وقت الخاتم (تأخير في ثواني) قبل إرسال مكالمة إلى البريد الصوتي";
 $text['description-call_timeout']['de-at'] = "Geben Sie die Klingeldauer (Verzögerung in Sekunden) ein, bevor ein Anruf an die Voicemail gesendet wird.";
@@ -3417,6 +3421,7 @@ $text['description-call_timeout']['ko-kr'] = "음성 메일로 전화를 보내�
 
 $text['description-call_screen_enabled']['en-us'] = "Choose whether to enable or disable call screening.";
 $text['description-call_screen_enabled']['en-gb'] = "Choose whether to enable or disable call screening.";
+$text['description-call_screen_enabled']['fa'] = "فعال/عغیرفعال کردن قابلیت call screen";
 $text['description-call_screen_enabled']['ar-eg'] = "اختر ما إذا كان من الممكن فرز المكالمات أم لا.";
 $text['description-call_screen_enabled']['de-at'] = "Wählen Sie ob die Anruf Anzeige Ein- oder Ausgeschaltet werden soll.";
 $text['description-call_screen_enabled']['de-ch'] = "Wählen Sie ob die Anruf Anzeige Ein- oder Ausgeschaltet werden soll.";
@@ -3441,6 +3446,7 @@ $text['description-call_screen_enabled']['ko-kr'] = "통화 선택을 활성화�
 
 $text['description-call_group']['en-us'] = "Enter the user call group here. Groups available by default: sales, support, billing.";
 $text['description-call_group']['en-gb'] = "Enter the user call group here. Groups available by default: sales, support, billing.";
+$text['description-call_group']['fa'] = "  گروه تماس کاربر را اینجا وارد کنید . گروه های sales, support, billing  بصورت پیش فرض وجود دارند";
 $text['description-call_group']['ar-eg'] = "أدخل مجموعة اتصال المستخدم هنا. المجموعات المتاحة افتراضيًا: المبيعات والدعم والفواتير.";
 $text['description-call_group']['de-at'] = "Geben Sie eine Rufgruppe an. Standardgruppen: sales, support, billing.";
 $text['description-call_group']['de-ch'] = "Geben Sie eine Rufgruppe an. Standardgruppen: sales, support, billing.";

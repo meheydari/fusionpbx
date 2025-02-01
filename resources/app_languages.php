@@ -5975,6 +5975,7 @@ $text['button-hide']['ko-kr'] = "숨다";
 
 $text['label-search']['fa'] = "جست و جو ...";
 $text['label-status']['fa'] = "وضعیت";
+$text['label-enabled']['fa'] = "وضعیت";
 
 
 

@@ -2184,4 +2184,187 @@ $text['billing-warning']['zh-cn'] = "如果您使用的是 fusionpbx 计费应�
 $text['billing-warning']['ja-jp'] = "fusionpbx 請求アプリケーションを使用している場合は、必ずアカウントコードとキャリア変数を追加してください。";
 $text['billing-warning']['ko-kr'] = "fusionpbx 결제 애플리케이션을 사용하는 경우 계정 코드 및 이동통신사 변수를 추가해야 합니다.";
 
+
+
+$text['title-dialplan_manager']['fa'] = "مدیریت پلن شماره‌گیری";
+
+$text['title-dialplan_edit']['fa'] = "پلن شماره‌گیری";
+
+$text['title-dialplan_detail']['fa'] = "جزئیات پلن شماره‌گیری";
+
+$text['title-dialplan_add']['fa'] = "پلن شماره‌گیری";
+
+$text['title-dialplans']['fa'] = "پلن‌های شماره‌گیری";
+
+$text['title-default_dialplan']['fa'] = "پلن شماره‌گیری پیش‌فرض";
+
+$text['title-time_conditions']['fa'] = "شرایط زمانی";
+
+$text['title-outbound_routes']['fa'] = "مسیرهای خروجی";
+
+$text['title-inbound_routes']['fa'] = "مسیرهای ورودی";
+
+$text['title-queues']['fa'] = "صف‌ها";
+
+$text['title-other']['fa'] = "سایر";
+
+$text['option-check_voicemail']['fa'] = "بررسی صندوق صوتی";
+
+$text['option-company_directory']['fa'] = "دایرکتوری شرکت";
+
+$text['option-hangup']['fa'] = "قطع تماس";
+
+$text['option-record']['fa'] = "ضبط";
+
+$text['select-global']['fa'] = "سراسری";
+
+$text['option-year']['fa'] = "سال";
+
+$text['option-week_of_month']['fa'] = "هفته ماه";
+
+$text['option-week']['fa'] = "هفته";
+
+$text['option-uuid']['fa'] = "UUID";
+
+$text['option-username']['fa'] = "نام کاربری";
+
+$text['option-true']['fa'] = "درست";
+
+$text['option-source']['fa'] = "مبدأ";
+
+$text['option-regex']['fa'] = "عبارت منظم";
+
+$text['option-rdnis']['fa'] = "RDNIS";
+
+$text['option-public']['fa'] = "عمومی";
+
+$text['option-on_true']['fa'] = "در صورت درست";
+
+$text['option-on_false']['fa'] = "در صورت نادرست";
+
+$text['option-never']['fa'] = "هرگز";
+
+$text['option-network_addr']['fa'] = "آدرس شبکه";
+
+$text['option-month']['fa'] = "ماه";
+
+$text['option-minute_of_day']['fa'] = "دقیقه روز";
+
+$text['option-minute']['fa'] = "دقیقه";
+
+$text['option-hour']['fa'] = "ساعت";
+
+$text['option-false']['fa'] = "نادرست";
+
+$text['option-dialplan']['fa'] = "پلن شماره‌گیری";
+
+$text['option-destination_number']['fa'] = "شماره مقصد";
+
+$text['option-day_of_year']['fa'] = "روز سال";
+
+$text['option-day_of_week']['fa'] = "روز هفته";
+
+$text['option-day_of_month']['fa'] = "روز ماه";
+
+$text['option-context']['fa'] = "متن";
+
+$text['option-condition']['fa'] = "شرط";
+
+$text['option-chan_name']['fa'] = "نام کانال";
+
+$text['option-caller_id_number']['fa'] = "شماره شناسه تماس‌گیرنده";
+
+$text['option-caller_id_name']['fa'] = "نام شناسه تماس‌گیرنده";
+
+$text['option-anti-action']['fa'] = "ضد-عمل";
+
+$text['option-ani2']['fa'] = "ANI2";
+
+$text['option-ani']['fa'] = "ANI";
+
+$text['option-always']['fa'] = "همیشه";
+
+$text['option-action']['fa'] = "عمل";
+
+$text['optgroup-condition_or_regex']['fa'] = "شرط یا عبارت منظم";
+
+$text['optgroup-applications']['fa'] = "برنامه‌ها";
+
+$text['label-destination']['fa'] = "مقصد";
+
+$text['label-tag']['fa'] = "برچسب";
+
+$text['label-number']['fa'] = "شماره";
+
+$text['label-inline']['fa'] = "درون‌خطی";
+
+$text['label-group']['fa'] = "گروه";
+
+$text['label-field']['fa'] = "فیلد";
+
+$text['label-expression']['fa'] = "عبارت";
+
+$text['label-domain']['fa'] = "دامنه";
+
+$text['label-dialplan_detail']['fa'] = "جزئیات پلن شماره‌گیری";
+
+$text['label-data']['fa'] = "داده";
+
+$text['label-hostname']['fa'] = "نام میزبان";
+
+$text['label-continue']['fa'] = "ادامه";
+
+$text['label-context']['fa'] = "متن";
+
+$text['label-condition_2']['fa'] = "شرط ۲";
+
+$text['label-condition_1']['fa'] = "شرط ۱";
+
+$text['label-break']['fa'] = "قطع";
+
+$text['label-application']['fa'] = "برنامه";
+
+$text['label-action_2']['fa'] = "عمل ۲";
+
+$text['label-action_1']['fa'] = "عمل ۱";
+
+$text['header-time_conditions']['fa'] = "شرایط زمانی";
+
+$text['header-queues']['fa'] = "صف‌ها";
+
+$text['header-outbound_routes']['fa'] = "مسیرهای خروجی";
+
+$text['header-inbound_routes']['fa'] = "مسیرهای ورودی";
+
+$text['header-dialplan_manager']['fa'] = "مدیریت پلن شماره‌گیری";
+
+$text['header-dialplan_detail']['fa'] = "جزئیات پلن شماره‌گیری";
+
+$text['header-dialplan-edit']['fa'] = "پلن شماره‌گیری";
+
+$text['header-dialplan-add']['fa'] = "پلن شماره‌گیری";
+
+$text['header-default_dialplan']['fa'] = "پلن شماره‌گیری پیش‌فرض";
+
+$text['header-conditions_and_actions']['fa'] = "شرایط و اقدامات";
+
+$text['description-time_conditions']['fa'] = "شرایط زمانی برای مسیریابی تماس‌ها بر اساس زمان استفاده می‌شود. می‌توان تماس‌ها را به منوی IVR، شماره‌های خارجی، اسکریپت‌ها یا سایر مقاصد هدایت کرد.";
+
+$text['description-queues']['fa'] = "صف‌ها برای ایجاد لیست انتظار تماس‌گیرندگان استفاده می‌شوند. این ویژگی به عنوان صف FIFO نیز شناخته می‌شود.";
+
+$text['description-outbound_routes']['fa'] = "تماس‌های خروجی را به دروازه‌ها (Gateways)، TDM، ENUM و موارد دیگر هدایت کنید. هنگام تطابق تماس با شرایط، مسیر خروجی تعیین می‌شود.";
+
+$text['description-inbound_routes']['fa'] = "تماس‌های ورودی را بر اساس یک یا چند شرط به مقاصد مختلف مسیریابی کنید. تماس‌های ورودی می‌توانند به منوی IVR، گروه تماس، داخلی‌ها، شماره‌های خارجی یا اسکریپت‌ها هدایت شوند. ترتیب شرط‌ها در صورت استفاده از ضد-عمل (Anti-Action) مهم است.";
+
+$text['description-dialplan_manager-superadmin']['fa'] = "پلن شماره‌گیری برای تنظیم مسیر تماس‌ها بر اساس شرایط و متن استفاده می‌شود. می‌توانید تماس‌ها را به دروازه‌ها، اپراتورهای خودکار، شماره‌های خارجی، اسکریپت‌ها یا سایر مقاصد ارسال کنید.";
+
+$text['description-dialplan_manager']['fa'] = "پلن شماره‌گیری نمایی از برخی کدهای عملکردی، منوی IVR، کنفرانس‌ها، صف‌ها و سایر مقاصد را ارائه می‌دهد.";
+
+$text['description-dialplan-edit']['fa'] = "پلن شماره‌گیری شامل تنظیمات کلی است.";
+
+$text['description-default_dialplan']['fa'] = "پلن شماره‌گیری پیش‌فرض برای تنظیم مسیر تماس‌ها بر اساس شرایط و متن استفاده می‌شود.";
+
+$text['description-conditions_and_actions']['fa'] = "شرایط، اقدامات و ضد-اقدامات زیر در پلن شماره‌گیری برای هدایت جریان تماس استفاده می‌شوند. هر مورد به ترتیب اجرا می‌شود. از هر تعداد شرط، اقدام یا ضد-اقدام که لازم است استفاده کنید.";
+
+$text['billing-warning']['fa'] = "اگر از اپلیکیشن صورتحساب FusionPBX استفاده می‌کنید، مطمئن شوید که متغیرهای accountcode و carrier را اضافه کرده‌اید.";
 ?>

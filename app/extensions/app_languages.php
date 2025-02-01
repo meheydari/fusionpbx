@@ -3646,7 +3646,7 @@ $text['label-caller_id_number']['fa'] = "شماره تماس گیرنده";
 
 $text['label-outbound_caller_id_number']['fa'] = "شماره شناسه تماس گیرنده خروجی";
 
-$text['label-outbound_caller_id_name']['fa'] = "نام شناسه تماس گیرنده خروجی";
+$text['label-outbound_caller_id_name']['fa'] = "نام کامل دایرکتوری";
 
 $text['label-outbound_cid_name']['fa'] = "نام CID خروجی";
 
@@ -3676,9 +3676,9 @@ $text['label-emergency_caller_id_name']['fa'] = "نام تماس اضطراری"
 
 $text['label-email']['fa'] = "ایمیل";
 
-$text['label-effective_caller_id_number']['fa'] = "شماره شناسه تماس گیرنده مؤثر";
+$text['label-effective_caller_id_number']['fa'] = "شماره کالر آیدی";
 
-$text['label-effective_caller_id_name']['fa'] = "نام شناسه تماس گیرنده مؤثر";
+$text['label-effective_caller_id_name']['fa'] = "نام کالر آیدی";
 
 $text['label-effective_cid_name']['fa'] = "نام CID مؤثر";
 
@@ -3714,7 +3714,7 @@ $text['label-billing_warning']['fa'] = "صورت‌حساب نصب شده است
 
 $text['label-auth_acl']['fa'] = "لیست کنترل دسترسی (ACL) تأیید هویت";
 
-$text['label-accountcode']['fa'] = "کد حساب";
+$text['label-accountcode']['fa'] = "کد کاربری";
 
 $text['label-is_registered']['fa'] = "ثبت شده";
 

@@ -3560,9 +3560,9 @@ $text['title-extension_import']['fa'] = "وارد کردن داخلی";
 
 $text['title-extension_export']['fa'] = "خروجی گرفتن از داخلی";
 
-$text['title-extension-edit']['fa'] = "داخلی";
+$text['title-extension-edit']['fa'] = "ویرایش داخلی";
 
-$text['title-extension-add']['fa'] = "افزودن داخلی";
+$text['title-extension-add']['fa'] = "افزودن داخلی جدید";
 
 $text['title-call_groups']['fa'] = "گروه‌های تماس";
 
@@ -3668,7 +3668,7 @@ $text['label-limit_destination']['fa'] = "مقصد محدودیت";
 
 $text['label-hold_music']['fa'] = "موسیقی انتظار";
 
-$text['label-extension']['fa'] = "داخلی";
+$text['label-extension']['fa'] = "شماره داخلی";
 
 $text['label-emergency_caller_id_number']['fa'] = "شماره تماس اضطراری";
 

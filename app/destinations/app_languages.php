@@ -2044,4 +2044,176 @@ $text['label-column_name']['zh-cn'] = "列名";
 $text['label-column_name']['ja-jp'] = "列名";
 $text['label-column_name']['ko-kr'] = "열 이름";
 
+
+
+
+$text['title-destinations']['fa'] = "مقاصد";
+
+$text['title-destination-edit']['fa'] = "مقصد";
+
+$text['title-destination-add']['fa'] = "مقصد";
+
+$text['title-destination_import']['fa'] = "وارد کردن مقصد";
+
+$text['title-destination_export']['fa'] = "صادر کردن مقصد";
+
+$text['button-outbound']['fa'] = "خروجی";
+
+$text['button-inbound']['fa'] = "ورودی";
+
+$text['select-global']['fa'] = "جهانی";
+
+$text['option-inbound']['fa'] = "ورودی";
+
+$text['option-outbound']['fa'] = "خروجی";
+
+$text['option-local']['fa'] = "محلی";
+
+$text['button-local']['fa'] = "محلی";
+
+$text['message-maximum_destinations']['fa'] = "حداکثر مقاصد:";
+
+$text['message-duplicate']['fa'] = "تکرار شناسایی شد";
+
+$text['label-file_name']['fa'] = "نام فایل";
+
+$text['label-monthly_price_buy']['fa'] = "قیمت خرید ماهانه";
+
+$text['label-monthly_price']['fa'] = "قیمت فروش ماهانه";
+
+$text['label-fax_uuid']['fa'] = "شناسایی فکس";
+
+$text['label-destinations']['fa'] = "مقاصد";
+
+$text['label-alternate_destination']['fa'] = "مقصد جایگزین";
+
+$text['label-domain-name']['fa'] = "نام دامنه";
+
+$text['label-domain']['fa'] = "دامنه";
+
+$text['label-destination_type']['fa'] = "نوع";
+
+$text['label-destination_country_code']['fa'] = "کد کشور";
+
+$text['label-destination_prefix']['fa'] = "پیش‌شماره";
+
+$text['label-destination_trunk_prefix']['fa'] = "پیش‌شماره ترانک";
+
+$text['label-destination_area_code']['fa'] = "کد منطقه";
+
+$text['label-destination_number']['fa'] = "شماره مقصد";
+
+$text['label-destination_condition_field']['fa'] = "شرط";
+
+$text['label-destination_enabled']['fa'] = "فعال";
+
+$text['label-destination_description']['fa'] = "توضیحات";
+
+$text['label-destination_context']['fa'] = "متن";
+
+$text['label-destination_cid_name_prefix']['fa'] = "پیشوند نام تماس‌گیرنده";
+
+$text['label-destination_caller_id_name']['fa'] = "نام تماس‌گیرنده";
+
+$text['label-destination_caller_id_number']['fa'] = "شماره تماس‌گیرنده";
+
+$text['label-carrier']['fa'] = "نام اپراتور";
+
+$text['label-destination_hold_music']['fa'] = "موسیقی انتظار";
+
+$text['label-destination_distinctive_ring']['fa'] = "زنگ متمایز";
+
+$text['label-destination_record']['fa'] = "ضبط";
+
+$text['label-account_code']['fa'] = "کد حساب";
+
+$text['label-destination_conditions']['fa'] = "شرایط";
+
+$text['option-caller_id_number']['fa'] = "شماره تماس‌گیرنده";
+
+$text['label-destination_actions']['fa'] = "اقدامات";
+
+$text['label-usage']['fa'] = "استفاده";
+
+$text['label-voice']['fa'] = "صدا";
+
+$text['label-fax']['fa'] = "فکس";
+
+$text['label-text']['fa'] = "متن";
+
+$text['label-emergency']['fa'] = "اضطراری";
+
+$text['header-destinations']['fa'] = "مقاصد";
+
+$text['header-destination-edit']['fa'] = "ویرایش مقصد";
+
+$text['header-destination-add']['fa'] = "افزودن مقصد";
+
+$text['header-destination_import']['fa'] = "وارد کردن مقصد";
+
+$text['header-destination_export']['fa'] = "صادر کردن مقصد";
+
+$text['description-destination_import']['fa'] = "بارگذاری داده‌های تفکیک‌شده برای افزودن چندین مقصد.";
+
+$text['description-destination_export']['fa'] = "فیلدهایی که می‌خواهید در خروجی قرار بگیرند را انتخاب کنید.";
+
+$text['description-monthly_price_buy']['fa'] = "قیمت خرید ماهانه این مقصد را وارد کنید (فقط در حالت ورودی).";
+
+$text['description-monthly_price']['fa'] = "قیمت صورتحساب ماهانه برای این مقصد را وارد کنید (فقط در حالت ورودی).";
+
+$text['description-fax_uuid']['fa'] = "مقصد فکس را برای فعال‌سازی شناسایی فکس انتخاب کنید.";
+
+$text['description-providers']['fa'] = "این مقصد را به یک ارائه‌دهنده اختصاص دهید.";
+
+$text['description-user']['fa'] = "این مقصد را به یک کاربر اختصاص دهید.";
+
+$text['description-destinations']['fa'] = "مقاصد ورودی شامل DID/DDI، DNIS یا نام مستعار برای تماس‌های ورودی هستند.";
+
+$text['description-destination_type']['fa'] = "نوع را انتخاب کنید.";
+
+$text['description-destination_number']['fa'] = "شماره مقصد را وارد کنید.";
+
+$text['description-destination_condition_field']['fa'] = "شرط مقصد را وارد کنید.";
+
+$text['description-destination_country_code']['fa'] = "کد کشور را وارد کنید.";
+
+$text['description-destination_trunk_prefix']['fa'] = "پیش‌شماره ترانک را وارد کنید.";
+
+$text['description-destination_area_code']['fa'] = "کد منطقه را وارد کنید.";
+
+$text['description-destination_enabled']['fa'] = "وضعیت فعلی این مقصد را تنظیم کنید.";
+
+$text['description-destination_description']['fa'] = "توضیحی برای این مقصد وارد کنید (اختیاری).";
+
+$text['description-destination_context']['fa'] = "متن را وارد کنید.";
+
+$text['description-destination_cid_name_prefix']['fa'] = "پیشوندی برای نام تماس‌گیرنده تنظیم کنید.";
+
+$text['description-destination_caller_id_number']['fa'] = "شماره تماس‌گیرنده را وارد کنید.";
+
+$text['description-destination_caller_id_name']['fa'] = "نام تماس‌گیرنده را وارد کنید.";
+
+$text['description-destination_conditions']['fa'] = "اگر شرط مطابقت داشت، اقدام را انجام دهید.";
+
+$text['description-destination_actions']['fa'] = "اقدامات اضافی اضافه کنید.";
+
+$text['description-group']['fa'] = "این مقصد را به یک گروه اختصاص دهید.";
+
+$text['description-destination_order']['fa'] = "ترتیب را انتخاب کنید.";
+
+$text['description-carrier']['fa'] = "نام اپراتور را وارد کنید. این مورد برای پیگیری صورتحساب استفاده می‌شود.";
+
+$text['description-destination_hold_music']['fa'] = "دسته موسیقی انتظار را انتخاب کنید.";
+
+$text['description-destination_distinctive_ring']['fa'] = "یک صدای خاص برای زنگ متمایز انتخاب کنید.";
+
+$text['description-destination_record']['fa'] = "ضبط را ذخیره کنید.";
+
+$text['description-account_code']['fa'] = "کد حساب را وارد کنید.";
+
+$text['description-usage']['fa'] = "نحوه استفاده از مقصد را تنظیم کنید.";
+
+$text['billing-warning']['fa'] = "اگر از برنامه صورتحساب FusionPBX استفاده می‌کنید، مطمئن شوید که متغیرهای accountcode و carrier را اضافه کرده‌اید.";
+
+$text['label-column_name']['fa'] = "نام ستون";
 ?>

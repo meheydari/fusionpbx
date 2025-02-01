@@ -3582,7 +3582,7 @@ $text['message-extension']['fa'] = "داخلی جدید را وارد کنید..
 
 $text['label-voicemail_password']['fa'] = "پسورد صندوق صوتی";
 
-$text['label-voicemail_mail_to']['fa'] = "ارسال پست صوتی به";
+$text['label-voicemail_mail_to']['fa'] = "ایمیل برای ارسال پیام های صوتی";
 
 $text['label-voicemail_local_after_email']['fa'] = "نگهداری پست صوتی محلی";
 
@@ -3590,7 +3590,7 @@ $text['label-voicemail_transcription_enabled']['fa'] = "تبدیل به متن �
 
 $text['label-voicemail_file']['fa'] = "فایل پست صوتی";
 
-$text['label-voicemail_enabled']['fa'] = "پست صوتی فعال است";
+$text['label-voicemail_enabled']['fa'] = "فعالسازی صندوق صوتی";
 
 $text['label-user_record_outbound']['fa'] = "خارجی";
 

@@ -3793,7 +3793,7 @@ $text['description-nibble_account']['fa'] = "شماره حساب برای است
 $text['description-mwi_account']['fa'] = "حساب MWI با فرمت user@domain برای نظارت بر پست صوتی.";
 
 $text['description-absolute_codec_string']['fa'] = "رشته کدک مطلق برای...";
-$text['description-extensions']['en-us'] = "از این بخش برای تنظیمات SIP استفاده کنید.";
+$text['description-extensions']['fa'] = "از این بخش برای تنظیمات SIP استفاده کنید.";
 
 
 

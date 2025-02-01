@@ -3553,4 +3553,246 @@ $text['button-call_forward']['zh-cn'] = "呼叫转移";
 $text['button-call_forward']['ja-jp'] = "電話転送";
 $text['button-call_forward']['ko-kr'] = "착신 전환";
 
+
+$text['title-extensions']['fa'] = "داخلی‌ها";
+
+$text['title-extension_import']['fa'] = "وارد کردن داخلی";
+
+$text['title-extension_export']['fa'] = "خروجی گرفتن از داخلی";
+
+$text['title-extension-edit']['fa'] = "داخلی";
+
+$text['title-extension-add']['fa'] = "افزودن داخلی";
+
+$text['title-call_groups']['fa'] = "گروه‌های تماس";
+
+$text['title-loopback']['fa'] = "بازگشت به خود";
+
+$text['option-voicemail_file_listen']['fa'] = "لینک گوش دادن (نیاز به ورود)";
+
+$text['option-voicemail_file_link']['fa'] = "لینک دانلود (بدون نیاز به ورود)";
+
+$text['option-voicemail_file_attach']['fa'] = "پیوست فایل صوتی";
+
+$text['message-number_alias']['fa'] = "عدد مستعار جدید را وارد کنید...";
+
+$text['message-maximum_extensions']['fa'] = "حداکثر داخلی‌ها:";
+
+$text['message-extension']['fa'] = "داخلی جدید را وارد کنید...";
+
+$text['label-voicemail_password']['fa'] = "رمز عبور پست صوتی";
+
+$text['label-voicemail_mail_to']['fa'] = "ارسال پست صوتی به";
+
+$text['label-voicemail_local_after_email']['fa'] = "نگهداری پست صوتی محلی";
+
+$text['label-voicemail_transcription_enabled']['fa'] = "تبدیل به متن فعال است";
+
+$text['label-voicemail_file']['fa'] = "فایل پست صوتی";
+
+$text['label-voicemail_enabled']['fa'] = "پست صوتی فعال است";
+
+$text['label-user_record_outbound']['fa'] = "خارجی";
+
+$text['label-user_record_none']['fa'] = "غیرفعال";
+
+$text['label-user_record_local']['fa'] = "محلی";
+
+$text['label-user_record_inbound']['fa'] = "ورودی";
+
+$text['label-user_record_all']['fa'] = "همه";
+
+$text['label-user_record']['fa'] = "ضبط";
+
+$text['label-user']['fa'] = "کاربر";
+
+$text['label-users']['fa'] = "کاربران";
+
+$text['label-user_context']['fa'] = "زمینه کاربر";
+
+$text['label-url']['fa'] = "آدرس اینترنتی (URL)";
+
+$text['label-toll_allow']['fa'] = "اجازه تماس بین شهری";
+
+$text['label-text']['fa'] = "متن";
+
+$text['label-sip_force_expires']['fa'] = "اجبار انقضای SIP";
+
+$text['label-sip_force_contact']['fa'] = "اجبار تماس SIP";
+
+$text['label-sip_bypass_media']['fa'] = "عبور رسانه SIP";
+
+$text['label-absolute_codec_string']['fa'] = "رشته کدک مطلق";
+
+$text['label-force_ping']['fa'] = "اجبار پینگ";
+
+$text['label-rewrite_tls_contact_port']['fa'] = "بازنویسی پورت تماس TLS";
+
+$text['label-rewrite_contact_ip_and_port_2']['fa'] = "بازنویسی IP و پورت تماس 2.0";
+
+$text['label-rewrite_contact_ip_and_port']['fa'] = "بازنویسی IP و پورت تماس";
+
+$text['label-range']['fa'] = "محدوده";
+
+$text['label-proxy_media']['fa'] = "رسانه پروکسی";
+
+$text['label-provisioning']['fa'] = "پیکربندی دستگاه";
+
+$text['label-password']['fa'] = "رمز عبور";
+
+$text['label-caller_id']['fa'] = "شناسه تماس گیرنده";
+
+$text['label-caller_id_number']['fa'] = "شماره تماس گیرنده";
+
+$text['label-outbound_caller_id_number']['fa'] = "شماره شناسه تماس گیرنده خروجی";
+
+$text['label-outbound_caller_id_name']['fa'] = "نام شناسه تماس گیرنده خروجی";
+
+$text['label-outbound_cid_name']['fa'] = "نام CID خروجی";
+
+$text['label-number_alias']['fa'] = "عدد مستعار";
+
+$text['label-nibble_account']['fa'] = "حساب نبیل";
+
+$text['label-mwi_account']['fa'] = "حساب MWI";
+
+$text['label-missed_call']['fa'] = "تماس از دست رفته";
+
+$text['label-line']['fa'] = "خط";
+
+$text['label-max_registrations']['fa'] = "حداکثر ثبت‌نام‌ها";
+
+$text['label-limit_max']['fa'] = "حداکثر محدودیت";
+
+$text['label-limit_destination']['fa'] = "مقصد محدودیت";
+
+$text['label-hold_music']['fa'] = "موسیقی انتظار";
+
+$text['label-extension']['fa'] = "داخلی";
+
+$text['label-emergency_caller_id_number']['fa'] = "شماره تماس اضطراری";
+
+$text['label-emergency_caller_id_name']['fa'] = "نام تماس اضطراری";
+
+$text['label-email']['fa'] = "ایمیل";
+
+$text['label-effective_caller_id_number']['fa'] = "شماره شناسه تماس گیرنده مؤثر";
+
+$text['label-effective_caller_id_name']['fa'] = "نام شناسه تماس گیرنده مؤثر";
+
+$text['label-effective_cid_name']['fa'] = "نام CID مؤثر";
+
+$text['label-domain']['fa'] = "دامنه";
+
+$text['label-directory_visible']['fa'] = "قابل مشاهده در فهرست";
+
+$text['label-directory_full_name']['fa'] = "نام کامل در فهرست";
+
+$text['label-directory_exten_visible']['fa'] = "نمایش داخلی در فهرست";
+
+$text['label-dial_string']['fa'] = "رشته شماره‌گیری";
+
+$text['label-device_template']['fa'] = "قالب دستگاه";
+
+$text['label-device_address']['fa'] = "آدرس دستگاه";
+
+$text['label-description']['fa'] = "توضیحات";
+
+$text['label-cidr']['fa'] = "CIDR";
+
+$text['label-call_timeout']['fa'] = "زمان‌سنج تماس";
+
+$text['label-call_screen_enabled']['fa'] = "صفحه نمایش تماس فعال است";
+
+$text['label-call_group']['fa'] = "گروه تماس";
+
+$text['label-bypass_media_after_bridge']['fa'] = "عبور رسانه پس از پل";
+
+$text['label-bypass_media']['fa'] = "عبور رسانه";
+
+$text['label-billing_warning']['fa'] = "صورت‌حساب نصب شده است، لطفاً توجه داشته باشید که برای ایجاد داخلی‌ها باید موجودی کافی داشته باشید.";
+
+$text['label-auth_acl']['fa'] = "لیست کنترل دسترسی (ACL) تأیید هویت";
+
+$text['label-accountcode']['fa'] = "کد حساب";
+
+$text['label-is_registered']['fa'] = "ثبت شده";
+
+$text['label-column_name']['fa'] = "نام ستون";
+
+$text['label-destination']['fa'] = "مقصد";
+
+$text['label-extension_and_voicemail']['fa'] = "داخلی و پست صوتی";
+
+$text['label-defined']['fa'] = "تعریف شده";
+
+$text['label-undefined']['fa'] = "تعریف نشده";
+
+$text['label-extension_only']['fa'] = "فقط داخلی";
+
+$text['label-extension_type']['fa'] = "نوع";
+
+$text['description-extension_type']['fa'] = "برای فعال‌سازی ثبت‌نام، پیش‌فرض را انتخاب کنید یا برای غیرفعال کردن ثبت‌نام، مجازی را انتخاب کنید.";
+
+$text['label-generate']['fa'] = "تولید کردن";
+
+$text['header-extensions']['fa'] = "داخلی‌ها";
+
+$text['header-extension_import']['fa'] = "وارد کردن داخلی";
+
+$text['header-extension_export']['fa'] = "خروجی گرفتن از داخلی";
+
+$text['header-extension-edit']['fa'] = "داخلی";
+
+$text['header-extension-add']['fa'] = "افزودن داخلی";
+
+$text['description-voicemail_password']['fa'] = "رمز عبور عددی پست صوتی را اینجا وارد کنید.";
+
+$text['description-voicemail_mail_to']['fa'] = "آدرس ایمیل را برای ارسال پست صوتی وارد کنید (اختیاری).";
+
+$text['description-voicemail_local_after_email']['fa'] = "انتخاب کنید که آیا پس از ارسال اعلان ایمیل، پست صوتی در سیستم نگهداری شود یا خیر.";
+
+$text['description-voicemail_transcription_enabled']['fa'] = "انتخاب کنید که آیا تبدیل پست صوتی به متن برای این داخلی فعال است یا خیر.";
+
+$text['description-voicemail_file']['fa'] = "یک گزینه برای گوش دادن به اعلان ایمیل انتخاب کنید.";
+
+$text['description-voicemail_enabled']['fa'] = "پست صوتی را برای این داخلی فعال یا غیرفعال کنید.";
+
+$text['description-user_record']['fa'] = "انتخاب کنید که آیا ضبط به صورت محلی، ورودی، خروجی یا همه باشد.";
+
+$text['description-user_list']['fa'] = "کاربران را به این داخلی اختصاص دهید.";
+
+$text['description-user_context']['fa'] = "زمینه کاربر را اینجا وارد کنید.";
+
+$text['description-toll_allow']['fa'] = "مقدار اجازه تماس بین شهری را وارد کنید. (مثال: داخلی، بین‌المللی، محلی)";
+
+$text['description-sip_force_expires']['fa'] = "برای جلوگیری از ثبت‌نام‌های منقضی شده، می‌توان انقضای SIP را بر تنظیمات کلاینت تحمیل کرد.";
+
+$text['description-sip_force_contact']['fa'] = "انتخاب کنید که آیا فقط پورت تماس بازنویسی شود یا هم IP و هم پورت تماس.";
+
+$text['description-sip_bypass_media']['fa'] = "انتخاب کنید که آیا جریان رسانه به صورت نقطه به نقطه ارسال شود یا در حالت پروکسی شفاف.";
+
+$text['description-range']['fa'] = "تعداد داخلی‌هایی که باید ایجاد شوند را وارد کنید. هر داخلی به مقدار 1 افزایش می‌یابد.";
+
+$text['description-provisioning']['fa'] = "یک دستگاه و شماره خط را برای اختصاص به این داخلی انتخاب کنید.";
+
+$text['description-password']['fa'] = "رمز عبور را اینجا وارد کنید.";
+
+$text['description-outbound_caller_id_number-select']['fa'] = "شماره شناسه تماس گیرنده خارجی (عمومی) را انتخاب کنید.";
+
+$text['description-outbound_caller_id_number-custom']['fa'] = "شماره شناسه تماس گیرنده خارجی (عمومی) را اینجا وارد کنید.";
+
+$text['description-outbound_caller_id_name-select']['fa'] = "نام شناسه تماس گیرنده خارجی (عمومی) را انتخاب کنید.";
+
+$text['description-outbound_caller_id_name-custom']['fa'] = "نام شناسه تماس گیرنده خارجی (عمومی) را اینجا وارد کنید.";
+
+$text['description-number_alias']['fa'] = "اگر داخلی عددی باشد، عدد مستعار اختیاری است.";
+
+$text['description-nibble_account']['fa'] = "شماره حساب برای استفاده در نبیلبیل را وارد کنید.";
+
+$text['description-mwi_account']['fa'] = "حساب MWI با فرمت user@domain برای نظارت بر پست صوتی.";
+
+$text['description-absolute_codec_string']['fa'] = "رشته کدک مطلق برای...";
+
+
 ?>

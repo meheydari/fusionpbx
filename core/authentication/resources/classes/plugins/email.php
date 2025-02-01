@@ -191,8 +191,8 @@ class plugin_email {
 				}
 
 				//authentication code
-//				$_SESSION["user"]["authentication"]["email"]["code"] = generate_password(6, 1);
-				$_SESSION["user"]["authentication"]["email"]["code"] = '123456';
+				$_SESSION["user"]["authentication"]["email"]["code"] = generate_password(6, 1);
+//				$_SESSION["user"]["authentication"]["email"]["code"] = '123456';
 				$_SESSION["user"]["authentication"]["email"]["epoch"] = time();
 
 				//$_SESSION["authentication_address"] = $_SERVER['REMOTE_ADDR'];

@@ -110,7 +110,7 @@ if (!class_exists('button')) {
 						}
 					}
 					$pad_class = !empty($array['icon']) ? 'pad' : null;
-					if ($array['codarx'] == 'boolean_icon' || true) {
+					if ($array['codarx'] == 'boolean_icon') {
 						if ($array['label'] == 'True') {
 							$button .= "<img style='padding: 10px' src='../../themes/default/images/icon/done.svg'/>";
 						}

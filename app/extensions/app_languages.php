@@ -3632,7 +3632,7 @@ $text['label-rewrite_contact_ip_and_port_2']['fa'] = "بازنویسی IP و پ�
 
 $text['label-rewrite_contact_ip_and_port']['fa'] = "بازنویسی IP و پورت تماس";
 
-$text['label-range']['fa'] = "محدوده";
+$text['label-range']['fa'] = "رنج داخلی";
 
 $text['label-proxy_media']['fa'] = "رسانه پروکسی";
 
@@ -3742,9 +3742,9 @@ $text['header-extension_import']['fa'] = "وارد کردن داخلی";
 
 $text['header-extension_export']['fa'] = "خروجی گرفتن از داخلی";
 
-$text['header-extension-edit']['fa'] = "داخلی";
+$text['header-extension-edit']['fa'] = "ویرایش داخلی";
 
-$text['header-extension-add']['fa'] = "افزودن داخلی";
+$text['header-extension-add']['fa'] = "افزودن داخلی جدید";
 
 $text['description-voicemail_password']['fa'] = "رمز عبور عددی پست صوتی را اینجا وارد کنید.";
 

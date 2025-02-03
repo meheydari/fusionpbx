@@ -7,14 +7,14 @@
 		<!DOCTYPE html>
 	{/if}
 
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='fa' lang='fa'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='	{$settings.domain.language}
+' lang='	{$settings.domain.language}'>
 <head>
 <meta charset='utf-8'>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 <meta name="robots" content="noindex, nofollow, noarchive" />
-
 {*//external css files *}
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/bootstrap/css/bootstrap.min.css.php'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/bootstrap/css/bootstrap-tempusdominus.min.css.php'>
@@ -33,6 +33,7 @@
 
 {*//document title *}
 	<title>{$document_title}</title>
+
 
 {*//remote javascript *}
 	<script language='JavaScript' type='text/javascript' src='{$project_path}/resources/jquery/jquery.min.js.php'></script>

@@ -443,7 +443,7 @@ else if (!empty($background_colors[0]) || !empty($background_colors[1])) { //bac
 html {
 height: 100%;
 width: 100%;
-<?php echo 'lang:' . $_SESSION['app']['languages'] ?>
+<?php echo 'lang:' . $_SESSION['app']['languages']['code'] ?>
 }
 
 body {

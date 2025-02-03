@@ -434,26 +434,26 @@ else if (!empty($background_colors[0]) || !empty($background_colors[1])) { //bac
 		$background_color .= "background: -webkit-gradient(linear, left top, left bottom, color-stop(0, ".$background_colors[0]."), color-stop(1, ".$background_colors[1]."));\n";
 		$background_color .= "background: -webkit-linear-gradient(top, ".$background_colors[0]." 0%, ".$background_colors[1]." 100%);\n";
 		$background_color .= "background: linear-gradient(to bottom, ".$background_colors[0]." 0%, ".$background_colors[1]." 100%);\n";
-	}
-}
-else { //default: white
-	$background_color = "background: #ffffff;\n";
+    }
+} else { //default: white
+    $background_color = "background: #ffffff;\n";
 }
 ?>
 
-	html {
-		height: 100%;
-		width: 100%;
-		}
+html {
+height: 100%;
+width: 100%;
+<?php echo 'lang:' . $_SESSION['app']['languages'] ?>
+}
 
-	body {
-		z-index: 1;
-		position: absolute;
-		margin: 0;
-		padding: 0;
-		overflow: auto;
-		-ms-overflow-style: scrollbar; /* stops ie10+ from displaying auto-hiding scroll bar on top of the body content (the domain selector, specifically) */
-		top: 0;
+body {
+z-index: 1;
+position: absolute;
+margin: 0;
+padding: 0;
+overflow: auto;
+-ms-overflow-style: scrollbar; /* stops ie10+ from displaying auto-hiding scroll bar on top of the body content (the domain selector, specifically) */
+top: 0;
 		right: 0;
 		bottom: 0;
 		left: 0;

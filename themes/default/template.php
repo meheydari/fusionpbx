@@ -1,5 +1,6 @@
 {* <?php
-$language_code = $_SESSION['domain']['language']['code'];*}
+$language_code = $_SESSION['domain']['language']['code'];
+*}
 
 {*//set the doctype *}
 	{if $browser_name == 'Internet Explorer'}
@@ -8,7 +9,7 @@ $language_code = $_SESSION['domain']['language']['code'];*}
 		<!DOCTYPE html>
 	{/if}
 
-<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='{$language_code}' lang='{$language_code}'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='{$language_code}' lang='{$_SESSION.domain.language.code}'>
 <head>
 <meta charset='utf-8'>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>

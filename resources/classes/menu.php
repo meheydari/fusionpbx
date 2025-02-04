@@ -843,6 +843,7 @@ if (!class_exists('menu')) {
 							$menu_item_icon = $row['menu_item_icon'];
 							$menu_item_uuid = $row['menu_item_uuid'];
 							$menu_item_parent_uuid = $row['menu_item_parent_uuid'];
+							$menu_item_description = $row['menu_item_description'];
 
 						//add the row to the array
 							$a[$x] = $row;

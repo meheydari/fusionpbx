@@ -5326,6 +5326,7 @@ $text['button-cdr']['ko-kr'] = "통화 내역 기록";
 
 $text['button-settings']['en-us'] = "Settings";
 $text['button-settings']['en-gb'] = "Settings";
+$text['button-settings']['fa'] = "تنظیمات";
 $text['button-settings']['ar-eg'] = "Global";
 $text['button-settings']['de-at'] = "Einstellungen";
 $text['button-settings']['de-ch'] = "Global";

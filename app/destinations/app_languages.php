@@ -2047,7 +2047,7 @@ $text['label-column_name']['ko-kr'] = "열 이름";
 
 
 
-$text['title-destinations']['fa'] = "مقاصد";
+$text['title-destinations']['fa'] = "مقاصد تماس";
 
 $text['title-destination-edit']['fa'] = "مقصد";
 
@@ -2131,7 +2131,7 @@ $text['label-destination_conditions']['fa'] = "شرایط";
 
 $text['option-caller_id_number']['fa'] = "شماره تماس‌گیرنده";
 
-$text['label-destination_actions']['fa'] = "اقدامات";
+$text['label-destination_actions']['fa'] = "مسیر نهایی تماس";
 
 $text['label-usage']['fa'] = "استفاده";
 

@@ -3695,7 +3695,7 @@ $text['label-effective_caller_id_number']['fa'] = "شماره کالر آیدی"
 
 $text['label-effective_caller_id_name']['fa'] = "نام کالر آیدی";
 
-$text['label-effective_cid_name']['fa'] = "نام CID مؤثر";
+$text['label-effective_cid_name']['fa'] = "نام کالرآیدی";
 
 $text['label-domain']['fa'] = "دامنه";
 
@@ -3808,7 +3808,8 @@ $text['description-nibble_account']['fa'] = "شماره حساب برای است
 $text['description-mwi_account']['fa'] = "حساب MWI با فرمت user@domain برای نظارت بر پست صوتی.";
 
 $text['description-absolute_codec_string']['fa'] = "رشته کدک مطلق برای...";
-$text['description-extensions']['fa'] = "از این بخش برای تنظیمات SIP استفاده کنید.";
+
+$text['description-extensions']['fa'] = "از این بخش برای تعریف داخلی‌ها استفاده کنید.";
 
 
 

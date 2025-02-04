@@ -1707,7 +1707,7 @@ $text['button-import']['tr-tr'] = "İçe Aktar";
 $text['button-import']['zh-cn'] = "进口";
 $text['button-import']['ja-jp'] = "輸入";
 $text['button-import']['ko-kr'] = "수입";
-$text['button-import']['fa'] = "درون ریزی";
+$text['button-import']['fa'] = "ورود اطلاعات";
 
 $text['button-qr_code']['en-us'] = "QR Code";
 $text['button-qr_code']['en-gb'] = "QR Code";

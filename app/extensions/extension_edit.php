@@ -1102,7 +1102,7 @@
 	echo "	<div class='actions'>\n";
 	echo button::create(['type'=>'button','label'=>$text['button-back'],'icon'=>$_SESSION['theme']['button_icon_back'],'id'=>'btn_back','link'=>'extensions.php'.(isset($page) && is_numeric($page) ? '?page='.$page : null)]);
 	if ($action == 'update') {
-		$button_margin = 'margin-left: 15px;';
+		$button_margin = 'margin-left: 0;';
 		if (permission_exists('xml_cdr_view')) {
 			echo button::create(['type'=>'button','label'=>$text['button-cdr'],'icon'=>'info-circle','style'=>($button_margin ?? ''),'link'=>'../xml_cdr/xml_cdr.php?extension_uuid='.urlencode($extension_uuid)]);
 			unset($button_margin);

@@ -2931,7 +2931,7 @@ $text['description-force_ping']['ko-kr'] = "OPTIONS를 사용하여 내선 번�
 
 $text['description-missed_call']['en-us'] = "Select the notification type, and enter the appropriate destination.";
 $text['description-missed_call']['en-gb'] = "Select the notification type, and enter the appropriate destination.";
-$text['description-missed_call']['fa'] = "نوع نوتیفیکیشن را انتخاب کنید و مقصد را مشخص نمایید";
+$text['description-missed_call']['fa'] = "در صورت تمایل برای دریافت ایمیل اطلاع رسانی در صورت وجود تماس از دست رفته تنظیمات بالا را انجام دهید.";
 $text['description-missed_call']['ar-eg'] = "حدد نوع الإشعار ، وأدخل الوجهة المناسبة.";
 $text['description-missed_call']['de-at'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
 $text['description-missed_call']['de-ch'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
@@ -2981,6 +2981,7 @@ $text['description-max_registrations']['ko-kr'] = "허용되는 최대 동시 �
 
 $text['description-limit_max']['en-us'] = "Enter the maximum number of concurrent outbound calls allowed.";
 $text['description-limit_max']['en-gb'] = "Enter the maximum number of concurrent outbound calls allowed.";
+$text['description-limit_max']['fa'] = "وارد کردن حداکثر تعداد تماس های خروجی مجاز داخلی.";
 $text['description-limit_max']['ar-eg'] = "أدخل الحد الأقصى لعدد المكالمات الصادرة المتزامنة المسموح بها.";
 $text['description-limit_max']['de-at'] = "Geben Sie die maximale Anzahl ausgehender Gespräche dieser Nebenstelle an.";
 $text['description-limit_max']['de-ch'] = "Geben Sie die maximale Anzahl ausgehender Gespräche dieser Nebenstelle an.";
@@ -3005,6 +3006,7 @@ $text['description-limit_max']['ko-kr'] = "허용되는 최대 동시 발신 통
 
 $text['description-limit_destination']['en-us'] = "Enter the destination to send the calls when the max number of outgoing calls has been reached.";
 $text['description-limit_destination']['en-gb'] = "Enter the destination to send the calls when the max number of outgoing calls has been reached.";
+$text['description-limit_destination']['fa'] = "در صورتی که تماس های خروجی کاربر به حداکثر تعداد مجاز برسد ، تماس ها به مقصد فوق ارسال میشوند.";
 $text['description-limit_destination']['ar-eg'] = "أدخل المقصد لإرسال المكالمات عندما يتم الوصول إلى أكبر عدد من المكالمات";
 $text['description-limit_destination']['de-at'] = "Geben Sie das Ziel an, wohin der Anruf geleitet werden soll, falls die maximale Anzahl ausgehender Gespräche erreicht wurde.";
 $text['description-limit_destination']['de-ch'] = "Geben Sie das Ziel an, wohin der Anruf geleitet werden soll, falls die maximale Anzahl ausgehender Gespräche erreicht wurde.";
@@ -3077,7 +3079,7 @@ $text['description-extensions']['ja-jp'] = "これを使用して SIP 拡張機�
 $text['description-extensions']['ko-kr'] = "이를 사용하여 SIP 확장을 구성합니다.";
 
 $text['description-extension']['en-us'] = "Enter the alphanumeric extension. The default configuration allows 2 - 15 digit extensions.";
-$text['description-extension']['fa'] = "یک داخلی عددی وارد کنید. بصورت پیش فرض می توانید داخلی های ۲ تا ۱۵ رقمی ایجاد کنید";
+$text['description-extension']['fa'] = "شماره داخلی را وارد کنید. بصورت پیش فرض می توانید داخلی های ۲ تا ۱۵ رقمی ایجاد کنید.";
 $text['description-extension']['en-gb'] = "Enter the alphanumeric extension. The default configuration allows 2 - 15 digit extensions.";
 $text['description-extension']['ar-eg'] = "أدخل التمديد الألفي The default formation allows 2 - 15 digit extensions.";
 $text['description-extension']['de-at'] = "Geben Sie die alphanumerische Erweiterung ein. Die Standardkonfiguration ermöglicht 2- bis 15-stellige Durchwahlen.";
@@ -3103,7 +3105,7 @@ $text['description-extension']['ko-kr'] = "영숫자 확장자를 입력합니�
 
 $text['description-enabled']['en-us'] = "Set the status of the extension.";
 $text['description-enabled']['en-gb'] = "Set the status of the extension.";
-$text['description-enabled']['fa'] = "تنظیم وضعیت داخلی";
+$text['description-enabled']['fa'] = "داخلی را فعال/غیرفعال کنید";
 $text['description-enabled']['ar-eg'] = "اضبط حالة الامتداد.";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Nebenstelle.";
 $text['description-enabled']['de-ch'] = "Setzen Sie den Status dieser Nebenstelle.";
@@ -3298,6 +3300,7 @@ $text['description-directory_visible']['ja-jp'] = "ディレクトリに名前�
 $text['description-directory_visible']['ko-kr'] = "디렉터리에서 이름을 숨길지 여부를 선택합니다.";
 
 $text['description-directory_full_name']['en-us'] = "Enter the first name followed by the last name.";
+$text['description-directory_full_name']['fa'] = "نام و نام خانوادگی را وارد کنید.";
 $text['description-directory_full_name']['en-gb'] = "Enter the first name followed by the last name.";
 $text['description-directory_full_name']['ar-eg'] = "أدخل الاسم الأول متبوعًا بالاسم الأخير.";
 $text['description-directory_full_name']['de-at'] = "Geben Sie zuerst den Vornamen und dann den Nachnamen an.";
@@ -3421,7 +3424,7 @@ $text['description-call_timeout']['ko-kr'] = "음성 메일로 전화를 보내�
 
 $text['description-call_screen_enabled']['en-us'] = "Choose whether to enable or disable call screening.";
 $text['description-call_screen_enabled']['en-gb'] = "Choose whether to enable or disable call screening.";
-$text['description-call_screen_enabled']['fa'] = "فعال/عغیرفعال کردن قابلیت call screen";
+$text['description-call_screen_enabled']['fa'] = "فعال/غیرفعال کردن قابلیت call screen";
 $text['description-call_screen_enabled']['ar-eg'] = "اختر ما إذا كان من الممكن فرز المكالمات أم لا.";
 $text['description-call_screen_enabled']['de-at'] = "Wählen Sie ob die Anruf Anzeige Ein- oder Ausgeschaltet werden soll.";
 $text['description-call_screen_enabled']['de-ch'] = "Wählen Sie ob die Anruf Anzeige Ein- oder Ausgeschaltet werden soll.";
@@ -3599,11 +3602,11 @@ $text['label-voicemail_password']['fa'] = "پسورد صندوق صوتی";
 
 $text['label-voicemail_mail_to']['fa'] = "ایمیل برای ارسال پیام های صوتی";
 
-$text['label-voicemail_local_after_email']['fa'] = "نگهداری پست صوتی محلی";
+$text['label-voicemail_local_after_email']['fa'] = "نگهداری پیام صوتی در سیستم";
 
 $text['label-voicemail_transcription_enabled']['fa'] = "تبدیل به متن فعال است";
 
-$text['label-voicemail_file']['fa'] = "فایل پست صوتی";
+$text['label-voicemail_file']['fa'] = "فایل پیام صوتی";
 
 $text['label-voicemail_enabled']['fa'] = "فعالسازی صندوق صوتی";
 
@@ -3621,7 +3624,7 @@ $text['label-user_record']['fa'] = "ضبط";
 
 $text['label-user']['fa'] = "کاربر";
 
-$text['label-users']['fa'] = "کاربران";
+$text['label-users']['fa'] = "کاربر";
 
 $text['label-user_context']['fa'] = "زمینه کاربر";
 
@@ -3679,7 +3682,7 @@ $text['label-max_registrations']['fa'] = "حداکثر ثبت‌نام‌ها";
 
 $text['label-limit_max']['fa'] = "حداکثر تعداد تماس های خروجی";
 
-$text['label-limit_destination']['fa'] = "مقصد محدودیت";
+$text['label-limit_destination']['fa'] = "مقصد بعد از رسیدن به حد نصاب خروجی";
 
 $text['label-hold_music']['fa'] = "موزیک انتظار";
 
@@ -3747,7 +3750,7 @@ $text['label-extension_only']['fa'] = "فقط داخلی";
 
 $text['label-extension_type']['fa'] = " نوع داخلی";
 
-$text['description-extension_type']['fa'] = "برای فعال‌سازی ثبت‌نام، پیش‌فرض را انتخاب کنید یا برای غیرفعال کردن ثبت‌نام، مجازی را انتخاب کنید.";
+$text['description-extension_type']['fa'] = "Default و برای غیرفعال کردن آن Virtual را انتخاب نمایید. برای فعال سازی امکان لاگین";
 
 $text['label-generate']['fa'] = "تولید کردن";
 
@@ -3765,11 +3768,11 @@ $text['description-voicemail_password']['fa'] = "پسورد عددی صندوق 
 
 $text['description-voicemail_mail_to']['fa'] = "آدرس ایمیل را برای ارسال پست صوتی وارد کنید (اختیاری).";
 
-$text['description-voicemail_local_after_email']['fa'] = "انتخاب کنید که آیا پس از ارسال اعلان ایمیل، پست صوتی در سیستم نگهداری شود یا خیر.";
+$text['description-voicemail_local_after_email']['fa'] = "انتخاب کنید که آیا بعد از ارسال ایمیل اطلاع رسانی، پیام صوتی در سیستم نگهداری شود یا خیر";
 
 $text['description-voicemail_transcription_enabled']['fa'] = "انتخاب کنید که آیا تبدیل پست صوتی به متن برای این داخلی فعال است یا خیر.";
 
-$text['description-voicemail_file']['fa'] = "یک گزینه برای گوش دادن به اعلان ایمیل انتخاب کنید.";
+$text['description-voicemail_file']['fa'] = "یکی از گزینه های بالا را برای نحوه شنیدن فایل پیام صوتی (در ایمیل اطلاع رسانی) انتخاب کنید.";
 
 $text['description-voicemail_enabled']['fa'] = "پست صوتی را برای این داخلی فعال یا غیرفعال کنید.";
 

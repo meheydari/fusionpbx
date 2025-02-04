@@ -303,7 +303,6 @@ select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[ty
     outline: none;
     font-weight: 600;
     font-size: 12px;
-    max-width: max-content;
 }
 
 

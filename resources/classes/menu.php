@@ -837,6 +837,7 @@ if (!class_exists('menu')) {
 				$a = Array();
 				if (is_array($sub_result) && @sizeof($sub_result) != 0) {
 					foreach($sub_result as $row) {
+						var_dump($row);
 						//set the variables
 							$menu_item_link = $row['menu_item_link'];
 							$menu_item_category = $row['menu_item_category'];

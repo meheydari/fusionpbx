@@ -783,6 +783,7 @@ if (!class_exists('menu')) {
 				unset($result, $row);
 
 			//return the array
+				var_dump($a);
 				return $a;
 		}
 

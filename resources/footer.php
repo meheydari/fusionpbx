@@ -206,7 +206,6 @@
 					$container_open = "<div id='menu_side_container' ".($_SESSION['theme']['menu_side_state']['text'] == 'hidden' ? "style='display: none;'" : "class='hide-xs'").$menu_side_toggle." >\n";
 					$menu = new menu;
 					$menu->text = $text;
-					var_dump($_SESSION['menu']['array']);
 					$menu_html = $menu->menu_vertical($_SESSION['menu']['array']);
 					unset($menu);
 					break;

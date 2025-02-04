@@ -837,7 +837,6 @@ if (!class_exists('menu')) {
 				$a = Array();
 				if (is_array($sub_result) && @sizeof($sub_result) != 0) {
 					foreach($sub_result as $row) {
-						var_dump($row);
 						//set the variables
 							$menu_item_link = $row['menu_item_link'];
 							$menu_item_category = $row['menu_item_category'];
@@ -1139,7 +1138,7 @@ if (!class_exists('menu')) {
 								$html .= "	<div id='sub_".$menu_item_main['menu_item_uuid']."' class='menu_side_sub' style='display: none;'>\n";
 								var_dump($menu_item_main['menu_items']);
 								foreach ($menu_item_main['menu_items'] as $menu_index_sub => $menu_item_sub) {
-									$html .= "		<a class='menu_side_item_sub' ".($menu_item_sub['menu_item_category'] == 'external' ? "target='_blank'" : null)." title='".$menu_item_sub['menu_language_title']."' href='".$menu_item_sub['menu_item_link']."'>";
+									$html .= "		<a class='menu_side_item_sub' ".($menu_item_sub['menu_item_category'] == 'external' ? "target='_blank'" : null)." title='".$menu_item_sub['menu_item_description']."' href='".$menu_item_sub['menu_item_link']."'>";
 									$html .= 			"<span class='menu_side_item_title' ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "style='display: none;'" : null).">".$menu_item_sub['menu_language_title']."</span>";
 									$html .= 		"</a>\n";
 								}

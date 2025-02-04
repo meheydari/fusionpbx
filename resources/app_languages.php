@@ -5299,6 +5299,7 @@ $text['button-tickets']['ko-kr'] = "티켓";
 
 $text['button-cdr']['en-us'] = "CDR";
 $text['button-cdr']['en-gb'] = "CDR";
+$text['button-cdr']['fa'] = "سوابق تماس";
 $text['button-cdr']['ar-eg'] = "مجلس الإنماء والإعمار";
 $text['button-cdr']['de-at'] = "CDR";
 $text['button-cdr']['de-ch'] = "CDR";

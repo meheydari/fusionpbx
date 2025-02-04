@@ -3549,6 +3549,7 @@ $text['description-extension_export']['ko-kr'] = "내보내기에 포함할 필�
 
 $text['button-call_forward']['en-us'] = "Call Forward";
 $text['button-call_forward']['en-gb'] = "Call Forward";
+$text['button-call_forward']['fa'] = "انتقال تماس";
 $text['button-call_forward']['ar-eg'] = "نداء إلى الأمام";
 $text['button-call_forward']['de-at'] = "Rufumleitung";
 $text['button-call_forward']['de-ch'] = "Rufumleitung";

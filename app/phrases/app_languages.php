@@ -2,6 +2,7 @@
 
 $text['title-phrases']['en-us'] = "Phrases";
 $text['title-phrases']['en-gb'] = "Phrases";
+$text['title-phrases']['fa'] = "اعلان‌های صوتی";
 $text['title-phrases']['ar-eg'] = "الصيغة";
 $text['title-phrases']['de-at'] = "Phrasen";
 $text['title-phrases']['de-ch'] = "Phrasen";
@@ -25,6 +26,7 @@ $text['title-phrases']['ja-jp'] = "フレーズ";
 $text['title-phrases']['ko-kr'] = "한국어";
 
 $text['title-edit_phrase']['en-us'] = "Edit Phrase";
+$text['title-edit_phrase']['fa'] = "ویرایش اعلان صوتی";
 $text['title-edit_phrase']['en-gb'] = "Edit Phrase";
 $text['title-edit_phrase']['ar-eg'] = "عبارة تحرير";
 $text['title-edit_phrase']['de-at'] = "Phrasen bearbeiten";
@@ -50,6 +52,7 @@ $text['title-edit_phrase']['ko-kr'] = "Phrase 편집";
 
 $text['title-add_phrase']['en-us'] = "Add Phrase";
 $text['title-add_phrase']['en-gb'] = "Add Phrase";
+$text['title-add_phrase']['fa'] = "افزودن اعلان صوتی";
 $text['title-add_phrase']['ar-eg'] = "مضافا إليه:";
 $text['title-add_phrase']['de-at'] = "Phrasen hinzufügen";
 $text['title-add_phrase']['de-ch'] = "Phrasen hinzufügen";
@@ -193,6 +196,7 @@ $text['label-recordings']['ja-jp'] = "レコーディング";
 $text['label-recordings']['ko-kr'] = "관련 기사";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['fa'] = "پخش";
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "اللعب";
 $text['label-play']['de-at'] = "Abspielen";
@@ -217,6 +221,7 @@ $text['label-play']['ja-jp'] = "プレイ";
 $text['label-play']['ko-kr'] = "뚱 베어";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['fa'] = "متوقف کردن";
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "وقف";
 $text['label-pause']['de-at'] = "Pause";
@@ -241,6 +246,7 @@ $text['label-pause']['ja-jp'] = "パデュース";
 $text['label-pause']['ko-kr'] = "팟캐스트";
 
 $text['label-language']['en-us'] = "Language";
+$text['label-language']['fa'] = "زبان";
 $text['label-language']['en-gb'] = "Language";
 $text['label-language']['ar-eg'] = "اللغة";
 $text['label-language']['de-at'] = "Sprache";
@@ -433,6 +439,7 @@ $text['description-structure']['ja-jp'] = "フレーズを構成するさまざ�
 $text['description-structure']['ko-kr'] = "문구를 만들 수있는 다양한 구성 요소를 정의합니다.";
 
 $text['description-phrases']['en-us'] = "Create phrases of audio files to be played in sequence.";
+$text['description-phrases']['fa'] = "از این قسمت می توانید اعلان های صوتی خود را ایجاد کنید. فایلهای صوتی بترتیب پخش خواهند شد.";
 $text['description-phrases']['en-gb'] = "Create phrases of audio files to be played in sequence.";
 $text['description-phrases']['ar-eg'] = ":: وضع عبارات للملفات الصوتية التي ستُستخدم بالتسلسل.";
 $text['description-phrases']['de-at'] = "Stellen Sie Phrasen aus Audiodateien zusammen, welche sequenziell abgespielt werden.";

@@ -2,6 +2,7 @@
 
 $text['title-conferences']['en-us'] = "Conferences";
 $text['title-conferences']['en-gb'] = "Conferences";
+$text['title-conferences']['fa'] = "کنفرانس صوتی";
 $text['title-conferences']['ar-eg'] = "المؤتمرات";
 $text['title-conferences']['de-at'] = "Konferenzen";
 $text['title-conferences']['de-ch'] = "Konferenzen";
@@ -50,6 +51,7 @@ $text['title-conference']['ko-kr'] = "회의";
 
 $text['description']['en-us'] = "Conference is used to setup conference rooms with a name, description, and optional pin number.";
 $text['description']['en-gb'] = "Conference is used to setup conference rooms with a name, description, and optional pin number.";
+$text['description']['fa'] = "در این قسمت میتوانید به سادگی و تنها با وارد کردن یک نام و پسورد ، کنفرانس صوتی خود را ایجاد کنید.";
 $text['description']['ar-eg'] = "يُستخدم المؤتمر لإعداد غرف المؤتمرات بالاسم والوصف ورقم التعريف الشخصي الاختياري.";
 $text['description']['de-at'] = "Konferenzen wird verwendet, um Konferenzräume mit einem Namen, Beschreibung und optionaler PIN zu erstellen.";
 $text['description']['de-ch'] = "Konferenzen wird verwendet, um Konferenzräume mit einem Namen, Beschreibung und optionaler PIN zu erstellen.";
@@ -99,6 +101,7 @@ $text['label-active_conferences']['ko-kr'] = "활성 회의";
 
 $text['button-view_active']['en-us'] = "View Active";
 $text['button-view_active']['en-gb'] = "View Active";
+$text['button-view_active']['fa'] = "مشاهده کنفرانس‌های فعال";
 $text['button-view_active']['ar-eg'] = "مشاهدة ملف Active";
 $text['button-view_active']['de-at'] = "Aktive anzeigen";
 $text['button-view_active']['de-ch'] = "Aktive anzeigen";
@@ -123,6 +126,7 @@ $text['button-view_active']['ko-kr'] = "활성 보기";
 
 $text['table-name']['en-us'] = "Name";
 $text['table-name']['en-gb'] = "Name";
+$text['table-name']['fa'] = "نام";
 $text['table-name']['ar-eg'] = "اسم";
 $text['table-name']['de-at'] = "Name";
 $text['table-name']['de-ch'] = "Name";
@@ -148,6 +152,7 @@ $text['table-name']['ko-kr'] = "이름";
 $text['table-extension']['en-us'] = "Extension";
 $text['table-extension']['en-gb'] = "Extension";
 $text['table-extension']['fa'] = "داخلی";
+$text['table-extension']['fa'] = "داخلی";
 $text['table-extension']['ar-eg'] = "امتداد";
 $text['table-extension']['de-at'] = "Nebenstelle";
 $text['table-extension']['de-ch'] = "Nebenstelle";
@@ -172,6 +177,7 @@ $text['table-extension']['ko-kr'] = "확대";
 
 $text['table-profile']['en-us'] = "Profile";
 $text['table-profile']['en-gb'] = "Profile";
+$text['table-profile']['fa'] = "پروفایل";
 $text['table-profile']['ar-eg'] = "حساب تعريفي";
 $text['table-profile']['de-at'] = "Profile";
 $text['table-profile']['de-ch'] = "Profile";
@@ -196,6 +202,7 @@ $text['table-profile']['ko-kr'] = "프로필";
 
 $text['table-order']['en-us'] = "Order";
 $text['table-order']['en-gb'] = "Order";
+$text['table-order']['fa'] = "اولویت";
 $text['table-order']['ar-eg'] = "طلب";
 $text['table-order']['de-at'] = "Reihenfolge";
 $text['table-order']['de-ch'] = "Reihenfolge";
@@ -220,6 +227,7 @@ $text['table-order']['ko-kr'] = "주문하다";
 
 $text['table-enabled']['en-us'] = "Enabled";
 $text['table-enabled']['en-gb'] = "Enabled";
+$text['table-enabled']['fa'] = "وضعیت";
 $text['table-enabled']['ar-eg'] = "ممكن";
 $text['table-enabled']['de-at'] = "Aktiviert";
 $text['table-enabled']['de-ch'] = "Aktiviert";
@@ -244,6 +252,7 @@ $text['table-enabled']['ko-kr'] = "사용";
 
 $text['table-description']['en-us'] = "Description";
 $text['table-description']['en-gb'] = "Description";
+$text['table-description']['fa'] = "توضیحات";
 $text['table-description']['ar-eg'] = "وصف";
 $text['table-description']['de-at'] = "Beschreibung";
 $text['table-description']['de-ch'] = "Beschreibung";

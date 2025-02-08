@@ -26,6 +26,7 @@ $text['title-call_center_queue_activity']['ko-kr'] = "콜센터 대기열 활동
 
 $text['title-active_call_center']['en-us'] = "Active Call Center";
 $text['title-active_call_center']['en-gb'] = "Active Call Center";
+$text['title-active_call_center']['fa'] = "صف‌های فعال";
 $text['title-active_call_center']['ar-eg'] = "مركز الاتصال النشط";
 $text['title-active_call_center']['de-at'] = "Aktive Callcenter";
 $text['title-active_call_center']['de-ch'] = "Aktive Callcenter";
@@ -386,6 +387,7 @@ $text['label-system']['ko-kr'] = "체계";
 
 $text['label-strategy']['en-us'] = "Strategy";
 $text['label-strategy']['en-gb'] = "Strategy";
+$text['label-strategy']['fa'] = "استراتژی";
 $text['label-strategy']['ar-eg'] = "إستراتيجية";
 $text['label-strategy']['de-at'] = "Strategie";
 $text['label-strategy']['de-ch'] = "Strategie";
@@ -554,6 +556,7 @@ $text['label-record_template']['ko-kr'] = "레코드 템플릿";
 
 $text['label-queue_name']['en-us'] = "Queue Name";
 $text['label-queue_name']['en-gb'] = "Queue Name";
+$text['label-queue_name']['fa'] = "نام صف";
 $text['label-queue_name']['ar-eg'] = "اسم الطابور";
 $text['label-queue_name']['de-at'] = "Warteschlange Name";
 $text['label-queue_name']['de-ch'] = "Warteschlange Name";
@@ -746,6 +749,7 @@ $text['label-max_wait_time']['ko-kr'] = "최대 대기 시간";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "رقم داخلي";
 $text['label-extension']['de-at'] = "Nebenstelle";
 $text['label-extension']['de-ch'] = "Nebenstelle";
@@ -1010,6 +1014,7 @@ $text['description-agents']['ko-kr'] = "현재 에이전트 목록은 다음과 
 
 $text['description-active_call_center']['en-us'] = "Select a Call Center Queue from the list below to view its activity.";
 $text['description-active_call_center']['en-gb'] = "Select a Call Center Queue from the list below to view its activity.";
+$text['description-active_call_center']['fa'] = "میتوانید وضعیت صف موردنطر خود را از منوی زیر مشاهده نمایید.";
 $text['description-active_call_center']['ar-eg'] = "حدد قائمة انتظار مركز الاتصال من القائمة أدناه لعرض نشاطها.";
 $text['description-active_call_center']['de-at'] = "Wählen Sie eine Callcenter-Warteschlange aus der Liste unten um die Aktivität zu beobachten.";
 $text['description-active_call_center']['de-ch'] = "Wählen Sie eine Callcenter-Warteschlange aus der Liste unten um die Aktivität zu beobachten.";

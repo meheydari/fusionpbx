@@ -2,6 +2,7 @@
 
 $text['title-active_conferences']['en-us'] = "Active Conferences";
 $text['title-active_conferences']['en-gb'] = "Active Conferences";
+$text['title-active_conferences']['fa'] = "کنفرانس‌های فعال";
 $text['title-active_conferences']['ar-eg'] = "المؤتمرات النشطة";
 $text['title-active_conferences']['de-at'] = "Aktive Konferenzen";
 $text['title-active_conferences']['de-ch'] = "Aktive Konferenzen";
@@ -457,6 +458,7 @@ $text['label-quiet']['ja-jp'] = "静かな";
 $text['label-quiet']['ko-kr'] = "조용한";
 
 $text['label-participant-pin']['en-us'] = "Participant PIN";
+$text['label-participant-pin']['fa'] = "پسورد کاربر";
 $text['label-participant-pin']['en-gb'] = "Participant PIN";
 $text['label-participant-pin']['ar-eg'] = "رقم التعريف الشخصي للمشترك";
 $text['label-participant-pin']['de-at'] = "Teilnehmer PIN";
@@ -722,6 +724,7 @@ $text['label-members']['ko-kr'] = "회원";
 
 $text['label-member-count']['en-us'] = "Member Count";
 $text['label-member-count']['en-gb'] = "Member Count";
+$text['label-member-count']['en-gb'] = "تعداد اعضا";
 $text['label-member-count']['ar-eg'] = "عدد الأعضاء";
 $text['label-member-count']['de-at'] = "Anzahl Teilnehmer";
 $text['label-member-count']['de-ch'] = "Anzahl Teilnehmer";
@@ -1105,6 +1108,7 @@ $text['description-interactive']['ja-jp'] = "これを使用して、会議の�
 $text['description-interactive']['ko-kr'] = "이를 사용하여 회의 구성원을 모니터링하고 상호 작용합니다.";
 
 $text['description-active']['en-us'] = "List all the conferences that are currently active with one or more members.";
+$text['description-active']['en-us'] = "لیست همه کنفرانس های فعال";
 $text['description-active']['en-gb'] = "List all the conferences that are currently active with one or more members.";
 $text['description-active']['ar-eg'] = "قم بإدراج كافة المؤتمرات النشطة حاليًا مع عضو واحد أو أكثر.";
 $text['description-active']['de-at'] = "Liste alle aktiven Konferenzen mit einem oder mehreren Teilnehmern.";
@@ -1175,5 +1179,8 @@ $text['button-start-rec']['uk-ua'] = "Записувати";
 $text['button-start-rec']['zh-cn'] = "开始录制";
 $text['button-start-rec']['ja-jp'] = "記録開始";
 $text['button-start-rec']['ko-kr'] = "기록 시작";
+
+$text['label-conference_center_name']['fa'] = "نام";
+
 
 ?>

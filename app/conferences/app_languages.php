@@ -73,6 +73,7 @@ $text['description']['ja-jp'] = "会議は、名前、説明、およびオプ�
 $text['description']['ko-kr'] = "Conference는 이름, 설명 및 선택적 핀 번호로 회의실을 설정하는 데 사용됩니다.";
 
 $text['label-active_conferences']['en-us'] = "Active Conferences";
+$text['label-active_conferences']['fa'] = "کنفرانس‌های فعال";
 $text['label-active_conferences']['en-gb'] = "Active Conferences";
 $text['label-active_conferences']['ar-eg'] = "المؤتمرات النشطة";
 $text['label-active_conferences']['de-at'] = "Aktive Konferenzen";
@@ -146,6 +147,7 @@ $text['table-name']['ko-kr'] = "이름";
 
 $text['table-extension']['en-us'] = "Extension";
 $text['table-extension']['en-gb'] = "Extension";
+$text['table-extension']['fa'] = "داخلی";
 $text['table-extension']['ar-eg'] = "امتداد";
 $text['table-extension']['de-at'] = "Nebenstelle";
 $text['table-extension']['de-ch'] = "Nebenstelle";

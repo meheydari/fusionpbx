@@ -152,7 +152,6 @@ $text['table-name']['ko-kr'] = "이름";
 $text['table-extension']['en-us'] = "Extension";
 $text['table-extension']['en-gb'] = "Extension";
 $text['table-extension']['fa'] = "داخلی";
-$text['table-extension']['fa'] = "داخلی";
 $text['table-extension']['ar-eg'] = "امتداد";
 $text['table-extension']['de-at'] = "Nebenstelle";
 $text['table-extension']['de-ch'] = "Nebenstelle";
@@ -469,6 +468,7 @@ $text['label-conference-edit']['ko-kr'] = "컨퍼런스 편집";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Nebenstelle";
 $text['label-extension']['de-ch'] = "Nebenstelle";
@@ -517,6 +517,7 @@ $text['description-name']['ko-kr'] = "회의 이름을 입력합니다.";
 
 $text['description-extension']['en-us'] = "Enter the conference extension number.";
 $text['description-extension']['en-gb'] = "Enter the conference extension number.";
+$text['description-extension']['fa'] = "داخلی کنفرانس را وارد کنید.";
 $text['description-extension']['ar-eg'] = "أدخل الرقم الداخلي للمؤتمر.";
 $text['description-extension']['de-at'] = "Geben Sie die Nebenstelle der Konferenz an.";
 $text['description-extension']['de-ch'] = "Geben Sie die Nebenstelle der Konferenz an.";
@@ -565,6 +566,7 @@ $text['description-3']['ko-kr'] = "회의실을 모니터링하고 상호 작용
 
 $text['label-pin']['en-us'] = "Pin Number";
 $text['label-pin']['en-gb'] = "Pin Number";
+$text['label-pin']['fa'] = "پیورد اعضا";
 $text['label-pin']['ar-eg'] = "الرقم السري";
 $text['label-pin']['de-at'] = "PIN Nummer";
 $text['label-pin']['de-ch'] = "PIN Nummer";
@@ -589,6 +591,7 @@ $text['label-pin']['ko-kr'] = "핀 번호";
 
 $text['description-pin']['en-us'] = "Optional pin number to secure access to the conference.";
 $text['description-pin']['en-gb'] = "Optional pin number to secure access to the conference.";
+$text['description-pin']['fa'] = "پسورد کنفرانس را وارد کنید.";
 $text['description-pin']['ar-eg'] = "رقم التعريف الشخصي الاختياري لتأمين الوصول إلى المؤتمر.";
 $text['description-pin']['de-at'] = "Optionale PIN Nummer um den Zugriff auf die Konferenz ab zu sichern.)";
 $text['description-pin']['de-ch'] = "Optionale PIN Nummer um den Zugriff auf die Konferenz ab zu sichern.)";
@@ -709,6 +712,7 @@ $text['description-info']['ko-kr'] = "설명을 입력합니다.";
 
 $text['description-conference-enable']['en-us'] = "Select whether to enable or disable the conference.";
 $text['description-conference-enable']['en-gb'] = "Select whether to enable or disable the conference.";
+$text['description-conference-enable']['fa'] = "وضعیت کنفرانس";
 $text['description-conference-enable']['ar-eg'] = "حدد ما إذا كنت تريد تمكين أو تعطيل المؤتمر.";
 $text['description-conference-enable']['de-at'] = "Wählen Sie, ob die Konferenz ein- oder ausgeschaltet werden soll.";
 $text['description-conference-enable']['de-ch'] = "Wählen Sie, ob die Konferenz ein- oder ausgeschaltet werden soll.";
@@ -733,6 +737,7 @@ $text['description-conference-enable']['ko-kr'] = "회의 활성화 또는 비�
 
 $text['description-order']['en-us'] = "Enter the order number.";
 $text['description-order']['en-gb'] = "Enter the order number.";
+$text['description-order']['fa'] = "اولویت این کنفرانس را وارد کنید.";
 $text['description-order']['ar-eg'] = "أدخل رقم الطلب.";
 $text['description-order']['de-at'] = "Geben Sie die Nummer für die Reihenfolge an.";
 $text['description-order']['de-ch'] = "Geben Sie die Nummer für die Reihenfolge an.";
@@ -781,6 +786,7 @@ $text['description-user-add']['ko-kr'] = "이 회의 확장을 관리할 수 있
 
 $text['description-profile']['en-us'] = "Conference Profile is a collection of settings for the conference.";
 $text['description-profile']['en-gb'] = "Conference Profile is a collection of settings for the conference.";
+$text['description-profile']['fa'] = "این پروفایل مجموعه ای از تنظیمات برای مدیریت اتاق کنفرانس می باشد.";
 $text['description-profile']['ar-eg'] = "ملف تعريف المؤتمر عبارة عن مجموعة من الإعدادات الخاصة بالمؤتمر.";
 $text['description-profile']['de-at'] = "Ein Profil ist eine Zusammenfassung von Parametern für die Konferenz.";
 $text['description-profile']['de-ch'] = "Ein Profil ist eine Zusammenfassung von Parametern für die Konferenz.";
@@ -804,6 +810,7 @@ $text['description-profile']['ja-jp'] = "会議プロファイルは、会議の
 $text['description-profile']['ko-kr'] = "회의 프로필은 회의 설정 모음입니다.";
 
 $text['description-flags']['en-us'] = "Optional conference flags. examples: mute|deaf|waste|moderator";
+$text['description-flags']['fa'] = "انتخاب تنظیمات پیشرفته ، بطور مثال mute برای بی صدا کردن کنفرانس";
 $text['description-flags']['en-gb'] = "Optional conference flags. examples: mute|deaf|waste|moderator";
 $text['description-flags']['ar-eg'] = "أعلام المؤتمر الاختيارية. أمثلة: البكم | الصم | النفايات | الوسيط";
 $text['description-flags']['de-at'] = "Optionale Attribute für die Konferenz. Beispiele: mute|deaf|waste|moderator";
@@ -829,6 +836,7 @@ $text['description-flags']['ko-kr'] = "선택적 컨퍼런스 플래그. 예: �
 
 $text['description-account_code']['en-us'] = "Enter the account code here.";
 $text['description-account_code']['en-gb'] = "Enter the account code here.";
+$text['description-account_code']['fa'] = "کد کاربری وارد کنید.";
 $text['description-account_code']['ar-eg'] = "أدخل رمز الحساب هنا.";
 $text['description-account_code']['de-at'] = "Geben Sie den Account Code hier an.";
 $text['description-account_code']['de-ch'] = "Geben Sie den Account Code hier an.";
@@ -877,6 +885,7 @@ $text['label-user_list']['ko-kr'] = "사용자 목록";
 
 $text['label-flags']['en-us'] = "Flags";
 $text['label-flags']['en-gb'] = "Flags";
+$text['label-flags']['fa'] = "تنظیمات پیشرفته";
 $text['label-flags']['ar-eg'] = "أعلام";
 $text['label-flags']['de-at'] = "Attribute";
 $text['label-flags']['de-ch'] = "Attribute";
@@ -901,6 +910,7 @@ $text['label-flags']['ko-kr'] = "플래그";
 
 $text['label-account_code']['en-us'] = "Account Code";
 $text['label-account_code']['en-gb'] = "Account Code";
+$text['label-account_code']['fa'] = "کد کاربری";
 $text['label-account_code']['ar-eg'] = "رمز الحساب";
 $text['label-account_code']['de-at'] = "Kontoschlüssel";
 $text['label-account_code']['de-ch'] = "Kontoschlüssel";
@@ -946,5 +956,8 @@ $text['label-view']['uk-ua'] = "Перегляд";
 $text['label-view']['zh-cn'] = "看法";
 $text['label-view']['ja-jp'] = "意見";
 $text['label-view']['ko-kr'] = "보다";
+
+$text['label-order']['fa'] = "اولویت";
+
 
 ?>

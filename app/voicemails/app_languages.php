@@ -2,6 +2,7 @@
 
 $text['title-voicemails']['en-us'] = "Voicemails";
 $text['title-voicemails']['en-gb'] = "Voicemails";
+$text['title-voicemails']['fa'] = "صندوق صوتی";
 $text['title-voicemails']['ar-eg'] = "رسائل البريد الصوتي";
 $text['title-voicemails']['de-at'] = "Mailboxen";
 $text['title-voicemails']['de-ch'] = "Mailboxen";
@@ -508,6 +509,7 @@ $text['label-voicemail_transcription_enabled']['ko-kr'] = "SMS 대상";
 
 $text['label-voicemail_mail_to']['en-us'] = "Mail To";
 $text['label-voicemail_mail_to']['en-gb'] = "Mail To";
+$text['label-voicemail_mail_to']['fa'] = "آدرس ایمیل";
 $text['label-voicemail_mail_to']['ar-eg'] = "بريد إلى";
 $text['label-voicemail_mail_to']['de-at'] = "Email senden an";
 $text['label-voicemail_mail_to']['de-ch'] = "Email senden an";
@@ -532,6 +534,7 @@ $text['label-voicemail_mail_to']['ko-kr'] = "메일 수신";
 
 $text['label-voicemail_local_after_email']['en-us'] = "Keep Local";
 $text['label-voicemail_local_after_email']['en-gb'] = "Keep Local";
+$text['label-voicemail_local_after_email']['fa'] = "نگهداری در سیستم";
 $text['label-voicemail_local_after_email']['ar-eg'] = "حافظ على المحلية";
 $text['label-voicemail_local_after_email']['de-at'] = "Mailbox Nachricht auf dem Server behalten";
 $text['label-voicemail_local_after_email']['de-ch'] = "Mailbox Nachricht auf dem Server behalten";
@@ -580,6 +583,7 @@ $text['label-voicemail_transcribe_enabled']['ko-kr'] = "고쳐 쓰다";
 
 $text['label-voicemail_id']['en-us'] = "Voicemail ID";
 $text['label-voicemail_id']['en-gb'] = "Voicemail ID";
+$text['label-voicemail_id']['fa'] = "شناسه صندوق صوتی";
 $text['label-voicemail_id']['ar-eg'] = "معرف البريد الصوتي";
 $text['label-voicemail_id']['de-at'] = "Voicemail ID";
 $text['label-voicemail_id']['de-ch'] = "Voicemail ID";
@@ -604,6 +608,7 @@ $text['label-voicemail_id']['ko-kr'] = "음성사서함 ID";
 
 $text['label-voicemail_file_attached']['en-us'] = "Attached";
 $text['label-voicemail_file_attached']['en-gb'] = "Attached";
+$text['label-voicemail_file_attached']['fa'] = "پیوست ایمیل";
 $text['label-voicemail_file_attached']['ar-eg'] = "مُرفَق";
 $text['label-voicemail_file_attached']['de-at'] = "als Anhang";
 $text['label-voicemail_file_attached']['de-ch'] = "als Anhang";
@@ -652,6 +657,7 @@ $text['label-voicemail_file']['ko-kr'] = "음성 메일 파일";
 
 $text['label-voicemail_enabled']['en-us'] = "Enabled";
 $text['label-voicemail_enabled']['en-gb'] = "Enabled";
+$text['label-voicemail_enabled']['fa'] = "وضعیت";
 $text['label-voicemail_enabled']['ar-eg'] = "ممكن";
 $text['label-voicemail_enabled']['de-at'] = "Eingeschaltet";
 $text['label-voicemail_enabled']['de-ch'] = "Eingeschaltet";
@@ -676,6 +682,7 @@ $text['label-voicemail_enabled']['ko-kr'] = "사용";
 
 $text['label-voicemail_description']['en-us'] = "Description";
 $text['label-voicemail_description']['en-gb'] = "Description";
+$text['label-voicemail_description']['fa'] = "توضیحات";
 $text['label-voicemail_description']['ar-eg'] = "وصف";
 $text['label-voicemail_description']['de-at'] = "Beschreibung";
 $text['label-voicemail_description']['de-ch'] = "Beschreibung";
@@ -724,6 +731,7 @@ $text['label-voicemail_tutorial']['ko-kr'] = "플레이 튜토리얼";
 
 $text['label-tools']['en-us'] = "Tools";
 $text['label-tools']['en-gb'] = "Tools";
+$text['label-tools']['fa'] = "ابزار";
 $text['label-tools']['ar-eg'] = "أدوات";
 $text['label-tools']['de-at'] = "Werkzeuge";
 $text['label-tools']['de-ch'] = "Werkzeuge";
@@ -1998,6 +2006,7 @@ $text['button-toggle']['ko-kr'] = "비녀장";
 
 $text['button-settings']['en-us'] = "Settings";
 $text['button-settings']['en-gb'] = "Settings";
+$text['button-settings']['fa'] = "تنظیمات";
 $text['button-settings']['ar-eg'] = "إعدادات";
 $text['button-settings']['de-at'] = "Einstellungen";
 $text['button-settings']['de-ch'] = "Einstellungen";

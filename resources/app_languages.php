@@ -1263,7 +1263,7 @@ $text['button-export']['el-gr'] = "Εξαγωγή εξαγωγών";
 $text['button-export']['zh-cn'] = "出口";
 $text['button-export']['ja-jp'] = "輸出";
 $text['button-export']['ko-kr'] = "내보내다";
-$text['button-export']['fa'] = "خروجی گرفتن";
+$text['button-export']['fa'] = "دریافت خروجی";
 
 $text['button-execute']['en-us'] = "Execute";
 $text['button-execute']['en-gb'] = "Execute";

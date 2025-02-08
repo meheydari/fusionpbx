@@ -366,6 +366,7 @@ $text['label-follow_me']['ko-kr'] = "나를 따르라";
 
 $text['label-dnd']['en-us'] = "Do Not Disturb";
 $text['label-dnd']['en-gb'] = "Do Not Disturb";
+$text['label-dnd']['fa'] = "مزاحم نشوید";
 $text['label-dnd']['ar-eg'] = "لا تخل";
 $text['label-dnd']['de-at'] = "Bitte nicht stören";
 $text['label-dnd']['de-ch'] = "Bitte nicht stören";

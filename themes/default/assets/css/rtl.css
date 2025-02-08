@@ -437,7 +437,3 @@ div#menu_side_container > a:nth-of-type(2) {
 select.formfld {
     width: auto !important;
 }
-
-.btn-default{
-    display: none;
-}

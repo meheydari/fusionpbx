@@ -2,6 +2,7 @@
 
 $text['label-user']['en-us'] = "User";
 $text['label-user']['en-gb'] = "User";
+$text['label-user']['fa'] = "کاربر";
 $text['label-user']['ar-eg'] = "مستخدم";
 $text['label-user']['de-at'] = "Benutzer";
 $text['label-user']['de-ch'] = "Benutzer";
@@ -122,6 +123,7 @@ $text['label-refresh_enable']['ko-kr'] = "새로 고침 활성화";
 
 $text['label-port']['en-us'] = "Port";
 $text['label-port']['en-gb'] = "Port";
+$text['label-port']['fa'] = "پورت";
 $text['label-port']['ar-eg'] = "بورت";
 $text['label-port']['de-at'] = "Port";
 $text['label-port']['de-ch'] = "Port";
@@ -146,6 +148,7 @@ $text['label-port']['ko-kr'] = "포트";
 
 $text['label-ping']['en-us'] = "Ping";
 $text['label-ping']['en-gb'] = "Ping";
+$text['label-ping']['fa'] = "پینگ";
 $text['label-ping']['ar-eg'] = "بينغ";
 $text['label-ping']['de-at'] = "Klingeln";
 $text['label-ping']['de-ch'] = "Klingeln";
@@ -194,6 +197,7 @@ $text['label-message']['ko-kr'] = "프로필이 잘못되었습니다!";
 
 $text['label-lan_ip']['en-us'] = "LAN IP";
 $text['label-lan_ip']['en-gb'] = "LAN IP";
+$text['label-lan_ip']['fa'] = "آی پی لوکال";
 $text['label-lan_ip']['ar-eg'] = "LAN IP";
 $text['label-lan_ip']['de-at'] = "LAN IP";
 $text['label-lan_ip']['de-ch'] = "LAN IP";
@@ -218,6 +222,7 @@ $text['label-lan_ip']['ko-kr'] = "LAN IP";
 
 $text['label-ip']['en-us'] = "IP";
 $text['label-ip']['en-gb'] = "IP";
+$text['label-ip']['fa'] = "آی پی";
 $text['label-ip']['ar-eg'] = "ip";
 $text['label-ip']['de-at'] = "IP";
 $text['label-ip']['de-ch'] = "IP";
@@ -266,6 +271,7 @@ $text['label-interval']['ko-kr'] = "간격(초)";
 
 $text['label-hostname']['en-us'] = "Hostname";
 $text['label-hostname']['en-gb'] = "Hostname";
+$text['label-hostname']['fa'] = "نام هاست";
 $text['label-hostname']['ar-eg'] = "الاسم المضيف";
 $text['label-hostname']['de-at'] = "Hostname";
 $text['label-hostname']['de-ch'] = "Hostname";
@@ -338,6 +344,7 @@ $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-agent']['en-us'] = "Agent";
 $text['label-agent']['en-gb'] = "Agent";
+$text['label-agent']['fa'] = "مدل دستگاه";
 $text['label-agent']['ar-eg'] = "الوكيل";
 $text['label-agent']['de-at'] = "Agent";
 $text['label-agent']['de-ch'] = "Agent";
@@ -362,6 +369,7 @@ $text['label-agent']['ko-kr'] = "대리인";
 
 $text['label-contact']['en-us'] = "Contact";
 $text['label-contact']['en-gb'] = "Contact";
+$text['label-contact']['fa'] = "کانتکت";
 $text['label-contact']['ar-eg'] = "الاتصال";
 $text['label-contact']['de-at'] = "Kontakt";
 $text['label-contact']['de-ch'] = "Kontakt";
@@ -410,6 +418,7 @@ $text['label-sip_profile_name']['ko-kr'] = "프로필";
 
 $text['header-registrations']['en-us'] = "Registrations";
 $text['header-registrations']['en-gb'] = "Registrations";
+$text['header-registrations']['fa'] = "رجیستری";
 $text['header-registrations']['ar-eg'] = "التسجيلات";
 $text['header-registrations']['de-at'] = "Registrierungen";
 $text['header-registrations']['de-ch'] = "Registrierungen";
@@ -434,6 +443,7 @@ $text['header-registrations']['ko-kr'] = "등록";
 
 $text['description-registrations']['en-us'] = "Manage current extensions registered to the system.";
 $text['description-registrations']['en-gb'] = "Manage current extensions registered to the system.";
+$text['description-registrations']['fa'] = "مدیریت رجیستری داخلی ها";
 $text['description-registrations']['ar-eg'] = "إدارة الامتدادات الحالية المسجلة في النظام.";
 $text['description-registrations']['de-at'] = "Verwalten Sie aktuelle Nebenstellen, die im System registriert sind.";
 $text['description-registrations']['de-ch'] = "Verwalten Sie aktuelle Nebenstellen, die im System registriert sind.";
@@ -482,6 +492,7 @@ $text['error-event-socket']['ko-kr'] = "이벤트 소켓에 연결하지 못했�
 
 $text['button-unregister']['en-us'] = "Unregister";
 $text['button-unregister']['en-gb'] = "Unregister";
+$text['button-unregister']['fa'] = "لغو رجیستری";
 $text['button-unregister']['ar-eg'] = "غير مسجل";
 $text['button-unregister']['de-at'] = "Registrierung aufheben";
 $text['button-unregister']['de-ch'] = "Registrierung aufheben";
@@ -743,5 +754,7 @@ $text['confirm-reboot']['uk-ua'] = "Ви справді хочете ПЕРЕЗ�
 $text['confirm-reboot']['zh-cn'] = "您真的要重新启动这些吗？";
 $text['confirm-reboot']['ja-jp'] = "本当に再起動しますか?";
 $text['confirm-reboot']['ko-kr'] = "정말 재부팅하시겠습니까?";
+
+$text['button-all_profiles']['fa'] = "پروفایل";
 
 ?>

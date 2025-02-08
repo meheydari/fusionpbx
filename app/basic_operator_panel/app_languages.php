@@ -2,6 +2,7 @@
 
 $text['title-operator_panel']['en-us'] = "Operator Panel";
 $text['title-operator_panel']['en-gb'] = "Operator Panel";
+$text['title-operator_panel']['fa'] = "نمایش وضعیت داخلی‌ها";
 $text['title-operator_panel']['ar-eg'] = "لوحة المشغل";
 $text['title-operator_panel']['de-at'] = "Bedienfeld";
 $text['title-operator_panel']['de-ch'] = "Bedienfeld";
@@ -290,6 +291,7 @@ $text['label-record']['ko-kr'] = "기록";
 
 $text['label-other_extensions']['en-us'] = "Other Extensions";
 $text['label-other_extensions']['en-gb'] = "Other Extensions";
+$text['label-other_extensions']['fa'] = "سایر داخلی ها";
 $text['label-other_extensions']['ar-eg'] = "ملحقات أخرى";
 $text['label-other_extensions']['de-at'] = "Andere Nebenstellen";
 $text['label-other_extensions']['de-ch'] = "Andere Nebenstellen";

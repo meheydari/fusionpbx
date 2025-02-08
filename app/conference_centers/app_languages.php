@@ -126,6 +126,7 @@ $text['label-conference_center_name']['ko-kr'] = "이름";
 
 $text['description-conference_center_name']['en-us'] = "Enter the conference center name.";
 $text['description-conference_center_name']['en-gb'] = "Enter the conference center name.";
+$text['description-conference_center_name']['en-gb'] = "Enter the conference center name.";
 $text['description-conference_center_name']['fa'] = "نام مرکز کنفرانس خود را وارد نمایید.";
 $text['description-conference_center_name']['ar-eg'] = "أدخل اسم مركز المؤتمرات.";
 $text['description-conference_center_name']['de-at'] = "Geben Sie den Namen der Konferenz-Zentrale an.";
@@ -349,6 +350,7 @@ $text['description-conference_center_greeting']['ko-kr'] = "회의실에 가입�
 
 $text['label-account_code']['en-us'] = "Account Code";
 $text['label-account_code']['en-gb'] = "Account Code";
+$text['label-account_code']['fa'] = "کد کاربری";
 $text['label-account_code']['ar-eg'] = "رمز الحساب";
 $text['label-account_code']['de-at'] = "Kontoschlüssel";
 $text['label-account_code']['de-ch'] = "Kontoschlüssel";
@@ -373,6 +375,7 @@ $text['label-account_code']['ko-kr'] = "계정 코드";
 
 $text['description-account_code']['en-us'] = "Enter the account code here.";
 $text['description-account_code']['en-gb'] = "Enter the account code here.";
+$text['description-account_code']['fa'] = "کد کاربری را وارد کنید.";
 $text['description-account_code']['ar-eg'] = "أدخل رمز الحساب هنا.";
 $text['description-account_code']['de-at'] = "Geben Sie den Account Code hier an.";
 $text['description-account_code']['de-ch'] = "Geben Sie den Account Code hier an.";
@@ -544,6 +547,7 @@ $text['title-conference_rooms']['ko-kr'] = "회의실";
 
 $text['title-conference_room']['en-us'] = "Conference Room";
 $text['title-conference_room']['en-gb'] = "Conference Room";
+$text['title-conference_room']['en-gb'] = "اتاق کنفرانس";
 $text['title-conference_room']['ar-eg'] = "غرفة المؤتمرات";
 $text['title-conference_room']['de-at'] = "Konferenzraum";
 $text['title-conference_room']['de-ch'] = "Konferenzraum";
@@ -689,6 +693,7 @@ $text['label-wait_moderator']['ko-kr'] = "제품정보";
 
 $text['label-wait_for_moderator']['en-us'] = "Wait for Moderator";
 $text['label-wait_for_moderator']['en-gb'] = "Wait for Moderator";
+$text['label-wait_for_moderator']['fa'] = "انتظار برای مدیر";
 $text['label-wait_for_moderator']['ar-eg'] = "انتظر المنسق";
 $text['label-wait_for_moderator']['de-at'] = "Warte auf Moderator";
 $text['label-wait_for_moderator']['de-ch'] = "Warte auf Moderator";
@@ -713,6 +718,7 @@ $text['label-wait_for_moderator']['ko-kr'] = "Moderator에 대한 기대";
 
 $text['label-moderator_endconf']['en-us'] = "Moderator endconf";
 $text['label-moderator_endconf']['en-gb'] = "Moderator endconf";
+$text['label-moderator_endconf']['fa'] = "پایان جلسه توسط ادمین";
 $text['label-moderator_endconf']['ar-eg'] = "وسيط endconf";
 $text['label-moderator_endconf']['de-at'] = "Moderator endconf";
 $text['label-moderator_endconf']['de-ch'] = "Moderator endconf";
@@ -785,6 +791,7 @@ $text['label-uuid']['ko-kr'] = "UUID";
 
 $text['label-users']['en-us'] = "Users";
 $text['label-users']['en-gb'] = "Users";
+$text['label-users']['fa'] = "کاربران";
 $text['label-users']['ar-eg'] = "المستخدمون";
 $text['label-users']['de-at'] = "Benutzer";
 $text['label-users']['de-ch'] = "Benutzer";
@@ -929,6 +936,7 @@ $text['label-start']['ko-kr'] = "지원하다";
 
 $text['label-sounds']['en-us'] = "Sounds";
 $text['label-sounds']['en-gb'] = "Sounds";
+$text['label-sounds']['fa'] = "پخش سایر صداها";
 $text['label-sounds']['ar-eg'] = "اصوات";
 $text['label-sounds']['de-at'] = "Töne";
 $text['label-sounds']['de-ch'] = "Töne";
@@ -977,6 +985,7 @@ $text['label-sessions']['ko-kr'] = "교육과정";
 
 $text['label-schedule']['en-us'] = "Schedule";
 $text['label-schedule']['en-gb'] = "Schedule";
+$text['label-schedule']['fa'] = "زمان جلسه";
 $text['label-schedule']['ar-eg'] = "جدول";
 $text['label-schedule']['de-at'] = "Zeitplan";
 $text['label-schedule']['de-ch'] = "Zeitplan";
@@ -1001,6 +1010,7 @@ $text['label-schedule']['ko-kr'] = "연혁";
 
 $text['label-room-name']['en-us'] = "Room Name";
 $text['label-room-name']['en-gb'] = "Room Name";
+$text['label-room-name']['fa'] = "نام اتاق";
 $text['label-room-name']['ar-eg'] = "اسم الغرفة";
 $text['label-room-name']['de-at'] = "Raum Name";
 $text['label-room-name']['de-ch'] = "Raum Name";
@@ -1048,6 +1058,7 @@ $text['label-recording']['ja-jp'] = "レコーディング";
 $text['label-recording']['ko-kr'] = "관련 기사";
 
 $text['label-record']['en-us'] = "Record";
+$text['label-record']['fa'] = "امکان رکورد جلسه";
 $text['label-record']['en-gb'] = "Record";
 $text['label-record']['ar-eg'] = "سِجِلّ";
 $text['label-record']['de-at'] = "Aufnehmen";
@@ -1073,6 +1084,7 @@ $text['label-record']['ko-kr'] = "이름";
 
 $text['label-profile']['en-us'] = "Profile";
 $text['label-profile']['en-gb'] = "Profile";
+$text['label-profile']['fa'] = "پروفایل";
 $text['label-profile']['ar-eg'] = "حساب تعريفي";
 $text['label-profile']['de-at'] = "Profil";
 $text['label-profile']['de-ch'] = "Profil";
@@ -1121,6 +1133,7 @@ $text['label-play']['ko-kr'] = "뚱 베어";
 
 $text['label-participant-pin']['en-us'] = "Participant";
 $text['label-participant-pin']['en-gb'] = "Participant";
+$text['label-participant-pin']['fa'] = "پسورد کاربران اتاق کنفرانس";
 $text['label-participant-pin']['ar-eg'] = "مشارك";
 $text['label-participant-pin']['de-at'] = "Teilnehmer";
 $text['label-participant-pin']['de-ch'] = "Teilnehmer";
@@ -1169,6 +1182,7 @@ $text['label-network-address']['ko-kr'] = "네트워크 주소";
 
 $text['label-mute']['en-us'] = "Mute";
 $text['label-mute']['en-gb'] = "Mute";
+$text['label-mute']['fa'] = "بی صدا";
 $text['label-mute']['ar-eg'] = "صامت";
 $text['label-mute']['de-at'] = "Stummschalten";
 $text['label-mute']['de-ch'] = "Stummschalten";
@@ -1193,6 +1207,7 @@ $text['label-mute']['ko-kr'] = "이름";
 
 $text['label-moderator-pin']['en-us'] = "Moderator";
 $text['label-moderator-pin']['en-gb'] = "Moderator";
+$text['label-moderator-pin']['fa'] = "پسورد مدیر اتاق کنفرانس";
 $text['label-moderator-pin']['ar-eg'] = "الوسيط";
 $text['label-moderator-pin']['de-at'] = "Moderator";
 $text['label-moderator-pin']['de-ch'] = "Moderator";
@@ -1337,6 +1352,7 @@ $text['label-member-pin']['ko-kr'] = "PIN 번호";
 
 $text['label-max-members']['en-us'] = "Max Members";
 $text['label-max-members']['en-gb'] = "Max Members";
+$text['label-max-members']['fa'] = "حداکثر اعضای این اتاق";
 $text['label-max-members']['ar-eg'] = "ماكس أعضاء";
 $text['label-max-members']['de-at'] = "Maximale Anzahl an Teilnehmer";
 $text['label-max-members']['de-ch'] = "Maximale Anzahl an Teilnehmer";
@@ -1529,6 +1545,7 @@ $text['label-details']['ko-kr'] = "제품 정보";
 
 $text['label-conference_name']['en-us'] = "Conference Name";
 $text['label-conference_name']['en-gb'] = "Conference Name";
+$text['label-conference_name']['fa'] = "نام مرکز کنفرانس";
 $text['label-conference_name']['ar-eg'] = "اسم المؤتمر";
 $text['label-conference_name']['de-at'] = "Konferenz Name";
 $text['label-conference_name']['de-ch'] = "Konferenz Name";
@@ -1625,6 +1642,7 @@ $text['label-caller-id-name']['ko-kr'] = "ID 이름";
 
 $text['label-announce_name']['en-us'] = "Announce Name";
 $text['label-announce_name']['en-gb'] = "Announce Name";
+$text['label-announce_name']['fa'] = "اعلان نام کاربر";
 $text['label-announce_name']['ar-eg'] = "أعلن الاسم";
 $text['label-announce_name']['de-at'] = "Ankündigen";
 $text['label-announce_name']['de-ch'] = "Ankündigen";
@@ -1649,6 +1667,7 @@ $text['label-announce_name']['ko-kr'] = "이름";
 
 $text['label-announce_count']['en-us'] = "Announce Count";
 $text['label-announce_count']['en-gb'] = "Announce Count";
+$text['label-announce_count']['fa'] = "اعلان تعداد حاضرین";
 $text['label-announce_count']['ar-eg'] = "أعلن العد";
 $text['label-announce_count']['de-at'] = "Ankündigen";
 $text['label-announce_count']['de-ch'] = "Ankündigen";
@@ -1673,6 +1692,7 @@ $text['label-announce_count']['ko-kr'] = "공지사항";
 
 $text['label-announce_recording']['en-us'] = "Announce Recording";
 $text['label-announce_recording']['en-gb'] = "Announce Recording";
+$text['label-announce_recording']['fa'] = "اعلان وضعیت رکورد جلسه";
 $text['label-announce_recording']['ar-eg'] = "أعلن التسجيل";
 $text['label-announce_recording']['de-at'] = "Ankündigen";
 $text['label-announce_recording']['de-ch'] = "Ankündigen";
@@ -1697,6 +1717,7 @@ $text['label-announce_recording']['ko-kr'] = "공지사항";
 
 $text['description-users']['en-us'] = "Assign additional users as administrators of this conference room.";
 $text['description-users']['en-gb'] = "Assign additional users as administrators of this conference room.";
+$text['description-users']['fa'] = "کربران دیگری را نیز به عنوان مدیر اتاق انتخاب کنید.";
 $text['description-users']['ar-eg'] = "قم بتعيين مستخدمين إضافيين كمسؤولين عن غرفة المؤتمرات هذه.";
 $text['description-users']['de-at'] = "Weisen Sie diesem Konferenzraum weitere Administratoren zu.";
 $text['description-users']['de-ch'] = "Weisen Sie diesem Konferenzraum weitere Administratoren zu.";
@@ -1721,6 +1742,7 @@ $text['description-users']['ko-kr'] = "이 회의실의 관리자로 추가 사�
 
 $text['description-schedule']['en-us'] = "Set a start and stop date/time for this room.";
 $text['description-schedule']['en-gb'] = "Set a start and stop date/time for this room.";
+$text['description-schedule']['fa'] = "می توانید برای این اتاق کنفرانس یک تاریخ شروع و پایان مشخص کنید.";
 $text['description-schedule']['ar-eg'] = "حدد تاريخ / وقت البدء والإيقاف لهذه الغرفة.";
 $text['description-schedule']['de-at'] = "Setzen Sie die Start und Stopp Datum/Zeit für diesen Raum";
 $text['description-schedule']['de-ch'] = "Setzen Sie die Start und Stopp Datum/Zeit für diesen Raum";
@@ -1745,6 +1767,7 @@ $text['description-schedule']['ko-kr'] = "이 방의 시작 및 중지 날짜 / 
 
 $text['description-room-name']['en-us'] = "Enter a name for the conference room.";
 $text['description-room-name']['en-gb'] = "Enter a name for the conference room.";
+$text['description-room-name']['fa'] = "برای این اتاق کنفرانس یک نام وارد کنید.";
 $text['description-room-name']['ar-eg'] = "أدخل اسمًا لقاعة المؤتمرات.";
 $text['description-room-name']['de-at'] = "Geben Sie einen Namen für diesen Konferenzraum an.";
 $text['description-room-name']['de-ch'] = "Geben Sie einen Namen für diesen Konferenzraum an.";
@@ -1769,6 +1792,7 @@ $text['description-room-name']['ko-kr'] = "회의실의 이름을 입력하십�
 
 $text['description-profile']['en-us'] = "Conference Profile is a collection of settings for the conference center.";
 $text['description-profile']['en-gb'] = "Conference Profile is a collection of settings for the conference center.";
+$text['description-profile']['fa'] = "این پروفایل مجموعه ای از تنظیمات برای مدیریت اتاق کنفرانس می باشد.";
 $text['description-profile']['ar-eg'] = "ملف تعريف المؤتمر عبارة عن مجموعة من الإعدادات الخاصة بمركز المؤتمرات.";
 $text['description-profile']['de-at'] = "Das Konferenz-Profil ist eine Zusammenfassung von Einstellungen für die Konferenz Zentrale.";
 $text['description-profile']['de-ch'] = "Das Konferenz-Profil ist eine Zusammenfassung von Einstellungen für die Konferenz Zentrale.";
@@ -1793,6 +1817,7 @@ $text['description-profile']['ko-kr'] = "컨퍼런스 프로필은 회의 센터
 
 $text['description-participant-pin']['en-us'] = "Pin number for the participants.";
 $text['description-participant-pin']['en-gb'] = "Pin number for the participants.";
+$text['description-participant-pin']['fa'] = "پسورد سایر کاربران را وارد کنید.";
 $text['description-participant-pin']['ar-eg'] = "الرقم السري للمشاركين.";
 $text['description-participant-pin']['de-at'] = "PIN Nummer für Teilnehmer.";
 $text['description-participant-pin']['de-ch'] = "PIN Nummer für Teilnehmer.";
@@ -1817,6 +1842,7 @@ $text['description-participant-pin']['ko-kr'] = "참가자의 핀 번호.";
 
 $text['description-moderator_pin']['en-us'] = "Pin number for the moderators.";
 $text['description-moderator_pin']['en-gb'] = "Pin number for the moderators.";
+$text['description-moderator_pin']['fa'] = "پسورد مدیر را وارد کنید.";
 $text['description-moderator_pin']['ar-eg'] = "الرقم السري للمشرفين.";
 $text['description-moderator_pin']['de-at'] = "PIN Nummer für Moderatoren.";
 $text['description-moderator_pin']['de-ch'] = "PIN Nummer für Moderatoren.";

@@ -1424,6 +1424,7 @@ $text['button-restart']['ko-kr'] = "재시작";
 
 $text['button-refresh']['en-us'] = "Refresh";
 $text['button-refresh']['en-gb'] = "Refresh";
+$text['button-refresh']['fa'] = "بروزرسانی";
 $text['button-refresh']['ar-eg'] = "ينعش";
 $text['button-refresh']['de-at'] = "Aktualisieren";
 $text['button-refresh']['de-ch'] = "Aktualisieren";

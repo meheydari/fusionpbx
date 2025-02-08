@@ -2,6 +2,7 @@
 
 $text['title-ring_groups']['en-us'] = "Ring Groups";
 $text['title-ring_groups']['en-gb'] = "Ring Groups";
+$text['title-ring_groups']['fa'] = "گروه تماس";
 $text['title-ring_groups']['ar-eg'] = "مجموعات حصص الإعاشة";
 $text['title-ring_groups']['de-at'] = "Rufgruppen";
 $text['title-ring_groups']['de-ch'] = "Rufgruppen";
@@ -26,6 +27,7 @@ $text['title-ring_groups']['ko-kr'] = "전화 수신 그룹";
 
 $text['title-ring_group']['en-us'] = "Ring Group";
 $text['title-ring_group']['en-gb'] = "Ring Group";
+$text['title-ring_group']['fa'] = "گروه تماسs";
 $text['title-ring_group']['ar-eg'] = "فريق الاعتماد";
 $text['title-ring_group']['de-at'] = "Rufgruppen";
 $text['title-ring_group']['de-ch'] = "Rufgruppen";
@@ -626,6 +628,8 @@ $text['label-text']['ko-kr'] = "텍스트";
 
 $text['label-strategy']['en-us'] = "Strategy";
 $text['label-strategy']['en-gb'] = "Strategy";
+$text['label-strategy']['fa'] = "استراتژی";
+
 $text['label-strategy']['ar-eg'] = "الاستراتيجية";
 $text['label-strategy']['de-at'] = "Strategie";
 $text['label-strategy']['de-ch'] = "Strategie";
@@ -866,6 +870,7 @@ $text['label-forward_destination']['ko-kr'] = "숫자";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "التمديد";
 $text['label-extension']['de-at'] = "Nebenstelle";
 $text['label-extension']['de-ch'] = "Nebenstelle";
@@ -1346,6 +1351,7 @@ $text['label-call-forward']['ko-kr'] = "착신 전환";
 
 $text['label-forwarding']['en-us'] = "Forwarding";
 $text['label-forwarding']['en-gb'] = "Forwarding";
+$text['label-forwarding']['fa'] = "مقصد فوروارد";
 $text['label-forwarding']['ar-eg'] = "تحويل";
 $text['label-forwarding']['de-at'] = "Weiterleiten";
 $text['label-forwarding']['de-ch'] = "Weiterleiten";
@@ -1394,6 +1400,7 @@ $text['header-ring-group-forward']['ko-kr'] = "링 그룹 전달";
 
 $text['header-description']['en-us'] = "Description";
 $text['header-description']['en-gb'] = "Description";
+$text['header-description']['fa'] = "توضیحات";
 $text['header-description']['ar-eg'] = "الوصف";
 $text['header-description']['de-at'] = "Beschreibung";
 $text['header-description']['de-ch'] = "Beschreibung";
@@ -1897,6 +1904,7 @@ $text['description-cid-name-prefix']['ja-jp'] = "発信者ID名にプレフィ�
 $text['description-cid-name-prefix']['ko-kr'] = "발신자 ID 이름에 접두사를 설정합니다.";
 
 $text['description']['en-us'] = "A ring group is a set of destinations that can be called with a ring strategy.";
+$text['description']['fa'] = "در این قسمت می توانید گروهی از افراد پاسخگو را با یک استراتژی مشخص تعریف کنید.";
 $text['description']['en-gb'] = "A ring group is a set of destinations that can be called with a ring strategy.";
 $text['description']['ar-eg'] = "مجموعة الخواتم هي مجموعة من المقصد التي يمكن الاتصال بها باستراتيجية الخاتم";
 $text['description']['de-at'] = "Rufgruppen sind gruppierte Ziele, welche über eine vordefinierte Rufstrategie angerufen werden.";

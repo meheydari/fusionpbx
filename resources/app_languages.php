@@ -5988,6 +5988,10 @@ $text['label-order']['fa'] = "اولویت";
 $text['label-tools']['fa'] = "ابزار";
 $text['button-search']['fa'] = "جست و جو";
 $text['description-description']['fa'] = "توضیحات را وارد کنید.";
+$text['label-extension']['fa'] = "داخلی";
+$text['label-strategy']['fa'] = "استراتژی";
+
+
 
 
 

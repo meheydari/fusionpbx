@@ -200,6 +200,8 @@ input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.bu
     background-image: -o-linear-gradient(top, #000000 0%, #000000 100%);
     background-image: unset;
     color: white;
+    outline: none !important;
+    box-shadow: none;
 }
 
 button:not(.btn-link) > span.button-label.pad {

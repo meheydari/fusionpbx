@@ -607,7 +607,12 @@
 			}
 			else {
 				echo "	<td class='center'>";
-				echo $text['label-'.$row['dialplan_enabled']];
+				$codarx_label = $text['label-' . $row['dialplan_enabled']];
+				if ($codarx_label == 'True') {
+					$button .= "<img style='padding: 10px' src='../../themes/default/images/icon/done.svg'/>";
+				} elseif ($codarx_label == 'False') {
+					$button .= "<img style='padding: 10px' src='../../themes/default/images/icon/fail.svg'/>";
+				}
 			}
 			echo "	</td>\n";
 			echo "	<td class='description overflow hide-sm-dn'>".escape($row['dialplan_description'])."&nbsp;</td>\n";

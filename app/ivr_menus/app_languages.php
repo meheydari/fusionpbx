@@ -555,6 +555,7 @@ $text['label-greet_long']['ko-kr'] = "긴 인사";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "التمديد";
 $text['label-extension']['de-at'] = "Nebenstelle";
 $text['label-extension']['de-ch'] = "Nebenstelle";
@@ -1275,6 +1276,7 @@ $text['description-max_failures']['ko-kr'] = "종료 전 최대 재시도 횟수
 
 $text['description-ivr_menus']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
 $text['description-ivr_menus']['en-gb'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
+$text['description-ivr_menus']['fa'] = "تعریف منشی خودکار";
 $text['description-ivr_menus']['ar-eg'] = "The IVR (مينو) يعزف تسجيلاً أو عبارة محددة مسبقاً تعرض على المتصل خيارات للاختيار منها ولكل خيار وجهة مقابلة. ويمكن أن تكون الوجهات هي التمديدات، والبريد الصوتي، وأجهزة الاتصال الأخرى، ومجموعات الاتصال، وتمديدات الخدمة الميدانية، والأكثر.";
 $text['description-ivr_menus']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";
 $text['description-ivr_menus']['de-ch'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";

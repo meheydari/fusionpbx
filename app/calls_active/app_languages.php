@@ -26,6 +26,7 @@ $text['title-2']['ko-kr'] = "활성 확장";
 
 $text['title']['en-us'] = "Active Calls";
 $text['title']['en-gb'] = "Active Calls";
+$text['title']['fa'] = "تماس های فعال";
 $text['title']['ar-eg'] = "المكالمات النشطة";
 $text['title']['de-at'] = "Aktive Gespräche";
 $text['title']['de-ch'] = "Aktive Gespräche";
@@ -146,6 +147,7 @@ $text['label-start']['ko-kr'] = "기록 시작";
 
 $text['label-secure']['en-us'] = "Secure";
 $text['label-secure']['en-gb'] = "Secure";
+$text['label-secure']['fa'] = "امنیت";
 $text['label-secure']['ar-eg'] = "يؤمن";
 $text['label-secure']['de-at'] = "Sicher";
 $text['label-secure']['de-ch'] = "Sicher";
@@ -218,6 +220,7 @@ $text['label-refresh_enable']['ko-kr'] = "새로 고침 활성화";
 
 $text['label-profile']['en-us'] = "Profile";
 $text['label-profile']['en-gb'] = "Profile";
+$text['label-profile']['fa'] = "پروفایل";
 $text['label-profile']['ar-eg'] = "حساب تعريفي";
 $text['label-profile']['de-at'] = "Profil";
 $text['label-profile']['de-ch'] = "Profil";
@@ -314,6 +317,7 @@ $text['label-opt']['ko-kr'] = "옵션";
 
 $text['label-number']['en-us'] = "Number";
 $text['label-number']['en-gb'] = "Number";
+$text['label-number']['fa'] = "شماره";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
 $text['label-number']['de-ch'] = "Nummer";
@@ -434,6 +438,7 @@ $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-destination']['en-us'] = "Dest";
 $text['label-destination']['en-gb'] = "Dest";
+$text['label-destination']['fa'] = "مقصد";
 $text['label-destination']['ar-eg'] = "الوجهة";
 $text['label-destination']['de-at'] = "Ziel";
 $text['label-destination']['de-ch'] = "Ziel";
@@ -458,6 +463,7 @@ $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-created']['en-us'] = "Created";
 $text['label-created']['en-gb'] = "Created";
+$text['label-created']['fa'] = "تاریخ شروع";
 $text['label-created']['ar-eg'] = "Creată";
 $text['label-created']['de-at'] = "Erstellt";
 $text['label-created']['de-ch'] = "Erstellt";
@@ -482,6 +488,7 @@ $text['label-created']['ko-kr'] = "만들어진";
 
 $text['label-codec']['en-us'] = "Read / Write Codec";
 $text['label-codec']['en-gb'] = "Read / Write Codec";
+$text['label-codec']['fa'] = "کدک تماس";
 $text['label-codec']['ar-eg'] = "قراءة / كتابة برنامج الترميز";
 $text['label-codec']['de-at'] = "Lese / Schreib Codec";
 $text['label-codec']['de-ch'] = "Lese / Schreib Codec";
@@ -506,6 +513,7 @@ $text['label-codec']['ko-kr'] = "읽기/쓰기 코덱";
 
 $text['label-cid-number']['en-us'] = "CID Number";
 $text['label-cid-number']['en-gb'] = "CID Number";
+$text['label-cid-number']['fa'] = "مبدا";
 $text['label-cid-number']['ar-eg'] = "رقم CID";
 $text['label-cid-number']['de-at'] = "Anrufer Nummer";
 $text['label-cid-number']['de-ch'] = "Anrufer Nummer";
@@ -530,6 +538,7 @@ $text['label-cid-number']['ko-kr'] = "CID 번호";
 
 $text['label-cid-name']['en-us'] = "CID Name";
 $text['label-cid-name']['en-gb'] = "CID Name";
+$text['label-cid-name']['fa'] = "نام مبدا";
 $text['label-cid-name']['ar-eg'] = "اسم CID";
 $text['label-cid-name']['de-at'] = "Anrufer Name";
 $text['label-cid-name']['de-ch'] = "Anrufer Name";
@@ -554,6 +563,7 @@ $text['label-cid-name']['ko-kr'] = "CID 이름";
 
 $text['label-app']['en-us'] = "Application";
 $text['label-app']['en-gb'] = "Application";
+$text['label-app']['fa'] = "مکان فعلی تماس";
 $text['label-app']['ar-eg'] = "طلب";
 $text['label-app']['de-at'] = "Anwendung";
 $text['label-app']['de-ch'] = "Anwendung";
@@ -602,6 +612,7 @@ $text['description-2']['ko-kr'] = "이를 사용하여 모든 내선을 보고 �
 
 $text['description']['en-us'] = "Use this to monitor and interact with the active calls.";
 $text['description']['en-gb'] = "Use this to monitor and interact with the active calls.";
+$text['description']['fa'] = "لیست تماس های فعال";
 $text['description']['ar-eg'] = "استخدم هذا لمراقبة المكالمات النشطة والتفاعل معها.";
 $text['description']['de-at'] = "Benutzen Sie die Funktionen um aktive Gespräche zu steuern.";
 $text['description']['de-ch'] = "Benutzen Sie die Funktionen um aktive Gespräche zu steuern.";

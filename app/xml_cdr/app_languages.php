@@ -50,6 +50,7 @@ $text['title-extension_summary']['ko-kr'] = "확장 요약";
 
 $text['title']['en-us'] = "Call Detail Records";
 $text['title']['en-gb'] = "Call Detail Records";
+$text['title']['fa'] = "سوابق تماس";
 $text['title']['ar-eg'] = "سجلات تفاصيل المكالمات";
 $text['title']['de-at'] = "Meine Gespräche";
 $text['title']['de-ch'] = "Meine Gespräche";
@@ -338,6 +339,7 @@ $text['table-download']['ko-kr'] = "숫자";
 
 $text['table-direction']['en-us'] = "Direction";
 $text['table-direction']['en-gb'] = "Direction";
+$text['table-direction']['fa'] = "جهت تماس";
 $text['table-direction']['ar-eg'] = "اتجاه";
 $text['table-direction']['de-at'] = "Richtung";
 $text['table-direction']['de-ch'] = "Richtung";
@@ -387,6 +389,7 @@ $text['table-days']['ko-kr'] = "날";
 $text['table-date']['en-us'] = "Date";
 $text['table-date']['en-gb'] = "Date";
 $text['table-date']['ar-eg'] = "تاريخ";
+$text['table-date']['fa'] = "تاريخ";
 $text['table-date']['de-at'] = "Datum";
 $text['table-date']['de-ch'] = "Datum";
 $text['table-date']['de-de'] = "Datum";
@@ -794,6 +797,7 @@ $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-tta']['en-us'] = "TTA";
 $text['label-tta']['en-gb'] = "TTA";
+$text['label-tta']['fa'] = "زمان انتظار تا پاسخگویی";
 $text['label-tta']['ar-eg'] = "وقت الرد";
 $text['label-tta']['de-at'] = "ZZB";
 $text['label-tta']['de-ch'] = "ZZB";
@@ -818,6 +822,7 @@ $text['label-tta']['ko-kr'] = "TTA";
 
 $text['label-pdd']['en-us'] = "PDD";
 $text['label-pdd']['en-gb'] = "PDD";
+$text['label-pdd']['fa'] = "مدت زمان تا برقراری تماس";
 $text['label-pdd']['ar-eg'] = "تأخير بعد الطلب";
 $text['label-pdd']['de-at'] = "PDD";
 $text['label-pdd']['de-ch'] = "PDD";
@@ -1010,6 +1015,7 @@ $text['label-status']['ko-kr'] = "상태";
 
 $text['label-start_range']['en-us'] = "Start Range";
 $text['label-start_range']['en-gb'] = "Start Range";
+$text['label-start_range']['fa'] = "بازه زمانی";
 $text['label-start_range']['ar-eg'] = "نطاق البداية";
 $text['label-start_range']['de-at'] = "Start Bereich";
 $text['label-start_range']['de-ch'] = "Start Bereich";
@@ -1154,6 +1160,7 @@ $text['label-remote_media_ip']['ko-kr'] = "원격 미디어 IP";
 
 $text['label-recording']['en-us'] = "Recording";
 $text['label-recording']['en-gb'] = "Recording";
+$text['label-recording']['fa'] = "رکورد تماس";
 $text['label-recording']['ar-eg'] = "تسجيل";
 $text['label-recording']['de-at'] = "Aufnahme";
 $text['label-recording']['de-ch'] = "Aufnahme";
@@ -1874,6 +1881,7 @@ $text['label-failed']['ko-kr'] = "실패한";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Durchwahl";
 $text['label-extension']['de-ch'] = "Durchwahl";
@@ -1898,6 +1906,7 @@ $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-ext']['en-us'] = "Ext.";
 $text['label-ext']['en-gb'] = "Ext.";
+$text['label-ext']['fa'] = "داخلی";
 $text['label-ext']['ar-eg'] = "امتداد";
 $text['label-ext']['de-at'] = "Dur";
 $text['label-ext']['de-ch'] = "Dur";
@@ -1994,6 +2003,7 @@ $text['label-end_date_time']['ko-kr'] = "종료 날짜/시간";
 
 $text['label-duration']['en-us'] = "Duration";
 $text['label-duration']['en-gb'] = "Duration";
+$text['label-duration']['fa'] = "طول مکالمه";
 $text['label-duration']['ar-eg'] = "مدة";
 $text['label-duration']['de-at'] = "Dauer";
 $text['label-duration']['de-ch'] = "Dauer";
@@ -2114,6 +2124,7 @@ $text['label-direction']['ko-kr'] = "방향";
 
 $text['label-destination']['en-us'] = "Destination";
 $text['label-destination']['en-gb'] = "Destination";
+$text['label-destination']['fa'] = "مقصد نهایی";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
 $text['label-destination']['de-ch'] = "Ziel";
@@ -2234,6 +2245,7 @@ $text['label-cancelled']['ko-kr'] = "취소 된";
 
 $text['label-caller_id']['en-us'] = "Caller ID";
 $text['label-caller_id']['en-gb'] = "Caller ID";
+$text['label-caller_id']['fa'] = "کالرآیدی";
 $text['label-caller_id']['ar-eg'] = "تحديد هوية المتصل";
 $text['label-caller_id']['de-at'] = "Anruferidentifikation";
 $text['label-caller_id']['de-ch'] = "Anruferidentifikation";
@@ -2258,6 +2270,7 @@ $text['label-caller_id']['ko-kr'] = "거는 사람 확인";
 
 $text['label-caller_id_name']['en-us'] = "Caller Name";
 $text['label-caller_id_name']['en-gb'] = "Caller Name";
+$text['label-caller_id_name']['fa'] = "نام مبدا";
 $text['label-caller_id_name']['ar-eg'] = "اسم المتصل";
 $text['label-caller_id_name']['de-at'] = "Anrufer Name";
 $text['label-caller_id_name']['de-ch'] = "Anrufer Name";
@@ -2282,6 +2295,7 @@ $text['label-caller_id_name']['ko-kr'] = "발신자 이름";
 
 $text['label-caller_id_number']['en-us'] = "Caller Number";
 $text['label-caller_id_number']['en-gb'] = "Caller Number";
+$text['label-caller_id_number']['fa'] = "مبدا";
 $text['label-caller_id_number']['ar-eg'] = "رقم المتصل";
 $text['label-caller_id_number']['de-at'] = "Anrufer Nummer";
 $text['label-caller_id_number']['de-ch'] = "Anrufer Nummer";
@@ -2306,6 +2320,7 @@ $text['label-caller_id_number']['ko-kr'] = "발신자 번호";
 
 $text['label-caller_destination']['en-us'] = "Caller Destination";
 $text['label-caller_destination']['en-gb'] = "Caller Destination";
+$text['label-caller_destination']['fa'] = "مقصد";
 $text['label-caller_destination']['ar-eg'] = "وجهة المتصل";
 $text['label-caller_destination']['de-at'] = "Rufziel";
 $text['label-caller_destination']['de-ch'] = "Rufziel";
@@ -2762,6 +2777,7 @@ $text['label-a-leg']['ko-kr'] = "다리";
 
 $text['label-order']['en-us'] = "Order";
 $text['label-order']['en-gb'] = "Order";
+$text['label-order']['fa'] = "ترتیب";
 $text['label-order']['ar-eg'] = "طلب";
 $text['label-order']['de-at'] = "Befehl";
 $text['label-order']['de-ch'] = "Befehl";
@@ -2858,6 +2874,7 @@ $text['label-maximum']['ko-kr'] = "최고";
 
 $text['label-seconds']['en-us'] = "Sec";
 $text['label-seconds']['en-gb'] = "Sec";
+$text['label-seconds']['fa'] = "ثانیه";
 $text['label-seconds']['ar-eg'] = "ثواني";
 $text['label-seconds']['de-at'] = "Sek";
 $text['label-seconds']['de-ch'] = "Sek";
@@ -2904,6 +2921,7 @@ $text['label-format']['zh-cn'] = "格式";
 $text['label-format']['ja-jp'] = "フォーマット";
 $text['label-format']['ko-kr'] = "체재";
 
+$text['description_search']['en-us'] = "<u>نکته</u>:فیلد های مقصد نهایی و کالرآیدی از مقدار * پشتیبانی میکنند";
 $text['description_search']['en-us'] = "<u>Note</u>: Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
 $text['description_search']['en-gb'] = "<u>Note</u>: Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
 $text['description_search']['ar-eg'] = "يدعم حقلا الوجهة واسم تعريف المتصل استخدام علامة النجمة كحرف بدل.";
@@ -2954,6 +2972,7 @@ $text['description-details']['ko-kr'] = "통화에 대한 자세한 보기 및 �
 
 $text['description']['en-us'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
 $text['description']['en-gb'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
+$text['description']['fa'] = "سوابق تماس درحقیقت جزییات تماس هستند که شامل اطلاعاتی چون مبدا ، مقصد ، مدت زمان تماس و سایر پارامترهای مهم تماس میباشند. برای فیلتر کردن اطلاعات میتوانید از فیلدهای زیر استفاده کنید. همچنین از اطلاعات خروجی دریافت کنید.";
 $text['description']['ar-eg'] = "سجلات تفاصيل المكالمات هي معلومات مفصلة عن المكالمات. تحتوي المعلومات على المصدر والوجهة والمدة وتفاصيل أخرى مفيدة للمكالمات. استخدم الحقول لتصفية المعلومات الخاصة بسجلات المكالمات المحددة المطلوبة. يمكن حفظ السجلات في قائمة المكالمات محليًا باستخدام زر التصدير.";
 $text['description']['de-at'] = "Call Detail Records (CDRs) enthalten detaiilierte Informationen zu den Anrufen. Die Information beinhaltet Quelle, Ziel, Dauer und andere nützliche Details. Benutzen Sie die Felder um Informationen betreffend spezifischer Anrufe zu filtern. Datensätze in der Anruferliste können mittels der Export-Funktion lokal gespeichert werden.";
 $text['description']['de-ch'] = "Call Detail Records (CDRs) enthalten detaiilierte Informationen zu den Anrufen. Die Information beinhaltet Quelle, Ziel, Dauer und andere nützliche Details. Benutzen Sie die Felder um Informationen betreffend spezifischer Anrufe zu filtern. Datensätze in der Anruferliste können mittels der Export-Funktion lokal gespeichert werden.";

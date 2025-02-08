@@ -2,6 +2,7 @@
 
 $text['title-call_forward']['en-us'] = "Call Forward";
 $text['title-call_forward']['en-gb'] = "Call Forward";
+$text['title-call_forward']['fa'] = "انتقال تماس";
 $text['title-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['title-call_forward']['de-at'] = "Rufumleitung";
 $text['title-call_forward']['de-ch'] = "Rufumleitung";
@@ -26,6 +27,7 @@ $text['title-call_forward']['ko-kr'] = "착신 전환";
 
 $text['header-call_forward']['en-us'] = "Call Forward";
 $text['header-call_forward']['en-gb'] = "Call Forward";
+$text['header-call_forward']['en-gb'] = "انتقال تماس";
 $text['header-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['header-call_forward']['de-at'] = "Rufumleitung";
 $text['header-call_forward']['de-ch'] = "Rufumleitung";
@@ -74,6 +76,7 @@ $text['table-tools']['ko-kr'] = "工具";
 
 $text['table-extension']['en-us'] = "Extension";
 $text['table-extension']['en-gb'] = "Extension";
+$text['table-extension']['fa'] = "داخلی";
 $text['table-extension']['ar-eg'] = "امتداد";
 $text['table-extension']['de-at'] = "Nebenstelle";
 $text['table-extension']['de-ch'] = "Nebenstelle";
@@ -338,6 +341,7 @@ $text['label-ignore_busy']['ko-kr'] = "바쁜 무시";
 
 $text['label-follow_me']['en-us'] = "Follow Me";
 $text['label-follow_me']['en-gb'] = "Follow Me";
+$text['label-follow_me']['fa'] = "مرا دنبال کن";
 $text['label-follow_me']['ar-eg'] = "اتبعني";
 $text['label-follow_me']['de-at'] = "Anrufweiterschaltung";
 $text['label-follow_me']['de-ch'] = "Anrufweiterschaltung";
@@ -674,6 +678,7 @@ $text['label-call-prompt']['ko-kr'] = "전화 프롬프트";
 
 $text['label-call_forward']['en-us'] = "Call Forward";
 $text['label-call_forward']['en-gb'] = "Call Forward";
+$text['label-call_forward']['en-gb'] = "انتقال تماس";
 $text['label-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['label-call_forward']['de-at'] = "Rufumleitung";
 $text['label-call_forward']['de-ch'] = "Rufumleitung";
@@ -914,6 +919,7 @@ $text['description-call-prompt']['ja-jp'] = "外部宛先へのコールを受�
 $text['description-call-prompt']['ko-kr'] = "외부 대상에 대한 호출을 수락하라는 메시지를 표시합니다.";
 
 $text['description-call_routing']['en-us'] = "Define alternate inbound call handling for the following extensions.";
+$text['description-call_routing']['en-us'] = "در این قسمت میتوانید برای تماس های ورودی به داخلی مسیر های جایگزین انتخاب کنید.";
 $text['description-call_routing']['en-gb'] = "Define alternate inbound call handling for the following extensions.";
 $text['description-call_routing']['ar-eg'] = "حدد معالجة بديلة للمكالمات الواردة للامتدادات التالية.";
 $text['description-call_routing']['de-at'] = "Definieren Sie eine alternative Handhabung von eingehenden Anrufen für nachfolgende Nebenstellen.";

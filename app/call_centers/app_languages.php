@@ -98,6 +98,7 @@ $text['title-call_center_queues_add']['ko-kr'] = "콜센터 대기열 추가";
 
 $text['title-call_center_queues']['en-us'] = "Call Center Queues";
 $text['title-call_center_queues']['en-gb'] = "Call Center Queues";
+$text['title-call_center_queues']['fa'] = "صف تماس";
 $text['title-call_center_queues']['ar-eg'] = "قوائم انتظار مركز الاتصال";
 $text['title-call_center_queues']['de-at'] = "Callcenter Warteschlangen";
 $text['title-call_center_queues']['de-ch'] = "Callcenter Warteschlangen";
@@ -122,6 +123,7 @@ $text['title-call_center_queues']['ko-kr'] = "콜센터 대기열";
 
 $text['title-call_center_queue_edit']['en-us'] = "Call Center Queue";
 $text['title-call_center_queue_edit']['en-gb'] = "Call Center Queue";
+$text['title-call_center_queue_edit']['fa'] = "صف تماس";
 $text['title-call_center_queue_edit']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['title-call_center_queue_edit']['de-at'] = "Callcenter Warteschlange";
 $text['title-call_center_queue_edit']['de-ch'] = "Callcenter Warteschlange";
@@ -1131,6 +1133,7 @@ $text['label-tiers']['ko-kr'] = "계층";
 
 $text['label-tier_rules_apply']['en-us'] = "Tier Rules Apply";
 $text['label-tier_rules_apply']['en-gb'] = "Tier Rules Apply";
+$text['label-tier_rules_apply']['fa'] = "اعمال قوانین گروه اپراتوری";
 $text['label-tier_rules_apply']['ar-eg'] = "تطبق قواعد الفئة";
 $text['label-tier_rules_apply']['de-at'] = "Ebenen-Regeln werden angewendet";
 $text['label-tier_rules_apply']['de-ch'] = "Ebenen-Regeln werden angewendet";
@@ -1275,6 +1278,7 @@ $text['label-tier_level']['ko-kr'] = "계층 수준";
 
 $text['label-strategy']['en-us'] = "Strategy";
 $text['label-strategy']['en-gb'] = "Strategy";
+$text['label-strategy']['fa'] = "استراتژی";
 $text['label-strategy']['ar-eg'] = "إستراتيجية";
 $text['label-strategy']['de-at'] = "Strategie";
 $text['label-strategy']['de-ch'] = "Strategie";
@@ -1419,6 +1423,7 @@ $text['label-queues']['ko-kr'] = "꼬리";
 
 $text['label-queue_name']['en-us'] = "Queue Name";
 $text['label-queue_name']['en-gb'] = "Queue Name";
+$text['label-queue_name']['fa'] = "نام صف";
 $text['label-queue_name']['ar-eg'] = "اسم قائمة الانتظار";
 $text['label-queue_name']['de-at'] = "Name der Warteschlange";
 $text['label-queue_name']['de-ch'] = "Name der Warteschlange";
@@ -1612,6 +1617,7 @@ $text['label-max_no_answer']['ko-kr'] = "맥스 무응답";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی صف";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Nebenstelle";
 $text['label-extension']['de-ch'] = "Nebenstelle";
@@ -2118,6 +2124,7 @@ $text['label-agent']['ko-kr'] = "대리인";
 
 $text['label-agents']['en-us'] = "Agents";
 $text['label-agents']['en-gb'] = "Agents";
+$text['label-agents']['fa'] = "اپراتورها";
 $text['label-agents']['ar-eg'] = "عملاء";
 $text['label-agents']['de-at'] = "Agenten";
 $text['label-agents']['de-ch'] = "Agenten";
@@ -3197,6 +3204,7 @@ $text['description-call_timeout']['ja-jp'] = "通話タイムアウトを入力�
 $text['description-call_timeout']['ko-kr'] = "통화 제한 시간을 입력합니다.";
 
 $text['description-call_center_queues']['en-us'] = "List of queues for the call center.";
+$text['description-call_center_queues']['fa'] = "لیست تمام صف های تماس.";
 $text['description-call_center_queues']['en-gb'] = "List of queues for the call center.";
 $text['description-call_center_queues']['ar-eg'] = "قائمة قوائم الانتظار لمركز الاتصال.";
 $text['description-call_center_queues']['de-at'] = "Liste der Callcenter Warteschlangen";

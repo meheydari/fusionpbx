@@ -50,6 +50,7 @@ $text['title-option_add']['ko-kr'] = "IVR 메뉴 옵션 추가";
 
 $text['title-ivr_menus']['en-us'] = "IVR Menus";
 $text['title-ivr_menus']['en-gb'] = "IVR Menus";
+$text['title-ivr_menus']['fa'] = "منشی خودکار";
 $text['title-ivr_menus']['ar-eg'] = "قوائم IVR";
 $text['title-ivr_menus']['de-at'] = "Automatische Vermittlungen";
 $text['title-ivr_menus']['de-ch'] = "Automatische Vermittlungen";

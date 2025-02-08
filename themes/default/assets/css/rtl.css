@@ -278,8 +278,31 @@ a#header_logout_icon {
     font-size: 16px;
     vertical-align: top;
 }
-
-select.txt, textarea.txt, input[type=text].txt, input[type=number].txt, input[type=password].txt, label.txt, select.formfld, textarea.formfld, input[type=text].formfld, input[type=number].formfld, input[type=url].formfld, input[type=password].formfld, label.formfld {
+select.txt{
+    font-family: 'Yekan Bakh FaNum';
+    color: #7E8299;
+    padding: 4px 6px;
+    margin: 1px;
+    text-align: right;
+    border-width: 1px;
+    border-style: unset;
+    border-color: unset;
+    background: #F9F9F9;
+    -webkit-box-shadow: unset;
+    -moz-box-shadow: unset;
+    box-shadow: unset;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    vertical-align: middle;
+    height: 34px;
+    margin-bottom: 0;
+    outline: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+textarea.txt, input[type=text].txt, input[type=number].txt, input[type=password].txt, label.txt, select.formfld, textarea.formfld, input[type=text].formfld, input[type=number].formfld, input[type=url].formfld, input[type=password].formfld, label.formfld {
     font-family: 'Yekan Bakh FaNum';
     color: #7E8299;
     padding: 4px 6px;

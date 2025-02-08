@@ -1,6 +1,7 @@
 <?php
 
 $text['title-user_logs']['en-us'] = "User Logs";
+$text['title-user_logs']['fa'] = "سوابق کاربر";
 $text['title-user_logs']['ar-eg'] = "المستعمل";
 $text['title-user_logs']['de-at'] = "Benutzerprotokolle";
 $text['title-user_logs']['de-ch'] = "Benutzerprotokolle";
@@ -24,6 +25,7 @@ $text['title-user_logs']['ja-jp'] = "ユーザーログ";
 $text['title-user_logs']['ko-kr'] = "사용자 로그";
 
 $text['title-user_log']['en-us'] = "User Log";
+$text['title-user_log']['en-us'] = "سوابق کاربر";
 $text['title-user_log']['ar-eg'] = "مستعمل لوغ";
 $text['title-user_log']['de-at'] = "Benutzerlogbuch";
 $text['title-user_log']['de-ch'] = "Benutzerlogbuch";
@@ -47,6 +49,7 @@ $text['title-user_log']['ja-jp'] = "ユーザーログ";
 $text['title-user_log']['ko-kr'] = "사용자 로그";
 
 $text['title_description-user_logs']['en-us'] = "Shows authentication attempts with the result, timestamp, remote address and user details.";
+$text['title_description-user_logs']['fa'] = "در این قسمت لاگ مربوط به ورود و خروج کاربران را می توانید مشاهده نمایید.";
 $text['title_description-user_logs']['ar-eg'] = "تظهر محاولات التوثيق بالنتيجة والأوقات والعنوان عن بعد وتفاصيل المستخدمين.";
 $text['title_description-user_logs']['de-at'] = "Zeigt Authentifizierungsversuche mit Ergebnis, Zeitstempel, Remote-Adresse und Benutzerdetails.";
 $text['title_description-user_logs']['de-ch'] = "Zeigt Authentifizierungsversuche mit Ergebnis, Zeitstempel, Remote-Adresse und Benutzerdetails.";
@@ -116,6 +119,7 @@ $text['description-timestamp']['ja-jp'] = "日付時刻を設定します。";
 $text['description-timestamp']['ko-kr'] = "날짜/시간을 설정하십시오.";
 
 $text['label-user_uuid']['en-us'] = "User";
+$text['label-user_uuid']['fa'] = "کاربر";
 $text['label-user_uuid']['ar-eg'] = "مستخدم";
 $text['label-user_uuid']['de-at'] = "Benutzer";
 $text['label-user_uuid']['de-ch'] = "Benutzer";
@@ -162,6 +166,7 @@ $text['description-user_uuid']['ja-jp'] = "ユーザを選択します。";
 $text['description-user_uuid']['ko-kr'] = "사용자 선택";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['fa'] = "کاربر";
 $text['label-username']['ar-eg'] = "المستعمل";
 $text['label-username']['de-at'] = "Benutzername";
 $text['label-username']['de-ch'] = "Benutzername";
@@ -208,6 +213,7 @@ $text['description-username']['ja-jp'] = "ユーザー名を入力してくだ�
 $text['description-username']['ko-kr'] = "사용자 이름 입력";
 
 $text['label-type']['en-us'] = "Type";
+$text['label-type']['fa'] = "نوع";
 $text['label-type']['ar-eg'] = "النوع";
 $text['label-type']['de-at'] = "Art";
 $text['label-type']['de-ch'] = "Art";
@@ -254,6 +260,7 @@ $text['description-type']['ja-jp'] = "タイプを入力してください。";
 $text['description-type']['ko-kr'] = "유형을 입력하십시오.";
 
 $text['label-result']['en-us'] = "Result";
+$text['label-result']['fa'] = "نتیجه";
 $text['label-result']['ar-eg'] = "النتيجة";
 $text['label-result']['de-at'] = "Ergebnis";
 $text['label-result']['de-ch'] = "Ergebnis";
@@ -344,6 +351,7 @@ $text['label-failure']['ja-jp'] = "故障";
 $text['label-failure']['ko-kr'] = "실패";
 
 $text['label-remote_address']['en-us'] = "Remote Address";
+$text['label-remote_address']['fa'] = "آدرس کاربر";
 $text['label-remote_address']['ar-eg'] = "العنوان عن بعد";
 $text['label-remote_address']['de-at'] = "Fernleitung";
 $text['label-remote_address']['de-ch'] = "Fernleitung";
@@ -390,6 +398,7 @@ $text['description-remote_address']['ja-jp'] = "IPアドレスを入力してく
 $text['description-remote_address']['ko-kr'] = "IP 주소를 입력하십시오.";
 
 $text['label-user_agent']['en-us'] = "User Agent";
+$text['label-user_agent']['fa'] = "نرم افزار مورد استفاده";
 $text['label-user_agent']['ar-eg'] = "وكيل مستعمل";
 $text['label-user_agent']['de-at'] = "Benutzer";
 $text['label-user_agent']['de-ch'] = "Benutzer";
@@ -480,5 +489,8 @@ $text['description-location']['uk-ua'] = "Введіть місце розташ
 $text['description-location']['zh-cn'] = "进入地点。";
 $text['description-location']['ja-jp'] = "所在地を入力してください。";
 $text['description-location']['ko-kr'] = "위치를 입력하십시오.";
+
+$text['label-date']['fa'] = "تاریخ";
+$text['label-time']['fa'] = "ساعت";
 
 ?>

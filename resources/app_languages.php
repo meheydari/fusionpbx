@@ -5986,7 +5986,7 @@ $text['label-description']['fa'] = "توضیحات";
 $text['label-name']['fa'] = "نام";
 $text['label-order']['fa'] = "اولویت";
 $text['label-tools']['fa'] = "ابزار";
-
+$text['button-search']['fa'] = "جست و جو";
 
 
 

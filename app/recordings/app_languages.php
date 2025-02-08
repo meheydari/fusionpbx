@@ -50,6 +50,7 @@ $text['title-add']['ko-kr'] = "녹음 추가";
 
 $text['title-recordings']['en-us'] = "Recordings";
 $text['title-recordings']['en-gb'] = "Recordings";
+$text['title-recordings']['fa'] = "بارگزاری فایل صوتی";
 $text['title-recordings']['ar-eg'] = "السجلات";
 $text['title-recordings']['de-at'] = "Aufnahmen";
 $text['title-recordings']['de-ch'] = "Aufnahmen";
@@ -146,6 +147,7 @@ $text['label-upload']['ko-kr'] = "파일 경로";
 
 $text['label-tools']['en-us'] = "Tools";
 $text['label-tools']['en-gb'] = "Tools";
+$text['label-tools']['fa'] = "ابزار";
 $text['label-tools']['ar-eg'] = "الأدوات";
 $text['label-tools']['de-at'] = "Funktionen";
 $text['label-tools']['de-ch'] = "Funktionen";
@@ -170,6 +172,7 @@ $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-recording_name']['en-us'] = "Recording Name";
 $text['label-recording_name']['en-gb'] = "Recording Name";
+$text['label-recording_name']['fa'] = "نام";
 $text['label-recording_name']['ar-eg'] = "الاسم المسجل";
 $text['label-recording_name']['de-at'] = "Name der Aufnahme";
 $text['label-recording_name']['de-ch'] = "Name der Aufnahme";
@@ -266,6 +269,7 @@ $text['label-file_name']['ko-kr'] = "파일 이름";
 
 $text['label-file_size']['en-us'] = "File Size";
 $text['label-file_size']['en-gb'] = "File Size";
+$text['label-file_size']['fa'] = "سایز";
 $text['label-file_size']['ar-eg'] = "حجم الملفات";
 $text['label-file_size']['de-at'] = "Dateigröße";
 $text['label-file_size']['de-ch'] = "Dateigröße";
@@ -506,6 +510,7 @@ $text['description']['ko-kr'] = "*732를 눌러 녹음을 만들거나 (최상�
 
 $text['description-with_password']['en-us'] = "Dial *732 and enter the password ||RECORDING_PASSWORD||, followed by a number for the recording to create. Or, for best results, upload a 16bit 8khz/16khz mono WAV file.";
 $text['description-with_password']['en-gb'] = "Dial *732 and enter the password ||RECORDING_PASSWORD||, followed by a number for the recording to create. Or, for best results, upload a 16bit 8khz/16khz mono WAV file.";
+$text['description-with_password']['fa'] = "در این قسمت میتوانید فایل خود را بارگزاری کنید.فرمت قابل قبول : 16bit 8khz/16khz mono WAV";
 $text['description-with_password']['ar-eg'] = "اطلب * 732 وأدخل كلمة المرور || RECORDING_PASSWORD || متبوعًا برقم للتسجيل لإنشائه. أو ، للحصول على أفضل النتائج ، قم بتحميل ملف WAV أحادي 16 بت 8 كيلو هرتز / 16 كيلو هرتز.";
 $text['description-with_password']['de-at'] = "Wählen Sie *732 um eine Aufnahme direkt vom Telefon zu starten oder laden Sie eine 16bit 8/16kHz mono WAV-Datei hoch.";
 $text['description-with_password']['de-ch'] = "Wählen Sie *732 um eine Aufnahme direkt vom Telefon zu starten oder laden Sie eine 16bit 8/16kHz mono WAV-Datei hoch.";
@@ -528,4 +533,5 @@ $text['description-with_password']['zh-cn'] = "拨打 *732 并输入密码 ||REC
 $text['description-with_password']['ja-jp'] = "*732 にダイヤルし、パスワード ||RECORDING_PASSWORD|| を入力し、その後に作成する録音の番号を入力します。 または、最良の結果を得るには、16 ビット 8khz/16khz モノラル WAV ファイルをアップロードします。";
 $text['description-with_password']['ko-kr'] = "*732를 다이얼하고 비밀번호 ||RECORDING_PASSWORD||를 입력한 다음 생성할 녹음 번호를 입력합니다. 또는 최상의 결과를 얻으려면 16비트 8khz/16khz 모노 WAV 파일을 업로드하십시오.";
 
+$text['label-date']['fa'] = 'تاریخ ایجاد';
 ?>

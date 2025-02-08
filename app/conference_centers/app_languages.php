@@ -1,6 +1,7 @@
 <?php
 
 $text['title-conference_centers']['en-us'] = "Conference Centers";
+$text['title-conference_centers']['fa'] = "مرکز کنفرانس صوتی";
 $text['title-conference_centers']['en-gb'] = "Conference Centers";
 $text['title-conference_centers']['ar-eg'] = "مراكز المؤتمرات";
 $text['title-conference_centers']['de-at'] = "Konferenz Zentralen";
@@ -26,6 +27,7 @@ $text['title-conference_centers']['ko-kr'] = "컨퍼런스 센터";
 
 $text['title-conference_center']['en-us'] = "Conference Center";
 $text['title-conference_center']['en-gb'] = "Conference Center";
+$text['title-conference_center']['fa'] = "مرکز کنفرانس صوتی";
 $text['title-conference_center']['ar-eg'] = "مركز المؤتمرات";
 $text['title-conference_center']['de-at'] = "Konferenz Zentrale";
 $text['title-conference_center']['de-ch'] = "Konferenz Zentrale";
@@ -49,6 +51,7 @@ $text['title-conference_center']['ja-jp'] = "会議センター";
 $text['title-conference_center']['ko-kr'] = "컨퍼런스 센터";
 
 $text['title_description-conference_centers']['en-us'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
+$text['title_description-conference_centers']['fa'] = "در این قسمت میتوانید مرکز کنفرانس های صوتی با اتاق های متفاوت ایجاد کنید";
 $text['title_description-conference_centers']['en-gb'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
 $text['title_description-conference_centers']['ar-eg'] = "مراكز المؤتمرات هي مجموعة من غرف المؤتمرات. يمكن تنظيمها حسب مركز التكلفة أو جغرافيًا أو معايير أخرى.";
 $text['title_description-conference_centers']['de-at'] = "Konferenz-Zentralen sind Gruppen mehrerer Konferenzräume. Diese können anhand diverser Kriterien organisiert werden.";
@@ -97,6 +100,7 @@ $text['title_description-conference_rooms']['ja-jp'] = "カンファレンスル
 $text['title_description-conference_rooms']['ko-kr'] = "컨퍼런스룸은 회의장 내에서 개별 회의 장소입니다.";
 
 $text['label-conference_center_name']['en-us'] = "Name";
+$text['label-conference_center_name']['fa'] = "نام";
 $text['label-conference_center_name']['en-gb'] = "Name";
 $text['label-conference_center_name']['ar-eg'] = "اسم";
 $text['label-conference_center_name']['de-at'] = "Name";
@@ -122,6 +126,7 @@ $text['label-conference_center_name']['ko-kr'] = "이름";
 
 $text['description-conference_center_name']['en-us'] = "Enter the conference center name.";
 $text['description-conference_center_name']['en-gb'] = "Enter the conference center name.";
+$text['description-conference_center_name']['fa'] = "نام مرکز کنفرانس خود را وارد نمایید.";
 $text['description-conference_center_name']['ar-eg'] = "أدخل اسم مركز المؤتمرات.";
 $text['description-conference_center_name']['de-at'] = "Geben Sie den Namen der Konferenz-Zentrale an.";
 $text['description-conference_center_name']['de-ch'] = "Geben Sie den Namen der Konferenz-Zentrale an.";
@@ -146,6 +151,7 @@ $text['description-conference_center_name']['ko-kr'] = "회의 센터 이름을 
 
 $text['label-conference_center_extension']['en-us'] = "Extension";
 $text['label-conference_center_extension']['en-gb'] = "Extension";
+$text['label-conference_center_extension']['fa'] = "داخلی کنفرانس";
 $text['label-conference_center_extension']['ar-eg'] = "امتداد";
 $text['label-conference_center_extension']['de-at'] = "Nebenstelle";
 $text['label-conference_center_extension']['de-ch'] = "Nebenstelle";
@@ -170,6 +176,7 @@ $text['label-conference_center_extension']['ko-kr'] = "제품 정보";
 
 $text['description-conference_center_extension']['en-us'] = "Enter the conference center extension number.";
 $text['description-conference_center_extension']['en-gb'] = "Enter the conference center extension number.";
+$text['description-conference_center_extension']['fa'] = "داخلی مرکز کنفرانس خود را وارد نمایید.";
 $text['description-conference_center_extension']['ar-eg'] = "أدخل الرقم الداخلي لمركز المؤتمرات.";
 $text['description-conference_center_extension']['de-at'] = "Geben Sie eine Nebenstelle für die Konferenz-Zentrale an.";
 $text['description-conference_center_extension']['de-ch'] = "Geben Sie eine Nebenstelle für die Konferenz-Zentrale an.";
@@ -194,6 +201,7 @@ $text['description-conference_center_extension']['ko-kr'] = "회의 센터 확�
 
 $text['label-conference_center_pin_length']['en-us'] = "PIN Length";
 $text['label-conference_center_pin_length']['en-gb'] = "PIN Length";
+$text['label-conference_center_pin_length']['fa'] = "طول پسورد";
 $text['label-conference_center_pin_length']['ar-eg'] = "طول PIN";
 $text['label-conference_center_pin_length']['de-at'] = "PIN länge";
 $text['label-conference_center_pin_length']['de-ch'] = "PIN länge";
@@ -218,6 +226,7 @@ $text['label-conference_center_pin_length']['ko-kr'] = "PIN 길이";
 
 $text['description-conference_center_pin_length']['en-us'] = "Enter the minimum PIN length.";
 $text['description-conference_center_pin_length']['en-gb'] = "Enter the minimum PIN length.";
+$text['description-conference_center_pin_length']['fa'] = "حداقل طول پسورد افراد برای ورود به اتاق کنفرانس را وارد نمایید. (پسوردها بصورت اتوماتیک در هنگام ساخت اتاق ها ایجاد خواهند شد)";
 $text['description-conference_center_pin_length']['ar-eg'] = "أدخل الحد الأدنى لطول PIN.";
 $text['description-conference_center_pin_length']['de-at'] = "Geben sie die minimale PIN länge an.";
 $text['description-conference_center_pin_length']['de-ch'] = "Geben sie die minimale PIN länge an.";
@@ -290,6 +299,7 @@ $text['description-email_address']['ko-kr'] = "선택 회의 이메일 주소.";
 
 $text['label-conference_center_greeting']['en-us'] = "Greeting";
 $text['label-conference_center_greeting']['en-gb'] = "Greeting";
+$text['label-conference_center_greeting']['fa'] = "فایل صوتی";
 $text['label-conference_center_greeting']['ar-eg'] = "تحية";
 $text['label-conference_center_greeting']['de-at'] = "Begrüßung";
 $text['label-conference_center_greeting']['de-ch'] = "Begrüßung";
@@ -314,6 +324,7 @@ $text['label-conference_center_greeting']['ko-kr'] = "주요연혁";
 
 $text['description-conference_center_greeting']['en-us'] = "Select the greeting that is played before joining the conference room. Note: No PIN prompt will be played.";
 $text['description-conference_center_greeting']['en-gb'] = "Select the greeting that is played before joining the conference room. Note: No PIN prompt will be played.";
+$text['description-conference_center_greeting']['fa'] = "فایل صوتی قبل از ورود به اتاق های کنفرانس را انتخاب کنید.";
 $text['description-conference_center_greeting']['ar-eg'] = "حدد التحية التي يتم تشغيلها قبل الانضمام إلى غرفة المؤتمرات. ملاحظة: لن يتم تشغيل مطالبة PIN.";
 $text['description-conference_center_greeting']['de-at'] = "Wählen Sie die Begrüßung für den Konferenzraum.";
 $text['description-conference_center_greeting']['de-ch'] = "Wählen Sie die Begrüßung für den Konferenzraum.";
@@ -386,6 +397,7 @@ $text['description-account_code']['ko-kr'] = "계정 코드를 입력하세요."
 
 $text['label-conference_center_enabled']['en-us'] = "Enabled";
 $text['label-conference_center_enabled']['en-gb'] = "Enabled";
+$text['label-conference_center_enabled']['fa'] = "وضعیت";
 $text['label-conference_center_enabled']['ar-eg'] = "ممكن";
 $text['label-conference_center_enabled']['de-at'] = "An";
 $text['label-conference_center_enabled']['de-ch'] = "An";
@@ -410,6 +422,7 @@ $text['label-conference_center_enabled']['ko-kr'] = "이름";
 
 $text['description-conference_center_enabled']['en-us'] = "Select whether to enable or disable the conference center.";
 $text['description-conference_center_enabled']['en-gb'] = "Select whether to enable or disable the conference center.";
+$text['description-conference_center_enabled']['fa'] = "مرکز کنفرانس را فعال/غیرفعال کنید";
 $text['description-conference_center_enabled']['ar-eg'] = "حدد ما إذا كنت تريد تمكين أو تعطيل مركز المؤتمرات.";
 $text['description-conference_center_enabled']['de-at'] = "Wählen Sie ob die Konferenz-Zentrale Ein- oder Ausgeschaltet werden soll.";
 $text['description-conference_center_enabled']['de-ch'] = "Wählen Sie ob die Konferenz-Zentrale Ein- oder Ausgeschaltet werden soll.";
@@ -434,6 +447,7 @@ $text['description-conference_center_enabled']['ko-kr'] = "회의 센터를 활�
 
 $text['label-conference_center_description']['en-us'] = "Description";
 $text['label-conference_center_description']['en-gb'] = "Description";
+$text['label-conference_center_description']['fa'] = "توضیحات";
 $text['label-conference_center_description']['ar-eg'] = "وصف";
 $text['label-conference_center_description']['de-at'] = "Beschreibung";
 $text['label-conference_center_description']['de-ch'] = "Beschreibung";
@@ -626,6 +640,7 @@ $text['message-non_unique_pin']['ko-kr'] = "모더레이터 및 참가자 PIN �
 
 $text['message-minimum_pin_length']['en-us'] = "Minimum PIN length required:";
 $text['message-minimum_pin_length']['en-gb'] = "Minimum PIN length required:";
+$text['message-minimum_pin_length']['fa'] = "Minimum PIN length required:";
 $text['message-minimum_pin_length']['ar-eg'] = "الحد الأدنى لطول PIN المطلوب:";
 $text['message-minimum_pin_length']['de-at'] = "Minimale PIN länge erforderlich:";
 $text['message-minimum_pin_length']['de-ch'] = "Minimale PIN länge erforderlich:";
@@ -1874,6 +1889,7 @@ $text['description-conference_session_details']['ko-kr'] = "회의 회의는 회
 
 $text['description-conference_centers']['en-us'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
 $text['description-conference_centers']['en-gb'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
+$text['description-conference_centers']['fa'] = "در این قسمت میتوانید مرکز کنفرانس های صوتی با اتاق های متفاوت ایجاد کنید";
 $text['description-conference_centers']['ar-eg'] = "مراكز المؤتمرات هي مجموعة من غرف المؤتمرات. يمكن تنظيمها حسب مركز التكلفة أو جغرافيًا أو معايير أخرى.";
 $text['description-conference_centers']['de-at'] = "Konferenz-Zentralen sind Gruppen mehrere Konferenzräume. Diese können anhand diverse Kriterien wie Kostenstelle, geographisher Ort oder sonstiges organisiert werden.";
 $text['description-conference_centers']['de-ch'] = "Konferenz-Zentralen sind Gruppen mehrere Konferenzräume. Diese können anhand diverse Kriterien wie Kostenstelle, geographisher Ort oder sonstiges organisiert werden.";
@@ -1946,6 +1962,7 @@ $text['button-sessions']['ko-kr'] = "교육과정";
 
 $text['button-rooms']['en-us'] = "Rooms";
 $text['button-rooms']['en-gb'] = "Rooms";
+$text['button-rooms']['fa'] = "اتاق‌های کنفرانس";
 $text['button-rooms']['ar-eg'] = "غرف";
 $text['button-rooms']['de-at'] = "Räume";
 $text['button-rooms']['de-ch'] = "Räume";
@@ -1970,6 +1987,7 @@ $text['button-rooms']['ko-kr'] = "객실 수";
 
 $text['button-view_active']['en-us'] = "View Active";
 $text['button-view_active']['en-gb'] = "View Active";
+$text['button-view_active']['fa'] = "نمایش کنفرانس فعال";
 $text['button-view_active']['ar-eg'] = "مشاهدة ملف Active";
 $text['button-view_active']['de-at'] = "Aktive anzeigen";
 $text['button-view_active']['de-ch'] = "Aktive anzeigen";

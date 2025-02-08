@@ -2105,7 +2105,7 @@ $text['label-destination_number']['fa'] = "شماره مقصد";
 
 $text['label-destination_condition_field']['fa'] = "شرط";
 
-$text['label-destination_enabled']['fa'] = "فعال";
+$text['label-destination_enabled']['fa'] = "وضعیت";
 
 $text['label-destination_description']['fa'] = "توضیحات";
 

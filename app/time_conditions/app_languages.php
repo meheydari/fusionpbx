@@ -2,6 +2,7 @@
 
 $text['title-time_conditions']['en-us'] = "Time Conditions";
 $text['title-time_conditions']['en-gb'] = "Time Conditions";
+$text['title-time_conditions']['fa'] = "شیفت کاری";
 $text['title-time_conditions']['ar-eg'] = "شروط الوقت";
 $text['title-time_conditions']['de-at'] = "Zeitschaltung";
 $text['title-time_conditions']['de-ch'] = "Zeitschaltung";
@@ -26,6 +27,7 @@ $text['title-time_conditions']['ko-kr'] = "시간 조건";
 
 $text['title-time_condition']['en-us'] = "Time Condition";
 $text['title-time_condition']['en-gb'] = "Time Condition";
+$text['title-time_condition']['fa'] = "شیفت کاری";
 $text['title-time_condition']['ar-eg'] = "شرط الوقت";
 $text['title-time_condition']['de-at'] = "Zeitschaltung";
 $text['title-time_condition']['de-ch'] = "Zeitschaltung";
@@ -98,6 +100,7 @@ $text['message-alternate_destination_required']['ko-kr'] = "대체 목적지 필
 
 $text['label-year']['en-us'] = "Year";
 $text['label-year']['en-gb'] = "Year";
+$text['label-year']['fa'] = "سال";
 $text['label-year']['ar-eg'] = "سنة";
 $text['label-year']['de-at'] = "Jahr";
 $text['label-year']['de-ch'] = "Jahr";
@@ -674,33 +677,9 @@ $text['label-preset_christmas_day']['ko-kr'] = "크리스마스 날";
 
 $text['label-number']['en-us'] = "Number";
 $text['label-number']['en-gb'] = "Number";
-$text['label-number']['ar-eg'] = "رقم";
-$text['label-number']['de-at'] = "Nummer";
-$text['label-number']['de-ch'] = "Nummer";
-$text['label-number']['de-de'] = "Nummer";
-$text['label-number']['es-cl'] = "Número";
-$text['label-number']['es-mx'] = "Número";
-$text['label-number']['fr-ca'] = "Numéro";
-$text['label-number']['fr-fr'] = "Numéro";
-$text['label-number']['he-il'] = "מספר";
-$text['label-number']['it-it'] = "Numero";
-$text['label-number']['nl-nl'] = "Număr";
-$text['label-number']['pl-pl'] = "Numer";
-$text['label-number']['pt-br'] = "Número";
-$text['label-number']['pt-pt'] = "Número";
-$text['label-number']['ro-ro'] = "Număr";
-$text['label-number']['ru-ru'] = "Число";
-$text['label-number']['sv-se'] = "Nummer";
-$text['label-number']['uk-ua'] = "Номер";
-$text['label-number']['zh-cn'] = "数字";
-$text['label-number']['ja-jp'] = "番号";
-$text['label-number']['ko-kr'] = "숫자";
+$text['label-number']['fa'] = "داخلی";
 
 $text['label-month']['en-us'] = "Month";
-$text['label-month']['en-gb'] = "Month";
-$text['label-month']['ar-eg'] = "شهر";
-$text['label-month']['de-at'] = "Monat";
-$text['label-month']['de-ch'] = "Monat";
 $text['label-month']['de-de'] = "Monat";
 $text['label-month']['es-cl'] = "Més";
 $text['label-month']['es-mx'] = "Més";
@@ -1153,6 +1132,7 @@ $text['header-time_conditions']['ja-jp'] = "時間条件";
 $text['header-time_conditions']['ko-kr'] = "시간 조건";
 
 $text['description-time_conditions']['en-us'] = "Dynamically route calls to an IVR menu, external numbers, scripts, or other destinations based on time conditions.";
+$text['description-time_conditions']['fa'] = "در این قسمت میتوانید ، مسیر تماس را در شیفت های کاری متفاوت تغییر دهید.";
 $text['description-time_conditions']['en-gb'] = "Dynamically route calls to an IVR menu, external numbers, scripts, or other destinations based on time conditions.";
 $text['description-time_conditions']['ar-eg'] = "قم بتوجيه المكالمات ديناميكيًا إلى قائمة IVR أو أرقام خارجية أو نصوص أو وجهات أخرى بناءً على ظروف الوقت.";
 $text['description-time_conditions']['de-at'] = "Dynamische weiterleitung von Anrufen an IVR Menüs, externe Rufnummern, Skripte, oder andere Ziele abhängig von zeitlichen Bedingungen.";

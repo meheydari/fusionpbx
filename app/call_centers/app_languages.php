@@ -194,6 +194,7 @@ $text['title-call_center_agents']['ko-kr'] = "콜센터 상담원";
 
 $text['title-call_center_agent_status']['en-us'] = "Call Center Agent Status";
 $text['title-call_center_agent_status']['en-gb'] = "Call Center Agent Status";
+$text['title-call_center_agent_status']['fa'] = "وضعیت اپراتورها";
 $text['title-call_center_agent_status']['ar-eg'] = "حالة وكيل مركز الاتصال";
 $text['title-call_center_agent_status']['de-at'] = "Callcenter Agenten Status";
 $text['title-call_center_agent_status']['de-ch'] = "Callcenter Agenten Status";
@@ -1442,6 +1443,7 @@ $text['label-queue_name']['ko-kr'] = "대기열 이름";
 
 $text['label-options']['en-us'] = "Options";
 $text['label-options']['en-gb'] = "Options";
+$text['label-options']['fa'] = "وضعیت";
 $text['label-options']['ar-eg'] = "خيارات";
 $text['label-options']['de-at'] = "Optionen";
 $text['label-options']['de-ch'] = "Optionen";
@@ -2018,6 +2020,7 @@ $text['label-agent_password']['ko-kr'] = "에이전트 비밀번호";
 
 $text['label-agent_name']['en-us'] = "Agent Name";
 $text['label-agent_name']['en-gb'] = "Agent Name";
+$text['label-agent_name']['fa'] = "نام اپراتور";
 $text['label-agent_name']['ar-eg'] = "اسم العميل";
 $text['label-agent_name']['de-at'] = "Agenten Name";
 $text['label-agent_name']['de-ch'] = "Agenten Name";
@@ -2090,6 +2093,7 @@ $text['label-agent_id']['ko-kr'] = "에이전트 ID";
 
 $text['label-agent']['en-us'] = "Agent";
 $text['label-agent']['en-gb'] = "Agent";
+$text['label-agent']['fa'] = "اپراتور";
 $text['label-agent']['ar-eg'] = "عامل";
 $text['label-agent']['de-at'] = "Agent";
 $text['label-agent']['de-ch'] = "Agent";

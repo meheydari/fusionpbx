@@ -1109,6 +1109,7 @@ $text['label-group']['ko-kr'] = "그룹";
 
 $text['header-time_conditions']['en-us'] = "Time Conditions";
 $text['header-time_conditions']['en-gb'] = "Time Conditions";
+$text['header-time_conditions']['fa'] = "شیفت کاری";
 $text['header-time_conditions']['ar-eg'] = "شروط الوقت";
 $text['header-time_conditions']['de-at'] = "Zeitschaltung";
 $text['header-time_conditions']['de-ch'] = "Zeitschaltung";
@@ -1132,7 +1133,7 @@ $text['header-time_conditions']['ja-jp'] = "時間条件";
 $text['header-time_conditions']['ko-kr'] = "시간 조건";
 
 $text['description-time_conditions']['en-us'] = "Dynamically route calls to an IVR menu, external numbers, scripts, or other destinations based on time conditions.";
-$text['description-time_conditions']['fa'] = "در این قسمت میتوانید ، مسیر تماس را در شیفت های کاری متفاوت تغییر دهید.";
+$text['description-time_conditions']['fa'] = "در این قسمت میتوانید، مسیر تماس را در شیفت های کاری متفاوت تغییر دهید.";
 $text['description-time_conditions']['en-gb'] = "Dynamically route calls to an IVR menu, external numbers, scripts, or other destinations based on time conditions.";
 $text['description-time_conditions']['ar-eg'] = "قم بتوجيه المكالمات ديناميكيًا إلى قائمة IVR أو أرقام خارجية أو نصوص أو وجهات أخرى بناءً على ظروف الوقت.";
 $text['description-time_conditions']['de-at'] = "Dynamische weiterleitung von Anrufen an IVR Menüs, externe Rufnummern, Skripte, oder andere Ziele abhängig von zeitlichen Bedingungen.";

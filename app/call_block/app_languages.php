@@ -1119,7 +1119,7 @@ $text['button-block']['ko-kr'] = "차단하다";
 
 
 
-$text['title-call-block']['fa'] = "مسدود کردن تماس";
+$text['title-call-block']['fa'] = "ایجاد لیست سیاه";
 
 $text['heading-recent_calls']['fa'] = "تماس‌های اخیر";
 
@@ -1137,7 +1137,7 @@ $text['label-provide-enabled']['fa'] = "لطفاً وضعیت فعال را ار
 
 $text['label-country_code']['fa'] = "کد کشور";
 
-$text['label-number']['fa'] = "شماره";
+$text['label-number']['fa'] = "مبدا";
 
 $text['label-message']['fa'] = "پیام";
 
@@ -1159,11 +1159,11 @@ $text['label-destination']['fa'] = "مقصد";
 
 $text['label-edit-note']['fa'] = "مسدود کردن تماس‌ها از یک شماره. نام را ویرایش و فعال/غیرفعال کنید.";
 
-$text['label-edit-edit']['fa'] = "مسدود کردن تماس";
+$text['label-edit-edit']['fa'] = "ویرایش لیست سیاه";
 
-$text['label-edit-add']['fa'] = "مسدود کردن تماس";
+$text['label-edit-add']['fa'] = "ایجاد لیست سیاه";
 
-$text['label-duration']['fa'] = "مدت زمان";
+$text['label-duration']['fa'] = "مدت زمان تماس";
 
 $text['label-delete-complete']['fa'] = "حذف کامل شد";
 
@@ -1171,7 +1171,7 @@ $text['label-date-added']['fa'] = "تاریخ اضافه شدن";
 
 $text['label-count']['fa'] = "تعداد";
 
-$text['label-called']['fa'] = "تماس گرفته‌شده";
+$text['label-called']['fa'] = "تاریخ تماس";
 
 $text['label-busy']['fa'] = "مشغول";
 
@@ -1181,25 +1181,27 @@ $text['label-missed']['fa'] = "از دست رفته";
 
 $text['label-voicemail']['fa'] = "پیام صوتی";
 
-$text['label-add-note']['fa'] = "مسدود کردن تماس‌ها از یک شماره. یک شماره از لیست بالا انتخاب کنید یا شماره، نام و وضعیت فعال را وارد کنید.";
+$text['label-add-note']['fa'] = "تماس های یک شماره ی خاص را مسدود کنید.همچنین میتوانید از لیست تماس های اخیر یک شماره را انتخاب و مسدود نمایید.";
 
 $text['label-add-complete']['fa'] = "اضافه کردن کامل شد";
 
 $text['label-action']['fa'] = "عملکرد";
 
-$text['label-direction']['fa'] = "جهت";
+$text['label-direction']['fa'] = "جهت تماس";
 
-$text['description-direction']['fa'] = "جهت تماس‌هایی که باید مسدود شوند را انتخاب کنید.";
+$text['description-direction']['fa'] = "جهت تماس شماره مورد نظر را برای افزودن به لیست سیاه مشخص کنید";
 
-$text['description-call_block_name']['fa'] = "نام شناسه تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
+$text['label-call_block_name']['fa'] = "نام";
+$text['description-call_block_name']['fa'] = "نام کالرآیدی که قرار است مسدود شود را مشخص کنید";
 
 $text['description-country_code']['fa'] = "پیشوند کد کشور را وارد کنید.";
 
 $text['description-call_block_number']['fa'] = "کد کشور و شماره تماس‌گیرنده‌ای که باید مسدود شود را وارد کنید.";
 
-$text['description-extension']['fa'] = "داخلی‌ای که باید تحت تأثیر قرار بگیرد را انتخاب کنید.";
+$text['description-extension']['fa'] = "داخلی که باید تحت تاثیر قرار بگیرد، را انتخاب کنید.";
+$text['label-extension']['fa'] = "داخلی";
 
-$text['description-enable']['fa'] = "برای فعال کردن مسدود کردن تماس‌ها برای این شماره، این گزینه را روی 'بله' تنظیم کنید.";
+$text['description-enable']['fa'] = "فعال/غیرفعال کردن افزودن این شماره به لیست سیاه";
 
 $text['description-call-block']['fa'] = "لیستی از شماره‌ها برای مسدود کردن تماس‌ها.";
 

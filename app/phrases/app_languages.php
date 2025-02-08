@@ -53,6 +53,7 @@ $text['title-edit_phrase']['ko-kr'] = "Phrase 편집";
 $text['title-add_phrase']['en-us'] = "Add Phrase";
 $text['title-add_phrase']['en-gb'] = "Add Phrase";
 $text['title-add_phrase']['fa'] = "افزودن اعلان صوتی";
+$text['title-add_phrase']['fa'] = "افزودن اعلان صوتی";
 $text['title-add_phrase']['ar-eg'] = "مضافا إليه:";
 $text['title-add_phrase']['de-at'] = "Phrasen hinzufügen";
 $text['title-add_phrase']['de-ch'] = "Phrasen hinzufügen";
@@ -101,6 +102,7 @@ $text['label-tools']['ko-kr'] = "제품정보";
 
 $text['label-structure']['en-us'] = "Structure";
 $text['label-structure']['en-gb'] = "Structure";
+$text['label-structure']['fa'] = "ساختار اعلان صوتی";
 $text['label-structure']['ar-eg'] = "الهيكل";
 $text['label-structure']['de-at'] = "Struktur";
 $text['label-structure']['de-ch'] = "Struktur";
@@ -272,6 +274,7 @@ $text['label-language']['ko-kr'] = "이름";
 
 $text['label-function']['en-us'] = "Function";
 $text['label-function']['en-gb'] = "Function";
+$text['label-function']['fa'] = "عملکرد";
 $text['label-function']['ar-eg'] = "المهمة";
 $text['label-function']['de-at'] = "Funktion";
 $text['label-function']['de-ch'] = "Funktion";
@@ -320,6 +323,7 @@ $text['label-execute']['ko-kr'] = "지원하다";
 
 $text['label-action']['en-us'] = "Action";
 $text['label-action']['en-gb'] = "Action";
+$text['label-action']['fa'] = "انتخاب فایل";
 $text['label-action']['ar-eg'] = "الإجراء";
 $text['label-action']['de-at'] = "Aktion";
 $text['label-action']['de-ch'] = "Aktion";
@@ -416,6 +420,7 @@ $text['header-add_phrase']['ko-kr'] = "Phrase 추가";
 
 $text['description-structure']['en-us'] = "Define the various components that make up the phrase.";
 $text['description-structure']['en-gb'] = "Define the various components that make up the phrase.";
+$text['description-structure']['fa'] = "در این قسمت میتوانید فایل یا فایلهایی که یک اعلان صوتی را تشکیل میدهند ، انتخاب کنید.";
 $text['description-structure']['ar-eg'] = "تحديد مختلف العناصر التي تشكل العبارة.";
 $text['description-structure']['de-at'] = "Definieren Sie die einzelnen Komponenten und fügen Sie diese zu einer Phrase zusammen";
 $text['description-structure']['de-ch'] = "Definieren Sie die einzelnen Komponenten und fügen Sie diese zu einer Phrase zusammen";
@@ -465,6 +470,7 @@ $text['description-phrases']['ko-kr'] = "오디오 파일의 구문을 작성하
 
 $text['description-name']['en-us'] = "Name for the phrase (Example: 'xyz_audio')";
 $text['description-name']['en-gb'] = "Name for the phrase (Example: 'xyz_audio')";
+$text['description-name']['fa'] = "نام اعلان صوتی بطور مثال xyz_audio";
 $text['description-name']['ar-eg'] = "الاسم للجملة";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Phrase an (Bsp: 'xyz_audio')";
 $text['description-name']['de-ch'] = "Geben Sie den Namen der Phrase an (Bsp: 'xyz_audio')";
@@ -489,6 +495,7 @@ $text['description-name']['ko-kr'] = "구문 이름 (예 : 'xyz_audio')";
 
 $text['description-language']['en-us'] = "Language used in the phrase.";
 $text['description-language']['en-gb'] = "Language used in the phrase.";
+$text['description-language']['fa'] = "زبان مورد استفاده برای پخش اعداد و ..";
 $text['description-language']['ar-eg'] = "اللغة المستخدمة في العبارة.";
 $text['description-language']['de-at'] = "Geben Sie die Sprache an.";
 $text['description-language']['de-ch'] = "Geben Sie die Sprache an.";
@@ -513,6 +520,7 @@ $text['description-language']['ko-kr'] = "구문에 사용되는 언어.";
 
 $text['description-enabled']['en-us'] = "Set the status of the phrase.";
 $text['description-enabled']['en-gb'] = "Set the status of the phrase.";
+$text['description-enabled']['fa'] = "فعال/غیرفعال کردن";
 $text['description-enabled']['ar-eg'] = "حدد وضع العبارة";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Phrase.";
 $text['description-enabled']['de-ch'] = "Setzen Sie den Status dieser Phrase.";

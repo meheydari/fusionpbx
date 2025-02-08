@@ -269,6 +269,7 @@ $text['label-template']['ko-kr'] = "주형";
 
 $text['label-settings']['en-us'] = "Settings";
 $text['label-settings']['en-gb'] = "Settings";
+$text['label-settings']['fa'] = "تنظیمات";
 $text['label-settings']['ar-eg'] = "إعدادات";
 $text['label-settings']['de-at'] = "Einstellungen";
 $text['label-settings']['de-ch'] = "Einstellungen";
@@ -413,6 +414,7 @@ $text['label-required-action']['ko-kr'] = "제공하십시오: 목적지";
 
 $text['label-presets']['en-us'] = "Presets";
 $text['label-presets']['en-gb'] = "Presets";
+$text['label-presets']['fa'] = "تعطیلات خاص";
 $text['label-presets']['ar-eg'] = "الإعدادات المسبقة";
 $text['label-presets']['de-at'] = "Voreinstellungen";
 $text['label-presets']['de-ch'] = "Voreinstellungen";
@@ -797,6 +799,7 @@ $text['label-hour-of-day']['ko-kr'] = "일의 시간";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Nebenstelle";
 $text['label-extension']['de-ch'] = "Nebenstelle";
@@ -941,6 +944,7 @@ $text['label-context']['ko-kr'] = "문맥";
 
 $text['label-conditions']['en-us'] = "Conditions";
 $text['label-conditions']['en-gb'] = "Conditions";
+$text['label-conditions']['fa'] = "شروط زمانی";
 $text['label-conditions']['ar-eg'] = "شروط";
 $text['label-conditions']['de-at'] = "Bedingungen";
 $text['label-conditions']['de-ch'] = "Bedingungen";
@@ -965,6 +969,7 @@ $text['label-conditions']['ko-kr'] = "정황";
 
 $text['label-condition_value']['en-us'] = "Value";
 $text['label-condition_value']['en-gb'] = "Value";
+$text['label-condition_value']['fa'] = "تاریخ شروع";
 $text['label-condition_value']['ar-eg'] = "قيمة";
 $text['label-condition_value']['de-at'] = "Wert";
 $text['label-condition_value']['de-ch'] = "Wert";
@@ -989,6 +994,7 @@ $text['label-condition_value']['ko-kr'] = "값";
 
 $text['label-condition_range']['en-us'] = "Range";
 $text['label-condition_range']['en-gb'] = "Range";
+$text['label-condition_range']['fa'] = "تاریخ پایان";
 $text['label-condition_range']['ar-eg'] = "يتراوح";
 $text['label-condition_range']['de-at'] = "Bereich";
 $text['label-condition_range']['de-ch'] = "Bereich";
@@ -1037,6 +1043,7 @@ $text['label-condition_parameter']['ko-kr'] = "모수";
 
 $text['label-condition']['en-us'] = "Condition";
 $text['label-condition']['en-gb'] = "Condition";
+$text['label-condition']['fa'] = "شروط زمانی";
 $text['label-condition']['ar-eg'] = "Voorwaarde";
 $text['label-condition']['de-at'] = "Bedingung";
 $text['label-condition']['de-ch'] = "Bedingung";
@@ -1061,6 +1068,7 @@ $text['label-condition']['ko-kr'] = "상태";
 
 $text['label-alternate-destination']['en-us'] = "Alternate Destination";
 $text['label-alternate-destination']['en-gb'] = "Alternate Destination";
+$text['label-alternate-destination']['fa'] = "مقصد جایگزین";
 $text['label-alternate-destination']['ar-eg'] = "وجهة بديلة";
 $text['label-alternate-destination']['de-at'] = "Alternatives Ziel";
 $text['label-alternate-destination']['de-ch'] = "Alternatives Ziel";
@@ -1183,6 +1191,7 @@ $text['description-template']['ko-kr'] = "템플릿은 미리 설정된 시간 �
 
 $text['description-settings']['en-us'] = "Define custom conditions necessary to execute the destination selected above.";
 $text['description-settings']['en-gb'] = "Define custom conditions necessary to execute the destination selected above.";
+$text['description-settings']['fa'] = "بعد از تعریف شروط زمانی، مقصد تماس را برای زمانهای مشخص شده در کادر بالا مشخص کنید.";
 $text['description-settings']['ar-eg'] = "حدد الشروط المخصصة اللازمة لتنفيذ الوجهة المحددة أعلاه.";
 $text['description-settings']['de-at'] = "Definieren Sie benutzerdefinierte Bedingungen für das oben ausgewählte Ziel.";
 $text['description-settings']['de-ch'] = "Definieren Sie benutzerdefinierte Bedingungen für das oben ausgewählte Ziel.";
@@ -1255,6 +1264,7 @@ $text['description-presets']['ko-kr'] = "사용 가능한 사전 설정에서 �
 
 $text['description-name']['en-us'] = "Enter the name for the time condition.";
 $text['description-name']['en-gb'] = "Enter the name for the time condition.";
+$text['description-name']['fa'] = "برای این شیفت کاری یک نام انتخاب کنید.";
 $text['description-name']['ar-eg'] = "أدخل اسم شرط الوقت.";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Zeitschaltung ein.";
 $text['description-name']['de-ch'] = "Geben Sie den Namen der Zeitschaltung ein.";
@@ -1279,6 +1289,7 @@ $text['description-name']['ko-kr'] = "시간 조건의 이름을 입력합니다
 
 $text['description-extension']['en-us'] = "Enter the extension number.";
 $text['description-extension']['en-gb'] = "Enter the extension number.";
+$text['description-extension']['fa'] = "برای این شیفت کاری یک داخلی انتخاب کنید.";
 $text['description-extension']['ar-eg'] = "أدخل الرقم الداخلي.";
 $text['description-extension']['de-at'] = "Geben Sie eine Nebenstelle an.";
 $text['description-extension']['de-ch'] = "Geben Sie eine Nebenstelle an.";
@@ -1300,5 +1311,8 @@ $text['description-extension']['uk-ua'] = "Введіть внутрішній �
 $text['description-extension']['zh-cn'] = "输入分机号码。";
 $text['description-extension']['ja-jp'] = "内線番号を入力します。";
 $text['description-extension']['ko-kr'] = "내선번호를 입력하세요.";
+
+$text['button-advanced']['fa'] = "مقصد تعطیلات خاص";
+
 
 ?>

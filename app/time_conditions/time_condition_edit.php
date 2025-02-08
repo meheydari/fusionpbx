@@ -1209,6 +1209,8 @@ if ($action == 'update') {
 	echo "</td>\n";
 	echo "<td class='vtable' align='left'>\n";
 	echo "	".$destination->select('dialplan', 'dialplan_anti_action', $dialplan_anti_action ?? null);
+	echo "<br>";
+	echo  "در این قسمت برای زمان های غیر از موارد مشخص شده در بالا، مقصد مشخص کنید.";
 	echo "</td>\n";
 	echo "</tr>\n";
 

@@ -99,6 +99,7 @@ $text['title-voicemail_message']['ko-kr'] = "음성 메일 메시지";
 
 $text['title-voicemail']['en-us'] = "Voicemail";
 $text['title-voicemail']['en-gb'] = "Voicemail";
+$text['title-voicemail']['fa'] = "صندوق صوتی";
 $text['title-voicemail']['ar-eg'] = "البريد الصوتي";
 $text['title-voicemail']['de-at'] = "Mailbox";
 $text['title-voicemail']['de-ch'] = "Mailbox";
@@ -413,6 +414,7 @@ $text['label-voicemail_uuid']['ko-kr'] = "음성 메일 UUID";
 
 $text['label-voicemail_password']['en-us'] = "Password";
 $text['label-voicemail_password']['en-gb'] = "Password";
+$text['label-voicemail_password']['fa'] = "پسورد";
 $text['label-voicemail_password']['ar-eg'] = "كلمة المرور";
 $text['label-voicemail_password']['de-at'] = "Mailbox Passwort";
 $text['label-voicemail_password']['de-ch'] = "Mailbox Passwort";
@@ -437,6 +439,7 @@ $text['label-voicemail_password']['ko-kr'] = "비밀번호";
 
 $text['label-voicemail_alternate_greet_id']['en-us'] = "Alternate Greeting ID";
 $text['label-voicemail_alternate_greet_id']['en-gb'] = "Alternate Greeting ID";
+$text['label-voicemail_alternate_greet_id']['fa'] = "شماره شناسه فایل صوتی";
 $text['label-voicemail_alternate_greet_id']['ar-eg'] = "معرف الترحيب البديل";
 $text['label-voicemail_alternate_greet_id']['de-at'] = "ID der alternativen Begrüßung";
 $text['label-voicemail_alternate_greet_id']['de-ch'] = "ID der alternativen Begrüßung";
@@ -633,6 +636,7 @@ $text['label-voicemail_file_attached']['ko-kr'] = "첨부된";
 
 $text['label-voicemail_file']['en-us'] = "Voicemail File";
 $text['label-voicemail_file']['en-gb'] = "Voicemail File";
+$text['label-voicemail_file']['fa'] = "فایل صوتی";
 $text['label-voicemail_file']['ar-eg'] = "ملف البريد الصوتي";
 $text['label-voicemail_file']['de-at'] = "Voicemail Datei";
 $text['label-voicemail_file']['de-ch'] = "Voicemail Datei";
@@ -707,6 +711,7 @@ $text['label-voicemail_description']['ko-kr'] = "설명";
 
 $text['label-voicemail_tutorial']['en-us'] = "Play Tutorial";
 $text['label-voicemail_tutorial']['en-gb'] = "Play Tutorial";
+$text['label-voicemail_tutorial']['fa'] = "اعلان دستورالعمل";
 $text['label-voicemail_tutorial']['ar-eg'] = "تشغيل البرنامج التعليمي";
 $text['label-voicemail_tutorial']['de-at'] = "Anleitung abspielen";
 $text['label-voicemail_tutorial']['de-ch'] = "Anleitung abspielen";
@@ -828,6 +833,7 @@ $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-options']['en-us'] = "Options";
 $text['label-options']['en-gb'] = "Options";
+$text['label-options']['fa'] = "گزینه ها";
 $text['label-options']['ar-eg'] = "خيارات";
 $text['label-options']['de-at'] = "Optionen";
 $text['label-options']['de-ch'] = "Optionen";
@@ -852,6 +858,7 @@ $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-option']['en-us'] = "Option";
 $text['label-option']['en-gb'] = "Option";
+$text['label-option']['fa'] = "کلید";
 $text['label-option']['ar-eg'] = "خيار";
 $text['label-option']['de-at'] = "Option";
 $text['label-option']['de-ch'] = "Option";
@@ -1068,6 +1075,7 @@ $text['label-greetings']['ko-kr'] = "인사말";
 
 $text['label-greeting']['en-us'] = "Greeting";
 $text['label-greeting']['en-gb'] = "Greeting";
+$text['label-greeting']['fa'] = "فایل صوتی";
 $text['label-greeting']['ar-eg'] = "تحية";
 $text['label-greeting']['de-at'] = "Begrüßung";
 $text['label-greeting']['de-ch'] = "Begrüßung";
@@ -1092,6 +1100,7 @@ $text['label-greeting']['ko-kr'] = "인사";
 
 $text['label-recording_instructions']['en-us'] = "Recording Instructions";
 $text['label-recording_instructions']['en-gb'] = "Recording Instructions";
+$text['label-recording_instructions']['fa'] = "دستورالعمل رکورد صدا";
 $text['label-recording_instructions']['ar-eg'] = "تعليمات التسجيل";
 $text['label-recording_instructions']['de-at'] = "Aufnahmeanweisungen";
 $text['label-recording_instructions']['de-ch'] = "Aufnahmeanweisungen";
@@ -1116,6 +1125,7 @@ $text['label-recording_instructions']['ko-kr'] = "녹음 지침";
 
 $text['label-recording_options']['en-us'] = "Recording Options";
 $text['label-recording_options']['en-gb'] = "Recording Options";
+$text['label-recording_options']['fa'] = "گزینه های رکورد صدا";
 $text['label-recording_options']['ar-eg'] = "خيارات التسجيل";
 $text['label-recording_options']['de-at'] = "Aufnahmeoptionen";
 $text['label-recording_options']['de-ch'] = "Aufnahmeoptionen";
@@ -1188,6 +1198,7 @@ $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-destination']['en-us'] = "Destination";
 $text['label-destination']['en-gb'] = "Destination";
+$text['label-destination']['fa'] = "مقصد";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
 $text['label-destination']['de-ch'] = "Ziel";
@@ -1382,6 +1393,7 @@ $text['description-voicemail_uuid']['ko-kr'] = "음성 메일 UUID";
 
 $text['description-voicemail_password']['en-us'] = "Enter the Password";
 $text['description-voicemail_password']['en-gb'] = "Enter the Password";
+$text['description-voicemail_password']['fa'] = "پسورد صندوق صوتی را وراد کنید.";
 $text['description-voicemail_password']['ar-eg'] = "أدخل كلمة المرور";
 $text['description-voicemail_password']['de-at'] = "Geben Sie das Mailbox Passwort an.";
 $text['description-voicemail_password']['de-ch'] = "Geben Sie das Mailbox Passwort an.";
@@ -1478,6 +1490,7 @@ $text['description-voicemail_message']['ko-kr'] = "메시지가 생성된 시간
 
 $text['description-voicemail_alternate_greet_id']['en-us'] = "An alternative greeting ID used in the default greeting.";
 $text['description-voicemail_alternate_greet_id']['en-gb'] = "An alternative greeting ID used in the default greeting.";
+$text['description-voicemail_alternate_greet_id']['fa'] = "چنانچه با استفاده از کد عملکردی *97 اقدام به رکورد صدای خود کردید و به آن یه شماره شناسه نیز اختصاص دهند.";
 $text['description-voicemail_alternate_greet_id']['ar-eg'] = "معرف ترحيب بديل مستخدم في الترحيب الافتراضي.";
 $text['description-voicemail_alternate_greet_id']['de-at'] = "Eine alternative begrüßungs ID, welche in der standard Begrüßung verwendet wird.";
 $text['description-voicemail_alternate_greet_id']['de-ch'] = "Eine alternative begrüßungs ID, welche in der standard Begrüßung verwendet wird.";
@@ -1502,6 +1515,7 @@ $text['description-voicemail_alternate_greet_id']['ko-kr'] = "기본 인사말�
 
 $text['description-voicemail_mail_to']['en-us'] = "Enter the email address to send voicemail to. Multiple addresses may be separated by commas.";
 $text['description-voicemail_mail_to']['en-gb'] = "Enter the email address to send voicemail to. Multiple addresses may be separated by commas.";
+$text['description-voicemail_mail_to']['fa'] = "آدرس ایمیل برای ارسال فایل پیام های صوتی را وراد کنید. میتوانید چندین آدرس را با ویرگول از هم جدا کنید.";
 $text['description-voicemail_mail_to']['ar-eg'] = "أدخل عنوان البريد الإلكتروني لإرسال بريد صوتي إليه. يمكن فصل العناوين المتعددة بفاصلات.";
 $text['description-voicemail_mail_to']['de-at'] = "Geben Sie die Email Adresse an, an die Ihre Mailbox Nachricht gesendet werden soll (optional).";
 $text['description-voicemail_mail_to']['de-ch'] = "Geben Sie die Email Adresse an, an die Ihre Mailbox Nachricht gesendet werden soll (optional).";
@@ -1526,6 +1540,7 @@ $text['description-voicemail_mail_to']['ko-kr'] = "음성 메일을 보낼 이�
 
 $text['description-voicemail_local_after_email']['en-us'] = "Choose whether to keep the voicemail in the system after sending the email notification.";
 $text['description-voicemail_local_after_email']['en-gb'] = "Choose whether to keep the voicemail in the system after sending the email notification.";
+$text['description-voicemail_local_after_email']['fa'] = "انتخاب کنید که آیا بعد از ارسال ایمیل اطلاع رسانی، پیام صوتی در سیستم نگهداری شود یا خیر.";
 $text['description-voicemail_local_after_email']['ar-eg'] = "اختر ما إذا كنت تريد الاحتفاظ بالبريد الصوتي في النظام بعد إرسال إشعار البريد الإلكتروني.";
 $text['description-voicemail_local_after_email']['de-at'] = "Wählen Sie ob die Mailbox Nachricht am Server gespeichert werden soll, nachdem die Nachricht per Mail versendet worden ist.";
 $text['description-voicemail_local_after_email']['de-ch'] = "Wählen Sie ob die Mailbox Nachricht am Server gespeichert werden soll, nachdem die Nachricht per Mail versendet worden ist.";
@@ -1550,6 +1565,7 @@ $text['description-voicemail_local_after_email']['ko-kr'] = "이메일 알림을
 
 $text['description-voicemail_id']['en-us'] = "Enter the Voicemail ID";
 $text['description-voicemail_id']['en-gb'] = "Enter the Voicemail ID";
+$text['description-voicemail_id']['fa'] = "شناسه صندوق صوتی را وراد کنید.";
 $text['description-voicemail_id']['ar-eg'] = "أدخل معرف البريد الصوتي";
 $text['description-voicemail_id']['de-at'] = "Geben Sie die Mailbox ID an";
 $text['description-voicemail_id']['de-ch'] = "Geben Sie die Mailbox ID an";
@@ -1574,6 +1590,7 @@ $text['description-voicemail_id']['ko-kr'] = "음성사서함 ID를 입력하세
 
 $text['description-voicemail_file']['en-us'] = "Select a listening option to include with the email notification.";
 $text['description-voicemail_file']['en-gb'] = "Select a listening option to include with the email notification.";
+$text['description-voicemail_file']['fa'] = "انتخاب نحوه ارسال فایل صوتی در ایمیل اطلاع رسانی.";
 $text['description-voicemail_file']['ar-eg'] = "حدد خيار استماع لتضمينه مع إشعار البريد الإلكتروني.";
 $text['description-voicemail_file']['de-at'] = "Wählen Sie eine Abhör-Option für die Mailbox Benachrichtigung.";
 $text['description-voicemail_file']['de-ch'] = "Wählen Sie eine Abhör-Option für die Mailbox Benachrichtigung.";
@@ -1598,6 +1615,7 @@ $text['description-voicemail_file']['ko-kr'] = "이메일 알림에 포함할 �
 
 $text['description-voicemail_enabled']['en-us'] = "Select to enable or disable this voicemail.";
 $text['description-voicemail_enabled']['en-gb'] = "Select to enable or disable this voicemail.";
+$text['description-voicemail_enabled']['fa'] = "فعال/غیرفعال کردن این صندوق صوتی";
 $text['description-voicemail_enabled']['ar-eg'] = "حدد لتمكين أو تعطيل هذا البريد الصوتي.";
 $text['description-voicemail_enabled']['de-at'] = "Mailbox für diese Nebenstelle Ein- oder Ausschalten.";
 $text['description-voicemail_enabled']['de-ch'] = "Mailbox für diese Nebenstelle Ein- oder Ausschalten.";
@@ -1622,6 +1640,7 @@ $text['description-voicemail_enabled']['ko-kr'] = "이 음성 메일을 활성�
 
 $text['description-voicemail_description']['en-us'] = "Enter the description.";
 $text['description-voicemail_description']['en-gb'] = "Enter the description.";
+$text['description-voicemail_description']['fa'] = "توضیحات وارد کنید.";
 $text['description-voicemail_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-voicemail_description']['de-at'] = "Geben Sie eine Beschreibung an.";
 $text['description-voicemail_description']['de-ch'] = "Geben Sie eine Beschreibung an.";
@@ -1694,6 +1713,7 @@ $text['description-read_epoch']['ko-kr'] = "읽다";
 
 $text['description-options']['en-us'] = "Define caller options for the voicemail greeting.";
 $text['description-options']['en-gb'] = "Define caller options for the voicemail greeting.";
+$text['description-options']['fa'] = "در این قسمت می توانید کلید های صندوق صوتی را برای انتخاب مخاطبین وارد کنید و به مقاصد موردنظر ارسال نمایید.";
 $text['description-options']['ar-eg'] = "حدد خيارات المتصل لتحية البريد الصوتي.";
 $text['description-options']['de-at'] = "Definieren Sie Optionen für die Mailbox Begrüßung.";
 $text['description-options']['de-ch'] = "Definieren Sie Optionen für die Mailbox Begrüßung.";
@@ -1790,6 +1810,7 @@ $text['description-message_length']['ko-kr'] = "길이";
 
 $text['description-greeting']['en-us'] = "Select the desired Greeting.";
 $text['description-greeting']['en-gb'] = "Select the desired Greeting.";
+$text['description-greeting']['fa'] = "این فایل برای مخاطب پخش خواهد شد که میتواند صدای پیش فرض سیستم باشد و یا توسط داخلی ایجاد گردد. با استفاده از کد عملکردی *99 میتوان اقدام به رکورد صدای خود بعنوان این فایل کنند و به آن یه شماره شناسه نیز اختصاص دهند.";
 $text['description-greeting']['ar-eg'] = "حدد التحية المطلوبة.";
 $text['description-greeting']['de-at'] = "Geben Sie die Begrüßungs-ID an.";
 $text['description-greeting']['de-ch'] = "Geben Sie die Begrüßungs-ID an.";
@@ -1814,6 +1835,7 @@ $text['description-greeting']['ko-kr'] = "원하는 인사말을 선택하세요
 
 $text['description-forward_destinations']['en-us'] = "Forward voicemail messages to additional destinations.";
 $text['description-forward_destinations']['en-gb'] = "Forward voicemail messages to additional destinations.";
+$text['description-forward_destinations']['fa'] = "می توانید پیام های ارسال شده به این صندوق را به مقاصد دیگری هم ارسال کنید.";
 $text['description-forward_destinations']['ar-eg'] = "إعادة توجيه رسائل البريد الصوتي إلى وجهات إضافية.";
 $text['description-forward_destinations']['de-at'] = "Mailbox Nachrichten an zusätzliche Nebenstellen weiterleiten.";
 $text['description-forward_destinations']['de-ch'] = "Mailbox Nachrichten an zusätzliche Nebenstellen weiterleiten.";
@@ -1910,6 +1932,7 @@ $text['description-caller_id_name']['ko-kr'] = "발신자 ID 이름";
 
 $text['description-voicemail_tutorial']['en-us'] = "Play the voicemail tutorial after the next voicemail login.";
 $text['description-voicemail_tutorial']['en-gb'] = "Play the voicemail tutorial after the next voicemail login.";
+$text['description-voicemail_tutorial']['fa'] = "بعد از لاگین به صندوق صوتی با استفاده از کد عملکردی، دستورالعمل آموزشی استفاده از صندوق صوتی پخش خواهد شد.";
 $text['description-voicemail_tutorial']['ar-eg'] = "قم بتشغيل البرنامج التعليمي للبريد الصوتي بعد تسجيل الدخول إلى البريد الصوتي التالي.";
 $text['description-voicemail_tutorial']['de-at'] = "Die Anleitung für die Mailbox nach der nächsten Anmeldung abspielen.";
 $text['description-voicemail_tutorial']['de-ch'] = "Die Anleitung für die Mailbox nach der nächsten Anmeldung abspielen.";
@@ -1934,6 +1957,7 @@ $text['description-voicemail_tutorial']['ko-kr'] = "다음 음성 메일 로그�
 
 $text['description-recording_instructions']['en-us'] = "Play instructions <strong>before</strong> the recording.";
 $text['description-recording_instructions']['en-gb'] = "Play instructions <strong>before</strong> the recording.";
+$text['description-recording_instructions']['fa'] = "قبل از رکورد صدا، دستورالعمل نحوه ذخیره رکورد اعلام خواهد شد.";
 $text['description-recording_instructions']['ar-eg'] = "قم بتشغيل تعليمات تسجيل البريد الصوتي.";
 $text['description-recording_instructions']['de-at'] = "Spielen Sie die Anweisungen zur Voicemail-Aufzeichnung ab.";
 $text['description-recording_instructions']['de-ch'] = "Spielen Sie die Anweisungen zur Voicemail-Aufzeichnung ab.";
@@ -1958,6 +1982,7 @@ $text['description-recording_instructions']['ko-kr'] = "음성 메일 녹음 지
 
 $text['description-recording_options']['en-us'] = "Play options <strong>after</strong> the recording.";
 $text['description-recording_options']['en-gb'] = "Play options <strong>after</strong> the recording.";
+$text['description-recording_options']['fa'] = "بعد از رکورد صدا، گزینه های مربوطه پخش خواهد شد.";
 $text['description-recording_options']['ar-eg'] = "تشغيل خيارات التسجيل.";
 $text['description-recording_options']['de-at'] = "Spielen Sie die Aufnahmeoptionen ab.";
 $text['description-recording_options']['de-ch'] = "Spielen Sie die Aufnahmeoptionen ab.";
@@ -2031,6 +2056,7 @@ $text['button-settings']['ko-kr'] = "설정";
 
 $text['button-greetings']['en-us'] = "Greetings";
 $text['button-greetings']['en-gb'] = "Greetings";
+$text['button-greetings']['fa'] = "فایل صوتی";
 $text['button-greetings']['ar-eg'] = "تحيات";
 $text['button-greetings']['de-at'] = "Begrüßungen";
 $text['button-greetings']['de-ch'] = "Begrüßungen";

@@ -268,6 +268,7 @@ $text['option-enterprise']['ko-kr'] = "기업";
 
 $text['option-enabled']['en-us'] = "Enabled";
 $text['option-enabled']['en-gb'] = "Enabled";
+$text['option-enabled']['fa'] = "وضعیت";
 $text['option-enabled']['ar-eg'] = "مُتاح";
 $text['option-enabled']['de-at'] = "Aktiviert";
 $text['option-enabled']['de-ch'] = "Aktiviert";
@@ -460,6 +461,7 @@ $text['message-enabled']['ko-kr'] = "제공하십시오: 활성화됨";
 
 $text['link-call-forward']['en-us'] = "Call Forward";
 $text['link-call-forward']['en-gb'] = "Call Forward";
+$text['link-call-forward']['fa'] = "فوروارد تماس";
 $text['link-call-forward']['ar-eg'] = "نداء إلى الأمام";
 $text['link-call-forward']['de-at'] = "Ruf Weiterleitung";
 $text['link-call-forward']['de-ch'] = "Ruf Weiterleitung";
@@ -484,6 +486,7 @@ $text['link-call-forward']['ko-kr'] = "착신 전환";
 
 $text['label-user_list']['en-us'] = "User List";
 $text['label-user_list']['en-gb'] = "User List";
+$text['label-user_list']['fa'] = "لیست کاربر";
 $text['label-user_list']['ar-eg'] = "قائمة المستخدمين";
 $text['label-user_list']['de-at'] = "Benutzer Liste";
 $text['label-user_list']['de-ch'] = "Benutzer Liste";
@@ -532,6 +535,7 @@ $text['label-url']['ko-kr'] = "URL";
 
 $text['label-timeout_destination']['en-us'] = "Timeout Destination";
 $text['label-timeout_destination']['en-gb'] = "Timeout Destination";
+$text['label-timeout_destination']['fa'] = "مقصد تایم اوت";
 $text['label-timeout_destination']['ar-eg'] = "تحديد الوقت";
 $text['label-timeout_destination']['de-at'] = "Time-Out Ziel";
 $text['label-timeout_destination']['de-ch'] = "Time-Out Ziel";
@@ -556,6 +560,7 @@ $text['label-timeout_destination']['ko-kr'] = "제한 시간 대상";
 
 $text['label-call_timeout']['en-us'] = "Call Timeout";
 $text['label-call_timeout']['en-gb'] = "Call Timeout";
+$text['label-call_timeout']['fa'] = " تایم اوت تماس";
 $text['label-call_timeout']['ar-eg'] = "نداء الوقت";
 $text['label-call_timeout']['de-at'] = "Zeitüberschreitung des Anrufs";
 $text['label-call_timeout']['de-ch'] = "Zeitüberschreitung des Anrufs";
@@ -580,6 +585,7 @@ $text['label-call_timeout']['ko-kr'] = "통화 시간 초과";
 
 $text['label-timeout']['en-us'] = "Timeout";
 $text['label-timeout']['en-gb'] = "Timeout";
+$text['label-timeout']['fa'] = "مدت زمان زنگ خوردن";
 $text['label-timeout']['ar-eg'] = "الوقت";
 $text['label-timeout']['de-at'] = "Time-Out";
 $text['label-timeout']['de-ch'] = "Time-Out";
@@ -654,6 +660,7 @@ $text['label-strategy']['ko-kr'] = "전략";
 
 $text['label-ringback']['en-us'] = "Ring Back";
 $text['label-ringback']['en-gb'] = "Ring Back";
+$text['label-ringback']['fa'] = "موزیک انتظار";
 $text['label-ringback']['ar-eg'] = "العودة";
 $text['label-ringback']['de-at'] = "Ruf Ton";
 $text['label-ringback']['de-ch'] = "Ruf Ton";
@@ -726,6 +733,7 @@ $text['label-ring-group']['ko-kr'] = "링 그룹";
 
 $text['label-ring_group_call_forward_enabled']['en-us'] = "Call Forward";
 $text['label-ring_group_call_forward_enabled']['en-gb'] = "Call Forward";
+$text['label-ring_group_call_forward_enabled']['fa'] = "فوروارد تماس";
 $text['label-ring_group_call_forward_enabled']['ar-eg'] = "دعوة إلى الأمام";
 $text['label-ring_group_call_forward_enabled']['de-at'] = "Rufumleitung";
 $text['label-ring_group_call_forward_enabled']['de-ch'] = "Rufumleitung";
@@ -750,6 +758,7 @@ $text['label-ring_group_call_forward_enabled']['ko-kr'] = "착신 전환";
 
 $text['label-ring_group_follow_me_enabled']['en-us'] = "Follow Me";
 $text['label-ring_group_follow_me_enabled']['en-gb'] = "Follow Me";
+$text['label-ring_group_follow_me_enabled']['fa'] = "مرا دنبال کن";
 $text['label-ring_group_follow_me_enabled']['ar-eg'] = "اتبعني";
 $text['label-ring_group_follow_me_enabled']['de-at'] = "Follow Me";
 $text['label-ring_group_follow_me_enabled']['de-ch'] = "Follow Me";
@@ -774,6 +783,7 @@ $text['label-ring_group_follow_me_enabled']['ko-kr'] = "나를 따르라";
 
 $text['label-missed_call']['en-us'] = "Missed Call";
 $text['label-missed_call']['en-gb'] = "Missed Call";
+$text['label-missed_call']['fa'] = "تماس از دست رفته";
 $text['label-missed_call']['ar-eg'] = "نداء مفقود";
 $text['label-missed_call']['de-at'] = "Verpasster Anruf";
 $text['label-missed_call']['de-ch'] = "Verpasster Anruf";
@@ -798,6 +808,7 @@ $text['label-missed_call']['ko-kr'] = "부재중 전화";
 
 $text['label-ring_group_forward']['en-us'] = "Ring Group Forward";
 $text['label-ring_group_forward']['en-gb'] = "Ring Group Forward";
+$text['label-ring_group_forward']['fa'] = "فوروارد از این گروه تماس";
 $text['label-ring_group_forward']['ar-eg'] = "إعادة توجيه";
 $text['label-ring_group_forward']['de-at'] = "Rufgruppenweiterleitung";
 $text['label-ring_group_forward']['de-ch'] = "Rufgruppenweiterleitung";
@@ -943,6 +954,7 @@ $text['label-duration']['ko-kr'] = "지속";
 
 $text['label-distinctive_ring']['en-us'] = "Distinctive Ring";
 $text['label-distinctive_ring']['en-gb'] = "Distinctive Ring";
+$text['label-distinctive_ring']['fa'] = "انتخاب زنگ خاص";
 $text['label-distinctive_ring']['ar-eg'] = "الرنين المميز";
 $text['label-distinctive_ring']['de-at'] = "Individueller Rufton";
 $text['label-distinctive_ring']['de-ch'] = "Individueller Rufton";
@@ -1015,6 +1027,7 @@ $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-destinations']['en-us'] = "Destinations";
 $text['label-destinations']['en-gb'] = "Destinations";
+$text['label-destinations']['fa'] = "مقاصد";
 $text['label-destinations']['ar-eg'] = "الوجهة";
 $text['label-destinations']['de-at'] = "Ziele";
 $text['label-destinations']['de-ch'] = "Ziele";
@@ -1039,6 +1052,7 @@ $text['label-destinations']['ko-kr'] = "목적지";
 
 $text['label-destination_timeout']['en-us'] = "Timeout";
 $text['label-destination_timeout']['en-gb'] = "Timeout";
+$text['label-destination_timeout']['fa'] = "مدت زمان زنگ خوردن";
 $text['label-destination_timeout']['ar-eg'] = "الوقت";
 $text['label-destination_timeout']['de-at'] = "Abwurfzeit";
 $text['label-destination_timeout']['de-ch'] = "Abwurfzeit";
@@ -1135,6 +1149,7 @@ $text['label-destination_prompt_announce']['ko-kr'] = "발표하다";
 
 $text['label-destination_prompt']['en-us'] = "Prompt";
 $text['label-destination_prompt']['en-gb'] = "Prompt";
+$text['label-destination_prompt']['fa'] = "تایید تماس توسط پاسخگو";
 $text['label-destination_prompt']['ar-eg'] = "فوري";
 $text['label-destination_prompt']['de-at'] = "Aufforderung";
 $text['label-destination_prompt']['de-ch'] = "Aufforderung";
@@ -1183,6 +1198,7 @@ $text['label-destination_order']['ko-kr'] = "주문하다";
 
 $text['label-destination_number']['en-us'] = "Destination";
 $text['label-destination_number']['en-gb'] = "Destination";
+$text['label-destination_number']['fa'] = "مقصد";
 $text['label-destination_number']['ar-eg'] = "الوجهة";
 $text['label-destination_number']['de-at'] = "Ziel";
 $text['label-destination_number']['de-ch'] = "Ziel";
@@ -1207,6 +1223,7 @@ $text['label-destination_number']['ko-kr'] = "목적지";
 
 $text['label-destination_delay']['en-us'] = "Delay";
 $text['label-destination_delay']['en-gb'] = "Delay";
+$text['label-destination_delay']['fa'] = "تاخیر";
 $text['label-destination_delay']['ar-eg'] = "التأخير";
 $text['label-destination_delay']['de-at'] = "Verzögerung";
 $text['label-destination_delay']['de-ch'] = "Verzögerung";
@@ -1425,6 +1442,7 @@ $text['header-description']['ko-kr'] = "설명";
 
 $text['description-user_list']['en-us'] = "Define users assigned to this ring group.";
 $text['description-user_list']['en-gb'] = "Define users assigned to this ring group.";
+$text['description-user_list']['fa'] = "در این قسمت میتوانید دسترسی روی این گروه تماسی را کاربر مورد نظر اختصاص دهید.";
 $text['description-user_list']['ar-eg'] = "تعريف المستخدمين المنتدبين لهذه المجموعة";
 $text['description-user_list']['de-at'] = "Weisen Sie diese Rufgruppe Benutzern zu.";
 $text['description-user_list']['de-ch'] = "Weisen Sie diese Rufgruppe Benutzern zu.";
@@ -1449,6 +1467,7 @@ $text['description-user_list']['ko-kr'] = "이 전화 수신 그룹에 할당된
 
 $text['description-timeout_destination']['en-us'] = "Select the timeout destination for this ring group.";
 $text['description-timeout_destination']['en-gb'] = "Select the timeout destination for this ring group.";
+$text['description-timeout_destination']['fa'] = "در صورتیکه مقاصد بالا پاسخگو نبودند میتوانید مقصد جایگزین انتخاب کنید.";
 $text['description-timeout_destination']['ar-eg'] = "اختيار الوجهة الزمنية لهذه المجموعة";
 $text['description-timeout_destination']['de-at'] = "Wählen Sie das Abwurfziel für die Rufgruppe.";
 $text['description-timeout_destination']['de-ch'] = "Wählen Sie das Abwurfziel für die Rufgruppe.";
@@ -1497,6 +1516,7 @@ $text['description-timeout']['ko-kr'] = "총 통화 제한 시간을 초 단위�
 
 $text['description-strategy']['en-us'] = "Select the ring strategy.";
 $text['description-strategy']['en-gb'] = "Select the ring strategy.";
+$text['description-strategy']['fa'] = "استراتژی پخش تماس بین مقاصد را انتخاب نمایید.";
 $text['description-strategy']['ar-eg'] = "اختيار استراتيجية الخاتم.";
 $text['description-strategy']['de-at'] = "Wählen Sie eine Strategie.";
 $text['description-strategy']['de-ch'] = "Wählen Sie eine Strategie.";
@@ -1545,6 +1565,7 @@ $text['description-skip_active']['ko-kr'] = "활성 통화가 있는 대상을 �
 
 $text['description-ringback']['en-us'] = "Defines what the caller will hear while the destination is being called.";
 $text['description-ringback']['en-gb'] = "Defines what the caller will hear while the destination is being called.";
+$text['description-ringback']['fa'] = "موزیک انتظار را وارد نمایید.";
 $text['description-ringback']['ar-eg'] = "يحدد ما سيسمعه المتصل بينما يتم استدعاء الوجهة";
 $text['description-ringback']['de-at'] = "Definiert was der Anrufer hört, während die Ziele angerufen werden.";
 $text['description-ringback']['de-ch'] = "Definiert was der Anrufer hört, während die Ziele angerufen werden.";
@@ -1569,6 +1590,7 @@ $text['description-ringback']['ko-kr'] = "목적지가 호출되는 동안 발�
 
 $text['description-ring-group-forward']['en-us'] = "Forward a called Ring Group to an alternate destination.";
 $text['description-ring-group-forward']['en-gb'] = "Forward a called Ring Group to an alternate destination.";
+$text['description-ring-group-forward']['fa'] = "انتقال تماس های این گروه به مقصد دیگر.";
 $text['description-ring-group-forward']['ar-eg'] = "قم بإعادة توجيه مجموعة Ring المسماة إلى وجهة بديلة.";
 $text['description-ring-group-forward']['de-at'] = "Leitet Anrufe an ein alternatives Ziel weiter.";
 $text['description-ring-group-forward']['de-ch'] = "Leitet Anrufe an ein alternatives Ziel weiter.";
@@ -1593,6 +1615,7 @@ $text['description-ring-group-forward']['ko-kr'] = "착신 전화 수신 그룹�
 
 $text['description-name']['en-us'] = "Enter a name.";
 $text['description-name']['en-gb'] = "Enter a name.";
+$text['description-name']['en-gb'] = "یک نام برای این گروه تماس وارد کنید.";
 $text['description-name']['ar-eg'] = "أدخلي اسماً";
 $text['description-name']['de-at'] = "Geben Sie einen Namen an.";
 $text['description-name']['de-ch'] = "Geben Sie einen Namen an.";
@@ -1617,6 +1640,7 @@ $text['description-name']['ko-kr'] = "이름을 입력하세요.";
 
 $text['description-ring_group_call_forward_enabled']['en-us'] = "Choose to follow a ring group destination's call forward.";
 $text['description-ring_group_call_forward_enabled']['en-gb'] = "Choose to follow a ring group destination's call forward.";
+$text['description-ring_group_call_forward_enabled']['fa'] = "اگر هر کدام از مقصدهای انتخابی ، به جای دیگری فوروراد شده باشد ، مقصد فوروارد برای این گروه تماس هم لحاظ خواهد شد.";
 $text['description-ring_group_call_forward_enabled']['ar-eg'] = "اختر لمتابعة إعادة توجيه مكالمة وجهة مجموعة الرنين.";
 $text['description-ring_group_call_forward_enabled']['de-at'] = "Wählen Sie aus, der Anrufweiterleitung eines Anrufgruppenziels zu folgen.";
 $text['description-ring_group_call_forward_enabled']['de-ch'] = "Wählen Sie aus, der Anrufweiterleitung eines Anrufgruppenziels zu folgen.";
@@ -1641,6 +1665,7 @@ $text['description-ring_group_call_forward_enabled']['ko-kr'] = "전화 수신 �
 
 $text['description-ring_group_follow_me_enabled']['en-us'] = "Choose to follow a ring group destination's follow me.";
 $text['description-ring_group_follow_me_enabled']['en-gb'] = "Choose to follow a ring group destination's follow me.";
+$text['description-ring_group_follow_me_enabled']['fa'] = 'اگر هر کدام از مقصدهای انتخابی ،مقصد "مرا دنبال کن" داشته باشد ، مقصد "مرا دنبال کن" برای این گروه تماس هم لحاظ خواهد شد.';
 $text['description-ring_group_follow_me_enabled']['ar-eg'] = "اختر أن تتبع وجهة مجموعة رنين اتبعني.";
 $text['description-ring_group_follow_me_enabled']['de-at'] = "Wählen Sie, ob Sie dem Follow-me-Ziel eines Anrufgruppenziels folgen möchten.";
 $text['description-ring_group_follow_me_enabled']['de-ch'] = "Wählen Sie, ob Sie dem Follow-me-Ziel eines Anrufgruppenziels folgen möchten.";
@@ -1665,6 +1690,7 @@ $text['description-ring_group_follow_me_enabled']['ko-kr'] = "전화 수신 그�
 
 $text['description-missed_call']['en-us'] = "Select the notification type, and enter the appropriate destination.";
 $text['description-missed_call']['en-gb'] = "Select the notification type, and enter the appropriate destination.";
+$text['description-missed_call']['fa'] = "در صورت تمایل برای دریافت ایمیل اطلاع رسانی در صورت وجود تماس از دست رفته تنظیمات بالا را انجام دهید.";
 $text['description-missed_call']['ar-eg'] = "حدد نوع الإشعار ، وأدخل الوجهة المناسبة.";
 $text['description-missed_call']['de-at'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
 $text['description-missed_call']['de-ch'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
@@ -1689,6 +1715,7 @@ $text['description-missed_call']['ko-kr'] = "알림 유형을 선택하고 적�
 
 $text['description-extension']['en-us'] = "Enter the extension number.";
 $text['description-extension']['en-gb'] = "Enter the extension number.";
+$text['description-extension']['fa'] = "یک داخلی برای این گروه تماس وارد کنید.";
 $text['description-extension']['ar-eg'] = "أدخل رقم التمديد";
 $text['description-extension']['de-at'] = "Geben Sie eine Nebenstelle an.";
 $text['description-extension']['de-ch'] = "Geben Sie eine Nebenstelle an.";
@@ -1737,6 +1764,7 @@ $text['description-enter-context']['ko-kr'] = "컨텍스트를 입력합니다."
 
 $text['description-enabled']['en-us'] = "Set the status of this ring group.";
 $text['description-enabled']['en-gb'] = "Set the status of this ring group.";
+$text['description-enabled']['fa'] = "فعال/غیرفعال کردن گروه تماس";
 $text['description-enabled']['ar-eg'] = "حددي وضع هذه المجموعة";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Rufgruppe.";
 $text['description-enabled']['de-ch'] = "Setzen Sie den Status dieser Rufgruppe.";
@@ -1761,6 +1789,7 @@ $text['description-enabled']['ko-kr'] = "이 전화 수신 그룹의 상태를 �
 
 $text['description-distinctive_ring']['en-us'] = "Select a sound for a distinctive ring.";
 $text['description-distinctive_ring']['en-gb'] = "Select a sound for a distinctive ring.";
+$text['description-distinctive_ring']['fa'] = "در صورتیکه مقاصد بالا همه از یک مدل آی پی فون استفاده کنند میتوانید کد زنگ مورد نظر را در اینجا وارد کنید.(مثال bellcore2)";
 $text['description-distinctive_ring']['ar-eg'] = "حدد صوتًا للحلقة المميزة.";
 $text['description-distinctive_ring']['de-at'] = "Wählen Sie einen Ton für den individuellen Rufton.";
 $text['description-distinctive_ring']['de-ch'] = "Wählen Sie einen Ton für den individuellen Rufton.";
@@ -1785,6 +1814,7 @@ $text['description-distinctive_ring']['ko-kr'] = "독특한 벨소리에 대한 
 
 $text['description-destinations']['en-us'] = "Add destinations and parameters to the ring group.";
 $text['description-destinations']['en-gb'] = "Add destinations and parameters to the ring group.";
+$text['description-destinations']['fa'] = "مقاصد تماس را وارد کنید.";
 $text['description-destinations']['ar-eg'] = "أضف الوجهات والبارامترات لمجموعة الخاتم";
 $text['description-destinations']['de-at'] = "Fügen Sie Ziele und Parameter zu einer Rufgruppe hinzu.";
 $text['description-destinations']['de-ch'] = "Fügen Sie Ziele und Parameter zu einer Rufgruppe hinzu.";
@@ -1904,7 +1934,7 @@ $text['description-cid-name-prefix']['ja-jp'] = "発信者ID名にプレフィ�
 $text['description-cid-name-prefix']['ko-kr'] = "발신자 ID 이름에 접두사를 설정합니다.";
 
 $text['description']['en-us'] = "A ring group is a set of destinations that can be called with a ring strategy.";
-$text['description']['fa'] = "در این قسمت می توانید گروهی از افراد پاسخگو را با یک استراتژی مشخص تعریف کنید.";
+$text['description']['fa'] = "گروه تماس ، یک مجموعه مقصد می باشد که تماس با یک استراتژی خاص به سمت آنها ارسال خواهد شد.";
 $text['description']['en-gb'] = "A ring group is a set of destinations that can be called with a ring strategy.";
 $text['description']['ar-eg'] = "مجموعة الخواتم هي مجموعة من المقصد التي يمكن الاتصال بها باستراتيجية الخاتم";
 $text['description']['de-at'] = "Rufgruppen sind gruppierte Ziele, welche über eine vordefinierte Rufstrategie angerufen werden.";

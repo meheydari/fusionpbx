@@ -1037,6 +1037,7 @@ $text['label-type']['ko-kr'] = "유형";
 
 $text['label-timeout_action']['en-us'] = "Timeout Action";
 $text['label-timeout_action']['en-gb'] = "Timeout Action";
+$text['label-timeout_action']['fa'] = "مقصد تایم اوت";
 $text['label-timeout_action']['ar-eg'] = "مهلة العمل";
 $text['label-timeout_action']['de-at'] = "Aktion bei Zeitüberschreitung";
 $text['label-timeout_action']['de-ch'] = "Aktion bei Zeitüberschreitung";
@@ -1061,6 +1062,7 @@ $text['label-timeout_action']['ko-kr'] = "시간 초과 작업";
 
 $text['label-time_base_score']['en-us'] = "Time Base Score";
 $text['label-time_base_score']['en-gb'] = "Time Base Score";
+$text['label-time_base_score']['fa'] = "محاسبه زمان انتظار مخاطب";
 $text['label-time_base_score']['ar-eg'] = "نقاط قاعدة الوقت";
 $text['label-time_base_score']['de-at'] = "Zeitgeber für Klassifikation";
 $text['label-time_base_score']['de-ch'] = "Zeitgeber für Klassifikation";
@@ -1158,6 +1160,7 @@ $text['label-tier_rules_apply']['ko-kr'] = "계층 규칙 적용";
 
 $text['label-tier_rule_wait_second']['en-us'] = "Tier Rule Wait Second";
 $text['label-tier_rule_wait_second']['en-gb'] = "Tier Rule Wait Second";
+$text['label-tier_rule_wait_second']['fa'] = "فاصله ی بین زنگ خوردن اپراتورهای هر گروه";
 $text['label-tier_rule_wait_second']['ar-eg'] = "قاعدة الطبقة انتظر ثانيًا";
 $text['label-tier_rule_wait_second']['de-at'] = "Ebenen-Regel Wartezeit";
 $text['label-tier_rule_wait_second']['de-ch'] = "Ebenen-Regel Wartezeit";
@@ -1182,6 +1185,7 @@ $text['label-tier_rule_wait_second']['ko-kr'] = "계층 규칙 대기 초";
 
 $text['label-tier_rule_wait_multiply_level']['en-us'] = "Tier Rule Wait Multiply Level";
 $text['label-tier_rule_wait_multiply_level']['en-gb'] = "Tier Rule Wait Multiply Level";
+$text['label-tier_rule_wait_multiply_level']['fa'] = "افزایش فاصله ی بین زنگ خوردن اپراتورهای هر گروه";
 $text['label-tier_rule_wait_multiply_level']['ar-eg'] = "الطبقة القاعدة انتظر ضرب المستوى";
 $text['label-tier_rule_wait_multiply_level']['de-at'] = "Multiplikator für die Ebenen-Regel Wartezeit";
 $text['label-tier_rule_wait_multiply_level']['de-ch'] = "Multiplikator für die Ebenen-Regel Wartezeit";
@@ -1206,6 +1210,7 @@ $text['label-tier_rule_wait_multiply_level']['ko-kr'] = "계층 규칙 대기 �
 
 $text['label-tier_rule_no_agent_no_wait']['en-us'] = "Tier Rule No Agent No Wait";
 $text['label-tier_rule_no_agent_no_wait']['en-gb'] = "Tier Rule No Agent No Wait";
+$text['label-tier_rule_no_agent_no_wait']['fa'] = "درنظر نگرفتن گروه های خالی از اپراتور";
 $text['label-tier_rule_no_agent_no_wait']['ar-eg'] = "قاعدة الطبقة لا وكيل لا انتظر";
 $text['label-tier_rule_no_agent_no_wait']['de-at'] = "Ebenen-Regel kein Agent nicht warten";
 $text['label-tier_rule_no_agent_no_wait']['de-ch'] = "Ebenen-Regel kein Agent nicht warten";
@@ -1351,6 +1356,7 @@ $text['label-reject_delay_time']['ko-kr'] = "거부 지연 시간";
 
 $text['label-record_template']['en-us'] = "Record";
 $text['label-record_template']['en-gb'] = "Record";
+$text['label-record_template']['fa'] = "امکان رکورد";
 $text['label-record_template']['ar-eg'] = "سِجِلّ";
 $text['label-record_template']['de-at'] = "Aufnehmen";
 $text['label-record_template']['de-ch'] = "Aufnehmen";
@@ -1497,6 +1503,7 @@ $text['label-no_answer_delay_time']['ko-kr'] = "무응답 지연 시간";
 
 $text['label-music_on_hold']['en-us'] = "Music on Hold";
 $text['label-music_on_hold']['en-gb'] = "Music on Hold";
+$text['label-music_on_hold']['fa'] = "موزیک انتظار";
 $text['label-music_on_hold']['ar-eg'] = "الموسيقى في الانتظار";
 $text['label-music_on_hold']['de-at'] = "Wartemusik";
 $text['label-music_on_hold']['de-ch'] = "Wartemusik";
@@ -1521,6 +1528,7 @@ $text['label-music_on_hold']['ko-kr'] = "음악 보류";
 
 $text['label-max_wait_time_with_no_agent_time_reached']['en-us'] = "Max Wait Time with No Agent Time Reached";
 $text['label-max_wait_time_with_no_agent_time_reached']['en-gb'] = "Max Wait Time with No Agent Time Reached";
+$text['label-max_wait_time_with_no_agent_time_reached']['fa'] = "تایم اوت صف خالی از اپراتور برای مخاطب جدید";
 $text['label-max_wait_time_with_no_agent_time_reached']['ar-eg'] = "أقصى وقت انتظار مع عدم بلوغ وقت الوكيل";
 $text['label-max_wait_time_with_no_agent_time_reached']['de-at'] = "Maximale Wartezeit ohne Agent erreicht";
 $text['label-max_wait_time_with_no_agent_time_reached']['de-ch'] = "Maximale Wartezeit ohne Agent erreicht";
@@ -1545,6 +1553,7 @@ $text['label-max_wait_time_with_no_agent_time_reached']['ko-kr'] = "에이전트
 
 $text['label-max_wait_time_with_no_agent']['en-us'] = "Max Wait Time with No Agent";
 $text['label-max_wait_time_with_no_agent']['en-gb'] = "Max Wait Time with No Agent";
+$text['label-max_wait_time_with_no_agent']['fa'] = "تایم اوت صف خالی از اپراتور برای مخاطب منتظر در صف";
 $text['label-max_wait_time_with_no_agent']['ar-eg'] = "أقصى وقت انتظار بدون وكيل";
 $text['label-max_wait_time_with_no_agent']['de-at'] = "Maximale Wartezeit ohne Agent";
 $text['label-max_wait_time_with_no_agent']['de-ch'] = "Maximale Wartezeit ohne Agent";
@@ -1569,6 +1578,7 @@ $text['label-max_wait_time_with_no_agent']['ko-kr'] = "에이전트 없는 최�
 
 $text['label-max_wait_time']['en-us'] = "Max Wait Time";
 $text['label-max_wait_time']['en-gb'] = "Max Wait Time";
+$text['label-max_wait_time']['fa'] = "تایم اوت صف";
 $text['label-max_wait_time']['ar-eg'] = "وقت الانتظار الأقصى";
 $text['label-max_wait_time']['de-at'] = "Maximale Wartezeit";
 $text['label-max_wait_time']['de-ch'] = "Maximale Wartezeit";
@@ -1617,7 +1627,7 @@ $text['label-max_no_answer']['ko-kr'] = "맥스 무응답";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
-$text['label-extension']['fa'] = "داخلی صف";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Nebenstelle";
 $text['label-extension']['de-ch'] = "Nebenstelle";
@@ -1642,6 +1652,7 @@ $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-discard_abandoned_after']['en-us'] = "Discard Abandoned After";
 $text['label-discard_abandoned_after']['en-gb'] = "Discard Abandoned After";
+$text['label-discard_abandoned_after']['fa'] = "حداکثر مدت زمان مجاز برای بازگشت به صف";
 $text['label-discard_abandoned_after']['ar-eg'] = "تجاهل المهجورة بعد";
 $text['label-discard_abandoned_after']['de-at'] = "Zurückweisen nach Zeitüberschreitung";
 $text['label-discard_abandoned_after']['de-ch'] = "Zurückweisen nach Zeitüberschreitung";
@@ -1714,6 +1725,7 @@ $text['label-contact']['ko-kr'] = "연락하다";
 
 $text['label-caller_id_name_prefix']['en-us'] = "Caller ID Name Prefix";
 $text['label-caller_id_name_prefix']['en-gb'] = "Caller ID Name Prefix";
+$text['label-caller_id_name_prefix']['fa'] = "تعریف یک پیشوند برای کالرآیدی";
 $text['label-caller_id_name_prefix']['ar-eg'] = "بادئة اسم معرف المتصل";
 $text['label-caller_id_name_prefix']['de-at'] = "Anruferkennung (Name) Prefix";
 $text['label-caller_id_name_prefix']['de-ch'] = "Anruferkennung (Name) Prefix";
@@ -1786,6 +1798,7 @@ $text['label-outbound_caller_id_number']['ko-kr'] = "아웃바운드 발신자 I
 
 $text['label-queue_announce_position']['en-us'] = "Announce Position";
 $text['label-queue_announce_position']['en-gb'] = "Announce Position";
+$text['label-queue_announce_position']['fa'] = "اعلام جایگاه";
 $text['label-queue_announce_position']['ar-eg'] = "أعلن عن الوظيفة";
 $text['label-queue_announce_position']['de-at'] = "Stelle bekannt geben";
 $text['label-queue_announce_position']['de-ch'] = "Stelle bekannt geben";
@@ -1810,6 +1823,7 @@ $text['label-queue_announce_position']['ko-kr'] = "입장 발표";
 
 $text['label-caller_announce_sound']['en-us'] = "Announce Sound";
 $text['label-caller_announce_sound']['en-gb'] = "Announce Sound";
+$text['label-caller_announce_sound']['fa'] = "اعلان فایل دوره ای در صف";
 $text['label-caller_announce_sound']['ar-eg'] = "أعلن الصوت";
 $text['label-caller_announce_sound']['de-at'] = "Ton für Ankündigungn";
 $text['label-caller_announce_sound']['de-ch'] = "Ton für Ankündigung";
@@ -1834,6 +1848,7 @@ $text['label-caller_announce_sound']['ko-kr'] = "발표음";
 
 $text['label-caller_announce_frequency']['en-us'] = "Announce Frequency";
 $text['label-caller_announce_frequency']['en-gb'] = "Announce Frequency";
+$text['label-caller_announce_frequency']['fa'] = "فاصله زمانی پخش فایل دوره ای";
 $text['label-caller_announce_frequency']['ar-eg'] = "إعلان التردد";
 $text['label-caller_announce_frequency']['de-at'] = "Häufigkeit der Ankündigung";
 $text['label-caller_announce_frequency']['de-ch'] = "Häufigkeit der Ankündigung";
@@ -1858,6 +1873,7 @@ $text['label-caller_announce_frequency']['ko-kr'] = "발표 빈도";
 
 $text['label-exit_keys']['en-us'] = "Exit Key";
 $text['label-exit_keys']['en-gb'] = "Exit Key";
+$text['label-exit_keys']['fa'] = "کلید خروج";
 $text['label-exit_keys']['ar-eg'] = "مفتاح الخروج";
 $text['label-exit_keys']['de-at'] = "Abbruch Taste";
 $text['label-exit_keys']['de-ch'] = "Abbruch Taste";
@@ -1882,6 +1898,7 @@ $text['label-exit_keys']['ko-kr'] = "종료 키";
 
 $text['description-exit_keys']['en-us'] = "Define a key that can be used to exit the queue.";
 $text['description-exit_keys']['en-gb'] = "Define a key that can be used to exit the queue.";
+$text['description-exit_keys']['fa'] = "در این قسمت یک کلید مشخص کنید که مخاطب با استفاده از آن بتواند از صف خارج شود.";
 $text['description-exit_keys']['ar-eg'] = "مفاتيح لإنهاء انتظار قائمة الانتظار الحالية.";
 $text['description-exit_keys']['de-at'] = "Tasten um die aktuelle Warteschlange zu verlassen.";
 $text['description-exit_keys']['de-ch'] = "Tasten um die aktuelle Warteschlange zu verlassen.";
@@ -2149,6 +2166,7 @@ $text['label-agents']['ko-kr'] = "자치령 대표";
 
 $text['label-abandoned_resume_allowed']['en-us'] = "Abandoned Resume Allowed";
 $text['label-abandoned_resume_allowed']['en-gb'] = "Abandoned Resume Allowed";
+$text['label-abandoned_resume_allowed']['fa'] = "امکان بازگشت به صف با جایگاه قبلی";
 $text['label-abandoned_resume_allowed']['ar-eg'] = "استئناف مهجور مسموح به";
 $text['label-abandoned_resume_allowed']['de-at'] = "Wiederaufnahme nach Zurückweisung erlaubt";
 $text['label-abandoned_resume_allowed']['de-ch'] = "Wiederaufnahme nach Zurückweisung erlaubt";
@@ -2221,6 +2239,7 @@ $text['header-call_center_queues']['ko-kr'] = "콜센터 대기열";
 
 $text['header-call_center_queue_edit']['en-us'] = "Call Center Queue";
 $text['header-call_center_queue_edit']['en-gb'] = "Call Center Queue";
+$text['header-call_center_queue_edit']['fa'] = "افزودن صف تماس";
 $text['header-call_center_queue_edit']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['header-call_center_queue_edit']['de-at'] = "Callcenter Warteschlange";
 $text['header-call_center_queue_edit']['de-ch'] = "Callcenter Warteschlange";
@@ -2413,6 +2432,7 @@ $text['description-type']['ko-kr'] = "에이전트 유형을 입력합니다.";
 
 $text['description-timeout_action']['en-us'] = "Set the action to perform when the max wait time is reached.";
 $text['description-timeout_action']['en-gb'] = "Set the action to perform when the max wait time is reached.";
+$text['description-timeout_action']['fa'] = "در صورتی که مخاطب در هر کدام از حالت های بالا به تایم اوت صف برسد، تماس به مقصدی که در این قسمت مشخص میکنید، منتقل خواهد شد.";
 $text['description-timeout_action']['ar-eg'] = "اضبط الإجراء المطلوب تنفيذه عند الوصول إلى الحد الأقصى لوقت الانتظار.";
 $text['description-timeout_action']['de-at'] = "Aktion, wenn die maximale Wartezeit erreicht wurde.";
 $text['description-timeout_action']['de-ch'] = "Aktion, wenn die maximale Wartezeit erreicht wurde.";
@@ -2437,6 +2457,8 @@ $text['description-timeout_action']['ko-kr'] = "최대 대기 시간에 도달�
 
 $text['description-time_base_score']['en-us'] = "Select the time base score.";
 $text['description-time_base_score']['en-gb'] = "Select the time base score.";
+$text['description-time_base_score']['fa'] = "این سامانه در صورت وجود اپراتور اشتراکی بین صف های متفاوت، مخاطبان با زمان انتظار طولانی تر را زودتر به اپراتور متصل میکند.
+گزینه queue ، مدت زمان انتظار مخاطب را از لحظه ی ورود به صف محاسبه میکند، درحالیکه گزینه system از لحظه ورود اولیه مخاطب به سامانه را محاسبه میکند (که شامل انتظار در ivr و .. مباشد)";
 $text['description-time_base_score']['ar-eg'] = "حدد النقاط الأساسية للوقت.";
 $text['description-time_base_score']['de-at'] = "Wählen Sie die Zeitgeber für Klassifikation";
 $text['description-time_base_score']['de-ch'] = "Wählen Sie die Zeitgeber für Klassifikation";
@@ -2509,6 +2531,7 @@ $text['description-tiers']['ko-kr'] = "계층은 상담원을 대기열에 할�
 
 $text['description-tier_rules_apply']['en-us'] = "Set the tier rule rules apply to true or false.";
 $text['description-tier_rules_apply']['en-gb'] = "Set the tier rule rules apply to true or false.";
+$text['description-tier_rules_apply']['fa'] = "در منوی تعریف اپراتور،با مشخص کردن فیلد گروه میتوانید چندین اپراتور را در یک گروه اپراتوری قرار دهیدو براساس گروه ها تنظیماتی را ایجاد کنید. در صورتی تعریف گروه این گزینه را فعال نمایید.";
 $text['description-tier_rules_apply']['ar-eg'] = "قم بتعيين قواعد الطبقة التي تنطبق على صواب أو خطأ.";
 $text['description-tier_rules_apply']['de-at'] = "Setzen Sie die Ebenen-Regel. Regeln sind Ein oder Aus";
 $text['description-tier_rules_apply']['de-ch'] = "Setzen Sie die Ebenen-Regel. Regeln sind Ein oder Aus";
@@ -2533,6 +2556,7 @@ $text['description-tier_rules_apply']['ko-kr'] = "적용되는 계층 규칙 규
 
 $text['description-tier_rule_wait_second']['en-us'] = "Enter the tier rule wait seconds.";
 $text['description-tier_rule_wait_second']['en-gb'] = "Enter the tier rule wait seconds.";
+$text['description-tier_rule_wait_second']['fa'] = "مدت زمانی که مخاطب منتظر میماند تا تماسش به گروه اپراتور بعدی متصل شود.";
 $text['description-tier_rule_wait_second']['ar-eg'] = "أدخل قاعدة الطبقة انتظر ثواني.";
 $text['description-tier_rule_wait_second']['de-at'] = "Geben Sie die Ebenen-Regel Wartezeit in Sekunden ein.";
 $text['description-tier_rule_wait_second']['de-ch'] = "Geben Sie die Ebenen-Regel Wartezeit in Sekunden ein.";
@@ -2557,6 +2581,7 @@ $text['description-tier_rule_wait_second']['ko-kr'] = "계층 규칙 wait 초를
 
 $text['description-tier_rule_wait_multiply_level']['en-us'] = "Set the tier rule wait multiply level to true or false.";
 $text['description-tier_rule_wait_multiply_level']['en-gb'] = "Set the tier rule wait multiply level to true or false.";
+$text['description-tier_rule_wait_multiply_level']['fa'] = "اگر این گزینه false باشد، مدت زمان بالا بعنوان فاصله بین زنگ خوردن گروه ها لحاظ میشود. درحالیکه اگر این گزینه true باشد این فاصله افزایش می یابد. (از حاصلضرب عدد فیلد بالا در سطح گروه (مثلا۲)، مدت زمان جدید بوجود میآید)";
 $text['description-tier_rule_wait_multiply_level']['ar-eg'] = "اضبط قاعدة الطبقة انتظر مستوى الضرب على صواب أو خطأ.";
 $text['description-tier_rule_wait_multiply_level']['de-at'] = "Setzen Sie den Multiplikator für die Ebenen-Regel Wartezeit auf Ein oder Aus.";
 $text['description-tier_rule_wait_multiply_level']['de-ch'] = "Setzen Sie den Multiplikator für die Ebenen-Regel Wartezeit auf Ein oder Aus.";
@@ -2581,6 +2606,8 @@ $text['description-tier_rule_wait_multiply_level']['ko-kr'] = "계층 규칙 대
 
 $text['description-tier_rule_no_agent_no_wait']['en-us'] = "Enter the tier rule no agent no wait.";
 $text['description-tier_rule_no_agent_no_wait']['en-gb'] = "Enter the tier rule no agent no wait.";
+$text['description-tier_rule_no_agent_no_wait']['fa'] = "اگر این گزینه true باشد، از صرف زمان انتظار برای گروه های خالی از اپراتور جلوگیری میشود.
+نکته: گروهی خالی تلقی میشود که اپراتورهای آن از صف خارج شده باشند.";
 $text['description-tier_rule_no_agent_no_wait']['ar-eg'] = "أدخل قاعدة الطبقة لا يوجد وكيل لا ينتظر.";
 $text['description-tier_rule_no_agent_no_wait']['de-at'] = "Geben Sie die Ebenen Regel kein Agent keine Wartezeit ein.";
 $text['description-tier_rule_no_agent_no_wait']['de-ch'] = "Geben Sie die Ebenen Regel kein Agent keine Wartezeit ein.";
@@ -2653,6 +2680,7 @@ $text['description-tier_level']['ko-kr'] = "계층 수준을 선택합니다.";
 
 $text['description-strategy']['en-us'] = "Select the queue ring strategy.";
 $text['description-strategy']['en-gb'] = "Select the queue ring strategy.";
+$text['description-strategy']['fa'] = "استراتژی زنگ خوردن داخلی ها را تعریف کنید.";
 $text['description-strategy']['ar-eg'] = "حدد استراتيجية حلقة قائمة الانتظار.";
 $text['description-strategy']['de-at'] = "Wählen Sie eine Rufstrategie für die Warteschlange.";
 $text['description-strategy']['de-ch'] = "Wählen Sie eine Rufstrategie für die Warteschlange.";
@@ -2725,6 +2753,7 @@ $text['description-reject_delay_time']['ko-kr'] = "거부 지연 시간을 입�
 
 $text['description-record_template']['en-us'] = "Save the recording.";
 $text['description-record_template']['en-gb'] = "Save the recording.";
+$text['description-record_template']['fa'] = "فعال/غیرفعال کردن رکورد تماس های صف.";
 $text['description-record_template']['ar-eg'] = "احفظ التسجيل.";
 $text['description-record_template']['de-at'] = "Aufnahme speichern.";
 $text['description-record_template']['de-ch'] = "Aufnahme speichern.";
@@ -2749,6 +2778,7 @@ $text['description-record_template']['ko-kr'] = "녹음을 저장합니다.";
 
 $text['description-queue_name']['en-us'] = "Enter the queue name.";
 $text['description-queue_name']['en-gb'] = "Enter the queue name.";
+$text['description-queue_name']['fa'] = "نام صف را وارد کنید.";
 $text['description-queue_name']['ar-eg'] = "أدخل اسم قائمة الانتظار.";
 $text['description-queue_name']['de-at'] = "Geben Sie den Namen der Warteschlange ein.";
 $text['description-queue_name']['de-ch'] = "Geben Sie den Namen der Warteschlange ein.";
@@ -2821,6 +2851,7 @@ $text['description-no_answer_delay_time']['ko-kr'] = "상담원 무응답 지연
 
 $text['description-music_on_hold']['en-us'] = "Select the desired hold music.";
 $text['description-music_on_hold']['en-gb'] = "Select the desired hold music.";
+$text['description-music_on_hold']['fa'] = "موزیک انتظار موردنظر خود را انتخاب کنید.";
 $text['description-music_on_hold']['ar-eg'] = "حدد الموسيقى المعلقة المطلوبة.";
 $text['description-music_on_hold']['de-at'] = "Wählen Sie die gewünschte Wartemusik.";
 $text['description-music_on_hold']['de-ch'] = "Wählen Sie die gewünschte Wartemusik.";
@@ -2845,6 +2876,7 @@ $text['description-music_on_hold']['ko-kr'] = "원하는 홀드 음악을 선택
 
 $text['description-max_wait_time_with_no_agent_time_reached']['en-us'] = "Enter the max wait time with no agent time reached.";
 $text['description-max_wait_time_with_no_agent_time_reached']['en-gb'] = "Enter the max wait time with no agent time reached.";
+$text['description-max_wait_time_with_no_agent_time_reached']['fa'] = "در صورت سپری شدن زمان بالا ، میتوانید با مشخص کردن مدت زمان جدید در این فیلد از وارد شدن مخاطبین جدید به صف خالی از اپراتور جلوگیری کنید.مقدار ۰ این گزینه را غیرفعال میکند.";
 $text['description-max_wait_time_with_no_agent_time_reached']['ar-eg'] = "أدخل الحد الأقصى لوقت الانتظار مع عدم وصول وقت الوكيل.";
 $text['description-max_wait_time_with_no_agent_time_reached']['de-at'] = "Geben Sie die maximale Wartezeit in Sekunden an, die ohne Agent gewartet werden soll.";
 $text['description-max_wait_time_with_no_agent_time_reached']['de-ch'] = "Geben Sie die maximale Wartezeit in Sekunden an, die ohne Agent gewartet werden soll.";
@@ -2869,6 +2901,7 @@ $text['description-max_wait_time_with_no_agent_time_reached']['ko-kr'] = "에이
 
 $text['description-max_wait_time_with_no_agent']['en-us'] = "Enter the max wait time with no agent.";
 $text['description-max_wait_time_with_no_agent']['en-gb'] = "Enter the max wait time with no agent.";
+$text['description-max_wait_time_with_no_agent']['fa'] = "در این فیلد میتوانید تایم اوت صف در صورتی که هیچ اپراتوری در آن نباشد، را به ثانیه وارد کنید تا بعد از سپری شدن این زمان، مخاطبین منتظر از این صف بصورت اتوماتیک خارج شوند. مقدار ۰ این گزینه را غیرفعال میکند.";
 $text['description-max_wait_time_with_no_agent']['ar-eg'] = "أدخل أقصى وقت انتظار بدون وكيل.";
 $text['description-max_wait_time_with_no_agent']['de-at'] = "Geben Sie die maximale Wartezeit ohne Agent an.";
 $text['description-max_wait_time_with_no_agent']['de-ch'] = "Geben Sie die maximale Wartezeit ohne Agent an.";
@@ -2893,6 +2926,7 @@ $text['description-max_wait_time_with_no_agent']['ko-kr'] = "상담원이 없을
 
 $text['description-max_wait_time']['en-us'] = "Enter the max wait time.";
 $text['description-max_wait_time']['en-gb'] = "Enter the max wait time.";
+$text['description-max_wait_time']['fa'] = "مقدار تایم اوت صف را به ثانیه وارد کنید که مدت زمانیست که مخاطب در صف برای پاسخگویی منتظر میماند و بعد از آن میتوان مخاطب را به مسیری دیگر مثلا صندوق صوتی ارسال کرد. مقدار ۰ به معنای لغو تایم اوت میباشد.";
 $text['description-max_wait_time']['ar-eg'] = "أدخل أقصى وقت انتظار.";
 $text['description-max_wait_time']['de-at'] = "Geben Sie die maximale Wartezeit an.";
 $text['description-max_wait_time']['de-ch'] = "Geben Sie die maximale Wartezeit an.";
@@ -2941,6 +2975,7 @@ $text['description-max_no_answer']['ko-kr'] = "최대 응답 없음에서 상담
 
 $text['description-extension']['en-us'] = "Enter the extension number.";
 $text['description-extension']['en-gb'] = "Enter the extension number.";
+$text['description-extension']['fa'] = "شماره داخلی این صف را وارد کنید.";
 $text['description-extension']['ar-eg'] = "أدخل الرقم الداخلي.";
 $text['description-extension']['de-at'] = "Geben Sie die Nebenstelle an.";
 $text['description-extension']['de-ch'] = "Geben Sie die Nebenstelle an.";
@@ -2965,6 +3000,7 @@ $text['description-extension']['ko-kr'] = "내선번호를 입력하세요.";
 
 $text['description-discard_abandoned_after']['en-us'] = "The number of seconds before the abandoned call is removed from the queue.";
 $text['description-discard_abandoned_after']['en-gb'] = "The number of seconds before the abandoned call is removed from the queue.";
+$text['description-discard_abandoned_after']['fa'] = "چنانچه یک مخاطب بدون پاسخ از صف خارج شود،در صورت بازگشت مجدد به این صف برای حفظ جایگاه قبلی خود باید نهایتا بین دو ورودش به صف مدت زمان مشخص شده ی بالا فاصله داشته باشد.";
 $text['description-discard_abandoned_after']['ar-eg'] = "قم بتعيين المهملة بعد ثوانٍ.";
 $text['description-discard_abandoned_after']['de-at'] = "Setzen Sie die Zeit in Sekunden, nach der ein Anrufer nicht wieder in die Warteschlange eingereiht wird.";
 $text['description-discard_abandoned_after']['de-ch'] = "Setzen Sie die Zeit in Sekunden, nach der ein Anrufer nicht wieder in die Warteschlange eingereiht wird.";
@@ -3109,6 +3145,7 @@ $text['description-outbound_caller_id_name']['ko-kr'] = "여기에 외부(공용
 
 $text['description-caller_id_name_prefix']['en-us'] = "Set a prefix on the caller ID name.";
 $text['description-caller_id_name_prefix']['en-gb'] = "Set a prefix on the caller ID name.";
+$text['description-caller_id_name_prefix']['fa'] = "برای کالرآیدی یک پیشوند انتخاب کنید. این پیشوند برای اپراتورها نمایش داده خواهد شد.";
 $text['description-caller_id_name_prefix']['ar-eg'] = "قم بتعيين بادئة على اسم معرف المتصل.";
 $text['description-caller_id_name_prefix']['de-at'] = "Setzen Sie ein Präfix für die Anruferkennung (Name).";
 $text['description-caller_id_name_prefix']['de-ch'] = "Setzen Sie ein Präfix für die Anruferkennung (Name).";
@@ -3133,6 +3170,7 @@ $text['description-caller_id_name_prefix']['ko-kr'] = "발신자 ID 이름에 �
 
 $text['description-caller_announce_sound']['en-us'] = "A sound to play for a caller at specific intervals, as defined in seconds by the Announce Frequency. Full path to the recording is required.";
 $text['description-caller_announce_sound']['en-gb'] = "A sound to play for a caller at specific intervals, as defined in seconds by the Announce Frequency. Full path to the recording is required.";
+$text['description-caller_announce_sound']['fa'] = "در این قسمت میتوانید یک فایل مشخص کنید که به صورت دوره ای و در فواصل مشخص برای مخاطب پخش شود.";
 $text['description-caller_announce_sound']['ar-eg'] = "صوت يتم تشغيله للمتصل على فترات زمنية محددة ، كما هو محدد (بالثواني) بواسطة تردد الإعلان. يحتاج إلى المسار الكامل لملف wav.";
 $text['description-caller_announce_sound']['de-at'] = "Eine Datei, die regelmäßig dem Anrufer vorgespielt werden soll. Benötigt den kompletten Pfad zur wav Datei.";
 $text['description-caller_announce_sound']['de-ch'] = "Eine Datei, die regelmäßig dem Anrufer vorgespielt werden soll. Benötigt den kompletten Pfad zur wav Datei.";
@@ -3157,6 +3195,7 @@ $text['description-caller_announce_sound']['ko-kr'] = "발표 주파수에 의�
 
 $text['description-caller_announce_frequency']['en-us'] = "How often should we play the announce sound. Enter a number in seconds";
 $text['description-caller_announce_frequency']['en-gb'] = "How often should we play the announce sound. Enter a number in seconds";
+$text['description-caller_announce_frequency']['fa'] = "فاصله ی بین اعلان های فایل دوره ای";
 $text['description-caller_announce_frequency']['ar-eg'] = "كم مرة يجب أن نشغل صوت الإعلان. أدخل رقمًا بالثواني";
 $text['description-caller_announce_frequency']['de-at'] = "Wie häufig soll der Anmeldeton abgespielt werden. Geben Sie eine Zahl in Sekunden an.";
 $text['description-caller_announce_frequency']['de-ch'] = "Wie häufig soll der Anmeldeton abgespielt werden. Geben Sie eine Zahl in Sekunden an.";
@@ -3422,6 +3461,7 @@ $text['description-agent']['ko-kr'] = "에이전트 이름을 선택합니다.";
 
 $text['description-abandoned_resume_allowed']['en-us'] = "A caller who has left the queue can resume their position in the queue by calling again before the abandoned call has been discarded.";
 $text['description-abandoned_resume_allowed']['en-gb'] = "A caller who has left the queue can resume their position in the queue by calling again before the abandoned call has been discarded.";
+$text['description-abandoned_resume_allowed']['fa'] = "چنانچه یک مخاطب بدون پاسخ از صف خارج شود، در صورت اتصال مجدد به این صف و قبل از اتمام مدت زمان مجاز برای بازگشت به صف، میتواند در جایگاه قبلی خود در صف قرار گیرد.";
 $text['description-abandoned_resume_allowed']['ar-eg'] = "اضبط السيرة الذاتية المهجورة المسموح بها على صواب أو خطأ.";
 $text['description-abandoned_resume_allowed']['de-at'] = "Schalten Sie die Wideraufnahme von Anrufern in der Warteschlange Ein oder Aus.";
 $text['description-abandoned_resume_allowed']['de-ch'] = "Schalten Sie die Wideraufnahme von Anrufern in der Warteschlange Ein oder Aus.";

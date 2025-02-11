@@ -1895,6 +1895,7 @@ $text['button-remove']['fa'] = "حذف کردن";
 
 $text['button-continue']['en-us'] = "Continue";
 $text['button-continue']['en-gb'] = "Continue";
+$text['button-continue']['en-gb'] = "ادامه";
 $text['button-continue']['ar-eg'] = "يكمل";
 $text['button-continue']['de-at'] = "Fortfahren";
 $text['button-continue']['de-ch'] = "Fortfahren";
@@ -2233,6 +2234,7 @@ $text['label-import_file_upload']['ko-kr'] = "업로드할 파일";
 
 $text['label-from_row']['en-us'] = "From Row";
 $text['label-from_row']['en-gb'] = "From Row";
+$text['label-from_row']['fa'] = "ردیف اول";
 $text['label-from_row']['ar-eg'] = "من صف";
 $text['label-from_row']['de-at'] = "Von Reihe";
 $text['label-from_row']['de-ch'] = "Von Reihe";
@@ -2259,6 +2261,7 @@ $text['label-from_row']['ko-kr'] = "행에서";
 
 $text['description-from_row']['en-us'] = "Start importing the data from this row.";
 $text['description-from_row']['en-gb'] = "Start importing the data from this row.";
+$text['description-from_row']['fa'] = "دریافت اطلاعات را از فیلد خاصی شروع کند(مثلا از فیلد شماره ۲)";
 $text['description-from_row']['ar-eg'] = "ابدأ في استيراد البيانات من هذا الصف.";
 $text['description-from_row']['de-at'] = "Starten Sie den Import der Daten aus dieser Zeile.";
 $text['description-from_row']['de-ch'] = "Starten Sie den Import der Daten aus dieser Zeile.";

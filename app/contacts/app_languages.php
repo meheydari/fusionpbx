@@ -27,6 +27,7 @@ $text['title-contacts_import_google']['ko-kr'] = "Google 주소록 가져오기"
 
 $text['title-contacts_import']['en-us'] = "Import Contacts";
 $text['title-contacts_import']['en-gb'] = "Import Contacts";
+$text['title-contacts_import']['fa'] = "ورود اطلاعات مشترک";
 $text['title-contacts_import']['ar-eg'] = "استيراد جهات الاتصال";
 $text['title-contacts_import']['de-at'] = "Kontakte importieren";
 $text['title-contacts_import']['de-ch'] = "Kontakte importieren";
@@ -2476,6 +2477,7 @@ $text['label-note_content']['ko-kr'] = "콘텐츠";
 
 $text['label-import_file_upload']['en-us'] = "File to Upload";
 $text['label-import_file_upload']['en-gb'] = "File to Upload";
+$text['label-import_file_upload']['en-gb'] = "آپلود فایل";
 $text['label-import_file_upload']['ar-eg'] = "ملف للتحميل";
 $text['label-import_file_upload']['de-at'] = "Datei zum hochladen";
 $text['label-import_file_upload']['de-ch'] = "Datei zum hochladen";
@@ -2526,6 +2528,7 @@ $text['label-import_fields']['ko-kr'] = "字段";
 
 $text['label-import_enclosure']['en-us'] = "Enclosure";
 $text['label-import_enclosure']['en-gb'] = "Enclosure";
+$text['label-import_enclosure']['en-gb'] = "جداکننده مقادیر";
 $text['label-import_enclosure']['ar-eg'] = "نسيج";
 $text['label-import_enclosure']['de-at'] = "Abgrenzung";
 $text['label-import_enclosure']['de-ch'] = "Abgrenzung";
@@ -2601,6 +2604,7 @@ $text['label-import_data']['ko-kr'] = "데이터";
 
 $text['label-import_delimiter']['en-us'] = "Delimiter";
 $text['label-import_delimiter']['en-gb'] = "Delimiter";
+$text['label-import_delimiter']['en-gb'] = "جداکننده";
 $text['label-import_delimiter']['ar-eg'] = "محدد";
 $text['label-import_delimiter']['de-at'] = "Trennzeichen";
 $text['label-import_delimiter']['de-ch'] = "Trennzeichen";
@@ -4376,6 +4380,7 @@ $text['header-contacts_import_google']['ko-kr'] = "Google 주소록 가져오기
 
 $text['header-contacts_import']['en-us'] = "Import Contacts";
 $text['header-contacts_import']['en-gb'] = "Import Contacts";
+$text['header-contacts_import']['fa'] = "ورود اطلاعات مشترک";
 $text['header-contacts_import']['ar-eg'] = "استيراد جهات الاتصال";
 $text['header-contacts_import']['de-at'] = "Kontakte importieren";
 $text['header-contacts_import']['de-ch'] = "Kontakte importieren";
@@ -5276,6 +5281,7 @@ $text['description-import_fields']['ko-kr'] = "가져올 연락처 데이터 필
 
 $text['description-import_enclosure']['en-us'] = "Select the enclosure of text (double-quotes or nothing).";
 $text['description-import_enclosure']['en-gb'] = "Select the enclosure of text (double-quotes or nothing).";
+$text['description-import_enclosure']['fa'] = 'جداکننده مقادیر را انتخاب کنید(بطور مثال " یا استفاده از none)';
 $text['description-import_enclosure']['ar-eg'] = "حدد إحاطة النص (علامات الاقتباس المزدوجة أو لا شيء).";
 $text['description-import_enclosure']['de-at'] = "Wählen Sie die Abgrenzung für den Text (Doppelte Anführungszeichen oder nichts).";
 $text['description-import_enclosure']['de-ch'] = "Wählen Sie die Abgrenzung für den Text (Doppelte Anführungszeichen oder nichts).";
@@ -5326,6 +5332,8 @@ $text['description-import_duplicates']['ko-kr'] = "이전에 가져온 연락처
 
 $text['description-import_data']['en-us'] = "Copy and paste the comma delimitted data into the text area to begin the import.";
 $text['description-import_data']['en-gb'] = "Copy and paste the comma delimitted data into the text area to begin the import.";
+$text['description-import_data']['fa'] = "اطلاعات مورد نظر خود را در این کادر کپی کنید تا بارگزاری شوند.دقت کنید مقادیر با ویرگول از هم جدا شده باشند.";
+$text['description-import_data']['fa'] = "اطلاعات مورد نظر خود را در این کادر کپی کنید تا بارگزاری شوند.دقت کنید مقادیر با ویرگول از هم جدا شده باشند.";
 $text['description-import_data']['ar-eg'] = "انسخ والصق البيانات المحددة بفاصلة في منطقة النص لبدء الاستيراد.";
 $text['description-import_data']['de-at'] = "Kopieren Sie die komma-getrennten Daten in den Textbereich um den Import zu starten.";
 $text['description-import_data']['de-ch'] = "Kopieren Sie die komma-getrennten Daten in den Textbereich um den Import zu starten.";
@@ -5351,6 +5359,7 @@ $text['description-import_data']['ko-kr'] = "쉼표로 구분된 데이터를 �
 
 $text['description-import_delimiter']['en-us'] = "Select the delimiter (comma or pipe).";
 $text['description-import_delimiter']['en-gb'] = "Select the delimiter (comma or pipe).";
+$text['description-import_delimiter']['fa'] = "جداکننده اطلاعات را وارد کنید (علامت، و یا علامت |)";
 $text['description-import_delimiter']['ar-eg'] = "حدد المحدد (فاصلة أو أنبوب).";
 $text['description-import_delimiter']['de-at'] = "Wählen Sie das Trennzeichen (Beistrich oder Wagrechter Strich)";
 $text['description-import_delimiter']['de-ch'] = "Wählen Sie das Trennzeichen (Beistrich oder Wagrechter Strich)";
@@ -5476,6 +5485,7 @@ $text['description-contacts_import_google']['ko-kr'] = "가져올 연락처를 �
 
 $text['description-contacts_import']['en-us'] = "Submit or upload delimited data to add multiple records.";
 $text['description-contacts_import']['en-gb'] = "Submit or upload delimited data to add multiple records.";
+$text['description-contacts_import']['fa'] = "اطلاعات خود را وارد نمایید تا به صورت گروهی مخاطبان ایجاد شوند.";
 $text['description-contacts_import']['ar-eg'] = "إرسال أو تحميل البيانات المحددة لإضافة سجلات متعددة.";
 $text['description-contacts_import']['de-at'] = "Exportieren Sie Ihre Kontakte aus Outlook in eine CSV Datei und benützen Sie diese Funktion um Ihre Kontakte zu importieren.";
 $text['description-contacts_import']['de-ch'] = "Exportieren Sie Ihre Kontakte aus Outlook in eine CSV Datei und benützen Sie diese Funktion um Ihre Kontakte zu importieren.";

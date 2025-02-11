@@ -2,6 +2,7 @@
 
 $text['title-call_recordings']['en-us'] = "Call Recordings";
 $text['title-call_recordings']['en-gb'] = "Call Recordings";
+$text['title-call_recordings']['fa'] = "رکورد مکالمات";
 $text['title-call_recordings']['ar-eg'] = "تسجيلات المكالمات";
 $text['title-call_recordings']['de-at'] = "Anrufaufzeichnungen";
 $text['title-call_recordings']['de-ch'] = "Anrufaufzeichnungen";
@@ -49,6 +50,7 @@ $text['title-call_recording']['ja-jp'] = "通話録音";
 $text['title-call_recording']['ko-kr'] = "통화 녹음";
 
 $text['title_description-call_recordings']['en-us'] = "Shows the call recordings with name, length, date and time, and call direction.";
+$text['title_description-call_recordings']['fa'] = "در این قسمت، رکورد مکالمات را به همراه سایر جزییات تماس نمایش داده می شود.";
 $text['title_description-call_recordings']['en-gb'] = "Shows the call recordings with name, length, date and time, and call direction.";
 $text['title_description-call_recordings']['ar-eg'] = "يظهر تسجيلات المكالمة بالاسم والطول والتاريخ والوقت واتجاه المكالمة.";
 $text['title_description-call_recordings']['de-at'] = "Zeigt die Anrufaufzeichnungen mit Name, Dauer, Datum und Uhrzeit sowie Anrufrichtung an.";
@@ -74,6 +76,7 @@ $text['title_description-call_recordings']['ko-kr'] = "이름, 길이, 날짜 �
 
 $text['label-call_recording_name']['en-us'] = "Name";
 $text['label-call_recording_name']['en-gb'] = "Name";
+$text['label-call_recording_name']['fa'] = "نام فایل رکورد";
 $text['label-call_recording_name']['ar-eg'] = "اسم";
 $text['label-call_recording_name']['de-at'] = "Name";
 $text['label-call_recording_name']['de-ch'] = "Name";
@@ -98,6 +101,7 @@ $text['label-call_recording_name']['ko-kr'] = "이름";
 
 $text['label-caller_id_name']['en-us'] = "Caller Name";
 $text['label-caller_id_name']['en-gb'] = "Caller Name";
+$text['label-caller_id_name']['fa'] = "نام مبدا";
 $text['label-caller_id_name']['ar-eg'] = "اسم المتصل";
 $text['label-caller_id_name']['de-at'] = "Anrufer Name";
 $text['label-caller_id_name']['de-ch'] = "Anrufer Name";
@@ -122,6 +126,7 @@ $text['label-caller_id_name']['ko-kr'] = "발신자 이름";
 
 $text['label-caller_id_number']['en-us'] = "Caller Number";
 $text['label-caller_id_number']['en-gb'] = "Caller Number";
+$text['label-caller_id_number']['fa'] = "شماره مبدا";
 $text['label-caller_id_number']['ar-eg'] = "رقم المتصل";
 $text['label-caller_id_number']['de-at'] = "Anrufer Nummer";
 $text['label-caller_id_number']['de-ch'] = "Anrufer Nummer";
@@ -146,6 +151,7 @@ $text['label-caller_id_number']['ko-kr'] = "발신자 번호";
 
 $text['label-caller_destination']['en-us'] = "Caller Destination";
 $text['label-caller_destination']['en-gb'] = "Caller Destination";
+$text['label-caller_destination']['fa'] = "مقصد";
 $text['label-caller_destination']['ar-eg'] = "وجهة المتصل";
 $text['label-caller_destination']['de-at'] = "Rufziel";
 $text['label-caller_destination']['de-ch'] = "Rufziel";
@@ -170,6 +176,7 @@ $text['label-caller_destination']['ko-kr'] = "발신자 목적지";
 
 $text['label-destination_number']['en-us'] = "Destination";
 $text['label-destination_number']['en-gb'] = "Destination";
+$text['label-destination_number']['fa'] = "مقصد نهایی";
 $text['label-destination_number']['ar-eg'] = "وجهة";
 $text['label-destination_number']['de-at'] = "Ziel";
 $text['label-destination_number']['de-ch'] = "Ziel";
@@ -266,6 +273,7 @@ $text['description-call_recording_path']['ko-kr'] = "";
 
 $text['label-call_recording_length']['en-us'] = "Length";
 $text['label-call_recording_length']['en-gb'] = "Length";
+$text['label-call_recording_length']['fa'] = "طول مکالمه";
 $text['label-call_recording_length']['ar-eg'] = "طول";
 $text['label-call_recording_length']['de-at'] = "Länge";
 $text['label-call_recording_length']['de-ch'] = "Länge";
@@ -314,6 +322,7 @@ $text['description-call_recording_length']['ko-kr'] = "통화 녹음 시간";
 
 $text['label-call_recording_date']['en-us'] = "Date";
 $text['label-call_recording_date']['en-gb'] = "Date";
+$text['label-call_recording_date']['fa'] = "تاریخ";
 $text['label-call_recording_date']['ar-eg'] = "تاريخ";
 $text['label-call_recording_date']['de-at'] = "Datum";
 $text['label-call_recording_date']['de-ch'] = "Datum";
@@ -362,6 +371,7 @@ $text['description-call_recording_date']['ko-kr'] = "통화 녹음 날짜";
 
 $text['label-call_direction']['en-us'] = "Direction";
 $text['label-call_direction']['en-gb'] = "Direction";
+$text['label-call_direction']['fa'] = "جهت تماس";
 $text['label-call_direction']['ar-eg'] = "اتجاه";
 $text['label-call_direction']['de-at'] = "Richtung";
 $text['label-call_direction']['de-ch'] = "Richtung";

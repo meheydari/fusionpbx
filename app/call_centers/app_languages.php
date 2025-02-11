@@ -1013,6 +1013,7 @@ $text['label-wrap_up_time']['ko-kr'] = "마무리 시간";
 
 $text['label-type']['en-us'] = "Type";
 $text['label-type']['en-gb'] = "Type";
+$text['label-type']['fa'] = "نوع";
 $text['label-type']['ar-eg'] = "يكتب";
 $text['label-type']['de-at'] = "Typ";
 $text['label-type']['de-ch'] = "Typ";
@@ -1603,6 +1604,7 @@ $text['label-max_wait_time']['ko-kr'] = "최대 대기 시간";
 
 $text['label-max_no_answer']['en-us'] = "Max No Answer";
 $text['label-max_no_answer']['en-gb'] = "Max No Answer";
+$text['label-max_no_answer']['fa'] = "حداکثر تماس بی پاسخ مجاز";
 $text['label-max_no_answer']['ar-eg'] = "ماكس لا إجابة";
 $text['label-max_no_answer']['de-at'] = "Max keine Antwort";
 $text['label-max_no_answer']['de-ch'] = "Max keine Antwort";
@@ -1677,6 +1679,7 @@ $text['label-discard_abandoned_after']['ko-kr'] = "폐기 후 폐기";
 
 $text['label-default_status']['en-us'] = "Default Status";
 $text['label-default_status']['en-gb'] = "Default Status";
+$text['label-default_status']['fa'] = "وضعیت پیش فرض";
 $text['label-default_status']['ar-eg'] = "الوضع الافتراضي";
 $text['label-default_status']['de-at'] = "Standardzustand";
 $text['label-default_status']['de-ch'] = "Standardzustand";
@@ -1701,6 +1704,7 @@ $text['label-default_status']['ko-kr'] = "기본 상태";
 
 $text['label-contact']['en-us'] = "Contact";
 $text['label-contact']['en-gb'] = "Contact";
+$text['label-contact']['fa'] = "جزییات";
 $text['label-contact']['ar-eg'] = "اتصال";
 $text['label-contact']['de-at'] = "Kontakt";
 $text['label-contact']['de-ch'] = "Kontakt";
@@ -1971,6 +1975,7 @@ $text['description-queue_email_address']['ko-kr'] = "알림 이메일 주소.";
 
 $text['label-call_timeout']['en-us'] = "Call Timeout";
 $text['label-call_timeout']['en-gb'] = "Call Timeout";
+$text['label-call_timeout']['fa'] = "میزان زنگ خوردن";
 $text['label-call_timeout']['ar-eg'] = "مهلة الاتصال";
 $text['label-call_timeout']['de-at'] = "Zeitüberschreitung";
 $text['label-call_timeout']['de-ch'] = "Zeitüberschreitung";
@@ -2092,6 +2097,7 @@ $text['label-agent_logout']['ko-kr'] = "에이전트 로그아웃";
 
 $text['label-agent_id']['en-us'] = "Agent ID";
 $text['label-agent_id']['en-gb'] = "Agent ID";
+$text['label-agent_id']['fa'] = "شناسه اپراتور";
 $text['label-agent_id']['ar-eg'] = "معرف الوكيل";
 $text['label-agent_id']['de-at'] = "Agenten ID";
 $text['label-agent_id']['de-ch'] = "Agenten ID";
@@ -3269,6 +3275,7 @@ $text['description-call_center_queues']['ko-kr'] = "콜 센터의 대기열 목�
 
 $text['description-call_center_agents']['en-us'] = "List of call center agents.";
 $text['description-call_center_agents']['en-gb'] = "List of call center agents.";
+$text['description-call_center_agents']['en-gb'] = "لیست اپراتورهای مرکز تماس";
 $text['description-call_center_agents']['ar-eg'] = "قائمة وكلاء مركز الاتصال.";
 $text['description-call_center_agents']['de-at'] = "Liste der Callcenter Agenten";
 $text['description-call_center_agents']['de-ch'] = "Liste der Callcenter Agenten";

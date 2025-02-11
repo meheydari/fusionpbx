@@ -26,6 +26,7 @@ $text['title2']['ko-kr'] = "확장 요약";
 
 $text['title-extension_summary']['en-us'] = "Extension Summary";
 $text['title-extension_summary']['en-gb'] = "Extension Summary";
+$text['title-extension_summary']['fa'] = "جزییات داخلی ها";
 $text['title-extension_summary']['ar-eg'] = "ملخص التمديد";
 $text['title-extension_summary']['de-at'] = "Nebenstellen Statistik";
 $text['title-extension_summary']['de-ch'] = "Nebenstellen Statistik";
@@ -219,6 +220,7 @@ $text['table-name']['ko-kr'] = "이름";
 
 $text['table-missed']['en-us'] = "Missed";
 $text['table-missed']['en-gb'] = "Missed";
+$text['table-missed']['fa'] = "از دست رفته";
 $text['table-missed']['ar-eg'] = "مٌفتَقد";
 $text['table-missed']['de-at'] = "Verpasst";
 $text['table-missed']['de-ch'] = "Verpasst";
@@ -1040,6 +1042,7 @@ $text['label-start_range']['ko-kr'] = "시작 범위";
 
 $text['label-start_date_time']['en-us'] = "Start Date/Time";
 $text['label-start_date_time']['en-gb'] = "Start Date/Time";
+$text['label-start_date_time']['fa'] = "زمان شروع";
 $text['label-start_date_time']['ar-eg'] = "تاريخ / وقت البدء";
 $text['label-start_date_time']['de-at'] = "Start Datum/Zeit";
 $text['label-start_date_time']['de-ch'] = "Start Datum/Zeit";
@@ -1233,6 +1236,7 @@ $text['label-price']['ko-kr'] = "가격";
 
 $text['label-preset']['en-us'] = "Quick Select";
 $text['label-preset']['en-gb'] = "Quick Select";
+$text['label-preset']['fa'] = "بازه زمانی";
 $text['label-preset']['ar-eg'] = "حدد مسرعا";
 $text['label-preset']['de-at'] = "Schnellauswahl";
 $text['label-preset']['de-ch'] = "Schnellauswahl";
@@ -1329,6 +1333,7 @@ $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-outbound_duration']['en-us'] = "Outbound Duration";
 $text['label-outbound_duration']['en-gb'] = "Outbound Duration";
+$text['label-outbound_duration']['fa'] = "طول مکالمه خروجی";
 $text['label-outbound_duration']['ar-eg'] = "مدة الذهاب";
 $text['label-outbound_duration']['de-at'] = "Ausgehend Dauer";
 $text['label-outbound_duration']['de-ch'] = "Ausgehend Dauer";
@@ -1353,6 +1358,7 @@ $text['label-outbound_duration']['ko-kr'] = "아웃바운드 기간";
 
 $text['label-outbound_calls']['en-us'] = "Outbound Calls";
 $text['label-outbound_calls']['en-gb'] = "Outbound Calls";
+$text['label-outbound_calls']['fa'] = "تعداد خروجی";
 $text['label-outbound_calls']['ar-eg'] = "المكالمات الصادرة";
 $text['label-outbound_calls']['de-at'] = "Ausgehende Anrufe";
 $text['label-outbound_calls']['de-ch'] = "Ausgehende Anrufe";
@@ -1449,6 +1455,7 @@ $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-no_answer']['en-us'] = "CC Missed";
 $text['label-no_answer']['en-gb'] = "CC Missed";
+$text['label-no_answer']['fa'] = "از دست رفته از صف";
 $text['label-no_answer']['ar-eg'] = "مركز الاتصال مفقود";
 $text['label-no_answer']['de-at'] = "Callcenter verpasst";
 $text['label-no_answer']['de-ch'] = "Callcenter verpasst";
@@ -1713,6 +1720,7 @@ $text['label-local']['ko-kr'] = "현지의";
 
 $text['label-include_internal']['en-us'] = "Include Internal";
 $text['label-include_internal']['en-gb'] = "Include Internal";
+$text['label-include_internal']['fa'] = "محاسبه ی تماس داخلی به داخلی";
 $text['label-include_internal']['ar-eg'] = "تضمين الداخلية";
 $text['label-include_internal']['de-at'] = "Intern hinzufügen";
 $text['label-include_internal']['de-ch'] = "Intern hinzufügen";
@@ -1737,6 +1745,7 @@ $text['label-include_internal']['ko-kr'] = "내부 포함";
 
 $text['label-inbound_duration']['en-us'] = "Inbound Duration";
 $text['label-inbound_duration']['en-gb'] = "Inbound Duration";
+$text['label-inbound_duration']['fa'] = "طول مکالمه ورودی";
 $text['label-inbound_duration']['ar-eg'] = "مدة الواردة";
 $text['label-inbound_duration']['de-at'] = "Eingehend Dauer";
 $text['label-inbound_duration']['de-ch'] = "Eingehend Dauer";
@@ -1761,6 +1770,7 @@ $text['label-inbound_duration']['ko-kr'] = "인바운드 기간";
 
 $text['label-inbound_calls']['en-us'] = "Inbound Calls";
 $text['label-inbound_calls']['en-gb'] = "Inbound Calls";
+$text['label-inbound_calls']['fa'] = "تعداد ورودی";
 $text['label-inbound_calls']['ar-eg'] = "المكالمات الواردة";
 $text['label-inbound_calls']['de-at'] = "Eingehende Anrufe";
 $text['label-inbound_calls']['de-ch'] = "Eingehende Anrufe";
@@ -1979,6 +1989,7 @@ $text['label-end_range']['ko-kr'] = "종료 범위";
 
 $text['label-end_date_time']['en-us'] = "End Date/Time";
 $text['label-end_date_time']['en-gb'] = "End Date/Time";
+$text['label-end_date_time']['fa'] = "زمان پایان";
 $text['label-end_date_time']['ar-eg'] = "تاريخ / وقت الانتهاء";
 $text['label-end_date_time']['de-at'] = "Ende Datum/Zeit";
 $text['label-end_date_time']['de-ch'] = "Ende Datum/Zeit";
@@ -2489,6 +2500,7 @@ $text['label-call-flow']['ko-kr'] = "통화 흐름: 속성";
 
 $text['label-busy']['en-us'] = "Busy";
 $text['label-busy']['en-gb'] = "Busy";
+$text['label-busy']['fa'] = "مشغول";
 $text['label-busy']['ar-eg'] = "مشغول";
 $text['label-busy']['de-at'] = "Besetzt";
 $text['label-busy']['de-ch'] = "Besetzt";
@@ -2633,6 +2645,7 @@ $text['label-application-log']['ko-kr'] = "애플리케이션 로그";
 
 $text['label-answered']['en-us'] = "Answered";
 $text['label-answered']['en-gb'] = "Answered";
+$text['label-answered']['fa'] = "پاسخ داده شده";
 $text['label-answered']['ar-eg'] = "تم الرد";
 $text['label-answered']['de-at'] = "Angenommen";
 $text['label-answered']['de-ch'] = "Angenommen";
@@ -2705,6 +2718,7 @@ $text['label-answer']['ko-kr'] = "答え";
 
 $text['label-aloc']['en-us'] = "ALOC";
 $text['label-aloc']['en-gb'] = "ALOC";
+$text['label-aloc']['fa'] = "میانگین طول مدت تماس";
 $text['label-aloc']['ar-eg'] = "ALOC";
 $text['label-aloc']['de-at'] = "ALOC";
 $text['label-aloc']['de-ch'] = "ALOC";

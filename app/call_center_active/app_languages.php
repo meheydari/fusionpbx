@@ -75,6 +75,7 @@ $text['message-confirm']['ko-kr'] = "정말로 이것을 하시겠습니까?";
 
 $text['label-waiting']['en-us'] = "Waiting";
 $text['label-waiting']['en-gb'] = "Waiting";
+$text['label-waiting']['fa'] = "در حال انتظار";
 $text['label-waiting']['ar-eg'] = "انتظار";
 $text['label-waiting']['de-at'] = "Warten";
 $text['label-waiting']['de-ch'] = "Warten";
@@ -99,6 +100,7 @@ $text['label-waiting']['ko-kr'] = "대기 중";
 
 $text['label-trying']['en-us'] = "Trying";
 $text['label-trying']['en-gb'] = "Trying";
+$text['label-trying']['fa'] = "درحال اتصال";
 $text['label-trying']['ar-eg'] = "محاولة";
 $text['label-trying']['de-at'] = "Versuchen";
 $text['label-trying']['de-ch'] = "Versuchen";
@@ -171,6 +173,7 @@ $text['label-time_base_score']['ko-kr'] = "시간축 점수";
 
 $text['label-time']['en-us'] = "Time";
 $text['label-time']['en-gb'] = "Time";
+$text['label-time']['fa'] = "مدت زمان";
 $text['label-time']['ar-eg'] = "التوقيت";
 $text['label-time']['de-at'] = "Zeit";
 $text['label-time']['de-ch'] = "Zeit";
@@ -195,6 +198,7 @@ $text['label-time']['ko-kr'] = "시간";
 
 $text['label-tier_state']['en-us'] = "Tier State";
 $text['label-tier_state']['en-gb'] = "Tier State";
+$text['label-tier_state']['en-gb'] = "وضعیت گروه اپراتوری";
 $text['label-tier_state']['ar-eg'] = "دولة الطبقة";
 $text['label-tier_state']['de-at'] = "Ebenen-Status";
 $text['label-tier_state']['de-ch'] = "Ebenen-Status";
@@ -315,6 +319,7 @@ $text['label-tier_rule_no_agent_no_wait']['ko-kr'] = "계층 규칙 에이전트
 
 $text['label-tier_position']['en-us'] = "Tier Position";
 $text['label-tier_position']['en-gb'] = "Tier Position";
+$text['label-tier_position']['fa'] = "جایگاه گروه";
 $text['label-tier_position']['ar-eg'] = "موقف الطبقة";
 $text['label-tier_position']['de-at'] = "Ebenen-Position";
 $text['label-tier_position']['de-ch'] = "Ebenen-Position";
@@ -339,6 +344,7 @@ $text['label-tier_position']['ko-kr'] = "계층 위치";
 
 $text['label-tier_level']['en-us'] = "Tier Level";
 $text['label-tier_level']['en-gb'] = "Tier Level";
+$text['label-tier_level']['fa'] = "سطح گروه";
 $text['label-tier_level']['ar-eg'] = "مستوى الطبقة";
 $text['label-tier_level']['de-at'] = "Ebenen-Niveau";
 $text['label-tier_level']['de-ch'] = "Ebenen-Niveau";
@@ -412,6 +418,7 @@ $text['label-strategy']['ko-kr'] = "전략";
 
 $text['label-status_change']['en-us'] = "Status Change";
 $text['label-status_change']['en-gb'] = "Status Change";
+$text['label-status_change']['fa'] = "تغییر وضعیت";
 $text['label-status_change']['ar-eg'] = "تغيير الوضع";
 $text['label-status_change']['de-at'] = "Status Änderung";
 $text['label-status_change']['de-ch'] = "Status Änderung";
@@ -484,6 +491,7 @@ $text['description-status']['ko-kr'] = "로그아웃됨 - 대기열 호출을 �
 
 $text['label-state']['en-us'] = "State";
 $text['label-state']['en-gb'] = "State";
+$text['label-state']['fa'] = "وضعیت فعلی";
 $text['label-state']['ar-eg'] = "ولاية";
 $text['label-state']['de-at'] = "Zustand";
 $text['label-state']['de-ch'] = "Zustand";
@@ -581,6 +589,7 @@ $text['label-queue_name']['ko-kr'] = "대기열 이름";
 
 $text['label-queue']['en-us'] = "Queue";
 $text['label-queue']['en-gb'] = "Queue";
+$text['label-queue']['fa'] = "صف";
 $text['label-queue']['ar-eg'] = "طابور";
 $text['label-queue']['de-at'] = "Warteschlange";
 $text['label-queue']['de-ch'] = "Warteschlange";
@@ -605,6 +614,7 @@ $text['label-queue']['ko-kr'] = "대기줄";
 
 $text['label-options']['en-us'] = "Options";
 $text['label-options']['en-gb'] = "Options";
+$text['label-options']['fa'] = "گزینه ها";
 $text['label-options']['ar-eg'] = "خيارات";
 $text['label-options']['de-at'] = "Optionen";
 $text['label-options']['de-ch'] = "Optionen";
@@ -629,6 +639,7 @@ $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-number']['en-us'] = "Number";
 $text['label-number']['en-gb'] = "Number";
+$text['label-number']['fa'] = "شماره";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
 $text['label-number']['de-ch'] = "Nummer";
@@ -677,6 +688,7 @@ $text['label-music_on_hold']['ko-kr'] = "음악 보류";
 
 $text['label-missed']['en-us'] = "Missed";
 $text['label-missed']['en-gb'] = "Missed";
+$text['label-missed']['fa'] = "تماس از دست رفته";
 $text['label-missed']['ar-eg'] = "مٌفتَقد";
 $text['label-missed']['de-at'] = "Verpasst";
 $text['label-missed']['de-ch'] = "Verpasst";
@@ -846,6 +858,7 @@ $text['label-call']['ko-kr'] = "부르다";
 
 $text['label-answered']['en-us'] = "Answered";
 $text['label-answered']['en-gb'] = "Answered";
+$text['label-answered']['fa'] = "پاسخ داده";
 $text['label-answered']['ar-eg'] = "أجاب";
 $text['label-answered']['de-at'] = "Angenommen";
 $text['label-answered']['de-ch'] = "Angenommen";
@@ -870,6 +883,7 @@ $text['label-answered']['ko-kr'] = "대답했다";
 
 $text['label-agent']['en-us'] = "Agent";
 $text['label-agent']['en-gb'] = "Agent";
+$text['label-agent']['fa'] = "اپراتور";
 $text['label-agent']['ar-eg'] = "عامل";
 $text['label-agent']['de-at'] = "Agent";
 $text['label-agent']['de-ch'] = "Agent";
@@ -918,6 +932,7 @@ $text['label-abandoned_resume_allowed']['ko-kr'] = "포기한 이력서 허용";
 
 $text['header-agents']['en-us'] = "Agents";
 $text['header-agents']['en-gb'] = "Agents";
+$text['header-agents']['fa'] = "اپراتور";
 $text['header-agents']['ar-eg'] = "عملاء";
 $text['header-agents']['de-at'] = "Agenten";
 $text['header-agents']['de-ch'] = "Agenten";
@@ -966,6 +981,7 @@ $text['header-active_call_center']['ko-kr'] = "활성 콜 센터";
 
 $text['description-queue']['en-us'] = "A current list of callers in the queue is below.";
 $text['description-queue']['en-gb'] = "A current list of callers in the queue is below.";
+$text['description-queue']['fa'] = "لیست مخاطبین حاضر در صف فعلی";
 $text['description-queue']['ar-eg'] = "القائمة الحالية للمتصلين في قائمة الانتظار أدناه.";
 $text['description-queue']['de-at'] = "Eine aktuelle Liste der Anrufer in der Warteschlange sehen sie unten.";
 $text['description-queue']['de-ch'] = "Eine aktuelle Liste der Anrufer in der Warteschlange sehen sie unten.";
@@ -990,6 +1006,7 @@ $text['description-queue']['ko-kr'] = "대기열에 있는 현재 발신자 목�
 
 $text['description-agents']['en-us'] = "A current list of agents is below.";
 $text['description-agents']['en-gb'] = "A current list of agents is below.";
+$text['description-agents']['fa'] = "لیست اپراتورها";
 $text['description-agents']['ar-eg'] = "القائمة الحالية للوكلاء أدناه.";
 $text['description-agents']['de-at'] = "Eine aktuelle Liste der Agenten sehen sie unten.";
 $text['description-agents']['de-ch'] = "Eine aktuelle Liste der Agenten sehen sie unten.";

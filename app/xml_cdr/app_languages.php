@@ -100,6 +100,7 @@ $text['title-call_detail_records']['ko-kr'] = "통화 내역 기록";
 
 $text['title-call-statistics']['en-us'] = "Call Detail Record Statistics";
 $text['title-call-statistics']['en-gb'] = "Call Detail Record Statistics";
+$text['title-call-statistics']['fa'] = "آمار سوابق تماس";
 $text['title-call-statistics']['ar-eg'] = "إحصائيات سجل تفاصيل المكالمة";
 $text['title-call-statistics']['de-at'] = "Anruf Statistiken";
 $text['title-call-statistics']['de-ch'] = "Anruf Statistiken";
@@ -172,6 +173,7 @@ $text['title-advanced_search']['ko-kr'] = "고급 검색";
 
 $text['table-time']['en-us'] = "Time";
 $text['table-time']['en-gb'] = "Time";
+$text['table-time']['fa'] = "زمان";
 $text['table-time']['ar-eg'] = "وقت";
 $text['table-time']['de-at'] = "Zeit";
 $text['table-time']['de-ch'] = "Zeit";
@@ -245,6 +247,7 @@ $text['table-missed']['ko-kr'] = "놓친";
 
 $text['table-minutes']['en-us'] = "Minutes";
 $text['table-minutes']['en-gb'] = "Minutes";
+$text['table-minutes']['fa'] = "طول مکالمه";
 $text['table-minutes']['ar-eg'] = "دقائق";
 $text['table-minutes']['de-at'] = "Minuten";
 $text['table-minutes']['de-ch'] = "Minuten";
@@ -269,6 +272,7 @@ $text['table-minutes']['ko-kr'] = "분";
 
 $text['table-hours']['en-us'] = "Hours";
 $text['table-hours']['en-gb'] = "Hours";
+$text['table-hours']['fa'] = "تعداد ساعت";
 $text['table-hours']['ar-eg'] = "ساعات";
 $text['table-hours']['de-at'] = "Stunden";
 $text['table-hours']['de-ch'] = "Stunden";
@@ -390,6 +394,7 @@ $text['table-days']['ko-kr'] = "날";
 
 $text['table-date']['en-us'] = "Date";
 $text['table-date']['en-gb'] = "Date";
+$text['table-date']['fa'] = "تاریخ";
 $text['table-date']['ar-eg'] = "تاريخ";
 $text['table-date']['fa'] = "تاريخ";
 $text['table-date']['de-at'] = "Datum";
@@ -415,6 +420,7 @@ $text['table-date']['ko-kr'] = "날짜";
 
 $text['table-calls-per-minute']['en-us'] = "Calls Per Min";
 $text['table-calls-per-minute']['en-gb'] = "Calls Per Min";
+$text['table-calls-per-minute']['fa'] = "تماس در دقیقه";
 $text['table-calls-per-minute']['ar-eg'] = "المكالمات في الدقيقة";
 $text['table-calls-per-minute']['de-at'] = "Anrufe pro Min";
 $text['table-calls-per-minute']['de-ch'] = "Anrufe pro Min";
@@ -2356,6 +2362,7 @@ $text['label-caller_destination']['ko-kr'] = "발신자 대상";
 
 $text['label-call-statistics-description']['en-us'] = "Call Detail Records Statics summarize the call information.";
 $text['label-call-statistics-description']['en-gb'] = "Call Detail Records Statics summarize the call information.";
+$text['label-call-statistics-description']['fa'] = "خلاصه اطلاعات سوابق تماس";
 $text['label-call-statistics-description']['ar-eg'] = "سجلات تفاصيل المكالمة الإحصائية تلخص معلومات المكالمة.";
 $text['label-call-statistics-description']['de-at'] = "Anruf Statistiken fassen alle Anrufinformationen zusammen.";
 $text['label-call-statistics-description']['de-ch'] = "Anruf Statistiken fassen alle Anrufinformationen zusammen.";
@@ -3179,6 +3186,7 @@ $text['button-statistics']['ko-kr'] = "통계";
 
 $text['button-missed']['en-us'] = "Missed Calls";
 $text['button-missed']['en-gb'] = "Missed Calls";
+$text['button-missed']['fa'] = "از دست رفته";
 $text['button-missed']['ar-eg'] = "مكالمات فائتة";
 $text['button-missed']['de-at'] = "Verpasste Anrufe";
 $text['button-missed']['de-ch'] = "Verpasste Anrufe";
@@ -3203,6 +3211,7 @@ $text['button-missed']['ko-kr'] = "부재중 전화";
 
 $text['button-extension_summary']['en-us'] = "Extension Summary";
 $text['button-extension_summary']['en-gb'] = "Extension Summary";
+$text['button-extension_summary']['en-gb'] = "جزییات داخلی ها";
 $text['button-extension_summary']['ar-eg'] = "ملخص التمديد";
 $text['button-extension_summary']['de-at'] = "Nebenstellen Statistik";
 $text['button-extension_summary']['de-ch'] = "Nebenstellen Statistik";

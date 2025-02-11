@@ -172,42 +172,42 @@
 		const cdr_stats_data = {
 			datasets: [
 				{
-					label: "Volume",
+					label: "تعداد تماس",
 					data: <?php echo json_encode($graph['volume']); ?>,
 					backgroundColor: "#EDC240",
 					borderColor: "#EDC240",
 					fill: false
 				},
 				{
-					label: "Minutes",
+					label: "طول مکالمه",
 					data: <?php echo json_encode($graph['minutes']); ?>,
 					backgroundColor: "#AFD8F8",
 					borderColor: "#AFD8F8",
 					fill: false
 				},
 				{
-					label: "Calls Per Min",
+					label: "تماس در دقیقه",
 					data: <?php echo json_encode($graph['call_per_min']); ?>,
 					backgroundColor: "#CB4B4B",
 					borderColor: "#CB4B4B",
 					fill: false
 				},
 				{
-					label: "Missed",
+					label: "از دست رفته",
 					data: <?php echo json_encode($graph['missed']); ?>,
 					backgroundColor: "#4DA74D",
 					borderColor: "#4DA74D",
 					fill: false
 				},
 				{
-					label: "ASR",
+					label: "نسبت پاسخ داده شده",
 					data: <?php echo json_encode($graph['asr']); ?>,
 					backgroundColor: "#9440ED",
 					borderColor: "#9440ED",
 					fill: false
 				},
 				{
-					label: "ALOC",
+					label: "میانگین طول مدت تماس",
 					data: <?php echo json_encode($graph['aloc']); ?>,
 					backgroundColor: "#BD9B33",
 					borderColor: "#BD9B33",

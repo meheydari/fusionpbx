@@ -53,6 +53,7 @@ $text['title-contacts_import']['ko-kr'] = "연락처 가져오기";
 
 $text['title-contacts']['en-us'] = "Contacts";
 $text['title-contacts']['en-gb'] = "Contacts";
+$text['title-contacts']['fa'] = "دفترچه تلفن";
 $text['title-contacts']['ar-eg'] = "جهات الاتصال";
 $text['title-contacts']['de-at'] = "Kontakte";
 $text['title-contacts']['de-ch'] = "Kontakte";
@@ -2152,6 +2153,7 @@ $text['label-phone_label']['ko-kr'] = "상표";
 
 $text['label-phone_type']['en-us'] = "Type";
 $text['label-phone_type']['en-gb'] = "Type";
+$text['label-phone_type']['fa'] = "نوع مشترک";
 $text['label-phone_type']['ar-eg'] = "يكتب";
 $text['label-phone_type']['de-at'] = "Art";
 $text['label-phone_type']['de-ch'] = "Art";
@@ -3030,6 +3032,7 @@ $text['label-contact_type']['ko-kr'] = "유형";
 
 $text['label-contact_title']['en-us'] = "Title";
 $text['label-contact_title']['en-gb'] = "Title";
+$text['label-contact_title']['fa'] = "عنوان";
 $text['label-contact_title']['ar-eg'] = "عنوان";
 $text['label-contact_title']['de-at'] = "Titel";
 $text['label-contact_title']['de-ch'] = "Titel";
@@ -3205,6 +3208,7 @@ $text['label-contact_setting_category']['ko-kr'] = "범주";
 
 $text['label-contact_role']['en-us'] = "Role";
 $text['label-contact_role']['en-gb'] = "Role";
+$text['label-contact_role']['fa'] = "سمت";
 $text['label-contact_role']['ar-eg'] = "دور";
 $text['label-contact_role']['de-at'] = "Rolle";
 $text['label-contact_role']['de-ch'] = "Rolle";
@@ -3280,6 +3284,7 @@ $text['label-contact_relation_reciprocal']['ko-kr'] = "역수";
 
 $text['label-contact_relation_organization']['en-us'] = "Organization";
 $text['label-contact_relation_organization']['en-gb'] = "Organization";
+$text['label-contact_relation_organization']['fa'] = "سازمان";
 $text['label-contact_relation_organization']['ar-eg'] = "منظمة";
 $text['label-contact_relation_organization']['de-at'] = "Organisation";
 $text['label-contact_relation_organization']['de-ch'] = "Organisation";
@@ -3605,6 +3610,7 @@ $text['label-contact_note']['ko-kr'] = "메모";
 
 $text['label-contact_nickname']['en-us'] = "Nickname";
 $text['label-contact_nickname']['en-gb'] = "Nickname";
+$text['label-contact_nickname']['fa'] = "نام مستعار";
 $text['label-contact_nickname']['ar-eg'] = "كنية";
 $text['label-contact_nickname']['de-at'] = "Spitzname";
 $text['label-contact_nickname']['de-ch'] = "Spitzname";
@@ -3705,6 +3711,7 @@ $text['label-contact_name_middle']['ko-kr'] = "가운데";
 
 $text['label-contact_name_given']['en-us'] = "First Name";
 $text['label-contact_name_given']['en-gb'] = "First Name";
+$text['label-contact_name_given']['fa'] = "نام";
 $text['label-contact_name_given']['ar-eg'] = "الاسم الأول";
 $text['label-contact_name_given']['de-at'] = "Vorname";
 $text['label-contact_name_given']['de-ch'] = "Vorname";
@@ -3729,7 +3736,7 @@ $text['label-contact_name_given']['ja-jp'] = "ファーストネーム";
 $text['label-contact_name_given']['ko-kr'] = "이름";
 
 $text['label-contact_name_family']['en-us'] = "Last Name";
-$text['label-contact_name_family']['en-gb'] = "Last Name";
+$text['label-contact_name_family']['fa'] = "نام خانوادگی";
 $text['label-contact_name_family']['ar-eg'] = "اسم العائلة";
 $text['label-contact_name_family']['de-at'] = "Nachname";
 $text['label-contact_name_family']['de-ch'] = "Nachname";
@@ -5510,6 +5517,7 @@ $text['description-contacts_import']['ja-jp'] = "区切りデータを送信ま�
 $text['description-contacts_import']['ko-kr'] = "구분된 데이터를 제출하거나 업로드하여 여러 레코드를 추가합니다.";
 
 $text['description-contacts']['en-us'] = "The contact is a list of individuals and organizations.";
+$text['description-contacts']['fa'] = "دفترچه تلفن ، لیستی از اطلاعات افراد و شرکت ها می باشد.";
 $text['description-contacts']['en-gb'] = "The contact is a list of individuals and organizations.";
 $text['description-contacts']['ar-eg'] = "جهة الاتصال هي قائمة الأفراد والمنظمات.";
 $text['description-contacts']['de-at'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";

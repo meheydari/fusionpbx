@@ -88,7 +88,7 @@
 						title: {
 							display: true,
 							text: '<?php echo $text['label-new_messages']; ?>',
-							fontFamily: chart_text_font
+							fontFamily: 'Yekan Bakh FaNum';
 						}
 					}
 				},

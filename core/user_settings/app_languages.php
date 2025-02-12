@@ -1331,6 +1331,7 @@ $text['label-new_password']['ko-kr'] = "새 비밀번호";
 
 $text['label-new_messages']['en-us'] = "New Messages";
 $text['label-new_messages']['en-gb'] = "New Messages";
+$text['label-new_messages']['fa'] = "پیام‌های صوتی جدید";
 $text['label-new_messages']['ar-eg'] = "رسائل جديدة";
 $text['label-new_messages']['de-at'] = "Neue Nachrichten";
 $text['label-new_messages']['de-ch'] = "Neue Nachrichten";

@@ -278,11 +278,11 @@
 	echo "	<th>".$text['table-hours']."</th>\n";
 	echo "	<th>".$text['table-date']."</th>\n";
 	echo "	<th class='no-wrap'>".$text['table-time']."</th>\n";
-	echo "	<th>Volume</th>\n";
+	echo "	<th>تعداد تماس</th>\n";
 	echo "	<th>".$text['table-minutes']."</th>\n";
 	echo "	<th>".$text['table-calls-per-minute']."</th>\n";
 	echo "	<th class='center'>".$text['table-missed']."</th>\n";
-	echo "	<th>ASR</th>\n";
+	echo "	<th>نسبت پاسخ داده شده</th>\n";
 	echo "	<th title='".$text['description-aloc']."'>".$text['label-aloc']."</th>\n";
 	echo "</tr>\n";
 
@@ -304,12 +304,12 @@
 			echo "	<th class='no-wrap'>".$text['table-days']."</th>\n";
 			echo "	<th class='no-wrap'>".$text['table-date']."</th>\n";
 			echo "	<th class='no-wrap'>".$text['table-time']."</th>\n";
-			echo "	<th>Volume</th>\n";
+			echo "	<th>تعداد تماس</th>\n";
 			echo "	<th>".$text['table-minutes']."</th>\n";
 			echo "	<th class='no-wrap'>".$text['table-calls-per-minute']."</th>\n";
 			echo "	<th class='center'>".$text['table-missed']."</th>\n";
-			echo "	<th>ASR</th>\n";
-			echo "	<th>ALOC</th>\n";
+			echo "	<th>نسبت پاسخ داده شده</th>\n";
+			echo "	<th>میانگین طول مدت تماس</th>\n";
 			echo "</tr>\n";
 			echo "<tr class='list-row'>\n";
 		}

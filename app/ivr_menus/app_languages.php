@@ -75,6 +75,7 @@ $text['title-ivr_menus']['ko-kr'] = "IVR 메뉴";
 
 $text['title-ivr_menu']['en-us'] = "IVR Menu";
 $text['title-ivr_menu']['en-gb'] = "IVR Menu";
+$text['title-ivr_menu']['fa'] = "منشی خودکار";
 $text['title-ivr_menu']['ar-eg'] = "قائمة العاج";
 $text['title-ivr_menu']['de-at'] = "Automatische Vermittlung";
 $text['title-ivr_menu']['de-ch'] = "Automatische Vermittlung";
@@ -243,6 +244,7 @@ $text['message-maximum_ivr_menus']['ko-kr'] = "최대 IVR 메뉴:";
 
 $text['label-language']['en-us'] = "Language";
 $text['label-language']['en-gb'] = "Language";
+$text['label-language']['fa'] = "زبان";
 $text['label-language']['ar-eg'] = "اللغة";
 $text['label-language']['de-at'] = "Sprache";
 $text['label-language']['de-ch'] = "Sprache";
@@ -315,6 +317,7 @@ $text['label-tts_engine']['ko-kr'] = "TTS 엔진";
 
 $text['label-timeout']['en-us'] = "Timeout";
 $text['label-timeout']['en-gb'] = "Timeout";
+$text['label-timeout']['fa'] = "مدت زمان";
 $text['label-timeout']['ar-eg'] = "الوقت";
 $text['label-timeout']['de-at'] = "Zeitbeschränkung";
 $text['label-timeout']['de-ch'] = "Zeitbeschränkung";
@@ -339,6 +342,7 @@ $text['label-timeout']['ko-kr'] = "타임아웃";
 
 $text['label-ring_back']['en-us'] = "Ring Back";
 $text['label-ring_back']['en-gb'] = "Ring Back";
+$text['label-ring_back']['fa'] = "موزیک انتظار";
 $text['label-ring_back']['ar-eg'] = "العودة";
 $text['label-ring_back']['de-at'] = "Wählton";
 $text['label-ring_back']['de-ch'] = "Wählton";
@@ -363,6 +367,7 @@ $text['label-ring_back']['ko-kr'] = "링백";
 
 $text['label-options']['en-us'] = "Options";
 $text['label-options']['en-gb'] = "Options";
+$text['label-options']['fa'] = "کلیدها";
 $text['label-options']['ar-eg'] = "الخيارات";
 $text['label-options']['de-at'] = "Optionen";
 $text['label-options']['de-ch'] = "Optionen";
@@ -387,6 +392,7 @@ $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-option']['en-us'] = "Option";
 $text['label-option']['en-gb'] = "Option";
+$text['label-option']['fa'] = "کلید";
 $text['label-option']['ar-eg'] = "الخيار";
 $text['label-option']['de-at'] = "Möglichkeit";
 $text['label-option']['de-ch'] = "Möglichkeit";
@@ -411,6 +417,7 @@ $text['label-option']['ko-kr'] = "옵션";
 
 $text['label-max_timeouts']['en-us'] = "Max Timeouts";
 $text['label-max_timeouts']['en-gb'] = "Max Timeouts";
+$text['label-max_timeouts']['fa'] = "حداکثر زمان برای خروج";
 $text['label-max_timeouts']['ar-eg'] = "ماكس تايمز";
 $text['label-max_timeouts']['de-at'] = "Max Zeitbeschränkung";
 $text['label-max_timeouts']['de-ch'] = "Max Zeitbeschränkung";
@@ -434,6 +441,7 @@ $text['label-max_timeouts']['ja-jp'] = "最大タイムアウト数";
 $text['label-max_timeouts']['ko-kr'] = "최대 시간 제한";
 
 $text['label-max_failures']['en-us'] = "Max Failures";
+$text['label-max_failures']['fa'] = "حداکثر تعداد تلاش مجدد";
 $text['label-max_failures']['en-gb'] = "Max Failures";
 $text['label-max_failures']['ar-eg'] = "أقصى عدد من حالات الفشل";
 $text['label-max_failures']['de-at'] = "Max Fehlversuche";
@@ -459,6 +467,7 @@ $text['label-max_failures']['ko-kr'] = "최대 실패";
 
 $text['label-invalid_sound']['en-us'] = "Invalid Sound";
 $text['label-invalid_sound']['en-gb'] = "Invalid Sound";
+$text['label-invalid_sound']['fa'] = "فایل بابت ورودی اشتباه";
 $text['label-invalid_sound']['ar-eg'] = "الصوت الخفي";
 $text['label-invalid_sound']['de-at'] = "Ungültiger Ton";
 $text['label-invalid_sound']['de-ch'] = "Ungültiger Ton";
@@ -483,6 +492,7 @@ $text['label-invalid_sound']['ko-kr'] = "잘못된 소리";
 
 $text['label-inter-digit_timeout']['en-us'] = "Inter-Digit Timeout";
 $text['label-inter-digit_timeout']['en-gb'] = "Inter-Digit Timeout";
+$text['label-inter-digit_timeout']['fa'] = "حداکثر فاصله زمانی بین رقم های ورودی";
 $text['label-inter-digit_timeout']['ar-eg'] = "الجدول الزمني المشترك";
 $text['label-inter-digit_timeout']['de-at'] = "Time-Out zwischen Tastendrucke";
 $text['label-inter-digit_timeout']['de-ch'] = "Time-Out zwischen Tastendrucke";
@@ -507,6 +517,7 @@ $text['label-inter-digit_timeout']['ko-kr'] = "숫자 간 시간 초과";
 
 $text['label-greet_short']['en-us'] = "Greet Short";
 $text['label-greet_short']['en-gb'] = "Greet Short";
+$text['label-greet_short']['fa'] = "فایل بازگشتی";
 $text['label-greet_short']['ar-eg'] = "تحية قصيرة";
 $text['label-greet_short']['de-at'] = "Begrüßung kurz";
 $text['label-greet_short']['de-ch'] = "Begrüßung kurz";
@@ -531,6 +542,7 @@ $text['label-greet_short']['ko-kr'] = "짧은 인사";
 
 $text['label-greet_long']['en-us'] = "Greet Long";
 $text['label-greet_long']['en-gb'] = "Greet Long";
+$text['label-greet_long']['fa'] = "فایل ابتدایی";
 $text['label-greet_long']['ar-eg'] = "(جراند لونغ)";
 $text['label-greet_long']['de-at'] = "Begrüßung lang";
 $text['label-greet_long']['de-ch'] = "Begrüßung lang";
@@ -580,6 +592,7 @@ $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-ivr_menu_parent_uuid']['en-us'] = "Parent Menu";
 $text['label-ivr_menu_parent_uuid']['en-gb'] = "Parent Menu";
+$text['label-ivr_menu_parent_uuid']['fa'] = "منوی قبلی";
 $text['label-ivr_menu_parent_uuid']['ar-eg'] = "الوالد مينو";
 $text['label-ivr_menu_parent_uuid']['de-at'] = "Übergeordnetes Menü";
 $text['label-ivr_menu_parent_uuid']['de-ch'] = "Übergeordnetes Menü";
@@ -604,6 +617,7 @@ $text['label-ivr_menu_parent_uuid']['ko-kr'] = "학부모 메뉴";
 
 $text['label-exit_sound']['en-us'] = "Exit Sound";
 $text['label-exit_sound']['en-gb'] = "Exit Sound";
+$text['label-exit_sound']['fa'] = "فایل بابت خروج از منو";
 $text['label-exit_sound']['ar-eg'] = "صوت الخروج";
 $text['label-exit_sound']['de-at'] = "Ton bei Verlassen";
 $text['label-exit_sound']['de-ch'] = "Ton bei Verlassen";
@@ -628,6 +642,7 @@ $text['label-exit_sound']['ko-kr'] = "종료음";
 
 $text['label-exit_action']['en-us'] = "Exit Action";
 $text['label-exit_action']['en-gb'] = "Exit Action";
+$text['label-exit_action']['fa'] = "مقصد خروج";
 $text['label-exit_action']['ar-eg'] = "الإجراء الخاص بالمنفاذ";
 $text['label-exit_action']['de-at'] = "Aktion bei Verlassen";
 $text['label-exit_action']['de-ch'] = "Aktion bei Verlassen";
@@ -652,6 +667,7 @@ $text['label-exit_action']['ko-kr'] = "종료 작업";
 
 $text['label-direct_dial']['en-us'] = "Direct Dial";
 $text['label-direct_dial']['en-gb'] = "Direct Dial";
+$text['label-direct_dial']['fa'] = "تماس مستقیم با داخلی ها";
 $text['label-direct_dial']['ar-eg'] = "Dial Direct Dial";
 $text['label-direct_dial']['de-at'] = "Direkte Wahl";
 $text['label-direct_dial']['de-ch'] = "Direkte Wahl";
@@ -676,6 +692,7 @@ $text['label-direct_dial']['ko-kr'] = "직통전화";
 
 $text['label-digit_length']['en-us'] = "Digit Length";
 $text['label-digit_length']['en-gb'] = "Digit Length";
+$text['label-digit_length']['fa'] = "حداکثر طول کلید";
 $text['label-digit_length']['ar-eg'] = "طول الرقم";
 $text['label-digit_length']['de-at'] = "Ziffernlänge";
 $text['label-digit_length']['de-ch'] = "Ziffernlänge";
@@ -700,6 +717,7 @@ $text['label-digit_length']['ko-kr'] = "자릿수 길이";
 
 $text['label-destination']['en-us'] = "Destination";
 $text['label-destination']['en-gb'] = "Destination";
+$text['label-destination']['fa'] = "مقصد";
 $text['label-destination']['ar-eg'] = "الوجهة";
 $text['label-destination']['de-at'] = "Ziel";
 $text['label-destination']['de-ch'] = "Ziel";
@@ -820,6 +838,7 @@ $text['label-comfirm_attempts']['ko-kr'] = "시도 확인";
 
 $text['label-caller_id_name_prefix']['en-us'] = "Caller ID Name Prefix";
 $text['label-caller_id_name_prefix']['en-gb'] = "Caller ID Name Prefix";
+$text['label-caller_id_name_prefix']['fa'] = "پیشوند نام مبدا";
 $text['label-caller_id_name_prefix']['ar-eg'] = "اسم المتصل بريفيكس";
 $text['label-caller_id_name_prefix']['de-at'] = "Anruferkennung (Name) Prefix";
 $text['label-caller_id_name_prefix']['de-ch'] = "Anruferkennung (Name) Prefix";
@@ -964,6 +983,7 @@ $text['header-ivr_menus']['ko-kr'] = "IVR 메뉴";
 
 $text['header-ivr_menu']['en-us'] = "IVR Menu";
 $text['header-ivr_menu']['en-gb'] = "IVR Menu";
+$text['header-ivr_menu']['fa'] = "منشی خودکار";
 $text['header-ivr_menu']['ar-eg'] = "قائمة العاج";
 $text['header-ivr_menu']['de-at'] = "Automatische Vermittlung";
 $text['header-ivr_menu']['de-ch'] = "Automatische Vermittlung";
@@ -1036,6 +1056,7 @@ $text['description-tts_engine']['ko-kr'] = "텍스트 음성 변환 엔진.";
 
 $text['description-timeout']['en-us'] = "The number of milliseconds to wait after playing the greeting or the confirm macro.";
 $text['description-timeout']['en-gb'] = "The number of milliseconds to wait after playing the greeting or the confirm macro.";
+$text['description-timeout']['fa'] = "مدت زمان مجاز برای وارد کردن کلید بعد از اتمام فایل ابتدایی.";
 $text['description-timeout']['ar-eg'] = 'عدد الـ "ميل ثانية" للانتظار بعد لعب التحية أو التأكيد';
 $text['description-timeout']['de-at'] = "Wartezeit in Millisekunden nach abspielen der Begrüßung oder des Bestätigungs-Makros";
 $text['description-timeout']['de-ch'] = "Wartezeit in Millisekunden nach abspielen der Begrüßung oder des Bestätigungs-Makros";
@@ -1060,6 +1081,7 @@ $text['description-timeout']['ko-kr'] = "인사말 또는 확인 매크로를 �
 
 $text['description-ring_back']['en-us'] = "Defines what the caller will hear while the destination is being called.";
 $text['description-ring_back']['en-gb'] = "Defines what the caller will hear while the destination is being called.";
+$text['description-ring_back']['fa'] = "در این قسمت می توانید موزیک انتظار را انتخاب کنید.";
 $text['description-ring_back']['ar-eg'] = "يحدد ما سيسمعه المتصل بينما يتم استدعاء الوجهة";
 $text['description-ring_back']['de-at'] = "Definiert was der Anrufer hört wenn das Ziel angerufen wird.";
 $text['description-ring_back']['de-ch'] = "Definiert was der Anrufer hört wenn das Ziel angerufen wird.";
@@ -1204,6 +1226,7 @@ $text['description-option']['ko-kr'] = "1-5자리 숫자 또는 정규식.";
 
 $text['description-name']['en-us'] = "Enter a name for the IVR menu.";
 $text['description-name']['en-gb'] = "Enter a name for the IVR menu.";
+$text['description-name']['fa'] = "برای این منو یک نام تعریف کنید.";
 $text['description-name']['ar-eg'] = "أدخلي اسم لقائمة الطوارئ";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Automatischen Vermittlung an";
 $text['description-name']['de-ch'] = "Geben Sie den Namen der Automatischen Vermittlung an";
@@ -1228,6 +1251,7 @@ $text['description-name']['ko-kr'] = "IVR 메뉴의 이름을 입력합니다.";
 
 $text['description-max_timeouts']['en-us'] = "Maximum number of timeouts before exit.";
 $text['description-max_timeouts']['en-gb'] = "Maximum number of timeouts before exit.";
+$text['description-max_timeouts']['fa'] = "حداکثر مدت زمان سپری شده قبل از خروج از منو.";
 $text['description-max_timeouts']['ar-eg'] = "أكبر عدد من الوقت قبل الخروج";
 $text['description-max_timeouts']['de-at'] = "Maximale Anzahl an Abwürfen bevor beendet werden soll.";
 $text['description-max_timeouts']['de-ch'] = "Maximale Anzahl an Abwürfen bevor beendet werden soll.";
@@ -1252,6 +1276,7 @@ $text['description-max_timeouts']['ko-kr'] = "종료 전 최대 제한 시간 �
 
 $text['description-max_failures']['en-us'] = "Maximum number of retries before exit.";
 $text['description-max_failures']['en-gb'] = "Maximum number of retries before exit.";
+$text['description-max_failures']['fa'] = "حداکثر تعداد تلاش مجدد برای ورود کلید توسط مخاطب قبل از خروج از منو";
 $text['description-max_failures']['ar-eg'] = "أكبر عدد من الفحوصات قبل الخروج";
 $text['description-max_failures']['de-at'] = "Maximale Anzahl an Widerholungen bevor beendet werden soll.";
 $text['description-max_failures']['de-ch'] = "Maximale Anzahl an Widerholungen bevor beendet werden soll.";
@@ -1301,6 +1326,7 @@ $text['description-ivr_menus']['ko-kr'] = "IVR 메뉴는 발신자에게 선택�
 
 $text['description-ivr_menu']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
 $text['description-ivr_menu']['en-gb'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
+$text['description-ivr_menu']['fa'] = "تعریف منشی خودکار";
 $text['description-ivr_menu']['ar-eg'] = "The IVR (مينو) يعزف تسجيلاً أو عبارة محددة مسبقاً تعرض على المتصل خيارات للاختيار منها ولكل خيار وجهة مقابلة. ويمكن أن تكون الوجهات هي التمديدات، والبريد الصوتي، وأجهزة الاتصال الأخرى، ومجموعات الاتصال، وتمديدات الخدمة الميدانية، والأكثر.";
 $text['description-ivr_menu']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";
 $text['description-ivr_menu']['de-ch'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";
@@ -1325,6 +1351,7 @@ $text['description-ivr_menu']['ko-kr'] = "IVR 메뉴는 발신자에게 선택�
 
 $text['description-invalid_sound']['en-us'] = "Played when and invalid option is chosen.";
 $text['description-invalid_sound']['en-gb'] = "Played when and invalid option is chosen.";
+$text['description-invalid_sound']['fa'] = "زمانی که مخاطب کلیدی اشتباه وارد کند، این فایل پخش خواهد شد.(کلیدی غیر آنچه در بالا مشخص شده است).";
 $text['description-invalid_sound']['ar-eg'] = "يعزف متى ويختار خيار غير صحيح";
 $text['description-invalid_sound']['de-at'] = "Wird abgespielt, falls eine ungültige Option gewählt wird.";
 $text['description-invalid_sound']['de-ch'] = "Wird abgespielt, falls eine ungültige Option gewählt wird.";
@@ -1373,6 +1400,7 @@ $text['description-inter-digit_timeout']['ko-kr'] = "숫자 사이에 대기하�
 
 $text['description-greet_short']['en-us'] = "The short greeting is played when returning to the menu.";
 $text['description-greet_short']['en-gb'] = "The short greeting is played when returning to the menu.";
+$text['description-greet_short']['fa'] = "فایل بازگشتی این منشی خودکار را وارد کنید که درصورت برگشت به این منو، پخش خواهد شد.";
 $text['description-greet_short']['ar-eg'] = "التهنئة القصيرة تتم عند العودة إلى القائمة";
 $text['description-greet_short']['de-at'] = "Die kurze Begrüßung wird abgespielt, wenn der Anrufer zurück zur Automatischen Vermittlung kommt.";
 $text['description-greet_short']['de-ch'] = "Die kurze Begrüßung wird abgespielt, wenn der Anrufer zurück zur Automatischen Vermittlung kommt.";
@@ -1397,6 +1425,7 @@ $text['description-greet_short']['ko-kr'] = "메뉴로 돌아갈 때 짧은 인�
 
 $text['description-greet_long']['en-us'] = "The long greeting is played when entering the menu.";
 $text['description-greet_long']['en-gb'] = "The long greeting is played when entering the menu.";
+$text['description-greet_long']['fa'] = "فایل ابتدایی این منشی خودکار را وارد کنید که بهنگام ورود به این قسمت پخش خواهد شد.";
 $text['description-greet_long']['ar-eg'] = "التهنئة الطويلة تتم عندما تدخل القائمة";
 $text['description-greet_long']['de-at'] = "Die lange Begrüßung wird abgespielt, wenn der Anrufer zum ersten mal zur Automatischen Vermittlung kommt.";
 $text['description-greet_long']['de-ch'] = "Die lange Begrüßung wird abgespielt, wenn der Anrufer zum ersten mal zur Automatischen Vermittlung kommt.";
@@ -1421,6 +1450,7 @@ $text['description-greet_long']['ko-kr'] = "메뉴 진입 시 긴 인사말이 �
 
 $text['description-extension']['en-us'] = "Enter the extension number.";
 $text['description-extension']['en-gb'] = "Enter the extension number.";
+$text['description-extension']['fa'] = "داخلی مورد نظر را وارد کنید.";
 $text['description-extension']['ar-eg'] = "أدخل رقم التمديد";
 $text['description-extension']['de-at'] = "Geben Sie die Nebenstelle ein.";
 $text['description-extension']['de-ch'] = "Geben Sie die Nebenstelle ein.";
@@ -1445,6 +1475,7 @@ $text['description-extension']['ko-kr'] = "내선번호를 입력하세요.";
 
 $text['description-exit_sound']['en-us'] = "Played when leaving the menu.";
 $text['description-exit_sound']['en-gb'] = "Played when leaving the menu.";
+$text['description-exit_sound']['fa'] = "زمانی که مخاطب از منو خارج شود این فایل پخش خواهد شد.";
 $text['description-exit_sound']['ar-eg'] = "لعبت عندما تركت قائمة الطعام";
 $text['description-exit_sound']['de-at'] = "Wird abgespielt, wenn die Automatische Vermittlung verlassen wird.";
 $text['description-exit_sound']['de-ch'] = "Wird abgespielt, wenn die Automatische Vermittlung verlassen wird.";
@@ -1469,6 +1500,7 @@ $text['description-exit_sound']['ko-kr'] = "메뉴를 나갈 때 재생됩니다
 
 $text['description-exit_action']['en-us'] = "Select the exit action to be performed if the IVR exits.";
 $text['description-exit_action']['en-gb'] = "Select the exit action to be performed if the IVR exits.";
+$text['description-exit_action']['fa'] = "مقصد خروج را وارد نمایید (در صورتی که تماس از این منشی خودکار خارج شد)";
 $text['description-exit_action']['ar-eg'] = "(ب) اختيار إجراءات الخروج التي يتعين القيام بها إذا خرجت المحكمة الجنائية الدولية.";
 $text['description-exit_action']['de-at'] = "Wählen Sie eine Aktion bei Verlassen der Automatischen Vermittlung.";
 $text['description-exit_action']['de-ch'] = "Wählen Sie eine Aktion bei Verlassen der Automatischen Vermittlung.";
@@ -1493,6 +1525,7 @@ $text['description-exit_action']['ko-kr'] = "IVR 종료 시 수행할 종료 조
 
 $text['description-enabled']['en-us'] = "Set the status of this IVR Menu.";
 $text['description-enabled']['en-gb'] = "Set the status of this IVR Menu.";
+$text['description-enabled']['fa'] = "فعال/غیرفعال کردن این منشی خودکار.";
 $text['description-enabled']['ar-eg'] = "حددي وضعية هذا الـ (إي آر مينو)";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Automatischen Vermittlung.";
 $text['description-enabled']['de-ch'] = "Setzen Sie den Status dieser Automatischen Vermittlung.";
@@ -1517,6 +1550,7 @@ $text['description-enabled']['ko-kr'] = "이 IVR 메뉴의 상태를 설정합�
 
 $text['description-direct_dial']['en-us'] = "Define whether callers can dial directly to registered extensions.";
 $text['description-direct_dial']['en-gb'] = "Define whether callers can dial directly to registered extensions.";
+$text['description-direct_dial']['fa'] = "فعال/غیرفعال کردن تماس مستقیم با داخلی ها";
 $text['description-direct_dial']['ar-eg'] = "تحديد ما إذا كان يمكن للمتصلين الاتصال مباشرة بالتمديدات المسجلة.";
 $text['description-direct_dial']['de-at'] = "Definieren Sie ob Anrufer direkt zu Nebenstellen durchwählen können.";
 $text['description-direct_dial']['de-ch'] = "Definieren Sie ob Anrufer direkt zu Nebenstellen durchwählen können.";
@@ -1541,6 +1575,7 @@ $text['description-direct_dial']['ko-kr'] = "발신자가 등록된 내선으로
 
 $text['description-digit_length']['en-us'] = "Maximum number of digits allowed.";
 $text['description-digit_length']['en-gb'] = "Maximum number of digits allowed.";
+$text['description-digit_length']['fa'] = "حداکثر طول کلیدی که مخاطب وارد میکند.";
 $text['description-digit_length']['ar-eg'] = "أكبر عدد من الأرقام المسموح بها";
 $text['description-digit_length']['de-at'] = "Maximal erlaubte Länge.";
 $text['description-digit_length']['de-ch'] = "Maximal erlaubte Länge.";
@@ -1685,6 +1720,7 @@ $text['description-comfirm_attempts']['ko-kr'] = "허용되는 최대 확인 시
 
 $text['description-caller_id_name_prefix']['en-us'] = "Set a prefix on the caller ID name.";
 $text['description-caller_id_name_prefix']['en-gb'] = "Set a prefix on the caller ID name.";
+$text['description-caller_id_name_prefix']['fa'] = "یک پیشوند برای نام تماس گیرنده تعریف کنید.";
 $text['description-caller_id_name_prefix']['ar-eg'] = "جهزي قائمة على اسم المتصل";
 $text['description-caller_id_name_prefix']['de-at'] = "Setzen Sie ein Präfix für die Anruferkennung (Name).";
 $text['description-caller_id_name_prefix']['de-ch'] = "Setzen Sie ein Präfix für die Anruferkennung (Name).";

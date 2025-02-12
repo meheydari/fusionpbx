@@ -989,6 +989,7 @@ $text['message-status_set']['ko-kr'] = "상태 설정";
 
 $text['label-wrap_up_time']['en-us'] = "Wrap Up Time";
 $text['label-wrap_up_time']['en-gb'] = "Wrap Up Time";
+$text['label-wrap_up_time']['fa'] = "استراحت اپراتور";
 $text['label-wrap_up_time']['ar-eg'] = "وقت الختام";
 $text['label-wrap_up_time']['de-at'] = "Nachbereitungszeit";
 $text['label-wrap_up_time']['de-ch'] = "Nachbereitungszeit";
@@ -1333,6 +1334,7 @@ $text['label-status']['ko-kr'] = "상태";
 
 $text['label-reject_delay_time']['en-us'] = "Reject Delay Time";
 $text['label-reject_delay_time']['en-gb'] = "Reject Delay Time";
+$text['label-reject_delay_time']['fa'] = "تاخیر در اتصال درصورت رد کردن تماس";
 $text['label-reject_delay_time']['ar-eg'] = "رفض وقت التأخير";
 $text['label-reject_delay_time']['de-at'] = "Zeitverzögerung für Zeitüberschreitung";
 $text['label-reject_delay_time']['de-ch'] = "Zeitverzögerung für Zeitüberschreitung";
@@ -1480,6 +1482,7 @@ $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-no_answer_delay_time']['en-us'] = "No Answer Delay Time";
 $text['label-no_answer_delay_time']['en-gb'] = "No Answer Delay Time";
+$text['label-no_answer_delay_time']['fa'] = "تاخیر در اتصال درصورت عدم پاسخ";
 $text['label-no_answer_delay_time']['ar-eg'] = "لا وقت تأخير الرد";
 $text['label-no_answer_delay_time']['de-at'] = "Verzögerung für keine Antwort";
 $text['label-no_answer_delay_time']['de-ch'] = "Verzögerung für keine Antwort";
@@ -1704,7 +1707,7 @@ $text['label-default_status']['ko-kr'] = "기본 상태";
 
 $text['label-contact']['en-us'] = "Contact";
 $text['label-contact']['en-gb'] = "Contact";
-$text['label-contact']['fa'] = "جزییات";
+$text['label-contact']['fa'] = "داخلی";
 $text['label-contact']['ar-eg'] = "اتصال";
 $text['label-contact']['de-at'] = "Kontakt";
 $text['label-contact']['de-ch'] = "Kontakt";
@@ -1975,7 +1978,7 @@ $text['description-queue_email_address']['ko-kr'] = "알림 이메일 주소.";
 
 $text['label-call_timeout']['en-us'] = "Call Timeout";
 $text['label-call_timeout']['en-gb'] = "Call Timeout";
-$text['label-call_timeout']['fa'] = "میزان زنگ خوردن";
+$text['label-call_timeout']['fa'] = "مدت زمان زنگ خوردن";
 $text['label-call_timeout']['ar-eg'] = "مهلة الاتصال";
 $text['label-call_timeout']['de-at'] = "Zeitüberschreitung";
 $text['label-call_timeout']['de-ch'] = "Zeitüberschreitung";
@@ -2000,6 +2003,7 @@ $text['label-call_timeout']['ko-kr'] = "통화 시간 초과";
 
 $text['label-busy_delay_time']['en-us'] = "Busy Delay Time";
 $text['label-busy_delay_time']['en-gb'] = "Busy Delay Time";
+$text['label-busy_delay_time']['fa'] = "تاخیر در اتصال درصورت مشغولی";
 $text['label-busy_delay_time']['ar-eg'] = "وقت التأخير مشغول";
 $text['label-busy_delay_time']['de-at'] = "Verzögerungszeit für Besetzt";
 $text['label-busy_delay_time']['de-ch'] = "Verzögerungszeit für Besetzt";
@@ -2024,6 +2028,7 @@ $text['label-busy_delay_time']['ko-kr'] = "바쁜 지연 시간";
 
 $text['label-agent_password']['en-us'] = "Agent Password";
 $text['label-agent_password']['en-gb'] = "Agent Password";
+$text['label-agent_password']['fa'] = "پسورد اپراتور";
 $text['label-agent_password']['ar-eg'] = "كلمة مرور الوكيل";
 $text['label-agent_password']['de-at'] = "Agenten Passwort";
 $text['label-agent_password']['de-ch'] = "Agenten Passwort";
@@ -2097,7 +2102,7 @@ $text['label-agent_logout']['ko-kr'] = "에이전트 로그아웃";
 
 $text['label-agent_id']['en-us'] = "Agent ID";
 $text['label-agent_id']['en-gb'] = "Agent ID";
-$text['label-agent_id']['fa'] = "شناسه اپراتور";
+$text['label-agent_id']['fa'] = "شناسه اپراتوری";
 $text['label-agent_id']['ar-eg'] = "معرف الوكيل";
 $text['label-agent_id']['de-at'] = "Agenten ID";
 $text['label-agent_id']['de-ch'] = "Agenten ID";
@@ -2390,6 +2395,7 @@ $text['header-call_center_agent_add']['ko-kr'] = "콜센터 상담원";
 
 $text['description-wrap_up_time']['en-us'] = "The amount of time to wait before putting the agent back in the available queue to receive another call, to allow them to complete notes or other tasks.";
 $text['description-wrap_up_time']['en-gb'] = "The amount of time to wait before putting the agent back in the available queue to receive another call, to allow them to complete notes or other tasks.";
+$text['description-wrap_up_time']['fa'] = "مدت زمان استراحت کاربر (به ثانیه) بعد از پایان آخرین تماس وصل شده را در فیلد بالا وارد کنید.";
 $text['description-wrap_up_time']['ar-eg'] = "أدخل وقت الانتهاء.";
 $text['description-wrap_up_time']['de-at'] = "Geben Sie die Nachbereitungszeit ein.";
 $text['description-wrap_up_time']['de-ch'] = "Geben Sie die Nachbereitungszeit ein.";
@@ -2414,6 +2420,7 @@ $text['description-wrap_up_time']['ko-kr'] = "마무리 시간을 입력합니�
 
 $text['description-type']['en-us'] = "Enter the agent type.";
 $text['description-type']['en-gb'] = "Enter the agent type.";
+$text['description-type']['fa'] = "در اینجا نحوه ی دسترسی به اپراتور را مشخص کنید. مقدار callback برای استفاده از داخلی اپراتور و مقدار uuid-standby برای استفاده از uuid اپراتور می باشد.(حالت دوم در مرکز تماس کاربرد دارد که اپراتور به صف لاگین میکند و منتظر دریافت یک تماس میباشد).";
 $text['description-type']['ar-eg'] = "أدخل نوع الوكيل.";
 $text['description-type']['de-at'] = "Geben Sie den Agenten Typ an.";
 $text['description-type']['de-ch'] = "Geben Sie den Agenten Typ an.";
@@ -2711,6 +2718,7 @@ $text['description-strategy']['ko-kr'] = "대기열 링 전략을 선택합니�
 
 $text['description-status']['en-us'] = "Select the default agent status. Recommend leaving the status empty as it will keep the last known status after the service is restarted.";
 $text['description-status']['en-gb'] = "Select the default agent status. Recommend leaving the status empty as it will keep the last known status after the service is restarted.";
+$text['description-status']['fa'] = "وضعیت پیش فرض و فعلی اپراتور را انتخاب کنید. پیشنهاد میشود که این را خالی بگذارید تا بعد از ریست سرویس آخرین وضعیت نمایش داده شود.";
 $text['description-status']['ar-eg'] = "حدد حالة الوكيل الافتراضية.";
 $text['description-status']['de-at'] = "Standard Benutzerstatus auswählen.";
 $text['description-status']['de-ch'] = "Standard Benutzerstatus auswählen.";
@@ -2735,6 +2743,7 @@ $text['description-status']['ko-kr'] = "기본 상담원 상태를 선택합니�
 
 $text['description-reject_delay_time']['en-us'] = "If the agent presses the reject button on their phone, wait this defined time amount in seconds.";
 $text['description-reject_delay_time']['en-gb'] = "If the agent presses the reject button on their phone, wait this defined time amount in seconds.";
+$text['description-reject_delay_time']['fa'] = "چنانچه اپراتور تماسی را رد کند، به مدت زمان مشخص شده در فیلد بالا ، تماسی به وی متصل نخواهد شد  بعد از سپری شدن این زمان تماس ها به سمت اپراتور جاری خواهند شد.";
 $text['description-reject_delay_time']['ar-eg'] = "أدخل وقت تأخير الرفض.";
 $text['description-reject_delay_time']['de-at'] = "Geben Sie die Verzögerung bis zur Zurückweisung an.";
 $text['description-reject_delay_time']['de-ch'] = "Geben Sie die Verzögerung bis zur Zurückweisung an.";
@@ -2834,6 +2843,7 @@ $text['description-options']['ko-kr'] = "대기열 이름을 선택합니다.";
 $text['description-no_answer_delay_time']['en-us'] = "Enter the agent no answer delay time in seconds. How long the system will wait before reattempting a call to an agent who has not answered.";
 $text['description-no_answer_delay_time']['en-gb'] = "Enter the agent no answer delay time in seconds. How long the system will wait before reattempting a call to an agent who has not answered.";
 $text['description-no_answer_delay_time']['ar-eg'] = "أدخل الوكيل أي وقت تأخير الرد بالثواني.";
+$text['description-no_answer_delay_time']['fa'] = "چنانچه اپراتور تماسی را پاسخ ندهد، به مدت زمان مشخص شده در فیلد بالا ، تماسی به وی متصل نخواهد شد  بعد از سپری شدن این زمان تماس ها به سمت اپراتور جاری خواهند شد.";
 $text['description-no_answer_delay_time']['de-at'] = "Geben Sie die Zeit in Sekunden an, die gewartet werden soll bis ein Agent annimmt.";
 $text['description-no_answer_delay_time']['de-ch'] = "Geben Sie die Zeit in Sekunden an, die gewartet werden soll bis ein Agent annimmt.";
 $text['description-no_answer_delay_time']['de-de'] = "Geben Sie die Zeit in Sekunden an, die gewartet werden soll bis ein Agent annimmt.";
@@ -2957,6 +2967,7 @@ $text['description-max_wait_time']['ko-kr'] = "최대 대기 시간을 입력합
 
 $text['description-max_no_answer']['en-us'] = "If the agent fails to answer calls this number of times, their status is changed to 'On Break' automatically.";
 $text['description-max_no_answer']['en-gb'] = "If the agent fails to answer calls this number of times, their status is changed to 'On Break' automatically.";
+$text['description-max_no_answer']['fa'] = 'چنانچه تعداد تماس های بی پاسخ اپراتور، به عدد بالا برسد وضعیت داخلی به "در حال استراحت" تغییر کرده و تماسی به وی وصل نخواهد شد.';
 $text['description-max_no_answer']['ar-eg'] = "في حالة عدم وجود إجابة بحد أقصى ، ستتغير حالة الوكيل إلى عند الاستراحة.";
 $text['description-max_no_answer']['de-at'] = "Geben Sie Max keine Antwort an.";
 $text['description-max_no_answer']['de-ch'] = "Geben Sie Max keine Antwort an.";
@@ -3031,6 +3042,7 @@ $text['description-discard_abandoned_after']['ko-kr'] = "초 후에 버려진 �
 
 $text['description-contact']['en-us'] = "Select the contact number.";
 $text['description-contact']['en-gb'] = "Select the contact number.";
+$text['description-contact']['fa'] = "داخلی مربوط به اپراتور را انتخاب نمایید.";
 $text['description-contact']['ar-eg'] = "حدد رقم الاتصال.";
 $text['description-contact']['de-at'] = "Wählen Sie die Kontakt Nummer.";
 $text['description-contact']['de-ch'] = "Wählen Sie die Kontakt Nummer.";
@@ -3226,6 +3238,7 @@ $text['description-caller_announce_frequency']['ko-kr'] = "아나운스 사운�
 
 $text['description-call_timeout']['en-us'] = "Enter the call timeout.";
 $text['description-call_timeout']['en-gb'] = "Enter the call timeout.";
+$text['description-call_timeout']['fa'] = "میزان زنگ خوزدن این اپراتور را بر حسب ثانیه در این فیلد وارد نمایید.";
 $text['description-call_timeout']['ar-eg'] = "أدخل مهلة المكالمة.";
 $text['description-call_timeout']['de-at'] = "Geben Sie den Wert für die Zeitüberschreitung an.";
 $text['description-call_timeout']['de-ch'] = "Geben Sie den Wert für die Zeitüberschreitung an.";
@@ -3324,6 +3337,7 @@ $text['description-call_center_agent_status']['ko-kr'] = "하나 이상의 상�
 
 $text['description-busy_delay_time']['en-us'] = "If a busy response is received then wait for the delay time in seconds before calling the agent again.";
 $text['description-busy_delay_time']['en-gb'] = "If a busy response is received then wait for the delay time in seconds before calling the agent again.";
+$text['description-busy_delay_time']['fa'] = "چنانچه اپراتور مشغول باشد، به مدت زمان مشخص شده در فیلد بالا ، تماسی به وی متصل نخواهد شد  بعد از سپری شدن این زمان تماس ها به سمت اپراتور جاری خواهند شد.";
 $text['description-busy_delay_time']['ar-eg'] = "أدخل العميل مشغول بالوقت المتأخر";
 $text['description-busy_delay_time']['de-at'] = "Geben Sie eine Wartezeit für den Agenten an.";
 $text['description-busy_delay_time']['de-ch'] = "Geben Sie eine Wartezeit für den Agenten an.";
@@ -3348,6 +3362,7 @@ $text['description-busy_delay_time']['ko-kr'] = "상담원 통화 지연 시간�
 
 $text['description-agent_password']['en-us'] = "Enter the agent password.";
 $text['description-agent_password']['en-gb'] = "Enter the agent password.";
+$text['description-agent_password']['fa'] = "پسورد اپراتور را وارد نمایید.";
 $text['description-agent_password']['ar-eg'] = "أدخل كلمة مرور الوكيل.";
 $text['description-agent_password']['de-at'] = "Geben Sie ein Agenten Passwort ein";
 $text['description-agent_password']['de-ch'] = "Geben Sie ein Agenten Passwort ein";
@@ -3372,6 +3387,7 @@ $text['description-agent_password']['ko-kr'] = "에이전트 비밀번호를 입
 
 $text['description-agent_name']['en-us'] = "Select the agent name.";
 $text['description-agent_name']['en-gb'] = "Select the agent name.";
+$text['description-agent_name']['fa'] = "نام اپراتور را وارد کنید.";
 $text['description-agent_name']['ar-eg'] = "حدد اسم الوكيل.";
 $text['description-agent_name']['de-at'] = "Wählen Sie einen Agentennamen.";
 $text['description-agent_name']['de-ch'] = "Wählen Sie einen Agentennamen.";
@@ -3420,6 +3436,7 @@ $text['description-agent_logout']['ko-kr'] = "자동 에이전트 로그아웃 �
 
 $text['description-agent_id']['en-us'] = "Enter the agent ID.";
 $text['description-agent_id']['en-gb'] = "Enter the agent ID.";
+$text['description-agent_id']['fa'] = "شناسه اپراتور را وارد نمایید.";
 $text['description-agent_id']['ar-eg'] = "أدخل معرف الوكيل.";
 $text['description-agent_id']['de-at'] = "Wählen Sie eine Agenten ID.";
 $text['description-agent_id']['de-ch'] = "Wählen Sie eine Agenten ID.";

@@ -854,6 +854,7 @@ $text['option-pager']['ko-kr'] = "휴대용 소형 무선 호출기";
 
 $text['option-other']['en-us'] = "Other";
 $text['option-other']['en-gb'] = "Other";
+$text['option-other']['fa'] = "سایر";
 $text['option-other']['ar-eg'] = "آخر";
 $text['option-other']['de-at'] = "Andere";
 $text['option-other']['de-ch'] = "Andere";
@@ -1803,6 +1804,7 @@ $text['label-urls']['ko-kr'] = "URLs";
 
 $text['label-url_label']['en-us'] = "Label";
 $text['label-url_label']['en-gb'] = "Label";
+$text['label-url_label']['fa'] = "برچسب";
 $text['label-url_label']['ar-eg'] = "ملصق";
 $text['label-url_label']['de-at'] = "Kennzeichnung";
 $text['label-url_label']['de-ch'] = "Kennzeichnung";
@@ -1828,6 +1830,7 @@ $text['label-url_label']['ko-kr'] = "상표";
 
 $text['label-url_description']['en-us'] = "Description";
 $text['label-url_description']['en-gb'] = "Description";
+$text['label-url_description']['fa'] = "توضیحات";
 $text['label-url_description']['ar-eg'] = "وصف";
 $text['label-url_description']['de-at'] = "Beschreibung";
 $text['label-url_description']['de-ch'] = "Beschreibung";
@@ -1853,6 +1856,7 @@ $text['label-url_description']['ko-kr'] = "설명";
 
 $text['label-url_address']['en-us'] = "Address";
 $text['label-url_address']['en-gb'] = "Address";
+$text['label-url_address']['fa'] = "آدرس";
 $text['label-url_address']['ar-eg'] = "عنوان";
 $text['label-url_address']['de-at'] = "Adresse";
 $text['label-url_address']['de-ch'] = "Adresse";
@@ -2053,6 +2057,7 @@ $text['label-time_duration']['ko-kr'] = "지속";
 
 $text['label-time_description']['en-us'] = "Description";
 $text['label-time_description']['en-gb'] = "Description";
+$text['label-time_description']['fa'] = "توضیحات";
 $text['label-time_description']['ar-eg'] = "وصف";
 $text['label-time_description']['de-at'] = "Beschreibung";
 $text['label-time_description']['de-ch'] = "Beschreibung";
@@ -2128,6 +2133,7 @@ $text['label-shared']['ko-kr'] = "공유";
 
 $text['label-phone_label']['en-us'] = "Label";
 $text['label-phone_label']['en-gb'] = "Label";
+$text['label-phone_label']['fa'] = "برچسب";
 $text['label-phone_label']['ar-eg'] = "ملصق";
 $text['label-phone_label']['de-at'] = "Kennzeichnung";
 $text['label-phone_label']['de-ch'] = "Kennzeichnung";
@@ -2204,6 +2210,7 @@ $text['label-phone_tools']['ko-kr'] = "도구";
 
 $text['label-phone_speed_dial']['en-us'] = "Speed Dial";
 $text['label-phone_speed_dial']['en-gb'] = "Speed Dial";
+$text['label-phone_speed_dial']['fa'] = "کد شماره گیری سریع";
 $text['label-phone_speed_dial']['ar-eg'] = "اتصال سريع";
 $text['label-phone_speed_dial']['de-at'] = "Kurzwahl";
 $text['label-phone_speed_dial']['de-ch'] = "Kurzwahl";
@@ -2229,6 +2236,7 @@ $text['label-phone_speed_dial']['ko-kr'] = "단축 다이얼";
 
 $text['label-phone_country_code']['en-us'] = "Country Code";
 $text['label-phone_country_code']['en-gb'] = "Country Code";
+$text['label-phone_country_code']['fa'] = "کد کشور";
 $text['label-phone_country_code']['ar-eg'] = "الرقم الدولي";
 $text['label-phone_country_code']['de-at'] = "Landesvorwahl";
 $text['label-phone_country_code']['de-ch'] = "Landesvorwahl";
@@ -2254,6 +2262,7 @@ $text['label-phone_country_code']['ko-kr'] = "국가 코드";
 
 $text['label-phone_numbers']['en-us'] = "Numbers";
 $text['label-phone_numbers']['en-gb'] = "Numbers";
+$text['label-phone_numbers']['fa'] = "شماره";
 $text['label-phone_numbers']['ar-eg'] = "أعداد";
 $text['label-phone_numbers']['de-at'] = "Nummern";
 $text['label-phone_numbers']['de-ch'] = "Nummern";
@@ -2279,6 +2288,7 @@ $text['label-phone_numbers']['ko-kr'] = "숫자";
 
 $text['label-phone_number']['en-us'] = "Number";
 $text['label-phone_number']['en-gb'] = "Number";
+$text['label-phone_number']['fa'] = "شماره تماس";
 $text['label-phone_number']['ar-eg'] = "رقم";
 $text['label-phone_number']['de-at'] = "Nummer";
 $text['label-phone_number']['de-ch'] = "Nummer";
@@ -2304,6 +2314,7 @@ $text['label-phone_number']['ko-kr'] = "숫자";
 
 $text['label-phone_extension']['en-us'] = "Extension";
 $text['label-phone_extension']['en-gb'] = "Extension";
+$text['label-phone_extension']['fa'] = "داخلی";
 $text['label-phone_extension']['ar-eg'] = "امتداد";
 $text['label-phone_extension']['de-at'] = "Nebenstelle";
 $text['label-phone_extension']['de-ch'] = "Nebenstelle";
@@ -2329,6 +2340,7 @@ $text['label-phone_extension']['ko-kr'] = "확대";
 
 $text['label-primary']['en-us'] = "Primary";
 $text['label-primary']['en-gb'] = "Primary";
+$text['label-primary']['fa'] = "شماره اصلی";
 $text['label-primary']['ar-eg'] = "أساسي";
 $text['label-primary']['de-at'] = "Primär";
 $text['label-primary']['de-ch'] = "Primär";
@@ -2354,6 +2366,7 @@ $text['label-primary']['ko-kr'] = "주요한";
 
 $text['label-phone_description']['en-us'] = "Description";
 $text['label-phone_description']['en-gb'] = "Description";
+$text['label-phone_description']['fa'] = "توضیحات";
 $text['label-phone_description']['ar-eg'] = "وصف";
 $text['label-phone_description']['de-at'] = "Beschreibung";
 $text['label-phone_description']['de-ch'] = "Beschreibung";
@@ -2782,6 +2795,7 @@ $text['label-false']['ko-kr'] = "거짓";
 
 $text['label-extension']['en-us'] = "Extension";
 $text['label-extension']['en-gb'] = "Extension";
+$text['label-extension']['fa'] = "داخلی";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Durchwahl";
 $text['label-extension']['de-ch'] = "Durchwahl";
@@ -2857,6 +2871,7 @@ $text['label-emails']['ko-kr'] = "이메일";
 
 $text['label-email_label']['en-us'] = "Label";
 $text['label-email_label']['en-gb'] = "Label";
+$text['label-email_label']['fa'] = "برچسب";
 $text['label-email_label']['ar-eg'] = "ملصق";
 $text['label-email_label']['de-at'] = "Kennzeichnung";
 $text['label-email_label']['de-ch'] = "Kennzeichnung";
@@ -2882,6 +2897,7 @@ $text['label-email_label']['ko-kr'] = "상표";
 
 $text['label-email_description']['en-us'] = "Description";
 $text['label-email_description']['en-gb'] = "Description";
+$text['label-email_description']['fa'] = "توضیحات";
 $text['label-email_description']['ar-eg'] = "وصف";
 $text['label-email_description']['de-at'] = "Beschreibung";
 $text['label-email_description']['de-ch'] = "Beschreibung";
@@ -2907,6 +2923,7 @@ $text['label-email_description']['ko-kr'] = "설명";
 
 $text['label-email_address']['en-us'] = "Address";
 $text['label-email_address']['en-gb'] = "Address";
+$text['label-email_address']['fa'] = "آدرس ایمیل";
 $text['label-email_address']['ar-eg'] = "عنوان";
 $text['label-email_address']['de-at'] = "Email-Adresse";
 $text['label-email_address']['de-ch'] = "Email-Adresse";
@@ -2932,6 +2949,7 @@ $text['label-email_address']['ko-kr'] = "주소";
 
 $text['label-description']['en-us'] = "Description";
 $text['label-description']['en-gb'] = "Description";
+$text['label-description']['fa'] = "توضیحات";
 $text['label-description']['ar-eg'] = "وصف";
 $text['label-description']['de-at'] = "Beschreibung";
 $text['label-description']['de-ch'] = "Beschreibung";
@@ -2982,6 +3000,7 @@ $text['label-contacts_import_google_account']['ko-kr'] = "계정";
 
 $text['label-contact_url']['en-us'] = "URL";
 $text['label-contact_url']['en-gb'] = "URL";
+$text['label-contact_url']['fa'] = "لینک";
 $text['label-contact_url']['ar-eg'] = "URL";
 $text['label-contact_url']['de-at'] = "URL";
 $text['label-contact_url']['de-ch'] = "URL";
@@ -3007,6 +3026,7 @@ $text['label-contact_url']['ko-kr'] = "URL";
 
 $text['label-contact_type']['en-us'] = "Type";
 $text['label-contact_type']['en-gb'] = "Type";
+$text['label-contact_type']['fa'] = "نوع";
 $text['label-contact_type']['ar-eg'] = "يكتب";
 $text['label-contact_type']['de-at'] = "Art";
 $text['label-contact_type']['de-ch'] = "Art";
@@ -3058,6 +3078,7 @@ $text['label-contact_title']['ko-kr'] = "제목";
 
 $text['label-contact_time_zone']['en-us'] = "Time Zone";
 $text['label-contact_time_zone']['en-gb'] = "Time Zone";
+$text['label-contact_time_zone']['en-gb'] = "تایم زون";
 $text['label-contact_time_zone']['ar-eg'] = "وحدة زمنية";
 $text['label-contact_time_zone']['de-at'] = "Zeitzone";
 $text['label-contact_time_zone']['de-ch'] = "Zeitzone";
@@ -3133,6 +3154,7 @@ $text['label-contact_setting_value']['ko-kr'] = "값";
 
 $text['label-contact_setting_type']['en-us'] = "Type";
 $text['label-contact_setting_type']['en-gb'] = "Type";
+$text['label-contact_setting_type']['fa'] = "نوع";
 $text['label-contact_setting_type']['ar-eg'] = "يكتب";
 $text['label-contact_setting_type']['de-at'] = "Art";
 $text['label-contact_setting_type']['de-ch'] = "Art";
@@ -3183,6 +3205,7 @@ $text['label-contact_setting_subcategory']['ko-kr'] = "하위 카테고리";
 
 $text['label-contact_setting_category']['en-us'] = "Category";
 $text['label-contact_setting_category']['en-gb'] = "Category";
+$text['label-contact_setting_category']['fa'] = "گروه";
 $text['label-contact_setting_category']['ar-eg'] = "فئة";
 $text['label-contact_setting_category']['de-at'] = "Kategorie";
 $text['label-contact_setting_category']['de-ch'] = "Kategorie";
@@ -3485,6 +3508,7 @@ $text['label-contact_relation_name']['ko-kr'] = "이름";
 
 $text['label-contact_relation_label']['en-us'] = "Relation";
 $text['label-contact_relation_label']['en-gb'] = "Relation";
+$text['label-contact_relation_label']['fa'] = "نسبت";
 $text['label-contact_relation_label']['ar-eg'] = "علاقة";
 $text['label-contact_relation_label']['de-at'] = "Beziehung";
 $text['label-contact_relation_label']['de-ch'] = "Beziehung";
@@ -3510,6 +3534,7 @@ $text['label-contact_relation_label']['ko-kr'] = "관계";
 
 $text['label-contact_relation_contact']['en-us'] = "Contact";
 $text['label-contact_relation_contact']['en-gb'] = "Contact";
+$text['label-contact_relation_contact']['fa'] = "مشترک";
 $text['label-contact_relation_contact']['ar-eg'] = "اتصال";
 $text['label-contact_relation_contact']['de-at'] = "Kontakt";
 $text['label-contact_relation_contact']['de-ch'] = "Kontakt";
@@ -3560,6 +3585,7 @@ $text['label-contact_organization']['ko-kr'] = "조직";
 
 $text['label-contact_notes']['en-us'] = "Notes";
 $text['label-contact_notes']['en-gb'] = "Notes";
+$text['label-contact_notes']['fa'] = "توضیحات";
 $text['label-contact_notes']['ar-eg'] = "ملحوظات";
 $text['label-contact_notes']['de-at'] = "Notizen";
 $text['label-contact_notes']['de-ch'] = "Notizen";
@@ -3585,6 +3611,7 @@ $text['label-contact_notes']['ko-kr'] = "노트";
 
 $text['label-contact_note']['en-us'] = "Note";
 $text['label-contact_note']['en-gb'] = "Note";
+$text['label-contact_note']['fa'] = "توضیحات";
 $text['label-contact_note']['ar-eg'] = "ملحوظة";
 $text['label-contact_note']['de-at'] = "Notiz";
 $text['label-contact_note']['de-ch'] = "Notiz";
@@ -3636,6 +3663,7 @@ $text['label-contact_nickname']['ko-kr'] = "별명";
 
 $text['label-contact_name_suffix']['en-us'] = "Suffix";
 $text['label-contact_name_suffix']['en-gb'] = "Suffix";
+$text['label-contact_name_suffix']['en-gb'] = "پسوند";
 $text['label-contact_name_suffix']['ar-eg'] = "لاحقة";
 $text['label-contact_name_suffix']['de-at'] = "Nachsilbe";
 $text['label-contact_name_suffix']['de-ch'] = "Nachsilbe";
@@ -3661,6 +3689,7 @@ $text['label-contact_name_suffix']['ko-kr'] = "접미사";
 
 $text['label-contact_name_prefix']['en-us'] = "Prefix";
 $text['label-contact_name_prefix']['en-gb'] = "Prefix";
+$text['label-contact_name_prefix']['fa'] = "پیشوند";
 $text['label-contact_name_prefix']['ar-eg'] = "بادئة";
 $text['label-contact_name_prefix']['de-at'] = "Vorsilbe";
 $text['label-contact_name_prefix']['de-ch'] = "Vorsilbe";
@@ -3686,6 +3715,7 @@ $text['label-contact_name_prefix']['ko-kr'] = "접두사";
 
 $text['label-contact_name_middle']['en-us'] = "Middle";
 $text['label-contact_name_middle']['en-gb'] = "Middle";
+$text['label-contact_name_middle']['fa'] = "نام میانی";
 $text['label-contact_name_middle']['ar-eg'] = "وسط";
 $text['label-contact_name_middle']['de-at'] = "Mittel";
 $text['label-contact_name_middle']['de-ch'] = "Mittel";
@@ -3837,6 +3867,7 @@ $text['label-contact_extensions']['ko-kr'] = "확장 프로그램";
 
 $text['label-contact_email']['en-us'] = "Email";
 $text['label-contact_email']['en-gb'] = "Email";
+$text['label-contact_email']['fa'] = "ایمیل";
 $text['label-contact_email']['ar-eg'] = "بريد إلكتروني";
 $text['label-contact_email']['de-at'] = "Email";
 $text['label-contact_email']['de-ch'] = "Email";
@@ -3887,6 +3918,7 @@ $text['label-contact_category']['ko-kr'] = "범주";
 
 $text['label-addresses']['en-us'] = "Addresses";
 $text['label-addresses']['en-gb'] = "Addresses";
+$text['label-addresses']['fa'] = "آدرس";
 $text['label-addresses']['ar-eg'] = "عناوين";
 $text['label-addresses']['de-at'] = "Adresse";
 $text['label-addresses']['de-ch'] = "Adresse";
@@ -3912,6 +3944,7 @@ $text['label-addresses']['ko-kr'] = "구애";
 
 $text['label-address_type']['en-us'] = "Type";
 $text['label-address_type']['en-gb'] = "Type";
+$text['label-address_type']['fa'] = "نوع";
 $text['label-address_type']['ar-eg'] = "يكتب";
 $text['label-address_type']['de-at'] = "Art";
 $text['label-address_type']['de-ch'] = "Art";
@@ -3962,6 +3995,7 @@ $text['label-address_tools']['ko-kr'] = "도구";
 
 $text['label-address_region']['en-us'] = "Region";
 $text['label-address_region']['en-gb'] = "Region";
+$text['label-address_region']['fa'] = "منطقه";
 $text['label-address_region']['ar-eg'] = "منطقة";
 $text['label-address_region']['de-at'] = "Region";
 $text['label-address_region']['de-ch'] = "Region";
@@ -3987,6 +4021,7 @@ $text['label-address_region']['ko-kr'] = "지역";
 
 $text['label-address_postal_code']['en-us'] = "Postal Code";
 $text['label-address_postal_code']['en-gb'] = "Postal Code";
+$text['label-address_postal_code']['fa'] = "کد پستی";
 $text['label-address_postal_code']['ar-eg'] = "رمز بريدي";
 $text['label-address_postal_code']['de-at'] = "PLZ";
 $text['label-address_postal_code']['de-ch'] = "PLZ";
@@ -4037,6 +4072,7 @@ $text['label-address_longitude']['ko-kr'] = "경도";
 
 $text['label-address_locality']['en-us'] = "City";
 $text['label-address_locality']['en-gb'] = "City";
+$text['label-address_locality']['fa'] = "شهر";
 $text['label-address_locality']['ar-eg'] = "مدينة";
 $text['label-address_locality']['de-at'] = "Stadt";
 $text['label-address_locality']['de-ch'] = "Stadt";
@@ -4087,6 +4123,7 @@ $text['label-address_latitude']['ko-kr'] = "위도";
 
 $text['label-address_label']['en-us'] = "Label";
 $text['label-address_label']['en-gb'] = "Label";
+$text['label-address_label']['fa'] = "برچسب";
 $text['label-address_label']['ar-eg'] = "ملصق";
 $text['label-address_label']['de-at'] = "Kennzeichnung";
 $text['label-address_label']['de-ch'] = "Kennzeichnung";
@@ -4112,6 +4149,7 @@ $text['label-address_label']['ko-kr'] = "상표";
 
 $text['label-address_description']['en-us'] = "Description";
 $text['label-address_description']['en-gb'] = "Description";
+$text['label-address_description']['fa'] = "توضیحات";
 $text['label-address_description']['ar-eg'] = "وصف";
 $text['label-address_description']['de-at'] = "Beschreibung";
 $text['label-address_description']['de-ch'] = "Beschreibung";
@@ -4137,6 +4175,7 @@ $text['label-address_description']['ko-kr'] = "설명";
 
 $text['label-address_country']['en-us'] = "Country";
 $text['label-address_country']['en-gb'] = "Country";
+$text['label-address_country']['fa'] = "کشور";
 $text['label-address_country']['ar-eg'] = "دولة";
 $text['label-address_country']['de-at'] = "Land";
 $text['label-address_country']['de-ch'] = "Land";
@@ -4312,6 +4351,7 @@ $text['label-attachment_size']['ko-kr'] = "크기";
 
 $text['label-attachment_description']['en-us'] = "Description";
 $text['label-attachment_description']['en-gb'] = "Description";
+$text['label-attachment_description']['fa'] = "توضیحات";
 $text['label-attachment_description']['ar-eg'] = "وصف";
 $text['label-attachment_description']['de-at'] = "Beschreibung";
 $text['label-attachment_description']['de-ch'] = "Beschreibung";
@@ -4888,6 +4928,7 @@ $text['header-contact_attachment-add']['ko-kr'] = "연락처 첨부 추가";
 
 $text['header-contact-edit']['en-us'] = "Contact";
 $text['header-contact-edit']['en-gb'] = "Contact";
+$text['header-contact-edit']['fa'] = "مشترک";
 $text['header-contact-edit']['ar-eg'] = "اتصال";
 $text['header-contact-edit']['de-at'] = "Kontakt";
 $text['header-contact-edit']['de-ch'] = "Kontakt";
@@ -6369,6 +6410,7 @@ $text['description-contact-edit']['ko-kr'] = "연락처는 개인 및 조직의 
 
 $text['description-contact-add']['en-us'] = "The contact is a list of individuals and organizations.";
 $text['description-contact-add']['en-gb'] = "The contact is a list of individuals and organizations.";
+$text['description-contact-add']['fa'] = "دفترچه تلفن ، لیستی از اطلاعات افراد و شرکت ها می باشد.";
 $text['description-contact-add']['ar-eg'] = "جهة الاتصال هي قائمة الأفراد والمنظمات.";
 $text['description-contact-add']['de-at'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";
 $text['description-contact-add']['de-ch'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";
@@ -7267,6 +7309,7 @@ $text['label-setting']['ko-kr'] = "환경";
 
 $text['label-email']['en-us'] = "Email";
 $text['label-email']['en-gb'] = "Email";
+$text['label-email']['fa'] = "ایمیل";
 $text['label-email']['ar-eg'] = "البريد الإليكتروني";
 $text['label-email']['de-at'] = "Email";
 $text['label-email']['de-ch'] = "Email";
@@ -7290,6 +7333,7 @@ $text['label-email']['ja-jp'] = "Eメール";
 $text['label-email']['ko-kr'] = "이메일";
 
 $text['label-url']['en-us'] = "URL";
+$text['label-url']['fa'] = "لینک";
 $text['label-url']['en-gb'] = "URL";
 $text['label-url']['ar-eg'] = "URL";
 $text['label-url']['de-at'] = "URL";
@@ -7384,6 +7428,7 @@ $text['label-properties']['ko-kr'] = "속성";
 
 $text['label-contact']['en-us'] = "Contact";
 $text['label-contact']['en-gb'] = "Contact";
+$text['label-contact']['fa'] = "مشترک";
 $text['label-contact']['ar-eg'] = "اتصال";
 $text['label-contact']['de-at'] = "Kontakt";
 $text['label-contact']['de-ch'] = "Kontakt";

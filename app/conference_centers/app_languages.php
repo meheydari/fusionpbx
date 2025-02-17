@@ -77,6 +77,7 @@ $text['title_description-conference_centers']['ko-kr'] = "컨퍼런스 센터는
 
 $text['title_description-conference_rooms']['en-us'] = "Conference Rooms are individual meeting places within a Conference Center.";
 $text['title_description-conference_rooms']['en-gb'] = "Conference Rooms are individual meeting places within a Conference Center.";
+$text['title_description-conference_rooms']['fa'] = " اتاق های کنفرانس، جلسات مجزای درون یک مرکز کنفرانس می باشند.";
 $text['title_description-conference_rooms']['ar-eg'] = "غرف المؤتمرات هي أماكن اجتماعات فردية داخل مركز المؤتمرات.";
 $text['title_description-conference_rooms']['de-at'] = "Konferenzräume sind individuelle Treffpunkte innerhalb eines Konferenzzentrums.";
 $text['title_description-conference_rooms']['de-ch'] = "Konferenzräume sind individuelle Treffpunkte innerhalb eines Konferenzzentrums.";
@@ -523,6 +524,7 @@ $text['title-conference_session_details']['ko-kr'] = "컨퍼런스";
 
 $text['title-conference_rooms']['en-us'] = "Conference Rooms";
 $text['title-conference_rooms']['en-gb'] = "Conference Rooms";
+$text['title-conference_rooms']['fa'] = "اتاق کنفرانس";
 $text['title-conference_rooms']['ar-eg'] = "غرف المؤتمرات";
 $text['title-conference_rooms']['de-at'] = "Konferenzräume";
 $text['title-conference_rooms']['de-ch'] = "Konferenzräume";
@@ -547,7 +549,7 @@ $text['title-conference_rooms']['ko-kr'] = "회의실";
 
 $text['title-conference_room']['en-us'] = "Conference Room";
 $text['title-conference_room']['en-gb'] = "Conference Room";
-$text['title-conference_room']['en-gb'] = "اتاق کنفرانس";
+$text['title-conference_room']['fa'] = "اتاق کنفرانس";
 $text['title-conference_room']['ar-eg'] = "غرفة المؤتمرات";
 $text['title-conference_room']['de-at'] = "Konferenzraum";
 $text['title-conference_room']['de-ch'] = "Konferenzraum";
@@ -1256,6 +1258,7 @@ $text['label-moderator']['ko-kr'] = "모더레이터";
 
 $text['label-members']['en-us'] = "Count";
 $text['label-members']['en-gb'] = "Count";
+$text['label-members']['fa'] = "تعداد";
 $text['label-members']['ar-eg'] = "عدد";
 $text['label-members']['de-at'] = "Zähler";
 $text['label-members']['de-ch'] = "Zähler";

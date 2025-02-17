@@ -3560,6 +3560,7 @@ $text['label-contact_relation_contact']['ko-kr'] = "연락하다";
 
 $text['label-contact_organization']['en-us'] = "Organization";
 $text['label-contact_organization']['en-gb'] = "Organization";
+$text['label-contact_organization']['fa'] = "سازمان";
 $text['label-contact_organization']['ar-eg'] = "منظمة";
 $text['label-contact_organization']['de-at'] = "Organisation";
 $text['label-contact_organization']['de-ch'] = "Organisation";

@@ -27,6 +27,7 @@ $text['title-conferences']['ko-kr'] = "컨퍼런스";
 
 $text['title-conference']['en-us'] = "Conference";
 $text['title-conference']['en-gb'] = "Conference";
+$text['title-conference']['fa'] = "کنفرانس";
 $text['title-conference']['ar-eg'] = "مؤتمر";
 $text['title-conference']['de-at'] = "Konferenzen";
 $text['title-conference']['de-ch'] = "Konferenzen";
@@ -493,6 +494,7 @@ $text['label-extension']['ko-kr'] = "확대";
 
 $text['description-name']['en-us'] = "Enter the conference name.";
 $text['description-name']['en-gb'] = "Enter the conference name.";
+$text['description-name']['fa'] = "نام کنفرانس را وارد نمایید.";
 $text['description-name']['ar-eg'] = "أدخل اسم المؤتمر.";
 $text['description-name']['de-at'] = "Geben Sie einen Namen für die Konferenz ein.";
 $text['description-name']['de-ch'] = "Geben Sie einen Namen für die Konferenz ein.";
@@ -688,6 +690,7 @@ $text['confirm-delete-2']['ko-kr'] = "정말 삭제하시겠습니까?";
 
 $text['description-info']['en-us'] = "Enter the description.";
 $text['description-info']['en-gb'] = "Enter the description.";
+$text['description-info']['fa'] = "توضیحات را وارد نمایید.";
 $text['description-info']['ar-eg'] = "أدخل الوصف.";
 $text['description-info']['de-at'] = "Geben Sie die Beschreibung ein.";
 $text['description-info']['de-ch'] = "Geben Sie die Beschreibung ein.";

@@ -148,6 +148,7 @@ $text['title-call_center_queue_edit']['ko-kr'] = "콜센터 대기열";
 
 $text['title-call_center_queue_add']['en-us'] = "Call Center Queue";
 $text['title-call_center_queue_add']['en-gb'] = "Call Center Queue";
+$text['title-call_center_queue_add']['fa'] = "صف تماس";
 $text['title-call_center_queue_add']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['title-call_center_queue_add']['de-at'] = "Callcenter Warteschlange";
 $text['title-call_center_queue_add']['de-ch'] = "Callcenter Warteschlange";
@@ -172,6 +173,7 @@ $text['title-call_center_queue_add']['ko-kr'] = "콜센터 대기열";
 
 $text['title-call_center_agents']['en-us'] = "Call Center Agents";
 $text['title-call_center_agents']['en-gb'] = "Call Center Agents";
+$text['title-call_center_agents']['fa'] = "اپراتورهای مرکز تماس";
 $text['title-call_center_agents']['ar-eg'] = "وكلاء مركز الاتصال";
 $text['title-call_center_agents']['de-at'] = "Callcenter Agenten";
 $text['title-call_center_agents']['de-ch'] = "Callcenter Agenten";
@@ -2275,6 +2277,7 @@ $text['header-call_center_queue_edit']['ko-kr'] = "콜센터 대기열";
 
 $text['header-call_center_queue_add']['en-us'] = "Call Center Queue";
 $text['header-call_center_queue_add']['en-gb'] = "Call Center Queue";
+$text['header-call_center_queue_add']['fa'] = "صف تماس";
 $text['header-call_center_queue_add']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['header-call_center_queue_add']['de-at'] = "Callcenter Warteschlange";
 $text['header-call_center_queue_add']['de-ch'] = "Callcenter Warteschlange";
@@ -2299,6 +2302,8 @@ $text['header-call_center_queue_add']['ko-kr'] = "콜센터 대기열";
 
 $text['header-call_center_agents']['en-us'] = "Call Center Agents";
 $text['header-call_center_agents']['en-gb'] = "Call Center Agents";
+$text['header-call_center_agents']['fa'] = "اپراتورهای مرکز تماس";
+
 $text['header-call_center_agents']['ar-eg'] = "وكلاء مركز الاتصال";
 $text['header-call_center_agents']['de-at'] = "Callcenter Agent";
 $text['header-call_center_agents']['de-ch'] = "Callcenter Agent";
@@ -2371,6 +2376,7 @@ $text['header-call_center_agent_edit']['ko-kr'] = "콜 센터 에이전트";
 
 $text['header-call_center_agent_add']['en-us'] = "Call Center Agents";
 $text['header-call_center_agent_add']['en-gb'] = "Call Center Agents";
+$text['header-call_center_agent_add']['fa'] = "اپراتورهای مرکز تماس";
 $text['header-call_center_agent_add']['ar-eg'] = "Agenti call center";
 $text['header-call_center_agent_add']['de-at'] = "Callcenter Agenten";
 $text['header-call_center_agent_add']['de-ch'] = "Callcenter Agenten";
@@ -3288,7 +3294,7 @@ $text['description-call_center_queues']['ko-kr'] = "콜 센터의 대기열 목�
 
 $text['description-call_center_agents']['en-us'] = "List of call center agents.";
 $text['description-call_center_agents']['en-gb'] = "List of call center agents.";
-$text['description-call_center_agents']['en-gb'] = "لیست اپراتورهای مرکز تماس";
+$text['description-call_center_agents']['fa'] = "لیست اپراتورهای مرکز تماس";
 $text['description-call_center_agents']['ar-eg'] = "قائمة وكلاء مركز الاتصال.";
 $text['description-call_center_agents']['de-at'] = "Liste der Callcenter Agenten";
 $text['description-call_center_agents']['de-ch'] = "Liste der Callcenter Agenten";
@@ -3582,6 +3588,7 @@ $text['button-tiers']['ko-kr'] = "계층";
 
 $text['button-agents']['en-us'] = "Agents";
 $text['button-agents']['en-gb'] = "Agents";
+$text['button-agents']['fa'] = "اپراتورها";
 $text['button-agents']['ar-eg'] = "عملاء";
 $text['button-agents']['de-at'] = "Agenten";
 $text['button-agents']['de-ch'] = "Agenten";
@@ -3627,5 +3634,8 @@ $text['button-wallboard']['uk-ua'] = "Настінна дошка";
 $text['button-wallboard']['zh-cn'] = "墙板";
 $text['button-wallboard']['ja-jp'] = "ウォールボード";
 $text['button-wallboard']['ko-kr'] = "벽판";
+
+
+$text['label-username']['fa'] = "نام کاربری";
 
 ?>

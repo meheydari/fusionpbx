@@ -269,7 +269,7 @@ $text['label-file_name']['ko-kr'] = "파일 이름";
 
 $text['label-file_size']['en-us'] = "File Size";
 $text['label-file_size']['en-gb'] = "File Size";
-$text['label-file_size']['fa'] = "سایز";
+$text['label-file_size']['fa'] = "حجم";
 $text['label-file_size']['ar-eg'] = "حجم الملفات";
 $text['label-file_size']['de-at'] = "Dateigröße";
 $text['label-file_size']['de-ch'] = "Dateigröße";

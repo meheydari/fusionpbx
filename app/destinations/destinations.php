@@ -211,9 +211,10 @@
 	echo "<div class='action_bar' id='action_bar'>\n";
 	echo "	<div class='heading'><b>".$text['title-destinations']." (".$num_rows.")</b></div>\n";
 	echo "	<div class='actions'>\n";
-	echo button::create(['type'=>'button','label'=>$text['button-inbound'],'icon'=>'location-arrow fa-rotate-90','link'=>'?type=inbound'.($show == 'all' ? '&show=all' : null).($search != '' ? "&search=".urlencode($search) : null)]);
-	echo button::create(['type'=>'button','label'=>$text['button-outbound'],'icon'=>'location-arrow','link'=>'?type=outbound'.($show == 'all' ? '&show=all' : null).($search != '' ? "&search=".urlencode($search) : null)]);
-	echo button::create(['type'=>'button','label'=>$text['button-local'],'icon'=>'vector-square','link'=>'?type=local'.($show == 'all' ? '&show=all' : null).($search != '' ? "&search=".urlencode($search) : null)]);
+	#todo check
+//	echo button::create(['type'=>'button','label'=>$text['button-inbound'],'icon'=>'location-arrow fa-rotate-90','link'=>'?type=inbound'.($show == 'all' ? '&show=all' : null).($search != '' ? "&search=".urlencode($search) : null)]);
+//	echo button::create(['type'=>'button','label'=>$text['button-outbound'],'icon'=>'location-arrow','link'=>'?type=outbound'.($show == 'all' ? '&show=all' : null).($search != '' ? "&search=".urlencode($search) : null)]);
+//	echo button::create(['type'=>'button','label'=>$text['button-local'],'icon'=>'vector-square','link'=>'?type=local'.($show == 'all' ? '&show=all' : null).($search != '' ? "&search=".urlencode($search) : null)]);
 	if (permission_exists('destination_import')) {
 		echo button::create(['type'=>'button','label'=>$text['button-import'],'icon'=>$_SESSION['theme']['button_icon_import'],'link'=>'destination_imports.php']);
 	}

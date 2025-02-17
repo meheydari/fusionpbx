@@ -76,6 +76,7 @@ $text['title']['ko-kr'] = "통화 내역 기록";
 
 $text['title-call_detail_records']['en-us'] = "Call Detail Records";
 $text['title-call_detail_records']['en-gb'] = "Call Detail Records";
+$text['title-call_detail_records']['fa'] = "سوابق تماس";
 $text['title-call_detail_records']['ar-eg'] = "سجلات تفاصيل المكالمات";
 $text['title-call_detail_records']['de-at'] = "Meine Gespräche";
 $text['title-call_detail_records']['de-ch'] = "Meine Gespräche";
@@ -370,6 +371,7 @@ $text['table-direction']['ko-kr'] = "방향";
 
 $text['table-days']['en-us'] = "Days";
 $text['table-days']['en-gb'] = "Days";
+$text['table-days']['en-gb'] = "روزها";
 $text['table-days']['ar-eg'] = "أيام";
 $text['table-days']['de-at'] = "Tage";
 $text['table-days']['de-ch'] = "Tage";
@@ -2942,7 +2944,7 @@ $text['label-format']['zh-cn'] = "格式";
 $text['label-format']['ja-jp'] = "フォーマット";
 $text['label-format']['ko-kr'] = "체재";
 
-$text['description_search']['en-us'] = "<u>نکته</u>:فیلد های مقصد نهایی و کالرآیدی از مقدار * پشتیبانی میکنند";
+$text['description_search']['fa'] = "<u>نکته</u>:فیلد های مقصد نهایی و کالرآیدی از مقدار * پشتیبانی میکنند";
 $text['description_search']['en-us'] = "<u>Note</u>: Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
 $text['description_search']['en-gb'] = "<u>Note</u>: Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
 $text['description_search']['ar-eg'] = "يدعم حقلا الوجهة واسم تعريف المتصل استخدام علامة النجمة كحرف بدل.";
@@ -3162,6 +3164,7 @@ $text['button-update']['ko-kr'] = "업데이트";
 
 $text['button-statistics']['en-us'] = "Statistics";
 $text['button-statistics']['en-gb'] = "Statistics";
+$text['button-statistics']['fa'] = "آمار";
 $text['button-statistics']['ar-eg'] = "إحصائيات";
 $text['button-statistics']['de-at'] = "Statistik";
 $text['button-statistics']['de-ch'] = "Statistik";
@@ -3211,7 +3214,7 @@ $text['button-missed']['ko-kr'] = "부재중 전화";
 
 $text['button-extension_summary']['en-us'] = "Extension Summary";
 $text['button-extension_summary']['en-gb'] = "Extension Summary";
-$text['button-extension_summary']['en-gb'] = "جزییات داخلی ها";
+$text['button-extension_summary']['fa'] = "جزییات داخلی ها";
 $text['button-extension_summary']['ar-eg'] = "ملخص التمديد";
 $text['button-extension_summary']['de-at'] = "Nebenstellen Statistik";
 $text['button-extension_summary']['de-ch'] = "Nebenstellen Statistik";
@@ -3236,6 +3239,7 @@ $text['button-extension_summary']['ko-kr'] = "확장 요약";
 
 $text['button-download_csv']['en-us'] = "Download CSV";
 $text['button-download_csv']['en-gb'] = "Download CSV";
+$text['button-download_csv']['fa'] = "دانلود CSV";
 $text['button-download_csv']['ar-eg'] = "تنزيل ملف CSV";
 $text['button-download_csv']['de-at'] = "CSV Herunterladen";
 $text['button-download_csv']['de-ch'] = "CSV Herunterladen";
@@ -3281,5 +3285,10 @@ $text['button-advanced_search']['uk-ua'] = "Просунутий";
 $text['button-advanced_search']['zh-cn'] = "先进的";
 $text['button-advanced_search']['ja-jp'] = "高度";
 $text['button-advanced_search']['ko-kr'] = "고급의";
+
+
+$text['label-date']['fa'] = "تاریخ";
+$text['label-time']['fa'] = "ساعت";
+
 
 ?>

@@ -1150,6 +1150,7 @@ $text['label-recording_options']['ko-kr'] = "녹음 옵션";
 
 $text['label-forward_destinations']['en-us'] = "Forward Destinations";
 $text['label-forward_destinations']['en-gb'] = "Forward Destinations";
+$text['label-forward_destinations']['fa'] = "سایر مقاصد";
 $text['label-forward_destinations']['ar-eg'] = "وجهات أمامية";
 $text['label-forward_destinations']['de-at'] = "Weiterleitungs Ziele";
 $text['label-forward_destinations']['de-ch'] = "Weiterleitungs Ziele";
@@ -1665,6 +1666,7 @@ $text['description-voicemail_description']['ko-kr'] = "설명을 입력합니다
 
 $text['description-voicemail']['en-us'] = "Voicemail settings.";
 $text['description-voicemail']['en-gb'] = "Voicemail settings.";
+$text['description-voicemail']['fa'] = "تنظیمات صندوق صوتی";
 $text['description-voicemail']['ar-eg'] = "إعدادات البريد الصوتي.";
 $text['description-voicemail']['de-at'] = "Mailbox Einstellungen.";
 $text['description-voicemail']['de-ch'] = "Mailbox Einstellungen.";

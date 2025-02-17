@@ -1240,6 +1240,7 @@ $text['description-presets_advanced']['ko-kr'] = "위에서 선택한 각 사전
 
 $text['description-presets']['en-us'] = "Select from available presets. Click a preset name to further customize the conditions and/or destination of each.";
 $text['description-presets']['en-gb'] = "Select from available presets. Click a preset name to further customize the conditions and/or destination of each.";
+$text['description-presets']['fa'] = "درصورت نیاز میتوانید تعطیلات بالا را انتخاب کنید و سپس مقصد آنرا مشخص نمایید.";
 $text['description-presets']['ar-eg'] = "اختر من الإعدادات المسبقة المتاحة. انقر فوق اسم الإعداد المسبق لتخصيص شروط و / أو وجهة كل منها بشكل أكبر.";
 $text['description-presets']['de-at'] = "Wählen Sie aus den vorhandenen Vorgaben. Klicken Sie den Namen der Voreinstellung um weitere persönliche Anpassungen vorzunehmen";
 $text['description-presets']['de-ch'] = "Wählen Sie aus den vorhandenen Vorgaben. Klicken Sie den Namen der Voreinstellung um weitere persönliche Anpassungen vorzunehmen";

@@ -586,4 +586,6 @@ $text['label-local']['zh-cn'] = "当地的";
 $text['label-local']['ja-jp'] = "地元";
 $text['label-local']['ko-kr'] = "현지의";
 
+$text['label-recording']['fa'] = "رکورد تماس";
+
 ?>

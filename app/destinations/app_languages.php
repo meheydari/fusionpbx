@@ -2099,7 +2099,7 @@ $text['label-destination_prefix']['fa'] = "پیش‌شماره";
 
 $text['label-destination_trunk_prefix']['fa'] = "پیش‌شماره ترانک";
 
-$text['label-destination_area_code']['fa'] = "کد منطقه";
+$text['label-destination_area_code']['fa'] = "کد کشور";
 
 $text['label-destination_number']['fa'] = "شماره مقصد";
 
@@ -2179,7 +2179,7 @@ $text['description-destination_country_code']['fa'] = "کد کشور را وار
 
 $text['description-destination_trunk_prefix']['fa'] = "پیش‌شماره ترانک را وارد کنید.";
 
-$text['description-destination_area_code']['fa'] = "کد منطقه را وارد کنید.";
+$text['description-destination_area_code']['fa'] = "کد کشور را وارد کنید.";
 
 $text['description-destination_enabled']['fa'] = "وضعیت فعلی این مقصد را تنظیم کنید.";
 
@@ -2195,7 +2195,7 @@ $text['description-destination_caller_id_name']['fa'] = "نام تماس‌گی�
 
 $text['description-destination_conditions']['fa'] = "اگر شرط مطابقت داشت، اقدام را انجام دهید.";
 
-$text['description-destination_actions']['fa'] = "اقدامات اضافی اضافه کنید.";
+$text['description-destination_actions']['fa'] = "افزودن مسیرهای اضافه";
 
 $text['description-group']['fa'] = "این مقصد را به یک گروه اختصاص دهید.";
 

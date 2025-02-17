@@ -196,7 +196,7 @@
 	echo "	<div class='heading'><b>".$text['title-users']." (".$num_rows.")</b></div>\n";
 	echo "	<div class='actions'>\n";
 	if (permission_exists('user_add')) {
-		if (!isset($id)) {
+		if (!isset($id) && false) {
 			echo button::create(['type'=>'button','label'=>$text['button-import'],'icon'=>$_SESSION['theme']['button_icon_import'],'style'=>'margin-right: 15px;','link'=>'user_imports.php']);
 		}
 		echo button::create(['type'=>'button','label'=>$text['button-add'],'icon'=>$_SESSION['theme']['button_icon_add'],'id'=>'btn_add','link'=>'user_edit.php']);

@@ -724,7 +724,7 @@ $text['label-members']['ko-kr'] = "회원";
 
 $text['label-member-count']['en-us'] = "Member Count";
 $text['label-member-count']['en-gb'] = "Member Count";
-$text['label-member-count']['en-gb'] = "تعداد اعضا";
+$text['label-member-count']['fa'] = "تعداد اعضا";
 $text['label-member-count']['ar-eg'] = "عدد الأعضاء";
 $text['label-member-count']['de-at'] = "Anzahl Teilnehmer";
 $text['label-member-count']['de-ch'] = "Anzahl Teilnehmer";

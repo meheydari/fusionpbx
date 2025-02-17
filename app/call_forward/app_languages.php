@@ -27,7 +27,7 @@ $text['title-call_forward']['ko-kr'] = "착신 전환";
 
 $text['header-call_forward']['en-us'] = "Call Forward";
 $text['header-call_forward']['en-gb'] = "Call Forward";
-$text['header-call_forward']['en-gb'] = "انتقال تماس";
+$text['header-call_forward']['fa'] = "انتقال تماس";
 $text['header-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['header-call_forward']['de-at'] = "Rufumleitung";
 $text['header-call_forward']['de-ch'] = "Rufumleitung";

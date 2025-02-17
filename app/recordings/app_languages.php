@@ -2,6 +2,7 @@
 
 $text['title-edit']['en-us'] = "Recording";
 $text['title-edit']['en-gb'] = "Recording";
+$text['title-edit']['fa'] = "رکورد تماس";
 $text['title-edit']['ar-eg'] = "التسجيل";
 $text['title-edit']['de-at'] = "Aufnahmen";
 $text['title-edit']['de-ch'] = "Aufnahmen";
@@ -26,6 +27,7 @@ $text['title-edit']['ko-kr'] = "녹음";
 
 $text['title-add']['en-us'] = "Add Recording";
 $text['title-add']['en-gb'] = "Add Recording";
+$text['title-add']['fa'] = "رکورد تماس";
 $text['title-add']['ar-eg'] = "يضاف التسجيل";
 $text['title-add']['de-at'] = "Aufnahme hinzufügen";
 $text['title-add']['de-ch'] = "Aufnahme hinzufügen";
@@ -245,6 +247,7 @@ $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-file_name']['en-us'] = "File Name";
 $text['label-file_name']['en-gb'] = "File Name";
+$text['label-file_name']['fa'] = "نام فایل";
 $text['label-file_name']['ar-eg'] = "اسم الملف";
 $text['label-file_name']['de-at'] = "Dateiname";
 $text['label-file_name']['de-ch'] = "Dateiname";
@@ -438,6 +441,7 @@ $text['header']['ko-kr'] = "녹음 업로드";
 
 $text['description-recording']['en-us'] = "A name for the recording (not parsed).";
 $text['description-recording']['en-gb'] = "A name for the recording (not parsed).";
+$text['description-recording']['fa'] = "یک نام برای رکورد وارد کنید.";
 $text['description-recording']['ar-eg'] = "اسم للتسجيل (لم يتم تحليله).";
 $text['description-recording']['de-at'] = "Ein Name für die Aufnahme.";
 $text['description-recording']['de-ch'] = "Ein Name für die Aufnahme.";

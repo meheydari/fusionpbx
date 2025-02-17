@@ -197,7 +197,7 @@ $text['label-message']['ko-kr'] = "프로필이 잘못되었습니다!";
 
 $text['label-lan_ip']['en-us'] = "LAN IP";
 $text['label-lan_ip']['en-gb'] = "LAN IP";
-$text['label-lan_ip']['fa'] = "آی پی لوکال";
+$text['label-lan_ip']['fa'] = "آدرس لوکال";
 $text['label-lan_ip']['ar-eg'] = "LAN IP";
 $text['label-lan_ip']['de-at'] = "LAN IP";
 $text['label-lan_ip']['de-ch'] = "LAN IP";
@@ -222,7 +222,7 @@ $text['label-lan_ip']['ko-kr'] = "LAN IP";
 
 $text['label-ip']['en-us'] = "IP";
 $text['label-ip']['en-gb'] = "IP";
-$text['label-ip']['fa'] = "آی پی";
+$text['label-ip']['fa'] = "آدرس";
 $text['label-ip']['ar-eg'] = "ip";
 $text['label-ip']['de-at'] = "IP";
 $text['label-ip']['de-ch'] = "IP";
@@ -369,7 +369,7 @@ $text['label-agent']['ko-kr'] = "대리인";
 
 $text['label-contact']['en-us'] = "Contact";
 $text['label-contact']['en-gb'] = "Contact";
-$text['label-contact']['fa'] = "کانتکت";
+$text['label-contact']['fa'] = "اطلاعات";
 $text['label-contact']['ar-eg'] = "الاتصال";
 $text['label-contact']['de-at'] = "Kontakt";
 $text['label-contact']['de-ch'] = "Kontakt";
@@ -394,6 +394,7 @@ $text['label-contact']['ko-kr'] = "연락하다";
 
 $text['label-sip_profile_name']['en-us'] = "Profile";
 $text['label-sip_profile_name']['en-gb'] = "Profile";
+$text['label-sip_profile_name']['fa'] = "پروفایل";
 $text['label-sip_profile_name']['ar-eg'] = "موجز";
 $text['label-sip_profile_name']['de-at'] = "Profile";
 $text['label-sip_profile_name']['de-ch'] = "Profile";

@@ -1077,6 +1077,7 @@ $text['label-destination_timeout']['ko-kr'] = "타임아웃";
 
 $text['label-destination_enabled']['en-us'] = "Enabled";
 $text['label-destination_enabled']['en-gb'] = "Enabled";
+$text['label-destination_enabled']['fa'] = "وضعیت";
 $text['label-destination_enabled']['ar-eg'] = "مُتاح";
 $text['label-destination_enabled']['de-at'] = "Aktiviert";
 $text['label-destination_enabled']['de-ch'] = "Aktiviert";
@@ -2009,4 +2010,5 @@ $text['button-view_all']['ko-kr'] = "모두보기";
 $text['label-greeting']['fa'] = "فایل صوتی";
 $text['description-greeting']['fa'] = "فایل صوتی مورد نظر خود را انتخاب کنید. ابتدا این فایل پخش خواهد شد.";
 $text['button-copy']['fa'] = "کپی";
+$text['label-delete']['fa'] = "حذف";
 ?>

@@ -2081,4 +2081,9 @@ $text['button-greetings']['zh-cn'] = "问候";
 $text['button-greetings']['ja-jp'] = "ご挨拶";
 $text['button-greetings']['ko-kr'] = "인사말";
 
+
+$text['label-voicemail']['fa']= "صندوق صوتی";
+$text['label-new']['fa'] = "جدید";
+$text['label-total']['fa'] = 'مجموع';
+
 ?>

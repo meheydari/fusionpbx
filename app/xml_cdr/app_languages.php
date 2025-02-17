@@ -1680,6 +1680,7 @@ $text['label-name']['ko-kr'] = "이름";
 
 $text['label-missed']['en-us'] = "Missed";
 $text['label-missed']['en-gb'] = "Missed";
+$text['label-missed']['fa'] = "از دست رفته";
 $text['label-missed']['ar-eg'] = "مٌفتَقد";
 $text['label-missed']['de-at'] = "Verpasst";
 $text['label-missed']['de-ch'] = "Verpasst";
@@ -3289,6 +3290,9 @@ $text['button-advanced_search']['ko-kr'] = "고급의";
 
 $text['label-date']['fa'] = "تاریخ";
 $text['label-time']['fa'] = "ساعت";
+$text['label-missed_calls']['fa'] = "تماس‌های از دست رفته";
+$text['label-cid_number']['fa'] = "شناسه";
 
-
+$text['label-recent_calls']['fa'] = "تماس‌های اخیر";
+$text['label-date_time']['fa'] = "تاریخ";
 ?>

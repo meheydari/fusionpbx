@@ -979,6 +979,7 @@ $text['label-distinctive_ring']['ko-kr'] = "독특한 반지";
 
 $text['label-active']['en-us'] = "Active";
 $text['label-active']['en-gb'] = "Active";
+$text['label-active']['fa'] = "فعال";
 $text['label-active']['ar-eg'] = "النشاط";
 $text['label-active']['de-at'] = "Aktiv";
 $text['label-active']['de-ch'] = "Aktiv";
@@ -1394,6 +1395,7 @@ $text['label-forwarding']['ko-kr'] = "전송";
 
 $text['header-ring-group-forward']['en-us'] = "Ring Group Forward";
 $text['header-ring-group-forward']['en-gb'] = "Ring Group Forward";
+$text['header-ring-group-forward']['fa'] = "انتقال گروه تماس";
 $text['header-ring-group-forward']['ar-eg'] = "فريق الرنين إلى الأمام";
 $text['header-ring-group-forward']['de-at'] = "Rufgruppe weiterleiten";
 $text['header-ring-group-forward']['de-ch'] = "Rufgruppe weiterleiten";

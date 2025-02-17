@@ -529,6 +529,7 @@ $text['title-contact_attachment-add']['ko-kr'] = "연락처 첨부 추가";
 
 $text['title-contact-edit']['en-us'] = "Contact";
 $text['title-contact-edit']['en-gb'] = "Contact";
+$text['title-contact-edit']['fa'] = "مشترک";
 $text['title-contact-edit']['ar-eg'] = "اتصال";
 $text['title-contact-edit']['de-at'] = "Kontakt";
 $text['title-contact-edit']['de-ch'] = "Kontakt";
@@ -2846,6 +2847,7 @@ $text['label-enabled']['ko-kr'] = "사용";
 
 $text['label-emails']['en-us'] = "Emails";
 $text['label-emails']['en-gb'] = "Emails";
+$text['label-emails']['fa'] = "ایمیل";
 $text['label-emails']['ar-eg'] = "رسائل البريد الإلكتروني";
 $text['label-emails']['de-at'] = "Emails";
 $text['label-emails']['de-ch'] = "Emails";
@@ -3078,7 +3080,7 @@ $text['label-contact_title']['ko-kr'] = "제목";
 
 $text['label-contact_time_zone']['en-us'] = "Time Zone";
 $text['label-contact_time_zone']['en-gb'] = "Time Zone";
-$text['label-contact_time_zone']['en-gb'] = "تایم زون";
+$text['label-contact_time_zone']['fa'] = "تایم زون";
 $text['label-contact_time_zone']['ar-eg'] = "وحدة زمنية";
 $text['label-contact_time_zone']['de-at'] = "Zeitzone";
 $text['label-contact_time_zone']['de-ch'] = "Zeitzone";
@@ -3104,6 +3106,7 @@ $text['label-contact_time_zone']['ko-kr'] = "시간대";
 
 $text['label-contact_settings']['en-us'] = "Settings";
 $text['label-contact_settings']['en-gb'] = "Settings";
+$text['label-contact_settings']['fa'] = "تنظیمات";
 $text['label-contact_settings']['ar-eg'] = "إعدادات";
 $text['label-contact_settings']['de-at'] = "Einstellungen";
 $text['label-contact_settings']['de-ch'] = "Einstellungen";
@@ -3129,6 +3132,7 @@ $text['label-contact_settings']['ko-kr'] = "설정";
 
 $text['label-contact_setting_value']['en-us'] = "Value";
 $text['label-contact_setting_value']['en-gb'] = "Value";
+$text['label-contact_setting_value']['fa'] = "مقدار";
 $text['label-contact_setting_value']['ar-eg'] = "قيمة";
 $text['label-contact_setting_value']['de-at'] = "Wert";
 $text['label-contact_setting_value']['de-ch'] = "Wert";
@@ -3180,6 +3184,7 @@ $text['label-contact_setting_type']['ko-kr'] = "유형";
 
 $text['label-contact_setting_subcategory']['en-us'] = "Subcategory";
 $text['label-contact_setting_subcategory']['en-gb'] = "Subcategory";
+$text['label-contact_setting_subcategory']['fa'] = "گروه فرعی";
 $text['label-contact_setting_subcategory']['ar-eg'] = "تصنيف فرعي";
 $text['label-contact_setting_subcategory']['de-at'] = "Unterkategorie";
 $text['label-contact_setting_subcategory']['de-ch'] = "Unterkategorie";
@@ -3664,7 +3669,7 @@ $text['label-contact_nickname']['ko-kr'] = "별명";
 
 $text['label-contact_name_suffix']['en-us'] = "Suffix";
 $text['label-contact_name_suffix']['en-gb'] = "Suffix";
-$text['label-contact_name_suffix']['en-gb'] = "پسوند";
+$text['label-contact_name_suffix']['fa'] = "پسوند";
 $text['label-contact_name_suffix']['ar-eg'] = "لاحقة";
 $text['label-contact_name_suffix']['de-at'] = "Nachsilbe";
 $text['label-contact_name_suffix']['de-ch'] = "Nachsilbe";
@@ -3894,6 +3899,7 @@ $text['label-contact_email']['ko-kr'] = "이메일";
 
 $text['label-contact_category']['en-us'] = "Category";
 $text['label-contact_category']['en-gb'] = "Category";
+$text['label-contact_category']['fa'] = "گروه";
 $text['label-contact_category']['ar-eg'] = "فئة";
 $text['label-contact_category']['de-at'] = "Kategorie";
 $text['label-contact_category']['de-ch'] = "Kategorie";
@@ -4227,6 +4233,7 @@ $text['label-address_community']['ko-kr'] = "지역 사회";
 
 $text['label-address_address']['en-us'] = "Address";
 $text['label-address_address']['en-gb'] = "Address";
+$text['label-address_address']['fa'] = "آدرس";
 $text['label-address_address']['ar-eg'] = "عنوان";
 $text['label-address_address']['de-at'] = "Adresse";
 $text['label-address_address']['de-ch'] = "Adresse";
@@ -6386,6 +6393,7 @@ $text['description-contact_addresses-add']['ko-kr'] = "연락처 정보.";
 
 $text['description-contact-edit']['en-us'] = "The contact is a list of individuals and organizations.";
 $text['description-contact-edit']['en-gb'] = "The contact is a list of individuals and organizations.";
+$text['description-contact-edit']['fa'] = "دفترچه تلفن ، لیستی از اطلاعات افراد و شرکت ها می باشد.";
 $text['description-contact-edit']['ar-eg'] = "جهة الاتصال هي قائمة الأفراد والمنظمات.";
 $text['description-contact-edit']['de-at'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";
 $text['description-contact-edit']['de-ch'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";

@@ -27,7 +27,7 @@ $text['title-ring_groups']['ko-kr'] = "전화 수신 그룹";
 
 $text['title-ring_group']['en-us'] = "Ring Group";
 $text['title-ring_group']['en-gb'] = "Ring Group";
-$text['title-ring_group']['fa'] = "گروه تماسs";
+$text['title-ring_group']['fa'] = "گروه تماس";
 $text['title-ring_group']['ar-eg'] = "فريق الاعتماد";
 $text['title-ring_group']['de-at'] = "Rufgruppen";
 $text['title-ring_group']['de-ch'] = "Rufgruppen";
@@ -1615,7 +1615,7 @@ $text['description-ring-group-forward']['ko-kr'] = "착신 전화 수신 그룹�
 
 $text['description-name']['en-us'] = "Enter a name.";
 $text['description-name']['en-gb'] = "Enter a name.";
-$text['description-name']['en-gb'] = "یک نام برای این گروه تماس وارد کنید.";
+$text['description-name']['fa'] = "یک نام برای این گروه تماس وارد کنید.";
 $text['description-name']['ar-eg'] = "أدخلي اسماً";
 $text['description-name']['de-at'] = "Geben Sie einen Namen an.";
 $text['description-name']['de-ch'] = "Geben Sie einen Namen an.";
@@ -2006,4 +2006,7 @@ $text['button-view_all']['zh-cn'] = "查看全部";
 $text['button-view_all']['ja-jp'] = "すべて見る";
 $text['button-view_all']['ko-kr'] = "모두보기";
 
+$text['label-greeting']['fa'] = "فایل صوتی";
+$text['description-greeting']['fa'] = "فایل صوتی مورد نظر خود را انتخاب کنید. ابتدا این فایل پخش خواهد شد.";
+$text['button-copy']['fa'] = "کپی";
 ?>

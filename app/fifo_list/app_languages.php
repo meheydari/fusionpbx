@@ -441,6 +441,7 @@ $text['header-queue']['ko-kr'] = "대기줄";
 
 $text['header-active_queues']['en-us'] = "Active Queues";
 $text['header-active_queues']['en-gb'] = "Active Queues";
+$text['header-active_queues']['fa'] = "صف‌های فعال";
 $text['header-active_queues']['ar-eg'] = "قوائم الانتظار النشطة";
 $text['header-active_queues']['de-at'] = "Aktive Warteschlangen";
 $text['header-active_queues']['de-ch'] = "Aktive Warteschlangen";

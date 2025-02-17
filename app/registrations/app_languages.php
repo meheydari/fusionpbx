@@ -518,6 +518,7 @@ $text['button-unregister']['ko-kr'] = "등록 취소";
 
 $text['button-reboot']['en-us'] = "Reboot";
 $text['button-reboot']['en-gb'] = "Reboot";
+$text['button-reboot']['fa'] = "ریبوت";
 $text['button-reboot']['ar-eg'] = "إعادة التشغيل";
 $text['button-reboot']['de-at'] = "Neu starten";
 $text['button-reboot']['de-ch'] = "Neu starten";

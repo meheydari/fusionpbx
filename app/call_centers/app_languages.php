@@ -2328,6 +2328,7 @@ $text['header-call_center_agents']['ko-kr'] = "콜센터 상담원";
 
 $text['header-call_center_agent_status']['en-us'] = "Call Center Agent Status";
 $text['header-call_center_agent_status']['en-gb'] = "Call Center Agent Status";
+$text['header-call_center_agent_status']['fa'] = "وضعیت اپراتورها";
 $text['header-call_center_agent_status']['ar-eg'] = "حالة وكيل مركز الاتصال";
 $text['header-call_center_agent_status']['de-at'] = "Callcenter Agenten-Status";
 $text['header-call_center_agent_status']['de-ch'] = "Callcenter Agenten-Status";

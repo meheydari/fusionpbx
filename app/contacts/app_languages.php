@@ -529,7 +529,7 @@ $text['title-contact_attachment-add']['ko-kr'] = "연락처 첨부 추가";
 
 $text['title-contact-edit']['en-us'] = "Contact";
 $text['title-contact-edit']['en-gb'] = "Contact";
-$text['title-contact-edit']['fa'] = "مشترک";
+$text['title-contact-edit']['fa'] = "دفترچه تلفن";
 $text['title-contact-edit']['ar-eg'] = "اتصال";
 $text['title-contact-edit']['de-at'] = "Kontakt";
 $text['title-contact-edit']['de-ch'] = "Kontakt";
@@ -7438,7 +7438,7 @@ $text['label-properties']['ko-kr'] = "속성";
 
 $text['label-contact']['en-us'] = "Contact";
 $text['label-contact']['en-gb'] = "Contact";
-$text['label-contact']['fa'] = "مشترک";
+$text['label-contact']['fa'] = "دفترچه تلفن";
 $text['label-contact']['ar-eg'] = "اتصال";
 $text['label-contact']['de-at'] = "Kontakt";
 $text['label-contact']['de-ch'] = "Kontakt";

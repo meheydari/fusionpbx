@@ -348,6 +348,7 @@ $text['label-action']['ko-kr'] = "(주)";
 
 $text['header_phrases']['en-us'] = "Phrases";
 $text['header_phrases']['en-gb'] = "Phrases";
+$text['header_phrases']['fa'] = "اعلان‌های صوتی";
 $text['header_phrases']['ar-eg'] = "الصيغة";
 $text['header_phrases']['de-at'] = "Phrasen";
 $text['header_phrases']['de-ch'] = "Phrasen";

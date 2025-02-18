@@ -4461,6 +4461,7 @@ $text['header-contacts_import']['ko-kr'] = "연락처 가져오기";
 
 $text['header-contacts']['en-us'] = "Contacts";
 $text['header-contacts']['en-gb'] = "Contacts";
+$text['header-contacts']['fa'] = "دفترچه تلفن";
 $text['header-contacts']['ar-eg'] = "جهات الاتصال";
 $text['header-contacts']['de-at'] = "Kontakte";
 $text['header-contacts']['de-ch'] = "Kontakte";

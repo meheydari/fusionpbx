@@ -581,6 +581,7 @@ $text['header-queue_detail_add']['ko-kr'] = "대기열 세부 정보 추가";
 
 $text['header-queue_add']['en-us'] = "Queue Add";
 $text['header-queue_add']['en-gb'] = "Queue Add";
+$text['header-queue_add']['fa'] = "افزودن صف مرکز تماس";
 $text['header-queue_add']['ar-eg'] = "الكمية";
 $text['header-queue_add']['de-at'] = "Warteschlange hinzufügen";
 $text['header-queue_add']['de-ch'] = "Warteschlange hinzufügen";

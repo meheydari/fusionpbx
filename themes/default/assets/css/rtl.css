@@ -470,3 +470,7 @@ div.form_set > .label {
 div.form_set > .field.no-wrap > select{
     width: 100% !important;
 }
+
+div.form_set > .field{
+    text-align: right;
+}

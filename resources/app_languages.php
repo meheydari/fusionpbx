@@ -4549,6 +4549,7 @@ $text['label-sounds']['ko-kr'] = "소리";
 
 $text['label-greeting']['en-us'] = "Greeting";
 $text['label-greeting']['en-gb'] = "Greeting";
+$text['label-greeting']['fa'] = "فایل صوتی";
 $text['label-greeting']['ar-eg'] = "تحية";
 $text['label-greeting']['de-at'] = "Begrüßung";
 $text['label-greeting']['de-ch'] = "Begrüßung";
@@ -5357,6 +5358,7 @@ $text['button-settings']['ko-kr'] = "설정";
 
 $text['description-greeting']['en-us'] = "Select the desired Greeting.";
 $text['description-greeting']['en-gb'] = "Select the desired Greeting.";
+$text['description-greeting']['fa'] = "فایل صوتی مورد نظر خود را انتخاب کنید. ابتدا این فایل پخش خواهد شد.";
 $text['description-greeting']['ar-eg'] = "حدد التحية المطلوبة.";
 $text['description-greeting']['de-at'] = "Geben Sie die Begrüßungs-ID an.";
 $text['description-greeting']['de-ch'] = "Geben Sie die Begrüßungs-ID an.";

@@ -2228,6 +2228,7 @@ $text['header-call_center_tier_edit']['ko-kr'] = "콜 센터 계층";
 
 $text['header-call_center_queues']['en-us'] = "Call Center Queues";
 $text['header-call_center_queues']['en-gb'] = "Call Center Queues";
+$text['header-call_center_queues']['fa'] = "صف تماس";
 $text['header-call_center_queues']['ar-eg'] = "قوائم انتظار مركز الاتصال";
 $text['header-call_center_queues']['de-at'] = "Callcenter Warteschlangen";
 $text['header-call_center_queues']['de-ch'] = "Callcenter Warteschlangen";

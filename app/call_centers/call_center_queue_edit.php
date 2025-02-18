@@ -39,8 +39,9 @@
 	}
 
 //add multi-lingual support
-	$language = new text;
-	$text = $language->get();
+	$language = new text;Select the desired Greeting.
+
+$text = $language->get();
 
 //set the defaults
 	$queue_name = '';

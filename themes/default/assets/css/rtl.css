@@ -464,7 +464,7 @@ select.formfld {
 }
 
 div.form_set > .label {
-    white-space: nowrap!important;
+    white-space: normal !important;
 }
 
 div.form_set > .field.no-wrap > select{

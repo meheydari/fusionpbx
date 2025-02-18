@@ -98,6 +98,7 @@ $text['title-queue_detail_add']['ko-kr'] = "대기열 세부 정보 추가";
 
 $text['title-queue_add']['en-us'] = "Queue Add";
 $text['title-queue_add']['en-gb'] = "Queue Add";
+$text['title-queue_add']['fa'] = "افزودن صف مرکز تماس";
 $text['title-queue_add']['ar-eg'] = "الكمية";
 $text['title-queue_add']['de-at'] = "Warteschlange hinzufügen";
 $text['title-queue_add']['de-ch'] = "Warteschlange hinzufügen";
@@ -434,6 +435,7 @@ $text['label-application']['ko-kr'] = "애플리케이션";
 
 $text['label-agent_queue_extension']['en-us'] = "Queue Extension Number";
 $text['label-agent_queue_extension']['en-gb'] = "Queue Extension Number";
+$text['label-agent_queue_extension']['fa'] = "شماره صف";
 $text['label-agent_queue_extension']['ar-eg'] = "رقم ملحق قائمة الانتظار";
 $text['label-agent_queue_extension']['de-at'] = "Nebenstelle der Warteschlange";
 $text['label-agent_queue_extension']['de-ch'] = "Nebenstelle der Warteschlange";
@@ -458,6 +460,7 @@ $text['label-agent_queue_extension']['ko-kr'] = "대기열 내선 번호";
 
 $text['label-agent_loginout_extension']['en-us'] = "Login/Logout Extension Number";
 $text['label-agent_loginout_extension']['en-gb'] = "Login/Logout Extension Number";
+$text['label-agent_loginout_extension']['fa'] = "شماره ورود/خروج اپراتورها";
 $text['label-agent_loginout_extension']['ar-eg'] = "رقم ملحق تسجيل الدخول / الخروج ";
 $text['label-agent_loginout_extension']['de-at'] = "Nebenstelle für Anmeldung/Abmeldung";
 $text['label-agent_loginout_extension']['de-ch'] = "Nebenstelle für Anmeldung/Abmeldung";
@@ -626,6 +629,7 @@ $text['header-conditions_and_actions']['ko-kr'] = "조건 및 조치";
 
 $text['header-agent_details']['en-us'] = "Agent Details";
 $text['header-agent_details']['en-gb'] = "Agent Details";
+$text['header-agent_details']['fa'] = "جزییات اپراتور";
 $text['header-agent_details']['ar-eg'] = "العميل التفاصيل";
 $text['header-agent_details']['de-at'] = "Agenten Details";
 $text['header-agent_details']['de-ch'] = "Agenten Details";
@@ -722,6 +726,7 @@ $text['description-queue_edit']['ko-kr'] = "대기열은 발신자를 위한 대
 
 $text['description-queue_add']['en-us'] = "In simple terms queues are holding patterns for callers to wait until someone is available to take the call. Also known as FIFO Queues.";
 $text['description-queue_add']['en-gb'] = "In simple terms queues are holding patterns for callers to wait until someone is available to take the call. Also known as FIFO Queues.";
+$text['description-queue_add']['fa'] = "در این قسمت میتوانید صف با قابلیت مرکز تماس ایجاد کنید به نحوی که اپراتور با شماره گیری یک شماره میتواند به صف وارد شود و سپس برایش موزیک پخش می شود تا زمانی که یک مخاطب وارد صف شده و به اپراتور وصل شود. که در این لحظه موزیک قطع شده و اپراتور میتواند با مخاطب صحبت کند.";
 $text['description-queue_add']['ar-eg'] = "وبعبارات بسيطة، يُحمل المُتصلون أنماطاً للانتظار إلى أن يُتاح شخصٌ ما لأخذ المكالمة. (يُعرف أيضاً باسم (فيفو كويس";
 $text['description-queue_add']['de-at'] = "Einfach ausgedrückt sind WarteschlangenWarteschlangen in denen die Anruf gehalten werden, bit jemand verfügbar ist, der den Anruf annehmen kann. Diese sind als FIFO-Warteschlangen bekannt.";
 $text['description-queue_add']['de-ch'] = "Einfach ausgedrückt sind WarteschlangenWarteschlangen in denen die Anruf gehalten werden, bit jemand verfügbar ist, der den Anruf annehmen kann. Diese sind als FIFO-Warteschlangen bekannt.";
@@ -746,6 +751,7 @@ $text['description-queue_add']['ko-kr'] = "간단히 말해서 대기열은 누�
 
 $text['description-name']['en-us'] = "The name the queue will be assigned.";
 $text['description-name']['en-gb'] = "The name the queue will be assigned.";
+$text['description-name']['fa'] = "یک نام به این صف اختصاص دهید.";
 $text['description-name']['ar-eg'] = "الإسم الذي سيتم تعيينه";
 $text['description-name']['de-at'] = "Der Name, welcher der Warteschlange zugeordnet werden soll.";
 $text['description-name']['de-ch'] = "Der Name, welcher der Warteschlange zugeordnet werden soll.";
@@ -770,6 +776,7 @@ $text['description-name']['ko-kr'] = "대기열에 할당될 이름입니다.";
 
 $text['description-extension']['en-us'] = "The number that will be assigned to the queue.";
 $text['description-extension']['en-gb'] = "The number that will be assigned to the queue.";
+$text['description-extension']['fa'] = "یک داخلی به این صف اختصاص دهید.";
 $text['description-extension']['ar-eg'] = "الرقم الذي سيتم تخصيصه لقائمة الانتظار.";
 $text['description-extension']['de-at'] = "Die Rufnummer, die der Warteschlange zugeordnet werden soll.";
 $text['description-extension']['de-ch'] = "Die Rufnummer, die der Warteschlange zugeordnet werden soll.";
@@ -842,6 +849,7 @@ $text['description-conditions_and_actions']['ko-kr'] = "통화 흐름을 지시�
 
 $text['description-agent_queue_extension']['en-us'] = "The extension number for agents to dial to either wait for a call to enter the queue, or pick up a call that is in queue. The agent will hear hold music until a caller enters the queue and the call is connected.";
 $text['description-agent_queue_extension']['en-gb'] = "The extension number for agents to dial to either wait for a call to enter the queue, or pick up a call that is in queue. The agent will hear hold music until a caller enters the queue and the call is connected.";
+$text['description-agent_queue_extension']['fa'] = "شماره ای که اپراتورها با شماره گیری آن به صف وارد شده و در حال شنیدن موزیک انتظار هستند تا زمانیکه مخاطبی که به صف وارد می شود به وی متصل گردد.";
 $text['description-agent_queue_extension']['ar-eg'] = "الرقم الإرشادي للوكلاء للإتصال إما أن ينتظروا مكالمه للدخول في الطابور، أو أن يستلموا مكالمة في الطابور. الوكيل سَيَسْمعُ يَحْملُ الموسيقى حتى a متصل يَدْخلُ الطابورَ والمكالمةَ مُتصلةُ.";
 $text['description-agent_queue_extension']['de-at'] = "Die Durchwahlnummer, die Agenten wählen müssen, um entweder auf den Eingang eines Anrufs in der Warteschlange zu warten oder einen Anruf in der Warteschlange entgegenzunehmen. Der Agent hört Wartemusik, bis ein Anrufer in die Warteschlange kommt und der Anruf verbunden wird.";
 $text['description-agent_queue_extension']['de-ch'] = "Die Durchwahlnummer, die Agenten wählen müssen, um entweder auf den Eingang eines Anrufs in der Warteschlange zu warten oder einen Anruf in der Warteschlange entgegenzunehmen. Der Agent hört Wartemusik, bis ein Anrufer in die Warteschlange kommt und der Anruf verbunden wird.";
@@ -866,6 +874,7 @@ $text['description-agent_queue_extension']['ko-kr'] = "통화가 대기열에 �
 
 $text['description-agent_loginout_extension']['en-us'] = "Agents use this extension number to login or logout of the Queue. At the prompt, dial 1 to login and 2 to logout. After logging into the agent will be ready to receive calls from the Queue.";
 $text['description-agent_loginout_extension']['en-gb'] = "Agents use this extension number to login or logout of the Queue. At the prompt, dial 1 to login and 2 to logout. After logging into the agent will be ready to receive calls from the Queue.";
+$text['description-agent_loginout_extension']['fa'] = "اپراتورها برای ورود و خروج از صف باید این شماره را استفاده کنند، که بعد از شنیدن پیام برای ورود عدد ۱ و برای خروج عدد ۲ را باید شماره گیری کنند.اپراتور بعد از ورود به صف آماده ی دریافت تماس می باشد.";
 $text['description-agent_loginout_extension']['ar-eg'] = "يستعمل العملاء رقم الإرشاد هذا لقطع أو قطع الطريق في كويو في الحال، اتصلوا بـ 1 لتصلوا و 2 لقطع الأشجار بعد دخول العميل سيكون جاهزاً لتلقي المكالمات من كويو";
 $text['description-agent_loginout_extension']['de-at'] = "Der Agent verwendet diese Nebenstelle um sich bei der Warteschlange an oder ab zu melden. Nach der Anmeldung kann der Agent Anrufe aus der Warteschlange entgegennehmen.";
 $text['description-agent_loginout_extension']['de-ch'] = "Der Agent verwendet diese Nebenstelle um sich bei der Warteschlange an oder ab zu melden. Nach der Anmeldung kann der Agent Anrufe aus der Warteschlange entgegennehmen.";

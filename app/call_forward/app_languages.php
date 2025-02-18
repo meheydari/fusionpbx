@@ -732,7 +732,7 @@ $text['label-active']['ko-kr'] = "활동적인";
 
 $text['description-on-busy']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-on-busy']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
-$text['description-on-busy']['fa'] = "";
+$text['description-on-busy']['fa'] = ".";
 $text['description-on-busy']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-on-busy']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
 $text['description-on-busy']['de-ch'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -757,7 +757,7 @@ $text['description-on-busy']['ko-kr'] = "활성화된 경우 내선에서 활성
 
 $text['description-no_answer']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-no_answer']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
-$text['description-no_answer']['fa'] = "";
+$text['description-no_answer']['fa'] = ".";
 $text['description-no_answer']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-no_answer']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
 $text['description-no_answer']['de-ch'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -977,7 +977,7 @@ $text['description-call_forward']['ko-kr'] = "모든 통화를 지정된 대상�
 
 $text['description']['en-us'] = "Directs incoming calls for extension:";
 $text['description']['en-gb'] = "Directs incoming calls for extension:";
-$text['description']['en-gb'] = "تماس‌های ورودی داخلی شماره::";
+$text['description']['fa'] = "تماس‌های ورودی داخلی شماره::";
 $text['description']['ar-eg'] = "يوجه المكالمات الواردة للتمديد:";
 $text['description']['de-at'] = "Leitet eingehende Gespräche für die Nebenstelle:";
 $text['description']['de-ch'] = "Leitet eingehende Gespräche für die Nebenstelle:";

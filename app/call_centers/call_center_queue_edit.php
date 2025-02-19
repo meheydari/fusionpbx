@@ -759,7 +759,7 @@
 	echo "<tr>\n";
 	echo "<td class='vncellreq' valign='top' align='left' nowrap>\n";
 	echo "	".$text['label-strategy']."\n";
-echo '<svg data-toggle="tooltip" data-placement="top" data-html="true"
+echo '<svg data-toggle="tooltip" data-placement="top" data-html="true" data-container="body"
  title="Agent With Least Talk Time: ارسال تماس به اپراتوری که کمترین زمان مکالمه را داشته است
  <br>
 Agent With Fewest Calls: ارسال تماس به اپراتوری که کمترین تعداد تماس را داشته است

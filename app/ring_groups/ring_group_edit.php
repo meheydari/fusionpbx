@@ -738,7 +738,7 @@
 	echo "<tr>\n";
 	echo "<td class='vncellreq' valign='top' align='left' nowrap='nowrap'>\n";
 	echo "	".$text['label-strategy']."\n";
-echo '<svg data-toggle="tooltip" data-placement="top" data-html="true" title="
+echo '<svg data-toggle="tooltip" data-placement="top" data-html="true" data-container="body" title="
 Simultaneous:  انتخاب همه مقاصد بصورت همزمان بدون در نظر گرفتن فوروارد یا ‘مرا دنبال کن’؛
 <br>
 Enterprise: انتخاب همه مقاصد بصورت همزمان بدون در نظر گرفتن فوروارد یا ‘مرا دنبال کن’؛

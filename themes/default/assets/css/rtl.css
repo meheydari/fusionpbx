@@ -478,9 +478,9 @@ div.form_set > .field{
 .tooltip {
     font-family: 'Yekan Bakh FaNum', serif !important;
     font-size: 12px;
-    text-align: justify;
 }
 
 .tooltip-inner {
     max-width: 500px !important;
+    text-align: right;
 }

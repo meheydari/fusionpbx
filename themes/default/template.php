@@ -57,7 +57,13 @@ $language_code = $_SESSION['domain']['language']['code'];
 	{/if}
 
 {*//local javascript *}
+
+
 	<script language='JavaScript' type='text/javascript'>
+
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 		//message bar display
 			{literal}

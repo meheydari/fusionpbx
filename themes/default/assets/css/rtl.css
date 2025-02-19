@@ -474,3 +474,7 @@ div.form_set > .field.no-wrap > select{
 div.form_set > .field{
     text-align: right;
 }
+
+.tooltip {
+    font-family: 'Yekan Bakh FaNum', serif !important;
+}

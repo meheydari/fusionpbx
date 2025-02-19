@@ -151,7 +151,7 @@
 	echo "<div class='hud_box'>\n";
 
 //doughnut chart
-	echo "<div style='display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px;' onclick=\"$('#hud_ring_group_forward_details').slideToggle('fast');\">\n";
+	echo "<div style='display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px;'>\n";
 	echo "	<div style='width: 275px; height: 175px;'><canvas id='ring_group_forward_chart'></canvas></div>\n";
 	echo "</div>\n";
 
@@ -265,7 +265,7 @@
 	echo "<input type='hidden' name='".$token['name']."' value='".$token['hash']."'>\n";
 	echo "</form>\n";
 
-	echo "<span class='hud_expander' onclick=\"$('#hud_ring_group_forward_details').slideToggle('fast');\"><span class='fas fa-ellipsis-h'></span></span>";
+	echo "<span class='hud_expander'><span class='fas fa-ellipsis-h'></span></span>";
 	echo "</div>\n";
 
 ?>

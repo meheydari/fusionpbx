@@ -97,7 +97,7 @@
 	echo "<div class='hud_box'>\n";
 
 //doughnut chart
-	echo "<div style='display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px;' onclick=\"$('#hud_call_forward_details').slideToggle('fast');\">\n";
+	echo "<div style='display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px;' >\n";
 	echo "	<div style='width: 275px; height: 175px;'><canvas id='call_forward_chart'></canvas></div>\n";
 	echo "</div>\n";
 
@@ -230,7 +230,7 @@
 	echo "</div>";
 	//$n++;
 
-	echo "<span class='hud_expander' onclick=\"$('#hud_call_forward_details').slideToggle('fast');\"><span class='fas fa-ellipsis-h'></span></span>\n";
+	echo "<span class='hud_expander'><span class='fas fa-ellipsis-h'></span></span>\n";
 	echo "</div>\n";
 
 ?>

@@ -88,7 +88,7 @@
 
 //add doughnut chart
 	?>
-	<div style='display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px;' onclick="$('#hud_recent_calls_details').slideToggle('fast');">
+	<div style='display: flex; flex-wrap: wrap; justify-content: center; padding-bottom: 20px;'>
 		<canvas id='recent_calls_chart' width='175px' height='175px'></canvas>
 	</div>
 
@@ -224,7 +224,7 @@
 	echo "</div>";
 	//$n++;
 
-	echo "<span class='hud_expander' onclick=\"$('#hud_recent_calls_details').slideToggle('fast');\"><span class='fas fa-ellipsis-h'></span></span>";
+	echo "<span class='hud_expander'><span class='fas fa-ellipsis-h'></span></span>";
 	echo "</div>\n";
 
 ?>

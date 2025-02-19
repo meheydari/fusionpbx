@@ -759,8 +759,12 @@
 	echo "<tr>\n";
 	echo "<td class='vncellreq' valign='top' align='left' nowrap>\n";
 	echo "	".$text['label-strategy']."\n";
-echo '<svg data-toggle="tooltip" data-placement="top" title="Agent With Least Talk Time: ارسال تماس به اپراتوری که کمترین زمان مکالمه را داشته است
+echo '<svg data-toggle="tooltip" data-placement="top" data-html="true"
+ title="
+ Agent With Least Talk Time: ارسال تماس به اپراتوری که کمترین زمان مکالمه را داشته است
+ <br>
 Agent With Fewest Calls: ارسال تماس به اپراتوری که کمترین تعداد تماس را داشته است
+<br>
 Longest Idle Agent: ارسال تماس به اپراتوری که مدت طولانی تری نسبت به سطح گروه اپراتوریش بیکار بوده است 
 Ring All: ارسال تماس به همه اپراتورها بصورت همزمان
 Random: ارسال تماس به اپراتورها بصورت کاملا رندوم

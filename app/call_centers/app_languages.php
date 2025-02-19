@@ -1091,6 +1091,7 @@ $text['label-time_base_score']['ko-kr'] = "시간축 점수";
 
 $text['label-time_base_score_sec']['en-us'] = "Time Base Score Seconds";
 $text['label-time_base_score_sec']['en-gb'] = "Time Base Score Seconds";
+$text['label-time_base_score_sec']['fa'] = "اولویت صف";
 $text['label-time_base_score_sec']['ar-eg'] = "الوقت الأساسي النتيجة ثانية";
 $text['label-time_base_score_sec']['de-at'] = "Zeitgeber für Klassifikation Seconden";
 $text['label-time_base_score_sec']['de-ch'] = "Zeitgeber für Klassifikation Seconden";
@@ -2504,6 +2505,7 @@ $text['description-time_base_score']['ko-kr'] = "시간축 점수를 선택합�
 
 $text['description-time_base_score_sec']['en-us'] = "Set the time base score in seconds. Higher numbers mean higher priority.";
 $text['description-time_base_score_sec']['en-gb'] = "Set the time base score in seconds. Higher numbers mean higher priority.";
+$text['description-time_base_score_sec']['fa'] = "در صورتی که میخواهید رفتار پیشفرض سامانه برای اتصال مخاطب به اپراتور اشتراکی را نادیده بگیرید و به صف اولویت دهید تا مخاطبی زودتر به اپراتور متصل شود که اولویت صف آن بالاتر باشد، در این فیلد عدد بالاتری وارد کنید.";
 $text['description-time_base_score_sec']['ar-eg'] = "قم بتعيين النتيجة الأساسية للوقت بالثواني. تعني الأرقام الأعلى أولوية أعلى على مراكز الاتصال الأخرى.";
 $text['description-time_base_score_sec']['de-at'] = "Stellen Sie den Zeitbasiswert in Sekunden ein. Höhere Nummern bedeuten eine höhere Priorität gegenüber anderen Callcentern.";
 $text['description-time_base_score_sec']['de-ch'] = "Stellen Sie den Zeitbasiswert in Sekunden ein. Höhere Nummern bedeuten eine höhere Priorität gegenüber anderen Callcentern.";

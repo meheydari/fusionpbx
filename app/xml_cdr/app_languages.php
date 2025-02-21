@@ -3117,6 +3117,7 @@ $text['description-aloc']['ko-kr'] = "평균 통화 시간";
 
 $text['button-archive']['en-us'] = "Archive";
 $text['button-archive']['en-gb'] = "Archive";
+$text['button-archive']['fa'] = "آرشیو";
 $text['button-archive']['ar-eg'] = "أرشيف";
 $text['button-archive']['de-at'] = "Archiv";
 $text['button-archive']['de-ch'] = "Archiv";
@@ -3216,7 +3217,7 @@ $text['button-missed']['ko-kr'] = "부재중 전화";
 
 $text['button-extension_summary']['en-us'] = "Extension Summary";
 $text['button-extension_summary']['en-gb'] = "Extension Summary";
-$text['button-extension_summary']['fa'] = "جزییات داخلی ها";
+$text['button-extension_summary']['fa'] = "جزییات داخلی‌ها";
 $text['button-extension_summary']['ar-eg'] = "ملخص التمديد";
 $text['button-extension_summary']['de-at'] = "Nebenstellen Statistik";
 $text['button-extension_summary']['de-ch'] = "Nebenstellen Statistik";
@@ -3266,6 +3267,7 @@ $text['button-download_csv']['ko-kr'] = "CSV 다운로드";
 
 $text['button-advanced_search']['en-us'] = "Advanced";
 $text['button-advanced_search']['en-gb'] = "Advanced";
+$text['button-advanced_search']['fa'] = "پیشرفته";
 $text['button-advanced_search']['ar-eg'] = "متقدم";
 $text['button-advanced_search']['de-at'] = "Erweiterte";
 $text['button-advanced_search']['de-ch'] = "Erweiterte";

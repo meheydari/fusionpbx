@@ -221,7 +221,7 @@ $text['label-prompt']['ko-kr'] = "전화를 수락할지 묻는 메시지";
 
 $text['label-on-busy']['en-us'] = "On Busy";
 $text['label-on-busy']['en-gb'] = "On Busy";
-$text['label-on-busy']['fa'] = "اشغال";
+$text['label-on-busy']['fa'] = "انتقال تماس در حالت مشغولی";
 $text['label-on-busy']['ar-eg'] = "مشغول";
 $text['label-on-busy']['de-at'] = "Bei Besetzt";
 $text['label-on-busy']['de-ch'] = "Bei Besetzt";
@@ -270,7 +270,7 @@ $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-no_answer']['en-us'] = "No Answer";
 $text['label-no_answer']['en-gb'] = "No Answer";
-$text['label-no_answer']['fa'] = "بدون تماس";
+$text['label-no_answer']['fa'] = "انتقال تماس در حالت عدم پاسخگویی";
 $text['label-no_answer']['ar-eg'] = "لا اجابة";
 $text['label-no_answer']['de-at'] = "Keine Antwort";
 $text['label-no_answer']['de-ch'] = "Keine Antwort";
@@ -295,7 +295,7 @@ $text['label-no_answer']['ko-kr'] = "대답 없음";
 
 $text['label-not_registered']['en-us'] = "Not Registered";
 $text['label-not_registered']['en-gb'] = "Not Registered";
-$text['label-not_registered']['fa'] = "بدون رجیستر";
+$text['label-not_registered']['fa'] = " انتقال تماس در حالت غیرفعال بودن داخلی";
 $text['label-not_registered']['ar-eg'] = "غير مسجل";
 $text['label-not_registered']['de-at'] = "Nicht registriert";
 $text['label-not_registered']['de-ch'] = "Nicht registriert";
@@ -732,7 +732,7 @@ $text['label-active']['ko-kr'] = "활동적인";
 
 $text['description-on-busy']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-on-busy']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
-$text['description-on-busy']['fa'] = ".";
+$text['description-on-busy']['fa'] = "در صورت فعال کردن این گزینه،  زمانی که داخلی مشغول باشد، تماس به این مقصد ارسال خواهد شد و به صندوق صوتی وصل نمیشود.";
 $text['description-on-busy']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-on-busy']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
 $text['description-on-busy']['de-ch'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -757,7 +757,7 @@ $text['description-on-busy']['ko-kr'] = "활성화된 경우 내선에서 활성
 
 $text['description-no_answer']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-no_answer']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
-$text['description-no_answer']['fa'] = ".";
+$text['description-no_answer']['fa'] = "در صورت فعال کردن این گزینه، زمانی که داخلی پاسخ ندهد، تماس به این مقصد ارسال خواهد شد و به صندوق صوتی وصل نمیشود.";
 $text['description-no_answer']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-no_answer']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
 $text['description-no_answer']['de-ch'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -782,7 +782,7 @@ $text['description-no_answer']['ko-kr'] = "활성화된 경우 내선에서 활�
 
 $text['description-not_registered']['en-us'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
 $text['description-not_registered']['en-gb'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
-$text['description-not_registered']['fa'] = "اگر داخلی در دسترس نبود، قبل از انتقال تماس به صندوق صوتی به این داخلی منتقل می‌شود.";
+$text['description-not_registered']['fa'] = "در صورت فعال کردن این گزینه، زمانی که داخلی در دسترس نباشد، تماس به این مقصد ارسال خواهد شد و سپس به صندوق صوتی وصل خواهد شد.";
 $text['description-not_registered']['ar-eg'] = "إذا كانت نقطة النهاية لا يمكن الوصول إليها ، فأعد توجيهها إلى هذه الوجهة قبل الانتقال إلى البريد الصوتي.";
 $text['description-not_registered']['de-at'] = "Rufweiterleitung an neues Ziel, wenn ursprüngliches Ziel nicht erreichbar ist, bevor die Mailbox aktiviert wird.";
 $text['description-not_registered']['de-ch'] = "Rufweiterleitung an neues Ziel, wenn ursprüngliches Ziel nicht erreichbar ist, bevor die Mailbox aktiviert wird.";

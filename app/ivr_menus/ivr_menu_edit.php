@@ -1454,71 +1454,71 @@
 		echo "</td>\n";
 		echo "</tr>\n";
 
-		echo "<tr>\n";
-		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
-		echo "	".$text['label-pin_number']."\n";
-		echo "</td>\n";
-		echo "<td class='vtable' align='left'>\n";
-		echo "	<input class='formfld' type='text' name='ivr_menu_pin_number' maxlength='255' value=\"".escape($ivr_menu_pin_number ?? '')."\">\n";
-		echo "<br />\n";
-		echo $text['description-pin_number']."\n";
-		echo "</td>\n";
-		echo "</tr>\n";
-
-		echo "<tr>\n";
-		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
-		echo "	".$text['label-comfirm_macro']."\n";
-		echo "</td>\n";
-		echo "<td class='vtable' align='left'>\n";
-		echo "	<input class='formfld' type='text' name='ivr_menu_confirm_macro' maxlength='255' value=\"".escape($ivr_menu_confirm_macro ?? '')."\">\n";
-		echo "<br />\n";
-		echo $text['description-comfirm_macro']."\n";
-		echo "</td>\n";
-		echo "</tr>\n";
-
-		echo "<tr>\n";
-		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
-		echo "	".$text['label-comfirm_key']."\n";
-		echo "</td>\n";
-		echo "<td class='vtable' align='left'>\n";
-		echo "	<input class='formfld' type='text' name='ivr_menu_confirm_key' maxlength='255' value=\"".escape($ivr_menu_confirm_key ?? '')."\">\n";
-		echo "<br />\n";
-		echo $text['description-comfirm_key']."\n";
-		echo "</td>\n";
-		echo "</tr>\n";
-
-		echo "<tr>\n";
-		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
-		echo "	".$text['label-tts_engine']."\n";
-		echo "</td>\n";
-		echo "<td class='vtable' align='left'>\n";
-		echo "	<input class='formfld' type='text' name='ivr_menu_tts_engine' maxlength='255' value=\"".escape($ivr_menu_tts_engine)."\">\n";
-		echo "<br />\n";
-		echo $text['description-tts_engine']."\n";
-		echo "</td>\n";
-		echo "</tr>\n";
-
-		echo "<tr>\n";
-		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
-		echo "	".$text['label-tts_voice']."\n";
-		echo "</td>\n";
-		echo "<td class='vtable' align='left'>\n";
-		echo "	<input class='formfld' type='text' name='ivr_menu_tts_voice' maxlength='255' value=\"".escape($ivr_menu_tts_voice)."\">\n";
-		echo "<br />\n";
-		echo $text['description-tts_voice']."\n";
-		echo "</td>\n";
-		echo "</tr>\n";
-
-		echo "<tr>\n";
-		echo "<td class='vncellreq' valign='top' align='left' nowrap>\n";
-		echo "	".$text['label-comfirm_attempts']."\n";
-		echo "</td>\n";
-		echo "<td class='vtable' align='left'>\n";
-		echo "  <input class='formfld' type='number' name='ivr_menu_confirm_attempts' maxlength='255' min='1' step='1' value='".escape($ivr_menu_confirm_attempts)."' required='required'>\n";
-		echo "<br />\n";
-		echo $text['description-comfirm_attempts']."\n";
-		echo "</td>\n";
-		echo "</tr>\n";
+//		echo "<tr>\n";
+//		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
+//		echo "	".$text['label-pin_number']."\n";
+//		echo "</td>\n";
+//		echo "<td class='vtable' align='left'>\n";
+//		echo "	<input class='formfld' type='text' name='ivr_menu_pin_number' maxlength='255' value=\"".escape($ivr_menu_pin_number ?? '')."\">\n";
+//		echo "<br />\n";
+//		echo $text['description-pin_number']."\n";
+//		echo "</td>\n";
+//		echo "</tr>\n";
+//
+//		echo "<tr>\n";
+//		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
+//		echo "	".$text['label-comfirm_macro']."\n";
+//		echo "</td>\n";
+//		echo "<td class='vtable' align='left'>\n";
+//		echo "	<input class='formfld' type='text' name='ivr_menu_confirm_macro' maxlength='255' value=\"".escape($ivr_menu_confirm_macro ?? '')."\">\n";
+//		echo "<br />\n";
+//		echo $text['description-comfirm_macro']."\n";
+//		echo "</td>\n";
+//		echo "</tr>\n";
+//
+//		echo "<tr>\n";
+//		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
+//		echo "	".$text['label-comfirm_key']."\n";
+//		echo "</td>\n";
+//		echo "<td class='vtable' align='left'>\n";
+//		echo "	<input class='formfld' type='text' name='ivr_menu_confirm_key' maxlength='255' value=\"".escape($ivr_menu_confirm_key ?? '')."\">\n";
+//		echo "<br />\n";
+//		echo $text['description-comfirm_key']."\n";
+//		echo "</td>\n";
+//		echo "</tr>\n";
+//
+//		echo "<tr>\n";
+//		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
+//		echo "	".$text['label-tts_engine']."\n";
+//		echo "</td>\n";
+//		echo "<td class='vtable' align='left'>\n";
+//		echo "	<input class='formfld' type='text' name='ivr_menu_tts_engine' maxlength='255' value=\"".escape($ivr_menu_tts_engine)."\">\n";
+//		echo "<br />\n";
+//		echo $text['description-tts_engine']."\n";
+//		echo "</td>\n";
+//		echo "</tr>\n";
+//
+//		echo "<tr>\n";
+//		echo "<td class='vncell' valign='top' align='left' nowrap>\n";
+//		echo "	".$text['label-tts_voice']."\n";
+//		echo "</td>\n";
+//		echo "<td class='vtable' align='left'>\n";
+//		echo "	<input class='formfld' type='text' name='ivr_menu_tts_voice' maxlength='255' value=\"".escape($ivr_menu_tts_voice)."\">\n";
+//		echo "<br />\n";
+//		echo $text['description-tts_voice']."\n";
+//		echo "</td>\n";
+//		echo "</tr>\n";
+//
+//		echo "<tr>\n";
+//		echo "<td class='vncellreq' valign='top' align='left' nowrap>\n";
+//		echo "	".$text['label-comfirm_attempts']."\n";
+//		echo "</td>\n";
+//		echo "<td class='vtable' align='left'>\n";
+//		echo "  <input class='formfld' type='number' name='ivr_menu_confirm_attempts' maxlength='255' min='1' step='1' value='".escape($ivr_menu_confirm_attempts)."' required='required'>\n";
+//		echo "<br />\n";
+//		echo $text['description-comfirm_attempts']."\n";
+//		echo "</td>\n";
+//		echo "</tr>\n";
 
 		echo "<tr>\n";
 		echo "<td class='vncellreq' valign='top' align='left' nowrap>\n";

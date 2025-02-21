@@ -3141,6 +3141,7 @@ $text['button-archive']['ko-kr'] = "보관소";
 
 $text['button-update']['en-us'] = "Update";
 $text['button-update']['en-gb'] = "Update";
+$text['button-update']['fa'] = "بروزرسانی";
 $text['button-update']['ar-eg'] = "تحديث";
 $text['button-update']['de-at'] = "Aktualisieren";
 $text['button-update']['de-ch'] = "Aktualisieren";
@@ -3295,4 +3296,5 @@ $text['label-cid_number']['fa'] = "شناسه";
 
 $text['label-recent_calls']['fa'] = "تماس‌های اخیر";
 $text['label-date_time']['fa'] = "تاریخ";
+$text['button-reset']['fa'] = "بازنشانی";
 ?>

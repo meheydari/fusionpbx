@@ -1320,6 +1320,7 @@ $text['button-view']['fa'] = "مشاهده";
 
 $text['button-upload']['en-us'] = "Upload";
 $text['button-upload']['en-gb'] = "Upload";
+$text['button-upload']['fa'] = "آپلود";
 $text['button-upload']['ar-eg'] = "رفع";
 $text['button-upload']['de-at'] = "Hochladen";
 $text['button-upload']['de-ch'] = "Hochladen";
@@ -1922,6 +1923,7 @@ $text['button-continue']['ko-kr'] = "계속하다";
 
 $text['button-cancel']['en-us'] = "Cancel";
 $text['button-cancel']['en-gb'] = "Cancel";
+$text['button-cancel']['fa'] = "انصراف";
 $text['button-cancel']['ar-eg'] = "الغاء";
 $text['button-cancel']['de-at'] = "Abbrechen";
 $text['button-cancel']['de-ch'] = "Abbrechen";

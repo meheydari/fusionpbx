@@ -2,7 +2,7 @@
 
 $text['title-edit']['en-us'] = "Recording";
 $text['title-edit']['en-gb'] = "Recording";
-$text['title-edit']['fa'] = "رکورد تماس";
+$text['title-edit']['fa'] = "بارگزاری فایل صوتی";
 $text['title-edit']['ar-eg'] = "التسجيل";
 $text['title-edit']['de-at'] = "Aufnahmen";
 $text['title-edit']['de-ch'] = "Aufnahmen";
@@ -27,7 +27,7 @@ $text['title-edit']['ko-kr'] = "녹음";
 
 $text['title-add']['en-us'] = "Add Recording";
 $text['title-add']['en-gb'] = "Add Recording";
-$text['title-add']['fa'] = "رکورد تماس";
+$text['title-add']['fa'] = "بارگزاری فایل صوتی";
 $text['title-add']['ar-eg'] = "يضاف التسجيل";
 $text['title-add']['de-at'] = "Aufnahme hinzufügen";
 $text['title-add']['de-ch'] = "Aufnahme hinzufügen";
@@ -538,4 +538,6 @@ $text['description-with_password']['ja-jp'] = "*732 にダイヤルし、パス�
 $text['description-with_password']['ko-kr'] = "*732를 다이얼하고 비밀번호 ||RECORDING_PASSWORD||를 입력한 다음 생성할 녹음 번호를 입력합니다. 또는 최상의 결과를 얻으려면 16비트 8khz/16khz 모노 WAV 파일을 업로드하십시오.";
 
 $text['label-date']['fa'] = 'تاریخ ایجاد';
+$text['button-cancel']['fa'] = "انصراف";
+$text['button-upload']['fa'] = "آپلود";
 ?>

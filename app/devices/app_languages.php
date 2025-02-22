@@ -4614,6 +4614,7 @@ $text['label-ent_phone_book']['ko-kr'] = "엔터프라이즈 전화번호부";
 
 $text['label-missed_calls']['en-us'] = "Missed Calls";
 $text['label-missed_calls']['en-gb'] = "Missed Calls";
+$text['label-missed_calls']['fa'] = "تماس‌های از دست رفته";
 $text['label-missed_calls']['ar-eg'] = "المكالمات المفقودة";
 $text['label-missed_calls']['de-at'] = "Verpasste Anrufe";
 $text['label-missed_calls']['de-ch'] = "Verpasste Anrufe";

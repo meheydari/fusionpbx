@@ -116,7 +116,7 @@
 						},
 						title: {
 							display: true,
-							text: '<?php echo $text['label-missed_calls']; ?>'
+							text: 'تماس‌های از دست رفته'
 						}
 					}
 				},

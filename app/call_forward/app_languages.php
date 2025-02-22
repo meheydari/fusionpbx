@@ -707,6 +707,7 @@ $text['label-call_forward']['ko-kr'] = "착신 전환";
 
 $text['label-active']['en-us'] = "Active";
 $text['label-active']['en-gb'] = "Active";
+$text['label-active']['fa'] = "فعال";
 $text['label-active']['ar-eg'] = "نشيط";
 $text['label-active']['de-at'] = "Aktiv";
 $text['label-active']['de-ch'] = "Aktiv";

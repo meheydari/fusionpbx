@@ -1382,6 +1382,7 @@ $text['label-new']['ko-kr'] = "새로운";
 
 $text['label-missed_calls']['en-us'] = "Missed Calls";
 $text['label-missed_calls']['en-gb'] = "Missed Calls";
+$text['label-missed_calls']['fa'] = "تماس‌های از دست رفته";
 $text['label-missed_calls']['ar-eg'] = "مكالمات فائتة";
 $text['label-missed_calls']['de-at'] = "Anrufe in Abwesenheit";
 $text['label-missed_calls']['de-ch'] = "Anrufe in Abwesenheit";

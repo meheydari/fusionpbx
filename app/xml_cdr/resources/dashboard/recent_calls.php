@@ -121,7 +121,7 @@
 						},
 						title: {
 							display: true,
-							text: '<?php echo $text['label-recent_calls']; ?>'
+							text: 'تماس‌های اخیر'
 						}
 					}
 				},

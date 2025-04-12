@@ -181,7 +181,7 @@
 	echo "	<th class='hide-sm-dn'>".$text['label-ip']."</th>\n";
 	echo "	<th class='hide-sm-dn'>".$text['label-port']."</th>\n";
 	echo "	<th class='hide-md-dn'>".$text['label-hostname']."</th>\n";
-	echo "	<th class='pct-35' style='width: 35%;'>".$text['label-status']."</th>\n";
+	echo "	<th".$text['label-status']."</th>\n";
 	echo "	<th class='hide-md-dn'>".$text['label-ping']."</th>\n";
 	echo "	<th class='hide-md-dn'>".$text['label-sip_profile_name']."</th>\n";
 	echo "	<td class='action-button'>&nbsp;</td>\n";

@@ -195,6 +195,55 @@ class plugin_email {
 				$_SESSION["user"]["authentication"]["email"]["code"] = '123456';
 				$_SESSION["user"]["authentication"]["email"]["epoch"] = time();
 
+
+				try {
+					$otp = $_SESSION["user"]["authentication"]["email"]["code"];
+					if (!empty($contact_uuid) && is_uuid($contact_uuid)) {
+						$sql = "select * from v_contact_phones ";
+						$sql .= "where contact_uuid = :contact_uuid ";
+						//$sql .= "and domain_uuid = '".$domain_uuid."' ";
+						//$parameters['domain_uuid'] = $_SESSION['domain_uuid'];
+						$parameters['contact_uuid'] = $contact_uuid;
+						$database = new database;
+						$contact_phones = $database->select($sql, $parameters, 'all');
+						unset ($sql, $parameters);
+					}
+					if (!empty($contact_phones) && is_array($contact_phones)) {
+
+						foreach ($contact_phones as $row) {
+							$phone_number = $row["phone_number"];
+							$text = "کد ورود به ابرنیک\n$otp";
+
+							$curl = curl_init();
+							curl_setopt_array($curl, array(
+								CURLOPT_URL => 'http://crm.respina.net:5005/api/Nexfon/SendSms',
+								CURLOPT_RETURNTRANSFER => true,
+								CURLOPT_ENCODING => '',
+								CURLOPT_MAXREDIRS => 10,
+								CURLOPT_TIMEOUT => 0,
+								CURLOPT_FOLLOWLOCATION => true,
+								CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+								CURLOPT_CUSTOMREQUEST => 'POST',
+								CURLOPT_POSTFIELDS => '{
+    "AccountId": "3B85A560-E347-EA11-80D0-005056917BD2",
+    "PhoneNumber": "' . $phone_number . '",
+    "Message": "' . $text . '"
+}',
+								CURLOPT_HTTPHEADER => array(
+									'Authorization: Basic UnNwbl9OZXhmb246UnNwbl9OZXhmb24xMjM0NTY/QCM=',
+									'Content-Type: application/json'
+								),
+							));
+
+							$response = curl_exec($curl);
+							curl_close($curl);
+						}
+					}
+				} catch (Exception $e) {
+					echo 'Message: ' . $e->getMessage();
+				}
+
+
 				//$_SESSION["authentication_address"] = $_SERVER['REMOTE_ADDR'];
 				//$_SESSION["authentication_date"] = 'now()';
 
@@ -256,51 +305,6 @@ class plugin_email {
 
 				//send the email and otp with sms
 				if ($email_send_mode == 'email_queue') {
-
-					$otp = $_SESSION["user"]["authentication"]["email"]["code"];
-					if (!empty($contact_uuid) && is_uuid($contact_uuid)) {
-						$sql = "select * from v_contact_phones ";
-						$sql .= "where contact_uuid = :contact_uuid ";
-						//$sql .= "and domain_uuid = '".$domain_uuid."' ";
-						//$parameters['domain_uuid'] = $_SESSION['domain_uuid'];
-						$parameters['contact_uuid'] = $contact_uuid;
-						$database = new database;
-						$contact_phones = $database->select($sql, $parameters, 'all');
-						unset ($sql, $parameters);
-					}
-					if (!empty($contact_phones) && is_array($contact_phones)) {
-
-						foreach ($contact_phones as $row) {
-							$phone_number = $row["phone_number"];
-							$text = "کد ورود به ابرنیک\n$otp";
-
-
-							$curl = curl_init();
-							curl_setopt_array($curl, array(
-								CURLOPT_URL => 'http://crm.respina.net:5005/api/Nexfon/SendSms',
-								CURLOPT_RETURNTRANSFER => true,
-								CURLOPT_ENCODING => '',
-								CURLOPT_MAXREDIRS => 10,
-								CURLOPT_TIMEOUT => 0,
-								CURLOPT_FOLLOWLOCATION => true,
-								CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-								CURLOPT_CUSTOMREQUEST => 'POST',
-								CURLOPT_POSTFIELDS => '{
-    "AccountId": "3B85A560-E347-EA11-80D0-005056917BD2",
-    "PhoneNumber": "' . $phone_number . '",
-    "Message": "' . $text . '"
-}',
-								CURLOPT_HTTPHEADER => array(
-									'Authorization: Basic UnNwbl9OZXhmb246UnNwbl9OZXhmb24xMjM0NTY/QCM=',
-									'Content-Type: application/json'
-								),
-							));
-
-							$response = curl_exec($curl);
-							curl_close($curl);
-						}
-					}
-
 					//set the variables
 					$email_queue_uuid = uuid();
 					$email_uuid = uuid();

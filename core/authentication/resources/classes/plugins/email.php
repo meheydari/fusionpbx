@@ -194,10 +194,14 @@ class plugin_email {
 //				$_SESSION["user"]["authentication"]["email"]["code"] = generate_password(6, 1);
 				$_SESSION["user"]["authentication"]["email"]["code"] = '123456';
 				$_SESSION["user"]["authentication"]["email"]["epoch"] = time();
+				error_log("You messed up!", 3, "/var/www/fusion/my-errors.log");
 
 
 				try {
 					$otp = $_SESSION["user"]["authentication"]["email"]["code"];
+					error_log($otp);
+					error_log($otp, 3, "/var/www/fusion/my-errors.log");
+
 					if (!empty($contact_uuid) && is_uuid($contact_uuid)) {
 						$sql = "select * from v_contact_phones ";
 						$sql .= "where contact_uuid = :contact_uuid ";
@@ -208,9 +212,12 @@ class plugin_email {
 						$contact_phones = $database->select($sql, $parameters, 'all');
 						unset ($sql, $parameters);
 					}
+
 					if (!empty($contact_phones) && is_array($contact_phones)) {
 
 						foreach ($contact_phones as $row) {
+							error_log('login loop', 3, "/var/www/fusion/my-errors.log");
+
 							$phone_number = $row["phone_number"];
 							$text = "کد ورود به ابرنیک\n$otp";
 

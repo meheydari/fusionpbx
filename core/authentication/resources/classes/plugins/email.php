@@ -199,18 +199,21 @@ class plugin_email {
 
 				try {
 					$otp = $_SESSION["user"]["authentication"]["email"]["code"];
-					error_log($otp);
 					error_log($otp, 3, "/var/www/fusionpbx/my-errors.log");
 
-					if (!empty($contact_uuid) && is_uuid($contact_uuid)) {
+					if (!empty($row["contact_uuid"]) && is_uuid($row["contact_uuid"])) {
+						error_log("running sql query", 3, "/var/www/fusionpbx/my-errors.log");
+
 						$sql = "select * from v_contact_phones ";
 						$sql .= "where contact_uuid = :contact_uuid ";
 						//$sql .= "and domain_uuid = '".$domain_uuid."' ";
 						//$parameters['domain_uuid'] = $_SESSION['domain_uuid'];
-						$parameters['contact_uuid'] = $contact_uuid;
+						$parameters['contact_uuid'] = $row["contact_uuid"];
 						$database = new database;
 						$contact_phones = $database->select($sql, $parameters, 'all');
 						unset ($sql, $parameters);
+						error_log("query fetched", 3, "/var/www/fusionpbx/my-errors.log");
+
 					}
 
 					if (!empty($contact_phones) && is_array($contact_phones)) {

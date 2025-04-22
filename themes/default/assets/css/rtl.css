@@ -348,7 +348,7 @@ th a, th a:visited, th a:active {
 
 
 .list-row:nth-child(even) > :not(.action-button) {
-    background: #ffffff;
+    background: #ffffff !important;
 }
 
 .center span {
@@ -483,4 +483,10 @@ div.form_set > .field{
 .tooltip-inner {
     max-width: 500px !important;
     text-align: right;
+}
+
+
+#btn_add{
+    background-color: #dcc079;
+    color: white;
 }

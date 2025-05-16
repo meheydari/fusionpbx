@@ -174,7 +174,7 @@ div.action_bar > div.actions {
 }
 
 input.btn, input.button, button.btn-default {
-    height: 38px;
+    height: 35px;
     padding: 5px 8px;
     border: unset;
     -moz-border-radius: 6px;

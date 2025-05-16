@@ -6001,5 +6001,4 @@ $text['label-strategy']['fa'] = "استراتژی";
 
 
 
-
 ?>

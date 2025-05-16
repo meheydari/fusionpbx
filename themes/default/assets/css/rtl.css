@@ -72,7 +72,7 @@ div#menu_side_container {
     }
 
     div#menu_side_container {
-        background-color: #232323;
+        background-color: #192A4F;
         margin: 10px 10px 10px 0;
         z-index: 99900;
         position: fixed;
@@ -93,8 +93,8 @@ div#menu_side_container {
     }
 
     div#menu_side_control_container {
-        background-color: #232323;
-        border-bottom: 1px #FFF3D1 solid;
+        background-color: #192A4F;
+        border-bottom: 1px #2C4171 solid;
     }
 
     .menu_side_item_main {
@@ -114,7 +114,7 @@ div#menu_side_container {
     }
 
     a.menu_side_item_sub {
-        background: #232323;
+        background: #192A4F;
     }
 
     .menu_side_sub .menu_side_item_title {
@@ -124,11 +124,11 @@ div#menu_side_container {
 
 div#menu_side_container > a.menu_side_item_main:hover, div#menu_side_container > a.menu_side_item_main:focus, div#menu_side_container > a.menu_side_item_main:active, div#menu_side_container > div > a.menu_side_item_main:hover, div#menu_side_container > div > a.menu_side_item_main:focus, div#menu_side_container > div > a.menu_side_item_main:active, div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:hover, div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:focus, div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:active {
     color: #ffffff;
-    background: #DCBF79;
+    background: #435C93;
 }
 a.menu_side_item_sub:hover, a.menu_side_item_sub:focus, a.menu_side_item_sub:active {
     color: #ffffff;
-    background: #DCBF79;
+    background: #435C93;
 }
 
 div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div > a.menu_side_item_main, div#menu_side_container > div#menu_side_control_container a.menu_side_item_main {
@@ -167,7 +167,7 @@ div.action_bar > div.actions {
 }
 
 .title, b {
-    color: #665938 !important;
+    color: #304168 !important;
     font-size: 20px !important;
     font-weight: 700 !important;
     font-family: 'Yekan Bakh FaNum' !important;
@@ -181,11 +181,11 @@ input.btn, input.button, button.btn-default {
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     border-radius: 6px;
-    background: #FEFBF3;
+    background: #ECEFF4;
     background-image: unset;
     background-image: unset;
     font-family: 'Yekan Bakh FaNum';
-    color: #AC965E;
+    color: #435C93;
     font-weight: 600;
     font-size: 12px;
     outline: none;
@@ -193,8 +193,8 @@ input.btn, input.button, button.btn-default {
 
 input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.button:active, input.button:focus, button.btn-default:hover, button.btn-default:active, button.btn-default:focus {
     cursor: pointer;
-    border-color: #232323;
-    background: #232323;
+    border-color: #192A4F;
+    background: #192A4F;
     background-image: -ms-linear-gradient(top, #000000 0%, #000000 100%);
     background-image: -moz-linear-gradient(top, #000000 0%, #000000 100%);
     background-image: -o-linear-gradient(top, #000000 0%, #000000 100%);
@@ -381,7 +381,7 @@ td.center{
 }
 
 #btn_save {
-    background-color: #DCC079;
+    background-color: #435C93;
     color: white;
     font-weight: 600;
 }
@@ -486,7 +486,25 @@ div.form_set > .field{
 }
 
 
-#btn_add{
-    background-color: #dcc079;
+#btn_add {
+    background-color: #435C93;
     color: white;
+}
+
+.list-row > td.description {
+    background: unset !important;
+}
+
+button img {
+    display: none;
+}
+
+button#btn_logout {
+    background-color: #D9214E;
+    color: white;
+}
+
+button#btn_logout:hover {
+    background-color: white;
+    color: #D9214E;
 }

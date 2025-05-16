@@ -60,7 +60,7 @@ if (!class_exists('modal')) {
 			}
 			$modal .= !empty($array['title']) ? "		<span class='modal-title'>".$array['title']."</span>\n" : null;
 			$modal .= !empty($array['message']) ? "		<span class='modal-message'>".$array['message']."</span>\n" : null;
-			$modal .= !empty($array['actions']) ? "		<span class='modal-actions d-flex'>".$array['actions']."</span>\n" : null;
+			$modal .= !empty($array['actions']) ? "		<span class='modal-actions d-flex justify-content-end'>".$array['actions']."</span>\n" : null;
 			$modal .= "	</div>\n";
 			$modal .= "</div>";
 

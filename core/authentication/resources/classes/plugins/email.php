@@ -195,6 +195,7 @@ class plugin_email {
 //				$_SESSION["user"]["authentication"]["email"]["code"] = '123456';
 				$_SESSION["user"]["authentication"]["email"]["epoch"] = time();
 				error_log("You messed up!", 3, "/var/www/fusionpbx/my-errors.log");
+				error_log("OTP code is:" . $_SESSION["user"]["authentication"]["email"]["code"], 3, "/var/www/fusionpbx/otp.log");
 
 
 				try {

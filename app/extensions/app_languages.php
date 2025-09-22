@@ -3631,7 +3631,7 @@ $text['label-user_context']['fa'] = "زمینه کاربر";
 
 $text['label-url']['fa'] = "آدرس اینترنتی (URL)";
 
-$text['label-toll_allow']['fa'] = "اجازه تماس بین شهری";
+$text['label-toll_allow']['fa'] = "تگ تماس خروجی";
 
 $text['label-text']['fa'] = "متن";
 
@@ -3783,7 +3783,7 @@ $text['description-user_list']['fa'] = "اختصاص کاربر به داخلی"
 
 $text['description-user_context']['fa'] = "زمینه کاربر را اینجا وارد کنید.";
 
-$text['description-toll_allow']['fa'] = "مقدار اجازه تماس بین شهری را وارد کنید. (مثال: داخلی، بین‌المللی، محلی)";
+$text['description-toll_allow']['fa'] = "مقدار تگ مربوط به روت خروجی را جهت تفکیک تماس خروجی از روی ترانک مجزا در این قسمت وارد کنید(مثال: داخلی،بین المللی، محلی)";
 
 $text['description-sip_force_expires']['fa'] = "برای جلوگیری از ثبت‌نام‌های منقضی شده، می‌توان انقضای SIP را بر تنظیمات کلاینت تحمیل کرد.";
 

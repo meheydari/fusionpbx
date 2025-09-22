@@ -228,7 +228,8 @@
 	echo "</div>\n";
 
 	if ($action == 'update' && permission_exists('group_add')) {
-		echo modal::create(['id'=>'modal-copy','type'=>'copy','actions'=>button::create(['type'=>'submit','label'=>$text['button-continue'],'icon'=>'check','id'=>'btn_copy','style'=>'float: right; margin-left: 15px;','collapse'=>'never','name'=>'action','value'=>'copy','onclick'=>"modal_close();"])]);
+		echo modal::create(['id' => 'modal-copy', 'type' => 'copy', 'actions' => button::create(['type' => 'submit', 'label' => $text['button-continue'], 'icon' => 'check', 'id' => 'btn_copy', 'style' => 'float: right; margin-left: 15px;', 'collapse' => 'never', 'name' => 'action', 'value' => 'copy', 'onclick' => "modal_close();"])]);
+        echo "<style>#btn_copy{display: block;}</style>";
 	}
 	if ($action == 'update' && permission_exists('group_delete')) {
 		echo modal::create(['id'=>'modal-delete','type'=>'delete','actions'=>button::create(['type'=>'submit','label'=>$text['button-continue'],'icon'=>'check','id'=>'btn_delete','style'=>'float: right; margin-left: 15px;','collapse'=>'never','name'=>'action','value'=>'delete','onclick'=>"modal_close();"])]);

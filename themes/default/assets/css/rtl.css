@@ -107,6 +107,7 @@ div#menu_side_container {
         display: flex;
         align-items: center;
         gap: 4px;
+        width: 100%;
     }
 
     a.menu_side_item_sub {

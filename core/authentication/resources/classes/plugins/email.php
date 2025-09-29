@@ -223,7 +223,7 @@ class plugin_email {
 							error_log('login loop', 3, "/var/www/fusionpbx/my-errors.log");
 
 							$phone_number = $row["phone_number"];
-							$text = "کد ورود به ابرنیک\n$otp";
+							$text = "کد ورود به فونیک\n$otp";
 
 // urlencode برای اطمینان از ارسال درست متن فارسی
 							$message = urlencode($text);

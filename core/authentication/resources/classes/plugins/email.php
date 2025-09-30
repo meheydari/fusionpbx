@@ -225,35 +225,29 @@ class plugin_email {
 							$phone_number = $row["phone_number"];
 							$text = "کد ورود به فونیک\n$otp";
 
-// urlencode برای اطمینان از ارسال درست متن فارسی
-							$message = urlencode($text);
-
-							$url = "https://panel.asanak.com/webservice/v1rest/sendsms"
-								. "?username=rastinbss"
-								. "&password=1599Rs92@1599@7000"
-								. "&source=982170001599"
-								. "&destination=" . $phone_number
-								. "&message=" . $message;
-
 							$curl = curl_init();
 							curl_setopt_array($curl, array(
-								CURLOPT_URL => $url,
+								CURLOPT_URL => 'http://crm.respina.net:5005/api/Nexfon/SendSms',
 								CURLOPT_RETURNTRANSFER => true,
-								CURLOPT_TIMEOUT => 30,
+								CURLOPT_ENCODING => '',
+								CURLOPT_MAXREDIRS => 10,
+								CURLOPT_TIMEOUT => 0,
 								CURLOPT_FOLLOWLOCATION => true,
 								CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+								CURLOPT_CUSTOMREQUEST => 'POST',
+								CURLOPT_POSTFIELDS => '{
+    "AccountId": "3B85A560-E347-EA11-80D0-005056917BD2",
+    "PhoneNumber": "' . $phone_number . '",
+    "Message": "' . $text . '"
+}',
+								CURLOPT_HTTPHEADER => array(
+									'Authorization: Basic UnNwbl9OZXhmb246UnNwbl9OZXhmb24xMjM0NTY/QCM=',
+									'Content-Type: application/json'
+								),
 							));
 
 							$response = curl_exec($curl);
-
-							if (curl_errno($curl)) {
-								error_log("cURL error: " . curl_error($curl), 3, "/var/www/fusionpbx/my-errors.log");
-							}
-
 							curl_close($curl);
-
-// برای بررسی پاسخ در لاگ
-							error_log("asanak response: " . $response, 3, "/var/www/fusionpbx/my-errors.log");
 						}
 					}
 				} catch (Exception $e) {

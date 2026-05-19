@@ -43,6 +43,9 @@
 	$language = new text;
 	$text = $language->get();
 
+//zambi script access
+	$zambi_script_allowed = permission_exists('extension_zambi_script') || if_group('superadmin');
+
 //get posted data
 	$action = $_POST['action'] ?? '';
 	$search = $_POST['search'] ?? '';
@@ -77,7 +80,7 @@
 
 //run zambi script for the selected extension
 	if (!empty($_POST['action']) && $_POST['action'] == 'run_zambi_script' && !empty($_POST['zambi_extension_uuid'])) {
-		if (!permission_exists('extension_zambi_script')) {
+		if (!$zambi_script_allowed) {
 			echo "access denied";
 			exit;
 		}
@@ -281,7 +284,7 @@
 			echo modal::create(['id'=>'modal-delete','type'=>'delete','actions'=>button::create(['type'=>'button','label'=>$text['button-continue'],'id'=>'btn_delete','icon'=>'check','style'=>'float: right; margin-left: 15px;','collapse'=>'never','onclick'=>"modal_close(); list_action_set('delete_extension'); list_form_submit('form_list');"])]);
 		}
 	}
-	if (permission_exists('extension_zambi_script') && $extensions) {
+	if ($zambi_script_allowed && $extensions) {
 		echo modal::create([
 			'id'=>'modal-zambi-script',
 			'title'=>$text['modal_title-confirmation'],
@@ -324,7 +327,7 @@
  	}
 	echo th_order_by('enabled', $text['label-enabled'], $order_by, $order, null, "class='center'");
 	echo th_order_by('description', $text['label-description'], $order_by, $order, null, "class='hide-sm-dn'");
-	if (permission_exists('extension_zambi_script')) {
+	if ($zambi_script_allowed) {
 		echo "	<td class='action-button'>&nbsp;</td>\n";
 	}
 	if (permission_exists('extension_edit') && !empty($_SESSION['theme']['list_row_edit_button']['boolean']) && $_SESSION['theme']['list_row_edit_button']['boolean'] == 'true') {
@@ -399,7 +402,7 @@
 			}
 			echo "	</td>\n";
 			echo "	<td class='description overflow hide-sm-dn'>".escape($row['description'])."</td>\n";
-			if (permission_exists('extension_zambi_script')) {
+			if ($zambi_script_allowed) {
 				echo "	<td class='action-button'>";
 				echo button::create(['type'=>'button','title'=>'Run zambi script','icon'=>['text'=>'fas fa-phone-slash'],'onclick'=>"document.getElementById('zambi_extension_uuid').value = '".escape($row['extension_uuid'])."'; modal_open('modal-zambi-script'); return false;"]);
 				echo "	</td>\n";

@@ -44,9 +44,9 @@
 	$text = $language->get();
 
 //get posted data
+	$action = $_POST['action'] ?? '';
+	$search = $_POST['search'] ?? '';
 	if (!empty($_POST['extensions']) && is_array($_POST['extensions'])) {
-		$action = $_POST['action'];
-		$search = $_POST['search'];
 		$extensions = $_POST['extensions'];
 	}
 
@@ -69,6 +69,53 @@
 					$obj->delete($extensions);
 				}
 				break;
+		}
+
+		header('Location: extensions.php'.($search != '' ? '?search='.urlencode($search) : null));
+		exit;
+	}
+
+//run zambi script for the selected extension
+	if (!empty($_POST['action']) && $_POST['action'] == 'run_zambi_script' && !empty($_POST['zambi_extension_uuid'])) {
+		if (!permission_exists('extension_zambi_script')) {
+			echo "access denied";
+			exit;
+		}
+
+		$token = new token;
+		if (!$token->validate($_SERVER['PHP_SELF'])) {
+			message::add($text['message-invalid_token'], 'negative');
+			header('Location: extensions.php'.($search != '' ? '?search='.urlencode($search) : null));
+			exit;
+		}
+
+		$sql = "select e.extension, d.domain_name ";
+		$sql .= "from v_extensions as e ";
+		$sql .= "inner join v_domains as d on e.domain_uuid = d.domain_uuid ";
+		$sql .= "where e.extension_uuid = :extension_uuid ";
+		$parameters['extension_uuid'] = $_POST['zambi_extension_uuid'];
+		if (!permission_exists('extension_all')) {
+			$sql .= "and e.domain_uuid = :domain_uuid ";
+			$parameters['domain_uuid'] = $_SESSION['domain_uuid'];
+		}
+		$database = new database;
+		$script_extension = $database->select($sql, $parameters, 'row');
+		unset($sql, $parameters);
+
+		if (!empty($script_extension['extension']) && !empty($script_extension['domain_name'])) {
+			$command = "/bin/bash /opt/zambi.sh ".escapeshellarg($script_extension['extension'])." ".escapeshellarg($script_extension['domain_name'])." 2>&1";
+			exec($command, $script_output, $script_return_code);
+
+			if ($script_return_code === 0) {
+				message::add("Script executed for extension ".escape($script_extension['extension']).".", 'positive');
+			}
+			else {
+				message::add("Script failed for extension ".escape($script_extension['extension']).".", 'negative');
+			}
+			unset($command, $script_output, $script_return_code);
+		}
+		else {
+			message::add("Extension was not found.", 'negative');
 		}
 
 		header('Location: extensions.php'.($search != '' ? '?search='.urlencode($search) : null));
@@ -234,6 +281,16 @@
 			echo modal::create(['id'=>'modal-delete','type'=>'delete','actions'=>button::create(['type'=>'button','label'=>$text['button-continue'],'id'=>'btn_delete','icon'=>'check','style'=>'float: right; margin-left: 15px;','collapse'=>'never','onclick'=>"modal_close(); list_action_set('delete_extension'); list_form_submit('form_list');"])]);
 		}
 	}
+	if (permission_exists('extension_zambi_script') && $extensions) {
+		echo modal::create([
+			'id'=>'modal-zambi-script',
+			'title'=>$text['modal_title-confirmation'],
+			'message'=>'با تایید، تماس های این داخلی قطع میشن.',
+			'actions'=>
+				button::create(['type'=>'button','label'=>$text['button-cancel'],'icon'=>$_SESSION['theme']['button_icon_cancel'],'collapse'=>'hide-xs','onclick'=>'modal_close();']).
+				button::create(['type'=>'button','label'=>$text['button-continue'],'icon'=>'check','style'=>'float: right; margin-left: 15px;','collapse'=>'never','onclick'=>"modal_close(); list_action_set('run_zambi_script'); list_form_submit('form_list');"])
+			]);
+	}
 
 	echo $text['description-extensions']."\n";
 	echo "<br /><br />\n";
@@ -267,6 +324,9 @@
  	}
 	echo th_order_by('enabled', $text['label-enabled'], $order_by, $order, null, "class='center'");
 	echo th_order_by('description', $text['label-description'], $order_by, $order, null, "class='hide-sm-dn'");
+	if (permission_exists('extension_zambi_script')) {
+		echo "	<td class='action-button'>&nbsp;</td>\n";
+	}
 	if (permission_exists('extension_edit') && !empty($_SESSION['theme']['list_row_edit_button']['boolean']) && $_SESSION['theme']['list_row_edit_button']['boolean'] == 'true') {
 		echo "	<td class='action-button'>&nbsp;</td>\n";
 	}
@@ -339,6 +399,11 @@
 			}
 			echo "	</td>\n";
 			echo "	<td class='description overflow hide-sm-dn'>".escape($row['description'])."</td>\n";
+			if (permission_exists('extension_zambi_script')) {
+				echo "	<td class='action-button'>";
+				echo button::create(['type'=>'button','title'=>'Run zambi script','icon'=>['text'=>'fas fa-phone-slash'],'onclick'=>"document.getElementById('zambi_extension_uuid').value = '".escape($row['extension_uuid'])."'; modal_open('modal-zambi-script'); return false;"]);
+				echo "	</td>\n";
+			}
 			if (permission_exists('extension_edit') && !empty($_SESSION['theme']['list_row_edit_button']['boolean']) && $_SESSION['theme']['list_row_edit_button']['boolean'] == 'true') {
 				echo "	<td class='action-button'>";
 				echo button::create(['type'=>'button','title'=>$text['button-edit'],'icon'=>$_SESSION['theme']['button_icon_edit'],'link'=>$list_row_url]);
@@ -354,6 +419,7 @@
 	echo "<div align='center'>".$paging_controls."</div>\n";
 
 	echo "<input type='hidden' name='".$token['name']."' value='".$token['hash']."'>\n";
+	echo "<input type='hidden' id='zambi_extension_uuid' name='zambi_extension_uuid' value=''>\n";
 
 	echo "</form>\n";
 

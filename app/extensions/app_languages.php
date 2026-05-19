@@ -3796,7 +3796,7 @@ $text['description-range']['fa'] = "تعداد داخلی های خود را و�
 $text['description-provisioning']['fa'] = "یک دیوایس انتخاب کنید و شماره خط را به این داخلی اختصاص دهید";
 
 $text['description-password']['fa'] = "رمز عبور را اینجا وارد کنید.";
-
+$text['button-continue']['fa'] = "تایید";
 $text['description-outbound_caller_id_number-select']['fa'] = "شماره شناسه تماس گیرنده خارجی (عمومی) را انتخاب کنید.";
 
 $text['description-outbound_caller_id_number-custom']['fa'] = "شماره شناسه تماس گیرنده خارجی (عمومی) را اینجا وارد کنید.";

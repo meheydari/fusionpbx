@@ -54,7 +54,7 @@
 	}
 
 //process the http post data by action
-	if (!empty($action) && !empty($extensions) && is_array($extensions) && @sizeof($extensions) != 0) {
+	if (in_array($action, ['toggle', 'delete_extension', 'delete_extension_voicemail']) && !empty($extensions) && is_array($extensions) && @sizeof($extensions) != 0) {
 		switch ($action) {
 			case 'toggle':
 				if (permission_exists('extension_enabled')) {
@@ -288,7 +288,7 @@
 		echo modal::create([
 			'id'=>'modal-zambi-script',
 			'title'=>$text['modal_title-confirmation'],
-			'message'=>'با تایید، تماس های این داخلی قطع میشن.',
+			'message'=>'درصورت تایید، تماس جاری این داخلی قطع خواهند شد.',
 			'actions'=>
 				button::create(['type'=>'button','label'=>$text['button-cancel'],'icon'=>$_SESSION['theme']['button_icon_cancel'],'collapse'=>'hide-xs','onclick'=>'modal_close();']).
 				button::create(['type'=>'button','label'=>$text['button-continue'],'icon'=>'check','style'=>'float: right; margin-left: 15px;','collapse'=>'never','onclick'=>"modal_close(); list_action_set('run_zambi_script'); list_form_submit('form_list');"])
@@ -404,7 +404,7 @@
 			echo "	<td class='description overflow hide-sm-dn'>".escape($row['description'])."</td>\n";
 			if ($zambi_script_allowed) {
 				echo "	<td class='action-button'>";
-				echo button::create(['type'=>'button','title'=>'Run zambi script','icon'=>['text'=>'fas fa-phone-slash'],'onclick'=>"document.getElementById('zambi_extension_uuid').value = '".escape($row['extension_uuid'])."'; modal_open('modal-zambi-script'); return false;"]);
+				echo button::create(['type'=>'button','title'=>'آزاد سازی کانال داخلی','icon'=>['text'=>'fas fa-phone-slash'],'onclick'=>"document.getElementById('zambi_extension_uuid').value = '".escape($row['extension_uuid'])."'; modal_open('modal-zambi-script'); return false;"]);
 				echo "	</td>\n";
 			}
 			if (permission_exists('extension_edit') && !empty($_SESSION['theme']['list_row_edit_button']['boolean']) && $_SESSION['theme']['list_row_edit_button']['boolean'] == 'true') {

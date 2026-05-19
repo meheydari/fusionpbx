@@ -106,19 +106,29 @@
 		unset($sql, $parameters);
 
 		if (!empty($script_extension['extension']) && !empty($script_extension['domain_name'])) {
-			$command = "/bin/bash /opt/zambi.sh ".escapeshellarg($script_extension['extension'])." ".escapeshellarg($script_extension['domain_name'])." 2>&1";
-			exec($command, $script_output, $script_return_code);
-
-			if ($script_return_code === 0) {
-				message::add("Script executed for extension ".escape($script_extension['extension']).".", 'positive');
+			$script_path = '/opt/zambi.sh';
+			if (!is_file($script_path) || !is_readable($script_path)) {
+				message::add("فایل اسکریپت قابل خواندن نیست: ".escape($script_path), 'negative');
 			}
 			else {
-				message::add("Script failed for extension ".escape($script_extension['extension']).".", 'negative');
+				$command = "/bin/bash ".escapeshellarg($script_path)." ".escapeshellarg($script_extension['extension'])." ".escapeshellarg($script_extension['domain_name'])." 2>&1";
+				exec($command, $script_output, $script_return_code);
+
+				$script_output_text = trim(implode("\n", (array) $script_output));
+				error_log("[zambi] user=".get_current_user()." extension=".$script_extension['extension']." domain=".$script_extension['domain_name']." return_code=".$script_return_code." output=".$script_output_text);
+
+				if ($script_return_code === 0) {
+					message::add("اسکریپت برای داخلی ".escape($script_extension['extension'])." اجرا شد. کد خروجی: ".$script_return_code.($script_output_text != '' ? " خروجی: ".escape($script_output_text) : ''), 'positive');
+				}
+				else {
+					message::add("اجرای اسکریپت برای داخلی ".escape($script_extension['extension'])." ناموفق بود. کد خروجی: ".$script_return_code.($script_output_text != '' ? " خروجی: ".escape($script_output_text) : ''), 'negative');
+				}
+				unset($command, $script_output, $script_return_code, $script_output_text);
 			}
-			unset($command, $script_output, $script_return_code);
+			unset($script_path);
 		}
 		else {
-			message::add("Extension was not found.", 'negative');
+			message::add("داخلی مورد نظر پیدا نشد.", 'negative');
 		}
 
 		header('Location: extensions.php'.($search != '' ? '?search='.urlencode($search) : null));

@@ -540,4 +540,64 @@ $text['description-with_password']['ko-kr'] = "*732를 다이얼하고 비밀번
 $text['label-date']['fa'] = 'تاریخ ایجاد';
 $text['button-cancel']['fa'] = "انصراف";
 $text['button-upload']['fa'] = "آپلود";
+
+$text['title-domain_disk_usage']['en-us'] = "Domain Disk Usage";
+$text['title-domain_disk_usage']['en-gb'] = "Domain Disk Usage";
+$text['title-domain_disk_usage']['fa'] = "مصرف فضای دیسک دامنه";
+
+$text['description-domain_disk_usage']['en-us'] = "Shows the recording disk usage for the current domain.";
+$text['description-domain_disk_usage']['en-gb'] = "Shows the recording disk usage for the current domain.";
+$text['description-domain_disk_usage']['fa'] = "میزان مصرف فضای ضبط مکالمات دامنه جاری را نمایش می‌دهد.";
+
+$text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['en-gb'] = "Domain";
+$text['label-domain']['fa'] = "دامنه";
+
+$text['label-total']['en-us'] = "Total";
+$text['label-total']['en-gb'] = "Total";
+$text['label-total']['fa'] = "کل فضا";
+
+$text['label-used']['en-us'] = "Used";
+$text['label-used']['en-gb'] = "Used";
+$text['label-used']['fa'] = "مصرف شده";
+
+$text['label-free']['en-us'] = "Free";
+$text['label-free']['en-gb'] = "Free";
+$text['label-free']['fa'] = "خالی";
+
+$text['label-use_percent']['en-us'] = "Use";
+$text['label-use_percent']['en-gb'] = "Use";
+$text['label-use_percent']['fa'] = "درصد مصرف";
+
+$text['label-path']['en-us'] = "Path";
+$text['label-path']['en-gb'] = "Path";
+$text['label-path']['fa'] = "مسیر";
+
+$text['label-mount']['en-us'] = "Mount";
+$text['label-mount']['en-gb'] = "Mount";
+$text['label-mount']['fa'] = "نقطه اتصال";
+
+$text['label-filesystem']['en-us'] = "Filesystem";
+$text['label-filesystem']['en-gb'] = "Filesystem";
+$text['label-filesystem']['fa'] = "فایل‌سیستم";
+
+$text['label-item']['en-us'] = "Item";
+$text['label-item']['en-gb'] = "Item";
+$text['label-item']['fa'] = "مورد";
+
+$text['label-value']['en-us'] = "Value";
+$text['label-value']['en-gb'] = "Value";
+$text['label-value']['fa'] = "مقدار";
+
+$text['label-status']['en-us'] = "Status";
+$text['label-status']['en-gb'] = "Status";
+$text['label-status']['fa'] = "وضعیت";
+
+$text['message-recording_path_not_found']['en-us'] = "Recording path not found.";
+$text['message-recording_path_not_found']['en-gb'] = "Recording path not found.";
+$text['message-recording_path_not_found']['fa'] = "مسیر ضبط مکالمات پیدا نشد.";
+
+$text['message-disk_usage_unavailable']['en-us'] = "Disk usage is available on Linux and BSD.";
+$text['message-disk_usage_unavailable']['en-gb'] = "Disk usage is available on Linux and BSD.";
+$text['message-disk_usage_unavailable']['fa'] = "نمایش مصرف دیسک فقط روی Linux و BSD در دسترس است.";
 ?>

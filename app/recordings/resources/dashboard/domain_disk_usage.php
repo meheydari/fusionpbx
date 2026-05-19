@@ -18,6 +18,13 @@
 	require_once dirname(__DIR__, 4) . "/resources/require.php";
 	require_once "resources/check_auth.php";
 
+//add multi-lingual support
+	$language = new text;
+	$text = $language->get($_SESSION['domain']['language']['code'], 'app/recordings');
+	$dashboard_text = function($key, $default) use ($text) {
+		return $text[$key] ?? $default;
+	};
+
 //current domain recording path
 	$domain_name = $_SESSION['domain_name'] ?? $_SESSION['domain']['name'] ?? '';
 	$recordings_dir = $_SESSION['switch']['recordings']['dir'] ?? '/var/lib/freeswitch/recordings';
@@ -55,11 +62,11 @@
 			unset($command, $result, $lines, $columns);
 		}
 		else {
-			$disk_error = 'Recording path not found.';
+			$disk_error = $dashboard_text('message-recording_path_not_found', 'Recording path not found.');
 		}
 	}
 	else {
-		$disk_error = 'Disk usage is available on Linux and BSD.';
+		$disk_error = $dashboard_text('message-disk_usage_unavailable', 'Disk usage is available on Linux and BSD.');
 	}
 
 //show the widget
@@ -112,7 +119,7 @@
 							},
 							title: {
 								display: true,
-								text: 'Domain Disk Usage'
+								text: <?php echo json_encode($dashboard_text('title-domain_disk_usage', 'Domain Disk Usage')); ?>
 							}
 						}
 					},
@@ -130,27 +137,27 @@
 	echo "<div class='hud_details hud_box' id='hud_domain_disk_usage_details'>";
 	echo "<table class='tr_hover' width='100%' cellpadding='0' cellspacing='0' border='0'>\n";
 	echo "<tr>\n";
-	echo "<th class='hud_heading' width='50%'>Item</th>\n";
-	echo "<th class='hud_heading' style='text-align: right;'>Value</th>\n";
+	echo "<th class='hud_heading' width='50%'>".escape($dashboard_text('label-item', 'Item'))."</th>\n";
+	echo "<th class='hud_heading' style='text-align: right;'>".escape($dashboard_text('label-value', 'Value'))."</th>\n";
 	echo "</tr>\n";
 
 	if ($disk_total != '') {
 		$rows = [
-			'Domain' => $domain_name,
-			'Total' => $disk_total,
-			'Used' => $disk_used,
-			'Free' => $disk_free,
-			'Use' => $disk_percent.'%',
-			'Path' => $domain_recordings_dir,
-			'Mount' => $disk_mount,
-			'Filesystem' => $disk_filesystem,
+			$dashboard_text('label-domain', 'Domain') => $domain_name,
+			$dashboard_text('label-total', 'Total') => $disk_total,
+			$dashboard_text('label-used', 'Used') => $disk_used,
+			$dashboard_text('label-free', 'Free') => $disk_free,
+			$dashboard_text('label-use_percent', 'Use') => $disk_percent.'%',
+			$dashboard_text('label-path', 'Path') => $domain_recordings_dir,
+			$dashboard_text('label-mount', 'Mount') => $disk_mount,
+			$dashboard_text('label-filesystem', 'Filesystem') => $disk_filesystem,
 		];
 	}
 	else {
 		$rows = [
-			'Domain' => $domain_name,
-			'Path' => $domain_recordings_dir,
-			'Status' => $disk_error,
+			$dashboard_text('label-domain', 'Domain') => $domain_name,
+			$dashboard_text('label-path', 'Path') => $domain_recordings_dir,
+			$dashboard_text('label-status', 'Status') => $disk_error,
 		];
 	}
 

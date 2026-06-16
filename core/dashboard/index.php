@@ -141,7 +141,9 @@
 	?>
 	<script>
 		//use the Persian font for all chart.js rendered text (titles, legends, tooltips)
-		Chart.defaults.font.family = 'Yekan Bakh FaNum';
+		if (typeof Chart !== 'undefined') {
+			Chart.defaults.font.family = 'Yekan Bakh FaNum';
+		}
 		var chart_text_font = 'Yekan Bakh FaNum';
 		var chart_text_size = '<?php echo $_SESSION['dashboard']['chart_text_size']['text']; ?>';
 		var chart_text_color = '<?php echo $_SESSION['dashboard']['chart_text_color']['text']; ?>';

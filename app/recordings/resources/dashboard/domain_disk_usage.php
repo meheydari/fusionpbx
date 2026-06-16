@@ -141,6 +141,11 @@
 		</script>
 		<?php
 	}
+	else {
+		//no chart to click on - show the status/message directly so the widget is not blank
+		//(the details table below is inside hud_details which is hidden by default)
+		echo "<div style='text-align: center; padding: 20px 10px; color: #888;'>".escape($disk_error)."</div>\n";
+	}
 
 	$c = 0;
 	$row_style["0"] = "row_style0";

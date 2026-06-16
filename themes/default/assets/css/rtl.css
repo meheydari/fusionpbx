@@ -509,3 +509,14 @@ button#btn_logout:hover {
     background-color: white;
     color: #D9214E;
 }
+
+/* dashboard widgets: force the Persian font on widget text (icons keep their own font-family) */
+.widget,
+.widget .hud_box,
+.widget .hud_text,
+.widget .hud_heading,
+.widget table,
+.widget th,
+.widget td {
+    font-family: 'Yekan Bakh FaNum', serif !important;
+}

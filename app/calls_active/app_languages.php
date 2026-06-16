@@ -829,6 +829,7 @@ $text['check-available-on-demand-status']['ko-kr'] = "사용 가능(주문형)";
 
 $text['button-show_all']['en-us'] = "Show All";
 $text['button-show_all']['en-gb'] = "Show All";
+$text['button-show_all']['fa'] = "نمایش همه";
 $text['button-show_all']['ar-eg'] = "عرض الكل";
 $text['button-show_all']['de-at'] = "Alle anzeigen";
 $text['button-show_all']['de-ch'] = "Alle anzeigen";

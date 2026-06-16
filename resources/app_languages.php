@@ -869,6 +869,7 @@ $text['button-search']['ko-kr'] = "찾다";
 
 $text['button-show_all']['en-us'] = "Show All";
 $text['button-show_all']['en-gb'] = "Show All";
+$text['button-show_all']['fa'] = "نمایش همه";
 $text['button-show_all']['ar-eg'] = "أظهر الكل";
 $text['button-show_all']['de-at'] = "Alle anzeigen";
 $text['button-show_all']['de-ch'] = "Alle anzeigen";

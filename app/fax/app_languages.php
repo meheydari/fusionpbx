@@ -4394,6 +4394,7 @@ $text['button-preview']['ko-kr'] = "시사";
 
 $text['button-show_all']['en-us'] = "Show all";
 $text['button-show_all']['en-gb'] = "Show all";
+$text['button-show_all']['fa'] = "نمایش همه";
 $text['button-show_all']['ar-eg'] = "أظهر كل شيء";
 $text['button-show_all']['de-at'] = "Alle anzeigen";
 $text['button-show_all']['de-ch'] = "Alle anzeigen";

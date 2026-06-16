@@ -39,46 +39,54 @@
 	$disk_filesystem = '';
 	$disk_error = '';
 
-//get disk usage for the domain recordings path
-	if (stristr(PHP_OS, 'Linux') || stristr(PHP_OS, 'BSD')) {
-		if (!empty($domain_name) && is_dir($domain_recordings_dir)) {
-			$command = '/bin/df -hP '.escapeshellarg($domain_recordings_dir).' 2>&1';
-			$result = trim(shell_exec($command));
-			$lines = explode("\n", $result);
-			if (!empty($lines[1])) {
-				$columns = preg_split('/\s+/', trim($lines[1]), 6);
-				if (is_array($columns) && count($columns) >= 6) {
-					$disk_filesystem = $columns[0];
-					$disk_total = $columns[1];
-					$disk_used = $columns[2];
-					$disk_free = $columns[3];
-					$disk_percent = (int) rtrim($columns[4], '%');
-					$disk_mount = $columns[5];
-
-					//make sure the domain has its own dedicated mount (quota); otherwise df reports the shared
-					//filesystem (for example the root partition) and the numbers would be the same for every domain
-					if (rtrim($disk_mount, '/') !== rtrim($domain_recordings_dir, '/')) {
-						$disk_total = '';
-						$disk_used = '';
-						$disk_free = '';
-						$disk_percent = 0;
-						$disk_mount = '';
-						$disk_filesystem = '';
-						$disk_error = $dashboard_text('message-no_quota_allocated', 'No storage quota allocated for this domain.');
-					}
-				}
-			}
-			else {
-				$disk_error = $result;
-			}
-			unset($command, $result, $lines, $columns);
-		}
-		else {
-			$disk_error = $dashboard_text('message-recording_path_not_found', 'Recording path not found.');
-		}
+//get disk usage for the domain
+	if (empty($domain_name)) {
+		$disk_error = $dashboard_text('message-no_quota_allocated', 'No storage quota allocated for this domain.');
+	}
+	else if (!stristr(PHP_OS, 'Linux') && !stristr(PHP_OS, 'BSD')) {
+		$disk_error = $dashboard_text('message-disk_usage_unavailable', 'Disk usage is available on Linux and BSD.');
 	}
 	else {
-		$disk_error = $dashboard_text('message-disk_usage_unavailable', 'Disk usage is available on Linux and BSD.');
+		//parse a single "df -h" style line into the disk columns
+		$parse_df_line = function($line) {
+			$columns = preg_split('/\s+/', trim($line), 6);
+			if (is_array($columns) && count($columns) >= 6) {
+				return [
+					'filesystem' => $columns[0],
+					'total'      => $columns[1],
+					'used'       => $columns[2],
+					'free'       => $columns[3],
+					'percent'    => (int) rtrim($columns[4], '%'),
+					'mount'      => $columns[5],
+				];
+			}
+			return null;
+		};
+
+		//1) look for the domain in the live df output
+		$result = trim(shell_exec('df -h 2>/dev/null | grep -F '.escapeshellarg($domain_name)));
+
+		//2) fall back to the cached snapshot at /opt/df-h when the live df has no match
+		if ($result === '' && is_readable('/opt/df-h')) {
+			$result = trim(shell_exec('grep -F '.escapeshellarg($domain_name).' /opt/df-h 2>/dev/null'));
+		}
+
+		//parse the first matching line (if any)
+		$disk = ($result !== '') ? $parse_df_line(strtok($result, "\n")) : null;
+
+		if (!empty($disk)) {
+			$disk_filesystem = $disk['filesystem'];
+			$disk_total      = $disk['total'];
+			$disk_used       = $disk['used'];
+			$disk_free       = $disk['free'];
+			$disk_percent    = $disk['percent'];
+			$disk_mount      = $disk['mount'];
+		}
+		else {
+			//3) nothing found in either source - show the empty state
+			$disk_error = $dashboard_text('message-no_quota_allocated', 'No storage quota allocated for this domain.');
+		}
+		unset($result, $disk, $parse_df_line);
 	}
 
 //show the widget

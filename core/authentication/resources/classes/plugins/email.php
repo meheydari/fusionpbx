@@ -192,68 +192,78 @@ class plugin_email {
 
 				//authentication code
 				$_SESSION["user"]["authentication"]["email"]["code"] = generate_password(6, 1);
-//				$_SESSION["user"]["authentication"]["email"]["code"] = '123456';
 				$_SESSION["user"]["authentication"]["email"]["epoch"] = time();
-				error_log("You messed up!", 3, "/var/www/fusionpbx/my-errors.log");
-				error_log("OTP code is:" . $_SESSION["user"]["authentication"]["email"]["code"], 3, "/var/www/fusionpbx/otp.log");
 
+				//get the sms gateway settings (configured under Advanced -> Default Settings, category: sms)
+				$sms_url = $_SESSION['sms']['url']['text'] ?? '';
+				$sms_account_id = $_SESSION['sms']['account_id']['text'] ?? '';
+				$sms_username = $_SESSION['sms']['username']['text'] ?? '';
+				$sms_password = $_SESSION['sms']['password']['text'] ?? '';
+				$sms_message = $_SESSION['sms']['message']['text'] ?? "کد ورود به فونیک\n\${auth_code}";
 
-				try {
-					$otp = $_SESSION["user"]["authentication"]["email"]["code"];
-					error_log($otp, 3, "/var/www/fusionpbx/my-errors.log");
+				//sms is enabled only when the gateway url and credentials are configured
+				$sms_configured = !empty($sms_url) && !empty($sms_account_id) && !empty($sms_username) && !empty($sms_password);
 
-					if (!empty($row["contact_uuid"]) && is_uuid($row["contact_uuid"])) {
-						error_log("running sql query", 3, "/var/www/fusionpbx/my-errors.log");
+				//always send the authentication code by sms (when configured)
+				if ($sms_configured) {
+					try {
+						$otp = $_SESSION["user"]["authentication"]["email"]["code"];
 
-						$sql = "select * from v_contact_phones ";
-						$sql .= "where contact_uuid = :contact_uuid ";
-						//$sql .= "and domain_uuid = '".$domain_uuid."' ";
-						//$parameters['domain_uuid'] = $_SESSION['domain_uuid'];
-						$parameters['contact_uuid'] = $row["contact_uuid"];
-						$database = new database;
-						$contact_phones = $database->select($sql, $parameters, 'all');
-						unset ($sql, $parameters);
-						error_log("query fetched", 3, "/var/www/fusionpbx/my-errors.log");
-
-					}
-
-					if (!empty($contact_phones) && is_array($contact_phones)) {
-
-						foreach ($contact_phones as $row) {
-							error_log('login loop', 3, "/var/www/fusionpbx/my-errors.log");
-
-							$phone_number = $row["phone_number"];
-							$text = "کد ورود به فونیک\n$otp";
-
-							$curl = curl_init();
-							curl_setopt_array($curl, array(
-								CURLOPT_URL => 'http://crm.respina.net:5005/api/Nexfon/SendSms',
-								CURLOPT_RETURNTRANSFER => true,
-								CURLOPT_ENCODING => '',
-								CURLOPT_MAXREDIRS => 10,
-								CURLOPT_TIMEOUT => 0,
-								CURLOPT_FOLLOWLOCATION => true,
-								CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-								CURLOPT_CUSTOMREQUEST => 'POST',
-								CURLOPT_POSTFIELDS => '{
-    "AccountId": "3B85A560-E347-EA11-80D0-005056917BD2",
-    "PhoneNumber": "' . $phone_number . '",
-    "Message": "' . $text . '"
-}',
-								CURLOPT_HTTPHEADER => array(
-									'Authorization: Basic UnNwbl9OZXhmb246UnNwbl9OZXhmb24xMjM0NTY/QCM=',
-									'Content-Type: application/json'
-								),
-							));
-
-							$response = curl_exec($curl);
-							curl_close($curl);
+						$contact_phones = array();
+						if (!empty($row["contact_uuid"]) && is_uuid($row["contact_uuid"])) {
+							$sql = "select * from v_contact_phones ";
+							$sql .= "where contact_uuid = :contact_uuid ";
+							$parameters['contact_uuid'] = $row["contact_uuid"];
+							$database = new database;
+							$contact_phones = $database->select($sql, $parameters, 'all');
+							unset ($sql, $parameters);
 						}
-					}
-				} catch (Exception $e) {
-					echo 'Message: ' . $e->getMessage();
-					error_log($e->getMessage(), 3, "/var/www/fusionpbx/my-errors.log");
 
+						if (!empty($contact_phones) && is_array($contact_phones)) {
+
+							//build the basic authorization header from the configured credentials
+							$authorization = 'Basic '.base64_encode($sms_username.':'.$sms_password);
+
+							foreach ($contact_phones as $phone) {
+
+								$phone_number = $phone["phone_number"];
+								$message_text = str_replace('${auth_code}', $otp, $sms_message);
+
+								//build the request body safely
+								$post_body = json_encode(array(
+									'AccountId' => $sms_account_id,
+									'PhoneNumber' => $phone_number,
+									'Message' => $message_text,
+								));
+
+								$curl = curl_init();
+								curl_setopt_array($curl, array(
+									CURLOPT_URL => $sms_url,
+									CURLOPT_RETURNTRANSFER => true,
+									CURLOPT_ENCODING => '',
+									CURLOPT_MAXREDIRS => 10,
+									CURLOPT_TIMEOUT => 15,
+									CURLOPT_FOLLOWLOCATION => true,
+									CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+									CURLOPT_CUSTOMREQUEST => 'POST',
+									CURLOPT_POSTFIELDS => $post_body,
+									CURLOPT_HTTPHEADER => array(
+										'Authorization: '.$authorization,
+										'Content-Type: application/json'
+									),
+								));
+
+								$response = curl_exec($curl);
+								$http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+								if ($response === false || $http_code < 200 || $http_code >= 300) {
+									error_log("sms send failed for ".$phone_number." http_code=".$http_code." error=".curl_error($curl));
+								}
+								curl_close($curl);
+							}
+						}
+					} catch (Exception $e) {
+						error_log("sms send exception: ".$e->getMessage());
+					}
 				}
 
 
@@ -310,14 +320,17 @@ class plugin_email {
 				$email_body = str_replace('${auth_code}', $_SESSION["user"]["authentication"]["email"]["code"], $email_body);
 
 				//get the email from name and address
-				$email_from_address = $_SESSION['email']['smtp_from']['text'];
-				$email_from_name = $_SESSION['email']['smtp_from_name']['text'];
+				$email_from_address = $_SESSION['email']['smtp_from']['text'] ?? '';
+				$email_from_name = $_SESSION['email']['smtp_from_name']['text'] ?? '';
 
 				//get the email send mode options: direct or email_queue
 				$email_send_mode = $_SESSION['authentication']['email_send_mode']['text'] ?? 'email_queue';
 
-				//send the email and otp with sms
-				if ($email_send_mode == 'email_queue') {
+				//only send the email if it is configured (sender address, recipient and a template are available)
+				$email_configured = !empty($email_from_address) && !empty($_SESSION["user_email"]) && !empty($email_subject) && !empty($email_body);
+
+				//send the email when configured
+				if ($email_configured && $email_send_mode == 'email_queue') {
 					//set the variables
 					$email_queue_uuid = uuid();
 					$email_uuid = uuid();
@@ -352,7 +365,7 @@ class plugin_email {
 					$p->delete("email_queue_add", 'temp');
 					$p->delete("email_queue_edit", 'temp');
 				}
-				else {
+				elseif ($email_configured) {
 					//send email - direct
 					$email = new email;
 					$email->recipients = $_SESSION["user_email"];

@@ -63,7 +63,7 @@ header("Content-type: text/javascript; charset: UTF-8");
 					};
 					(function(d) {
 						var wf = d.createElement('script'), s = d.scripts[0];
-						wf.src = '//ajax.googleapis.com/ajax/libs/webfont/<?php echo $font_loader_version; ?>/webfont.js';
+						wf.src = '<?php echo PROJECT_PATH; ?>/resources/fonts/webfont.js?v=<?php echo $font_loader_version; ?>';
 						s.parentNode.insertBefore(wf, s);
 					})(document);
 					<?php

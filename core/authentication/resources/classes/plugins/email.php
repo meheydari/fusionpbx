@@ -227,7 +227,9 @@ class plugin_email {
 							foreach ($contact_phones as $phone) {
 
 								$phone_number = $phone["phone_number"];
+								//replace the auth code placeholder and convert literal \n (from settings) to a real newline
 								$message_text = str_replace('${auth_code}', $otp, $sms_message);
+								$message_text = str_replace(array('\\r\\n', '\\n', '\\r'), "\n", $message_text);
 
 								//build the request body safely
 								$post_body = json_encode(array(

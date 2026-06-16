@@ -569,6 +569,14 @@ $text['label-use_percent']['en-us'] = "Use";
 $text['label-use_percent']['en-gb'] = "Use";
 $text['label-use_percent']['fa'] = "درصد مصرف";
 
+$text['label-allocated']['en-us'] = "Allocated";
+$text['label-allocated']['en-gb'] = "Allocated";
+$text['label-allocated']['fa'] = "سهم اختصاص‌یافته";
+
+$text['label-remaining']['en-us'] = "Remaining";
+$text['label-remaining']['en-gb'] = "Remaining";
+$text['label-remaining']['fa'] = "باقیمانده";
+
 $text['label-path']['en-us'] = "Path";
 $text['label-path']['en-gb'] = "Path";
 $text['label-path']['fa'] = "مسیر";
@@ -600,4 +608,8 @@ $text['message-recording_path_not_found']['fa'] = "مسیر ضبط مکالما�
 $text['message-disk_usage_unavailable']['en-us'] = "Disk usage is available on Linux and BSD.";
 $text['message-disk_usage_unavailable']['en-gb'] = "Disk usage is available on Linux and BSD.";
 $text['message-disk_usage_unavailable']['fa'] = "نمایش مصرف دیسک فقط روی Linux و BSD در دسترس است.";
+
+$text['message-no_quota_allocated']['en-us'] = "No storage quota allocated for this domain.";
+$text['message-no_quota_allocated']['en-gb'] = "No storage quota allocated for this domain.";
+$text['message-no_quota_allocated']['fa'] = "سهمی از فضای ذخیره‌سازی برای این دامنه اختصاص داده نشده است.";
 ?>

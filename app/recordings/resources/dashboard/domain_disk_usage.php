@@ -54,6 +54,18 @@
 					$disk_free = $columns[3];
 					$disk_percent = (int) rtrim($columns[4], '%');
 					$disk_mount = $columns[5];
+
+					//make sure the domain has its own dedicated mount (quota); otherwise df reports the shared
+					//filesystem (for example the root partition) and the numbers would be the same for every domain
+					if (rtrim($disk_mount, '/') !== rtrim($domain_recordings_dir, '/')) {
+						$disk_total = '';
+						$disk_used = '';
+						$disk_free = '';
+						$disk_percent = 0;
+						$disk_mount = '';
+						$disk_filesystem = '';
+						$disk_error = $dashboard_text('message-no_quota_allocated', 'No storage quota allocated for this domain.');
+					}
 				}
 			}
 			else {
@@ -144,19 +156,15 @@
 	if ($disk_total != '') {
 		$rows = [
 			$dashboard_text('label-domain', 'Domain') => $domain_name,
-			$dashboard_text('label-total', 'Total') => $disk_total,
+			$dashboard_text('label-allocated', 'Allocated') => $disk_total,
 			$dashboard_text('label-used', 'Used') => $disk_used,
-			$dashboard_text('label-free', 'Free') => $disk_free,
+			$dashboard_text('label-remaining', 'Remaining') => $disk_free,
 			$dashboard_text('label-use_percent', 'Use') => $disk_percent.'%',
-			$dashboard_text('label-path', 'Path') => $domain_recordings_dir,
-			$dashboard_text('label-mount', 'Mount') => $disk_mount,
-			$dashboard_text('label-filesystem', 'Filesystem') => $disk_filesystem,
 		];
 	}
 	else {
 		$rows = [
 			$dashboard_text('label-domain', 'Domain') => $domain_name,
-			$dashboard_text('label-path', 'Path') => $domain_recordings_dir,
 			$dashboard_text('label-status', 'Status') => $disk_error,
 		];
 	}

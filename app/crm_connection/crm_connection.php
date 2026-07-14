@@ -10,7 +10,19 @@
 
 //check permissions
 	if (!permission_exists('crm_connection_view')) {
+		header('HTTP/1.1 403 Forbidden');
 		echo 'access denied';
+		exit;
+	}
+
+//limit non-superadmin access to explicitly enabled domains
+	$crm_connection_domain_enabled = filter_var(
+		$_SESSION['crm_connection']['enabled']['boolean'] ?? false,
+		FILTER_VALIDATE_BOOLEAN
+	);
+	if (!if_group('superadmin') && !$crm_connection_domain_enabled) {
+		header('HTTP/1.1 403 Forbidden');
+		echo 'CRM connection is not enabled for this domain.';
 		exit;
 	}
 

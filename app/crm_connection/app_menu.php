@@ -10,6 +10,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-plug";
 	$apps[$x]['menu'][$y]['path'] = "/app/crm_connection/crm_connection.php";
 	$apps[$x]['menu'][$y]['order'] = "";
+	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
 

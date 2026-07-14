@@ -13,6 +13,14 @@
 
 	//default settings
 		$y = 0;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "d57db67e-aef0-45fb-a748-e593c2f7cb1a";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "crm_connection";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "enabled";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "boolean";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "false";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Allow non-superadmin users with CRM Connection permissions to access this application for the current domain.";
+		$y++;
 		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "dc46e7db-42df-4123-8fde-8e9898b24816";
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "crm_connection";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "api_url";
@@ -49,12 +57,15 @@
 		$y = 0;
 		$apps[$x]['permissions'][$y]['name'] = "crm_connection_view";
 		$apps[$x]['permissions'][$y]['menu']['uuid'] = "f83986a8-f7fc-4a1d-a6f6-1ff053fb480e";
+		$apps[$x]['permissions'][$y]['groups'][] = "admin";
 		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "crm_connection_add";
+		$apps[$x]['permissions'][$y]['groups'][] = "admin";
 		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "crm_connection_edit";
+		$apps[$x]['permissions'][$y]['groups'][] = "admin";
 		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
 
 ?>

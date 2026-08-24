@@ -718,6 +718,30 @@ if (!class_exists('menu')) {
 		}
 
 		/**
+		 * Apply application feature flags that must be evaluated for the active domain.
+		 */
+		private function runtime_item_visible($row) {
+			//Fonik Add-ons is enabled per tenant and remains visible to superadmins.
+			if (($row['uuid'] ?? '') === '929a8d95-1ddb-4400-9a12-6d94b461ec66') {
+				$is_superadmin = false;
+				foreach (($_SESSION['groups'] ?? []) as $group) {
+					if (($group['group_name'] ?? '') === 'superadmin') {
+						$is_superadmin = true;
+						break;
+					}
+				}
+				if (!$is_superadmin) {
+					return filter_var(
+						$_SESSION['fonik_addons']['enabled']['boolean'] ?? false,
+						FILTER_VALIDATE_BOOLEAN
+					);
+				}
+			}
+
+			return true;
+		}
+
+		/**
 		 * create the menu array
 		 */
 		public function menu_array($menu_item_level = 0) {
@@ -728,7 +752,7 @@ if (!class_exists('menu')) {
 				}
 
 			//get the menu from the database
-				$sql = "select i.menu_item_link, l.menu_item_title as menu_language_title, ";
+				$sql = "select i.menu_item_link, i.uuid, l.menu_item_title as menu_language_title, ";
 				$sql .= "i.menu_item_title, i.menu_item_protected, i.menu_item_category, ";
 				$sql .= "i.menu_item_icon, i.menu_item_uuid, i.menu_item_parent_uuid, i.menu_item_description ";
 				$sql .= "from v_menu_items as i, v_menu_languages as l ";
@@ -767,6 +791,9 @@ if (!class_exists('menu')) {
 				$a = Array();
 				if (is_array($result) && @sizeof($result) != 0) {
 					foreach($result as $row) {
+						if (!$this->runtime_item_visible($row)) {
+							continue;
+						}
 						//add the row to the array
 							$a[$x] = $row;
 
@@ -800,7 +827,7 @@ if (!class_exists('menu')) {
 				}
 
 			//get the child menu from the database
-				$sql = "select i.menu_item_link, l.menu_item_title as menu_language_title, i.menu_item_title, i.menu_item_protected, i.menu_item_category, i.menu_item_icon, i.menu_item_uuid, i.menu_item_parent_uuid, i.menu_item_description ";
+				$sql = "select i.menu_item_link, i.uuid, l.menu_item_title as menu_language_title, i.menu_item_title, i.menu_item_protected, i.menu_item_category, i.menu_item_icon, i.menu_item_uuid, i.menu_item_parent_uuid, i.menu_item_description ";
 				$sql .= "from v_menu_items as i, v_menu_languages as l ";
 				$sql .= "where i.menu_item_uuid = l.menu_item_uuid ";
 				$sql .= "and l.menu_language = :menu_language ";
@@ -837,6 +864,9 @@ if (!class_exists('menu')) {
 				$a = Array();
 				if (is_array($sub_result) && @sizeof($sub_result) != 0) {
 					foreach($sub_result as $row) {
+						if (!$this->runtime_item_visible($row)) {
+							continue;
+						}
 						//set the variables
 							$menu_item_link = $row['menu_item_link'];
 							$menu_item_category = $row['menu_item_category'];

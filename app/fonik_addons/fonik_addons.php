@@ -13,18 +13,25 @@ if (!permission_exists('fonik_addons_view')) {
 	exit;
 }
 
+$language = new text();
+$text = $language->get();
+
 $fonikAddonsEnabled = filter_var(
 	$_SESSION['fonik_addons']['enabled']['boolean'] ?? false,
 	FILTER_VALIDATE_BOOLEAN
 );
-if (!if_group('superadmin') && !$fonikAddonsEnabled) {
-	header('HTTP/1.1 403 Forbidden');
-	echo 'Fonik add-ons are not enabled for this tenant.';
+if (!$fonikAddonsEnabled) {
+	http_response_code(403);
+	$document['title'] = $text['title-fonik_addons'];
+	require_once 'resources/header.php';
+	?>
+	<div style="margin: 24px; padding: 18px; border-radius: 8px; background: #fff3cd; color: #664d03; text-align: center;">
+		قابلیت افزودنی‌های CRM برای شما فعال نیست. لطفاً با پشتیبانی تماس بگیرید.
+	</div>
+	<?php
+	require_once 'resources/footer.php';
 	exit;
 }
-
-$language = new text();
-$text = $language->get();
 
 function fonik_checked(mixed $value): bool
 {
@@ -278,10 +285,6 @@ require_once 'resources/header.php';
 	<div class="actions"></div><div style="clear:both"></div>
 </div>
 <p><?= escape($text['description-fonik_addons']) ?></p>
-
-<?php if (if_group('superadmin') && !$fonikAddonsEnabled): ?>
-	<div class="fonik-warning">افزودنی‌ها برای tenant جاری غیرفعال است. تا زمانی که <code>fonik_addons.enabled</code> را در Domain Settings روی true قرار ندهید، کاربران این tenant منو و صفحه را نمی‌بینند.</div>
-<?php endif; ?>
 
 <?php if ($configurationError !== ''): ?>
 	<div class="fonik-warning"><?= escape($configurationError) ?></div>

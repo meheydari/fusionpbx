@@ -721,21 +721,12 @@ if (!class_exists('menu')) {
 		 * Apply application feature flags that must be evaluated for the active domain.
 		 */
 		private function runtime_item_visible($row) {
-			//Fonik Add-ons is enabled per tenant and remains visible to superadmins.
+			//Fonik Add-ons is visible only when enabled for the active tenant.
 			if (($row['uuid'] ?? '') === '929a8d95-1ddb-4400-9a12-6d94b461ec66') {
-				$is_superadmin = false;
-				foreach (($_SESSION['groups'] ?? []) as $group) {
-					if (($group['group_name'] ?? '') === 'superadmin') {
-						$is_superadmin = true;
-						break;
-					}
-				}
-				if (!$is_superadmin) {
-					return filter_var(
-						$_SESSION['fonik_addons']['enabled']['boolean'] ?? false,
-						FILTER_VALIDATE_BOOLEAN
-					);
-				}
+				return filter_var(
+					$_SESSION['fonik_addons']['enabled']['boolean'] ?? false,
+					FILTER_VALIDATE_BOOLEAN
+				);
 			}
 
 			return true;

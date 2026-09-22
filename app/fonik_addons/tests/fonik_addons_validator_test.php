@@ -62,6 +62,9 @@ assertSameValue(true, $visibility->invoke($menu, $fonikMenuItem), 'Enabled tenan
 
 $_SESSION['groups'] = [['group_name' => 'superadmin']];
 $_SESSION['fonik_addons']['enabled']['boolean'] = false;
-assertSameValue(true, $visibility->invoke($menu, $fonikMenuItem), 'Superadmin must always see the Fonik menu.');
+assertSameValue(false, $visibility->invoke($menu, $fonikMenuItem), 'Disabled tenant must hide the Fonik menu from superadmin too.');
+
+$_SESSION['fonik_addons']['enabled']['boolean'] = true;
+assertSameValue(true, $visibility->invoke($menu, $fonikMenuItem), 'Enabled tenant must show the Fonik menu to superadmin.');
 
 echo "All Fonik add-ons validation tests passed.\n";

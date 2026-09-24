@@ -68,6 +68,35 @@
 				$domain = new domains();
 				$domain->set();
 
+			//reload permissions for the selected domain
+				$_SESSION['permissions'] = [];
+				$_SESSION['user']['permissions'] = [];
+				if (is_array($_SESSION['groups']) && sizeof($_SESSION['groups']) > 0) {
+					$sql = "select distinct(permission_name) from v_group_permissions ";
+					$sql .= "where (domain_uuid = :domain_uuid or domain_uuid is null) ";
+					$sql_where_or = [];
+					$parameters = ['domain_uuid' => $_SESSION['domain_uuid']];
+					foreach ($_SESSION['groups'] as $index => $group) {
+						if (!empty($group['group_name'])) {
+							$sql_where_or[] = "group_name = :group_name_".$index;
+							$parameters['group_name_'.$index] = $group['group_name'];
+						}
+					}
+					if (sizeof($sql_where_or) > 0) {
+						$sql .= "and (".implode(' or ', $sql_where_or).") ";
+					}
+					$sql .= "and permission_assigned = 'true' ";
+					$database = new database;
+					$result = $database->select($sql, $parameters, 'all');
+					if (is_array($result)) {
+						foreach ($result as $permission) {
+							$_SESSION['permissions'][$permission['permission_name']] = true;
+							$_SESSION['user']['permissions'][$permission['permission_name']] = true;
+						}
+					}
+					unset($sql, $sql_where_or, $parameters, $result, $permission);
+				}
+
 			//redirect the user
 				if (!empty($_SESSION["login"]["destination"])) {
 					// to default, or domain specific, login destination

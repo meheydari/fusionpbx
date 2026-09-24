@@ -721,12 +721,39 @@ if (!class_exists('menu')) {
 		 * Apply application feature flags that must be evaluated for the active domain.
 		 */
 		private function runtime_item_visible($row) {
-			//Fonik Add-ons is visible only when enabled for the active tenant.
-			if (($row['uuid'] ?? '') === '929a8d95-1ddb-4400-9a12-6d94b461ec66') {
-				return filter_var(
+			$fonik_permissions = [
+				'b0af7bb9-c86a-4252-9ce0-ecd8488d895b' => 'fonik_company_settings',
+				'db0eefde-f64b-408f-ae9f-789fc24fca1a' => 'fonik_click_to_call_manage',
+				'94b4cce1-a6c4-4918-a631-0252bfb18957' => 'fonik_popup_manage',
+				'44903cd9-a1e4-45ab-a004-f24b8bdd9061' => 'fonik_callback_manage',
+				'161ebc6f-fea1-4a57-8897-2804ab28085d' => 'fonik_gateway_sync',
+			];
+			$uuid = $row['uuid'] ?? '';
+			$is_fonik_item = $uuid === '929a8d95-1ddb-4400-9a12-6d94b461ec66' || isset($fonik_permissions[$uuid]);
+
+			if ($is_fonik_item) {
+				$enabled = filter_var(
 					$_SESSION['fonik_addons']['enabled']['boolean'] ?? false,
 					FILTER_VALIDATE_BOOLEAN
 				);
+				if (!$enabled) {
+					return false;
+				}
+
+				$company_visible = if_group('superadmin') && permission_exists('fonik_company_settings');
+				if ($uuid === '929a8d95-1ddb-4400-9a12-6d94b461ec66') {
+					return $company_visible
+						|| permission_exists('fonik_click_to_call_manage')
+						|| permission_exists('fonik_popup_manage')
+						|| permission_exists('fonik_callback_manage')
+						|| permission_exists('fonik_gateway_sync');
+				}
+
+				if ($uuid === 'b0af7bb9-c86a-4252-9ce0-ecd8488d895b') {
+					return $company_visible;
+				}
+
+				return permission_exists($fonik_permissions[$uuid]);
 			}
 
 			return true;

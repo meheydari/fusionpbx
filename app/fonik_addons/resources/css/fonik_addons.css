@@ -1,0 +1,278 @@
+.fonik-shell {
+	--fonik-accent: #315b7d;
+	--fonik-accent-hover: #244866;
+	--fonik-border: #dce3e9;
+	--fonik-muted: #637381;
+	--fonik-surface: #ffffff;
+	--fonik-surface-soft: #f5f7f9;
+	--fonik-success: #28764d;
+	--fonik-warning-bg: #fff7dc;
+	--fonik-warning-text: #725514;
+	--fonik-error-bg: #fff0f0;
+	--fonik-error-text: #8a3030;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 1.5rem 1rem 3rem;
+	direction: rtl;
+}
+.fonik-page-header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 2rem;
+	padding: 0.25rem 0 1.75rem;
+}
+
+.fonik-page-copy {
+	max-width: 42rem;
+}
+
+.fonik-page-copy h1,
+.fonik-panel-heading h2 {
+	color: var(--heading-text-color, #23344a);
+	font-weight: 650;
+	letter-spacing: -0.025em;
+	text-wrap: balance;
+}
+
+.fonik-page-copy h1 {
+	margin: 0;
+	font-size: clamp(1.55rem, 3vw, 2.15rem);
+	line-height: 1.35;
+}
+
+.fonik-page-copy p {
+	max-width: 62ch;
+	margin: 0.65rem 0 0;
+	color: var(--fonik-muted);
+	font-size: 0.98rem;
+	line-height: 1.9;
+	text-wrap: pretty;
+}
+
+.fonik-page-actions {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 0.7rem;
+	flex-wrap: wrap;
+}
+
+.fonik-documentation-link {
+	display: inline-flex;
+	align-items: center;
+	min-height: 2.55rem;
+	padding: 0 1rem;
+	border: 1px solid var(--fonik-border);
+	border-radius: 0.45rem;
+	background: var(--fonik-surface);
+	color: var(--fonik-accent);
+	font-weight: 600;
+	text-decoration: none;
+	transition: border-color 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+
+.fonik-documentation-link:hover {
+	border-color: var(--fonik-accent);
+	background: var(--fonik-surface-soft);
+	text-decoration: none;
+}
+
+.fonik-documentation-link:active {
+	transform: translateY(1px);
+}
+
+.fonik-documentation-link:focus-visible,
+.fonik-form :is(input, select, button):focus-visible {
+	outline: 3px solid rgba(49, 91, 125, 0.28);
+	outline-offset: 2px;
+}
+
+.fonik-status {
+	display: inline-flex;
+	align-items: center;
+	min-height: 2rem;
+	padding: 0 0.7rem;
+	border-radius: 0.35rem;
+	background: #edf1f4;
+	color: #536471;
+	font-size: 0.82rem;
+	font-weight: 600;
+}
+
+.fonik-status--active {
+	background: #e5f3eb;
+	color: var(--fonik-success);
+}
+
+.fonik-panel {
+	overflow: hidden;
+	border: 1px solid var(--fonik-border);
+	border-radius: 0.75rem;
+	background: var(--fonik-surface);
+	box-shadow: 0 14px 38px rgba(35, 52, 74, 0.07);
+}
+
+.fonik-panel-heading {
+	padding: 1.15rem 1.4rem 0;
+}
+
+.fonik-panel-heading h2 {
+	margin: 0;
+	font-size: 1.08rem;
+}
+
+.fonik-panel-body {
+	padding: 1.35rem 1.4rem 1.6rem;
+}
+
+.fonik-form-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1.25rem 1.5rem;
+}
+
+.fonik-field {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 0.45rem;
+}
+
+.fonik-field--wide {
+	grid-column: 1 / -1;
+}
+
+.fonik-label {
+	color: var(--heading-text-color, #23344a);
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.fonik-hint {
+	color: var(--fonik-muted);
+	font-size: 0.79rem;
+	line-height: 1.7;
+}
+
+.fonik-form .formfld,
+.fonik-form input[type="text"],
+.fonik-form input[type="url"],
+.fonik-form select {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 2.7rem;
+	border-radius: 0.4rem;
+}
+
+.fonik-toggle {
+	display: inline-flex;
+	width: 3rem;
+	height: 1.7rem;
+	cursor: pointer;
+}
+
+.fonik-toggle input {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.fonik-toggle span {
+	position: relative;
+	width: 100%;
+	border-radius: 1rem;
+	background: #c7d0d8;
+	transition: background-color 180ms ease;
+}
+
+.fonik-toggle span::after {
+	position: absolute;
+	top: 0.2rem;
+	right: 0.2rem;
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 50%;
+	background: #ffffff;
+	box-shadow: 0 2px 7px rgba(35, 52, 74, 0.2);
+	content: "";
+	transition: transform 180ms ease;
+}
+
+.fonik-toggle input:checked + span {
+	background: var(--fonik-accent);
+}
+
+.fonik-toggle input:checked + span::after {
+	transform: translateX(-1.3rem);
+}
+
+.fonik-toggle input:focus-visible + span {
+	outline: 3px solid rgba(49, 91, 125, 0.28);
+	outline-offset: 2px;
+}
+
+.fonik-form-actions {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 1.7rem;
+	padding-top: 1.15rem;
+	border-top: 1px solid var(--fonik-border);
+}
+
+.fonik-notice {
+	padding: 1rem 1.15rem;
+	border-radius: 0.55rem;
+	font-size: 0.92rem;
+	line-height: 1.9;
+}
+
+.fonik-notice--warning {
+	background: var(--fonik-warning-bg);
+	color: var(--fonik-warning-text);
+}
+
+.fonik-notice--error {
+	background: var(--fonik-error-bg);
+	color: var(--fonik-error-text);
+}
+
+.fonik-notice--info {
+	background: var(--fonik-surface-soft);
+	color: var(--fonik-muted);
+}
+
+.fonik-fields-heading {
+	grid-column: 1 / -1;
+	margin-top: 0.35rem;
+	padding-top: 1.2rem;
+	border-top: 1px solid var(--fonik-border);
+	color: var(--heading-text-color, #23344a);
+	font-size: 0.95rem;
+	font-weight: 650;
+}
+
+@media (max-width: 720px) {
+	.fonik-shell {
+		padding-inline: 0.75rem;
+	}
+
+	.fonik-page-header {
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.fonik-page-actions {
+		justify-content: flex-start;
+	}
+
+	.fonik-form-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.fonik-field--wide,
+	.fonik-fields-heading {
+		grid-column: auto;
+	}
+}

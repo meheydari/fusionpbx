@@ -10,7 +10,7 @@
 		$apps[$x]['url'] = "";
 		$apps[$x]['description']['en-us'] = "Manage the Fonik company and add-on services for the current tenant.";
 		$apps[$x]['description']['en-gb'] = "Manage the Fonik company and add-on services for the current tenant.";
-		$apps[$x]['description']['fa-ir'] = "مدیریت شرکت و سرویس‌های افزودنی Fonik برای tenant جاری.";
+		$apps[$x]['description']['fa-ir'] = "مدیریت شرکت و سرویس‌های افزودنی Fonik.";
 
 	//default settings
 		$y = 0;
@@ -53,36 +53,63 @@
 		$apps[$x]['default_settings'][$y]['default_setting_value'] = "15";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Request timeout in seconds.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "1fd717f4-363d-4d5f-b160-dbec78180100";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "company_documentation_url";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Company settings documentation URL.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "c0cca4ad-cba0-4dfa-816f-cc76079ba017";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "click_to_call_documentation_url";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Click to Call documentation URL.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "2b586bec-7313-4229-b7c7-86f41ee6f227";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "popup_documentation_url";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Popup documentation URL.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "cfda0b41-2cf6-489a-ae98-4a9891f6f89e";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "callback_documentation_url";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Callback documentation URL.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "e6f39d49-d422-40fd-89b1-fea72f411fb8";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "gateway_sync_documentation_url";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Gateway synchronization documentation URL.";
 
-	//permission details - the per-domain enabled setting is the tenant feature gate
+	//permission details - service permissions are granted per domain
 		$y = 0;
-		$apps[$x]['permissions'][$y]['name'] = "fonik_addons_view";
-		$apps[$x]['permissions'][$y]['menu']['uuid'] = "929a8d95-1ddb-4400-9a12-6d94b461ec66";
-		$apps[$x]['permissions'][$y]['groups'][] = "admin";
-		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
-		$y++;
-		$apps[$x]['permissions'][$y]['name'] = "fonik_company_add";
-		$apps[$x]['permissions'][$y]['groups'][] = "admin";
-		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
-		$y++;
-		$apps[$x]['permissions'][$y]['name'] = "fonik_company_edit";
-		$apps[$x]['permissions'][$y]['groups'][] = "admin";
+		$apps[$x]['permissions'][$y]['name'] = "fonik_company_settings";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "b0af7bb9-c86a-4252-9ce0-ecd8488d895b";
 		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "fonik_click_to_call_manage";
-		$apps[$x]['permissions'][$y]['groups'][] = "admin";
-		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "db0eefde-f64b-408f-ae9f-789fc24fca1a";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "fonik_popup_manage";
-		$apps[$x]['permissions'][$y]['groups'][] = "admin";
-		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "94b4cce1-a6c4-4918-a631-0252bfb18957";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "fonik_callback_manage";
-		$apps[$x]['permissions'][$y]['groups'][] = "admin";
-		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "44903cd9-a1e4-45ab-a004-f24b8bdd9061";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "fonik_gateway_sync";
-		$apps[$x]['permissions'][$y]['groups'][] = "admin";
-		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "161ebc6f-fea1-4a57-8897-2804ab28085d";
 
 ?>

@@ -97,6 +97,9 @@
 					unset($sql, $sql_where_or, $parameters, $result, $permission);
 				}
 
+			//rebuild the menu for the selected domain and its refreshed permissions
+				unset($_SESSION['menu']['array']);
+
 			//redirect the user
 				if (!empty($_SESSION["login"]["destination"])) {
 					// to default, or domain specific, login destination

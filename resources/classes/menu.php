@@ -722,11 +722,13 @@ if (!class_exists('menu')) {
 		 */
 		private function runtime_item_visible($row) {
 			$fonik_permissions = [
-				'b0af7bb9-c86a-4252-9ce0-ecd8488d895b' => 'fonik_company_settings',
-				'db0eefde-f64b-408f-ae9f-789fc24fca1a' => 'fonik_click_to_call_manage',
-				'94b4cce1-a6c4-4918-a631-0252bfb18957' => 'fonik_popup_manage',
-				'44903cd9-a1e4-45ab-a004-f24b8bdd9061' => 'fonik_callback_manage',
-				'161ebc6f-fea1-4a57-8897-2804ab28085d' => 'fonik_gateway_sync',
+				'b0af7bb9-c86a-4252-9ce0-ecd8488d895b' => ['fonik_company_settings'],
+				'db0eefde-f64b-408f-ae9f-789fc24fca1a' => ['fonik_click_to_call_manage'],
+				'94b4cce1-a6c4-4918-a631-0252bfb18957' => ['fonik_popup_manage'],
+				'44903cd9-a1e4-45ab-a004-f24b8bdd9061' => ['fonik_callback_incoming', 'fonik_callback_outgoing', 'fonik_callback_missed'],
+				'161ebc6f-fea1-4a57-8897-2804ab28085d' => ['fonik_gateway_sync'],
+				'5fe78340-7118-4db7-8952-e45e3b7046f7' => ['fonik_recording_notify_manage'],
+				'be128886-1fe0-4c3d-9a52-2535c40a0bdd' => ['fonik_secure_call_manage'],
 			];
 			$uuid = $row['uuid'] ?? '';
 			$is_fonik_item = $uuid === '929a8d95-1ddb-4400-9a12-6d94b461ec66' || isset($fonik_permissions[$uuid]);
@@ -741,22 +743,55 @@ if (!class_exists('menu')) {
 				}
 
 				$company_visible = if_group('superadmin') && permission_exists('fonik_company_settings');
+				$module_visible = function($permissions) {
+					if (if_group('superadmin')) {
+						return true;
+					}
+					foreach ($permissions as $permission) {
+						if (permission_exists($permission)) {
+							return true;
+						}
+					}
+					return false;
+				};
 				if ($uuid === '929a8d95-1ddb-4400-9a12-6d94b461ec66') {
-					return $company_visible
-						|| permission_exists('fonik_click_to_call_manage')
-						|| permission_exists('fonik_popup_manage')
-						|| permission_exists('fonik_callback_manage')
-						|| permission_exists('fonik_gateway_sync');
+					if ($company_visible) {
+						return true;
+					}
+					foreach ($fonik_permissions as $item_uuid => $permissions) {
+						if ($item_uuid !== 'b0af7bb9-c86a-4252-9ce0-ecd8488d895b' && $module_visible($permissions)) {
+							return true;
+						}
+					}
+					return false;
 				}
 
 				if ($uuid === 'b0af7bb9-c86a-4252-9ce0-ecd8488d895b') {
 					return $company_visible;
 				}
 
-				return permission_exists($fonik_permissions[$uuid]);
+				return $module_visible($fonik_permissions[$uuid]);
 			}
 
 			return true;
+		}
+
+		/**
+		 * Return the English tooltip for Fonik menu items.
+		 */
+		private function runtime_item_tooltip($row) {
+			$fonik_tooltips = [
+				'929a8d95-1ddb-4400-9a12-6d94b461ec66' => 'Fonik Add-ons',
+				'b0af7bb9-c86a-4252-9ce0-ecd8488d895b' => 'Company Settings',
+				'db0eefde-f64b-408f-ae9f-789fc24fca1a' => 'Click to Call',
+				'94b4cce1-a6c4-4918-a631-0252bfb18957' => 'Call Popup',
+				'44903cd9-a1e4-45ab-a004-f24b8bdd9061' => 'Callback',
+				'161ebc6f-fea1-4a57-8897-2804ab28085d' => 'Gateway Synchronization',
+				'5fe78340-7118-4db7-8952-e45e3b7046f7' => 'Record Notify',
+				'be128886-1fe0-4c3d-9a52-2535c40a0bdd' => 'Secure Call',
+			];
+
+			return $fonik_tooltips[$row['uuid'] ?? ''] ?? ($row['menu_item_description'] ?? $row['menu_language_title'] ?? '');
 		}
 
 		/**
@@ -1164,7 +1199,7 @@ if (!class_exists('menu')) {
 				if (!empty($menu_array)) {
 					foreach ($menu_array as $menu_index_main => $menu_item_main) {
 						$menu_target = ($menu_item_main['menu_item_category'] == 'external') ? '_blank' : '';
-						$html .= "	<a class='menu_side_item_main' ".(!empty($menu_item_main['menu_item_link']) ? "href='".$menu_item_main['menu_item_link']."' target='".$menu_target."'" : "onclick=\"menu_side_expand(); menu_side_item_toggle('".$menu_item_main['menu_item_uuid']."');\"")." title=\"".$menu_item_main['menu_language_title']."\">";
+						$html .= "	<a class='menu_side_item_main' ".(!empty($menu_item_main['menu_item_link']) ? "href='".$menu_item_main['menu_item_link']."' target='".$menu_target."'" : "onclick=\"menu_side_expand(); menu_side_item_toggle('".$menu_item_main['menu_item_uuid']."');\"")." title=\"".escape($this->runtime_item_tooltip($menu_item_main))."\">";
 						if (is_array($menu_item_main['menu_items']) && sizeof($menu_item_main['menu_items']) != 0 && $_SESSION['theme']['menu_side_item_main_sub_icons']['boolean'] == 'true') {
 							$html .= "	<div class='menu_side_item_main_sub_icons' style='float: right; margin-right: -1px; ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "display: none;" : null)."'><i id='sub_arrow_".$menu_item_main['menu_item_uuid']."' class='sub_arrows fas fa-".(!empty($_SESSION['theme']['menu_side_item_main_sub_icon_expand']['text']) ? $_SESSION['theme']['menu_side_item_main_sub_icon_expand']['text'] : 'chevron-down')." fa-xs'></i></div>\n";
 						}
@@ -1185,7 +1220,7 @@ if (!class_exists('menu')) {
 							if (is_array($menu_item_main['menu_items']) && sizeof($menu_item_main['menu_items']) != 0) {
 								$html .= "	<div id='sub_".$menu_item_main['menu_item_uuid']."' class='menu_side_sub' style='display: none;'>\n";
 								foreach ($menu_item_main['menu_items'] as $menu_index_sub => $menu_item_sub) {
-									$html .= "		<a class='menu_side_item_sub' ".($menu_item_sub['menu_item_category'] == 'external' ? "target='_blank'" : null)." title='".$menu_item_sub['menu_item_description']."' href='".$menu_item_sub['menu_item_link']."'>";
+									$html .= "		<a class='menu_side_item_sub' ".($menu_item_sub['menu_item_category'] == 'external' ? "target='_blank'" : null)." title='".escape($this->runtime_item_tooltip($menu_item_sub))."' href='".$menu_item_sub['menu_item_link']."'>";
 									$html .= 			"<span class='menu_side_item_title' ".($_SESSION['theme']['menu_side_state']['text'] != 'expanded' ? "style='display: none;'" : null).">".$menu_item_sub['menu_language_title']."</span>";
 									$html .= 		"</a>\n";
 								}

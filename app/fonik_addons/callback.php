@@ -8,7 +8,18 @@ require_once __DIR__.'/resources/classes/fonik_api_client.php';
 require_once __DIR__.'/resources/classes/fonik_addons_validator.php';
 require_once __DIR__.'/resources/classes/fonik_addons_page.php';
 
-FonikAddonsPage::requireAccess('fonik_callback_manage');
+$callbackPermissions = [
+	'has_in_call_back' => 'fonik_callback_incoming',
+	'has_out_call_back' => 'fonik_callback_outgoing',
+	'has_normal_call_back' => 'fonik_callback_missed',
+];
+FonikAddonsPage::requireAccess(array_values($callbackPermissions));
+$allowedCallbackFlags = [];
+foreach ($callbackPermissions as $flag => $permissionName) {
+	if (if_group('superadmin') || permission_exists($permissionName)) {
+		$allowedCallbackFlags[] = $flag;
+	}
+}
 $context = FonikAddonsPage::context();
 $service = ['exists' => false, 'data' => [], 'error' => ''];
 
@@ -18,7 +29,7 @@ if ($context['company_exists'] && $context['error'] === '') {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && $context['company_exists'] && $context['error'] === '') {
 	FonikAddonsPage::validatePostToken();
-	$validation = FonikAddonsValidator::callback($_POST);
+	$validation = FonikAddonsValidator::callback($_POST, $allowedCallbackFlags, $service['data']);
 	if ($validation['errors'] !== []) {
 		message::add(implode(' ', $validation['errors']), 'negative');
 	}
@@ -58,13 +69,19 @@ elseif ($service['error'] !== '') {
 }
 else {
 	FonikAddonsPage::formStart();
-	echo '<div class="fonik-form-grid">';
+	FonikAddonsPage::fieldsStart();
 	FonikAddonsPage::field('وضعیت سرویس', FonikAddonsPage::checkbox('enabled', $data['enabled'] ?? false));
-	FonikAddonsPage::field('تماس‌های ورودی', FonikAddonsPage::checkbox('has_in_call_back', $data['has_in_call_back'] ?? false));
-	FonikAddonsPage::field('تماس‌های خروجی', FonikAddonsPage::checkbox('has_out_call_back', $data['has_out_call_back'] ?? false));
-	FonikAddonsPage::field('تماس‌های بی‌پاسخ', FonikAddonsPage::checkbox('has_normal_call_back', $data['has_normal_call_back'] ?? false));
+	if (in_array('has_in_call_back', $allowedCallbackFlags, true)) {
+		FonikAddonsPage::field('تماس‌های ورودی', FonikAddonsPage::checkbox('has_in_call_back', $data['has_in_call_back'] ?? false));
+	}
+	if (in_array('has_out_call_back', $allowedCallbackFlags, true)) {
+		FonikAddonsPage::field('تماس‌های خروجی', FonikAddonsPage::checkbox('has_out_call_back', $data['has_out_call_back'] ?? false));
+	}
+	if (in_array('has_normal_call_back', $allowedCallbackFlags, true)) {
+		FonikAddonsPage::field('تماس‌های بی‌پاسخ', FonikAddonsPage::checkbox('has_normal_call_back', $data['has_normal_call_back'] ?? false));
+	}
 	FonikAddonsPage::field('بازه بررسی', $rangeSelect);
-	echo '</div>';
+	FonikAddonsPage::fieldsEnd();
 	FonikAddonsPage::submit();
 	echo '</form>';
 }

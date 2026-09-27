@@ -44,10 +44,10 @@ elseif ($service['error'] !== '') {
 }
 else {
 	FonikAddonsPage::formStart();
-	echo '<div class="fonik-form-grid">';
+	FonikAddonsPage::fieldsStart();
 	FonikAddonsPage::field('وضعیت سرویس', FonikAddonsPage::checkbox('enabled', $service['data']['enabled'] ?? false));
 	FonikAddonsPage::field('ضبط تماس', FonikAddonsPage::checkbox('has_record', $service['data']['has_record'] ?? false));
-	echo '</div>';
+	FonikAddonsPage::fieldsEnd();
 	FonikAddonsPage::submit();
 	echo '</form>';
 }

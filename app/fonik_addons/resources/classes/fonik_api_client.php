@@ -80,7 +80,7 @@ final class FonikApiClient
 
 	private function servicePath(int $companyId, string $service): string
 	{
-		$allowed = ['click-to-call-service', 'popup-service', 'callback-service'];
+		$allowed = ['click-to-call-service', 'popup-service', 'callback-service', 'private-call-service', 'recording-service'];
 		if (!in_array($service, $allowed, true)) {
 			throw new InvalidArgumentException('Unsupported Fonik service.');
 		}

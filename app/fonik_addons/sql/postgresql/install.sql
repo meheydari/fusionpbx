@@ -32,14 +32,42 @@ DELETE FROM v_permissions
 WHERE application_uuid = 'a8bc49c2-cf17-4a68-a796-3031a059ddbf'::uuid
 	AND permission_name IN ('fonik_addons_view', 'fonik_company_add', 'fonik_company_edit');
 
+-- Preserve existing tenant Callback grants while splitting them into three permissions.
+WITH callback_permissions(permission_name) AS (
+	VALUES ('fonik_callback_incoming'), ('fonik_callback_outgoing'), ('fonik_callback_missed')
+), legacy_grants AS (
+	SELECT domain_uuid, group_uuid, group_name, permission_assigned
+	FROM v_group_permissions
+	WHERE domain_uuid IS NOT NULL AND permission_name = 'fonik_callback_manage'
+)
+INSERT INTO v_group_permissions (
+	group_permission_uuid, domain_uuid, permission_name, permission_protected,
+	permission_assigned, group_name, group_uuid, insert_date
+)
+SELECT
+	md5('fonik-addons-domain-permission:' || l.domain_uuid::text || ':' || l.group_uuid::text || ':' || p.permission_name)::uuid,
+	l.domain_uuid, p.permission_name, 'false', l.permission_assigned, l.group_name, l.group_uuid, CURRENT_TIMESTAMP
+FROM legacy_grants AS l CROSS JOIN callback_permissions AS p
+WHERE NOT EXISTS (
+	SELECT 1 FROM v_group_permissions AS existing
+	WHERE existing.domain_uuid = l.domain_uuid AND existing.group_uuid = l.group_uuid AND existing.permission_name = p.permission_name
+);
+
+DELETE FROM v_group_permissions WHERE permission_name = 'fonik_callback_manage';
+DELETE FROM v_permissions WHERE permission_name = 'fonik_callback_manage';
+
 -- Service permissions must be granted per tenant, never globally.
 DELETE FROM v_group_permissions
 WHERE domain_uuid IS NULL
 	AND permission_name IN (
 		'fonik_click_to_call_manage',
 		'fonik_popup_manage',
-		'fonik_callback_manage',
-		'fonik_gateway_sync'
+		'fonik_callback_incoming',
+		'fonik_callback_outgoing',
+		'fonik_callback_missed',
+		'fonik_gateway_sync',
+		'fonik_recording_notify_manage',
+		'fonik_secure_call_manage'
 	);
 
 WITH permission_rows(permission_name, permission_description) AS (
@@ -47,8 +75,12 @@ WITH permission_rows(permission_name, permission_description) AS (
 		('fonik_company_settings', 'Manage the active tenant company in Fonik'),
 		('fonik_click_to_call_manage', 'Manage Click to Call for the active tenant'),
 		('fonik_popup_manage', 'Manage Popup for the active tenant'),
-		('fonik_callback_manage', 'Manage Callback for the active tenant'),
-		('fonik_gateway_sync', 'Synchronize gateways for the active tenant')
+		('fonik_callback_incoming', 'Manage incoming Callback for the active tenant'),
+		('fonik_callback_outgoing', 'Manage outgoing Callback for the active tenant'),
+		('fonik_callback_missed', 'Manage missed Callback for the active tenant'),
+		('fonik_gateway_sync', 'Synchronize gateways for the active tenant'),
+		('fonik_recording_notify_manage', 'Manage recording notifications for the active tenant'),
+		('fonik_secure_call_manage', 'Manage Secure Call for the active tenant')
 )
 INSERT INTO v_permissions (
 	permission_uuid,
@@ -125,7 +157,9 @@ WITH setting_rows(
 		('c0cca4ad-cba0-4dfa-816f-cc76079ba017'::uuid, 'click_to_call_documentation_url', 'text', '', 70, 'Click to Call documentation URL.'),
 		('2b586bec-7313-4229-b7c7-86f41ee6f227'::uuid, 'popup_documentation_url', 'text', '', 80, 'Popup documentation URL.'),
 		('cfda0b41-2cf6-489a-ae98-4a9891f6f89e'::uuid, 'callback_documentation_url', 'text', '', 90, 'Callback documentation URL.'),
-		('e6f39d49-d422-40fd-89b1-fea72f411fb8'::uuid, 'gateway_sync_documentation_url', 'text', '', 100, 'Gateway synchronization documentation URL.')
+		('e6f39d49-d422-40fd-89b1-fea72f411fb8'::uuid, 'gateway_sync_documentation_url', 'text', '', 100, 'Gateway synchronization documentation URL.'),
+		('380ee17d-a3fa-4fdd-bbf0-1433f68ec80b'::uuid, 'recording_notify_documentation_url', 'text', '', 110, 'Recording notification documentation URL.'),
+		('dca59f0a-9807-4333-8aa6-b12863f7edd4'::uuid, 'secure_call_documentation_url', 'text', '', 120, 'Secure Call documentation URL.')
 )
 INSERT INTO v_default_settings (
 	default_setting_uuid,
@@ -176,7 +210,9 @@ WITH menu_rows(item_uuid, parent_uuid, title, link, icon, item_order) AS (
 		('db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid, '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'کلیک برای تماس', '/app/fonik_addons/click_to_call.php', 'fa-phone', 20),
 		('94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid, '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'پاپ‌آپ تماس', '/app/fonik_addons/popup.php', 'fa-bell', 30),
 		('44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid, '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'تماس بازگشتی', '/app/fonik_addons/callback.php', 'fa-reply', 40),
-		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'همگام‌سازی درگاه‌ها', '/app/fonik_addons/gateway_sync.php', 'fa-refresh', 50)
+		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'همگام‌سازی درگاه‌ها', '/app/fonik_addons/gateway_sync.php', 'fa-refresh', 50),
+		('5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid, '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'اعلان رکورد تماس', '/app/fonik_addons/record_notify.php', 'fa-file-audio-o', 60),
+		('be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid, '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'تماس امن', '/app/fonik_addons/secure_call.php', 'fa-lock', 70)
 ), targets AS (
 	SELECT
 		m.menu_uuid,
@@ -228,7 +264,9 @@ WITH menu_rows(item_uuid, title, link, icon, item_order) AS (
 		('db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid, 'کلیک برای تماس', '/app/fonik_addons/click_to_call.php', 'fa-phone', 20),
 		('94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid, 'پاپ‌آپ تماس', '/app/fonik_addons/popup.php', 'fa-bell', 30),
 		('44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid, 'تماس بازگشتی', '/app/fonik_addons/callback.php', 'fa-reply', 40),
-		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'همگام‌سازی درگاه‌ها', '/app/fonik_addons/gateway_sync.php', 'fa-refresh', 50)
+		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'همگام‌سازی درگاه‌ها', '/app/fonik_addons/gateway_sync.php', 'fa-refresh', 50),
+		('5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid, 'اعلان رکورد تماس', '/app/fonik_addons/record_notify.php', 'fa-file-audio-o', 60),
+		('be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid, 'تماس امن', '/app/fonik_addons/secure_call.php', 'fa-lock', 70)
 )
 UPDATE v_menu_items AS item
 SET menu_item_parent_uuid = parent.menu_item_uuid,
@@ -240,6 +278,29 @@ FROM menu_rows AS r, v_menu_items AS parent
 WHERE item.uuid = r.item_uuid
 	AND parent.menu_uuid = item.menu_uuid
 	AND parent.uuid = '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid;
+
+UPDATE v_menu_items
+SET menu_item_description = CASE uuid
+	WHEN '929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid THEN 'Fonik Add-ons'
+	WHEN 'b0af7bb9-c86a-4252-9ce0-ecd8488d895b'::uuid THEN 'Company Settings'
+	WHEN 'db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid THEN 'Click to Call'
+	WHEN '94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid THEN 'Call Popup'
+	WHEN '44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid THEN 'Callback'
+	WHEN '161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid THEN 'Gateway Synchronization'
+	WHEN '5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid THEN 'Record Notify'
+	WHEN 'be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid THEN 'Secure Call'
+	ELSE menu_item_description
+END
+WHERE uuid IN (
+	'929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid,
+	'b0af7bb9-c86a-4252-9ce0-ecd8488d895b'::uuid,
+	'db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid,
+	'94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid,
+	'44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid,
+	'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid,
+	'5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid,
+	'be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid
+);
 
 WITH menu_languages AS (
 	SELECT DISTINCT menu_uuid, menu_language
@@ -256,7 +317,9 @@ WITH menu_languages AS (
 		'db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid,
 		'94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid,
 		'44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid,
-		'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid
+		'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid,
+		'5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid,
+		'be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid
 	)
 )
 INSERT INTO v_menu_languages (
@@ -294,7 +357,11 @@ WITH menu_groups(item_uuid, group_name) AS (
 		('44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid, 'admin'),
 		('44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid, 'superadmin'),
 		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'admin'),
-		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'superadmin')
+		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'superadmin'),
+		('5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid, 'admin'),
+		('5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid, 'superadmin'),
+		('be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid, 'admin'),
+		('be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid, 'superadmin')
 ), target_items AS (
 	SELECT menu_item_uuid, menu_uuid, uuid FROM v_menu_items
 ), target_groups AS (
@@ -343,6 +410,8 @@ WHERE uuid IN (
 	'db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid,
 	'94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid,
 	'44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid,
-	'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid
+	'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid,
+	'5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid,
+	'be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid
 )
 GROUP BY menu_uuid;

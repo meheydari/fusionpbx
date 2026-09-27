@@ -106,6 +106,8 @@ test -f "$APP_DIR/app/fonik_addons/click_to_call.php"
 test -f "$APP_DIR/app/fonik_addons/popup.php"
 test -f "$APP_DIR/app/fonik_addons/callback.php"
 test -f "$APP_DIR/app/fonik_addons/gateway_sync.php"
+test -f "$APP_DIR/app/fonik_addons/record_notify.php"
+test -f "$APP_DIR/app/fonik_addons/secure_call.php"
 test -f "$APP_DIR/app/fonik_addons/sql/postgresql/install.sql"
 test -f "$APP_DIR/resources/classes/menu.php"
 ```
@@ -152,9 +154,9 @@ sudo -u postgres psql \
 
 خروجی نهایی باید این موارد را نشان دهد:
 
-- `fonik_permission_count = 5`
-- `fonik_default_setting_count = 10`
-- برای هر منوی FusionPBX تعداد `fonik_menu_item_count = 6`
+- `fonik_permission_count = 9`
+- `fonik_default_setting_count = 12`
+- برای هر منوی FusionPBX تعداد `fonik_menu_item_count = 8`
 
 کنترل مستقل:
 
@@ -215,6 +217,8 @@ unset FONIK_ADMIN_API_KEY
 - `popup_documentation_url`
 - `callback_documentation_url`
 - `gateway_sync_documentation_url`
+- `recording_notify_documentation_url`
+- `secure_call_documentation_url`
 
 خالی بودن هر مقدار فقط دکمه «دانلود مستندات» همان صفحه را پنهان می‌کند.
 
@@ -272,7 +276,7 @@ WHERE d.domain_name = '$TENANT_DOMAIN'
 
 ## ۸. تخصیص دسترسی ماژول‌ها به tenant
 
-فعال‌سازی قابلیت به‌تنهایی هیچ‌یک از چهار سرویس را به مدیر tenant نمی‌دهد. یک کپی موقت از فایل permission بسازید:
+فعال‌سازی قابلیت به‌تنهایی هیچ‌یک از سرویس‌ها را به مدیر tenant نمی‌دهد. روش اصلی، انتخاب دسترسی‌ها توسط superadmin در صفحه «تنظیمات شرکت» است. برای استقرار خودکار می‌توان از فایل permission استفاده کرد:
 
 ```bash
 install -m 600 \
@@ -287,8 +291,12 @@ target_domain_name text := 'test.example.com';
 target_group_name text := 'admin';
 allow_click_to_call boolean := TRUE;
 allow_popup boolean := TRUE;
-allow_callback boolean := TRUE;
+allow_callback_incoming boolean := TRUE;
+allow_callback_outgoing boolean := TRUE;
+allow_callback_missed boolean := TRUE;
 allow_gateway_sync boolean := FALSE;
+allow_recording_notify boolean := TRUE;
+allow_secure_call boolean := TRUE;
 ```
 
 سپس اجرا و فایل موقت را حذف کنید:
@@ -302,7 +310,7 @@ sudo -u postgres psql \
 rm -f /tmp/fonik-tenant-permissions.sql
 ```
 
-صفحه «تنظیمات شرکت» مستقل از این چهار permission است و فقط به `superadmin` نمایش داده می‌شود.
+صفحه «تنظیمات شرکت» مستقل از permissionهای سرویس است و فقط به `superadmin` نمایش داده می‌شود. superadmin می‌تواند همین مقادیر را با تیک‌زدن در آن صفحه تغییر دهد.
 
 ## ۹. بازسازی cache اجرایی
 
@@ -324,7 +332,7 @@ sudo systemctl reload php8.2-fpm
 1. با superadmin وارد شوید.
 2. tenant آزمایشی را انتخاب کنید.
 3. منوی «افزودنی‌ها» و زیرمنوی «تنظیمات شرکت» باید دیده شوند.
-4. زیرمنوهای سرویس فقط در صورت داشتن permission همان tenant نمایش داده شوند.
+4. همه زیرمنوهای سرویس برای superadmin نمایش داده می‌شوند؛ دسترسی مدیر tenant با تیک‌های صفحه تنظیمات شرکت کنترل می‌شود.
 
 ### تست با مدیر tenant
 

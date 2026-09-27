@@ -55,7 +55,7 @@ elseif ($service['error'] !== '') {
 }
 else {
 	FonikAddonsPage::formStart();
-	echo '<div class="fonik-form-grid">';
+	FonikAddonsPage::fieldsStart();
 	FonikAddonsPage::field('وضعیت سرویس', FonikAddonsPage::checkbox('enabled', $data['enabled'] ?? false));
 	FonikAddonsPage::field(
 		'نوع ارتباط',
@@ -73,7 +73,7 @@ else {
 		'روش درخواست',
 		'<select class="formfld" name="api_method"><option value="POST"'.($method === 'POST' ? ' selected="selected"' : '').'>POST</option><option value="GET"'.($method === 'GET' ? ' selected="selected"' : '').'>GET</option></select>'
 	);
-	echo '<div class="fonik-fields-heading">اطلاعات ارسالی</div>';
+	FonikAddonsPage::fieldsHeading('اطلاعات ارسالی');
 	$fieldDefinitions = [
 		'external_number' => ['شماره خارجی', 'external_number_label'],
 		'internal_number' => ['شماره داخلی', 'internal_number_label'],
@@ -85,7 +85,7 @@ else {
 		FonikAddonsPage::field('ارسال '.$label, FonikAddonsPage::checkbox($flag, $fields[$flag] ?? false));
 		FonikAddonsPage::field('نام فیلد '.$label, '<input class="formfld" type="text" name="'.escape($labelField).'" maxlength="255" value="'.escape((string) ($fields[$labelField] ?? '')).'">');
 	}
-	echo '</div>';
+	FonikAddonsPage::fieldsEnd();
 	FonikAddonsPage::submit();
 	echo '</form>';
 }

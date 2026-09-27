@@ -76,5 +76,31 @@
 	$apps[$x]['menu'][$y]['order'] = "50";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+	$y++;
+
+	$apps[$x]['menu'][$y]['title']['en-us'] = "اعلان رکورد تماس";
+	$apps[$x]['menu'][$y]['title']['en-gb'] = "اعلان رکورد تماس";
+	$apps[$x]['menu'][$y]['title']['fa-ir'] = "اعلان رکورد تماس";
+	$apps[$x]['menu'][$y]['uuid'] = "5fe78340-7118-4db7-8952-e45e3b7046f7";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "929a8d95-1ddb-4400-9a12-6d94b461ec66";
+	$apps[$x]['menu'][$y]['category'] = "internal";
+	$apps[$x]['menu'][$y]['icon'] = "fa-file-audio-o";
+	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/record_notify.php";
+	$apps[$x]['menu'][$y]['order'] = "60";
+	$apps[$x]['menu'][$y]['groups'][] = "admin";
+	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+	$y++;
+
+	$apps[$x]['menu'][$y]['title']['en-us'] = "تماس امن";
+	$apps[$x]['menu'][$y]['title']['en-gb'] = "تماس امن";
+	$apps[$x]['menu'][$y]['title']['fa-ir'] = "تماس امن";
+	$apps[$x]['menu'][$y]['uuid'] = "be128886-1fe0-4c3d-9a52-2535c40a0bdd";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "929a8d95-1ddb-4400-9a12-6d94b461ec66";
+	$apps[$x]['menu'][$y]['category'] = "internal";
+	$apps[$x]['menu'][$y]['icon'] = "fa-lock";
+	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/secure_call.php";
+	$apps[$x]['menu'][$y]['order'] = "70";
+	$apps[$x]['menu'][$y]['groups'][] = "admin";
+	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 
 ?>

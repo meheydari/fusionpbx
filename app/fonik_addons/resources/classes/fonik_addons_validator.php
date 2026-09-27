@@ -92,20 +92,85 @@ final class FonikAddonsValidator
 	/** @param array<string, mixed> $input
 	 *  @return array{payload: array<string, mixed>, errors: list<string>}
 	 */
-	public static function callback(array $input): array
+	public static function callback(array $input, ?array $allowedFlags = null, array $current = []): array
 	{
+		$allowedFlags ??= ['has_in_call_back', 'has_out_call_back', 'has_normal_call_back'];
 		$range = (int) ($input['callback_check_range'] ?? 30);
 		$errors = in_array($range, [30, 60, 90, 2880], true)
 			? []
 			: ['بازه Callback باید یکی از مقادیر ۳۰، ۶۰، ۹۰ یا ۲۸۸۰ دقیقه باشد.'];
 
+		$payload = [
+			'enabled' => self::boolean($input['enabled'] ?? false),
+			'callback_check_range' => $range,
+		];
+		foreach (['has_in_call_back', 'has_out_call_back', 'has_normal_call_back'] as $flag) {
+			$payload[$flag] = in_array($flag, $allowedFlags, true)
+				? self::boolean($input[$flag] ?? false)
+				: self::boolean($current[$flag] ?? false);
+		}
+
+		return [
+			'payload' => $payload,
+			'errors' => $errors,
+		];
+	}
+
+	/** @param array<string, mixed> $input
+	 *  @return array<string, mixed>
+	 */
+	public static function secureCall(array $input): array
+	{
+		return [
+			'enabled' => self::boolean($input['enabled'] ?? false),
+			'has_record' => self::boolean($input['has_record'] ?? false),
+		];
+	}
+
+	/** @param array<string, mixed> $input
+	 *  @return array{payload: array<string, mixed>, errors: list<string>}
+	 */
+	public static function recordingNotify(array $input): array
+	{
+		$deliveryType = strtoupper(trim((string) ($input['delivery_type'] ?? 'AI')));
+		$webhookMethod = strtoupper(trim((string) ($input['webhook_method'] ?? 'POST')));
+		$errors = [];
+		$fields = [];
+		$fieldNames = ['call_id', 'external_number', 'internal_number', 'call_type', 'date'];
+
+		if (!in_array($deliveryType, ['AI', 'WEBHOOK', 'BOTH'], true)) {
+			$errors[] = 'نوع ارسال اعلان رکورد معتبر نیست.';
+		}
+		if (!in_array($webhookMethod, ['GET', 'POST'], true)) {
+			$errors[] = 'روش درخواست وب‌هوک معتبر نیست.';
+		}
+
+		foreach ($fieldNames as $fieldName) {
+			$fields[$fieldName] = self::boolean($input[$fieldName] ?? false);
+			$fields[$fieldName.'_label'] = self::nullableString($input[$fieldName.'_label'] ?? null);
+			if ($fields[$fieldName] && $fields[$fieldName.'_label'] === null) {
+				$errors[] = 'نام فیلد '.str_replace('_', ' ', $fieldName).' الزامی است.';
+			}
+		}
+
+		$webhookUrl = self::nullableString($input['webhook_url'] ?? null);
+		$webhookApiKey = self::nullableString($input['webhook_api_key'] ?? null);
+		$fields['webhook_api_key_label'] = self::nullableString($input['webhook_api_key_label'] ?? null);
+		if (in_array($deliveryType, ['WEBHOOK', 'BOTH'], true) && ($webhookUrl === null || filter_var($webhookUrl, FILTER_VALIDATE_URL) === false)) {
+			$errors[] = 'آدرس وب‌هوک معتبر الزامی است.';
+		}
+		if ($webhookApiKey !== null && $fields['webhook_api_key_label'] === null) {
+			$errors[] = 'نام فیلد کلید وب‌هوک الزامی است.';
+		}
+
 		return [
 			'payload' => [
 				'enabled' => self::boolean($input['enabled'] ?? false),
-				'has_in_call_back' => self::boolean($input['has_in_call_back'] ?? false),
-				'has_out_call_back' => self::boolean($input['has_out_call_back'] ?? false),
-				'has_normal_call_back' => self::boolean($input['has_normal_call_back'] ?? false),
-				'callback_check_range' => $range,
+				'delivery_type' => $deliveryType,
+				'webhook_url' => $webhookUrl,
+				'webhook_method' => $webhookMethod,
+				'webhook_api_key' => $webhookApiKey,
+				'fields' => $fields,
 			],
 			'errors' => $errors,
 		];

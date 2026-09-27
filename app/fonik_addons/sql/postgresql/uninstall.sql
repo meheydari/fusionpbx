@@ -13,7 +13,9 @@ WHERE menu_item_uuid IN (
 		'db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid,
 		'94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid,
 		'44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid,
-		'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid
+		'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid,
+		'5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid,
+		'be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid
 	)
 );
 
@@ -27,7 +29,9 @@ WHERE menu_item_uuid IN (
 		'db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid,
 		'94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid,
 		'44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid,
-		'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid
+		'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid,
+		'5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid,
+		'be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid
 	)
 );
 
@@ -37,7 +41,9 @@ WHERE uuid IN (
 	'db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid,
 	'94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid,
 	'44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid,
-	'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid
+	'161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid,
+	'5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid,
+	'be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid
 );
 
 DELETE FROM v_menu_items
@@ -52,7 +58,12 @@ WHERE permission_name IN (
 	'fonik_click_to_call_manage',
 	'fonik_popup_manage',
 	'fonik_callback_manage',
-	'fonik_gateway_sync'
+	'fonik_callback_incoming',
+	'fonik_callback_outgoing',
+	'fonik_callback_missed',
+	'fonik_gateway_sync',
+	'fonik_recording_notify_manage',
+	'fonik_secure_call_manage'
 );
 
 DELETE FROM v_permissions

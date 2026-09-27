@@ -11,10 +11,14 @@ The parent menu is `افزودنی‌ها`. It is visible only when `fonik_addon
 | تنظیمات شرکت | `fonik_company_settings` | Global `superadmin` only |
 | کلیک برای تماس | `fonik_click_to_call_manage` | Granted per domain |
 | پاپ‌آپ تماس | `fonik_popup_manage` | Granted per domain |
-| تماس بازگشتی | `fonik_callback_manage` | Granted per domain |
+| تماس بازگشتی - ورودی | `fonik_callback_incoming` | Granted per domain |
+| تماس بازگشتی - خروجی | `fonik_callback_outgoing` | Granted per domain |
+| تماس بازگشتی - بی‌پاسخ | `fonik_callback_missed` | Granted per domain |
 | همگام‌سازی درگاه‌ها | `fonik_gateway_sync` | Granted per domain |
+| اعلان رکورد تماس | `fonik_recording_notify_manage` | Granted per domain |
+| تماس امن | `fonik_secure_call_manage` | Granted per domain |
 
-Service permissions are deliberately not granted to the global `admin` or `superadmin` groups. Use `sql/postgresql/tenant_permissions.sql` to select the modules available to a group in one tenant. Sign out and back in after changing permissions.
+Service permissions are deliberately not granted to the global `admin` group. A superadmin grants them to the active tenant from `تنظیمات شرکت`; `sql/postgresql/tenant_permissions.sql` remains available for deployment automation. Sign out and back in as the tenant admin after changing permissions.
 
 ## Installation
 
@@ -33,6 +37,8 @@ Set these shared HTTP(S) URLs in Default Settings. A page hides its documentatio
 - `popup_documentation_url`
 - `callback_documentation_url`
 - `gateway_sync_documentation_url`
+- `recording_notify_documentation_url`
+- `secure_call_documentation_url`
 
 ## Tenant-to-company mapping
 

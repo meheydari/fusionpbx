@@ -9,15 +9,23 @@ DECLARE
 	target_group_name text := 'admin';
 	allow_click_to_call boolean := FALSE;
 	allow_popup boolean := FALSE;
-	allow_callback boolean := FALSE;
+	allow_callback_incoming boolean := FALSE;
+	allow_callback_outgoing boolean := FALSE;
+	allow_callback_missed boolean := FALSE;
 	allow_gateway_sync boolean := FALSE;
+	allow_recording_notify boolean := FALSE;
+	allow_secure_call boolean := FALSE;
 	target_domain_uuid uuid;
 	target_group_uuid uuid;
 	permission_names text[] := ARRAY[
 		'fonik_click_to_call_manage',
 		'fonik_popup_manage',
-		'fonik_callback_manage',
-		'fonik_gateway_sync'
+		'fonik_callback_incoming',
+		'fonik_callback_outgoing',
+		'fonik_callback_missed',
+		'fonik_gateway_sync',
+		'fonik_recording_notify_manage',
+		'fonik_secure_call_manage'
 	];
 	permission_enabled boolean;
 	i integer;
@@ -42,7 +50,7 @@ BEGIN
 	IF (
 		SELECT COUNT(*) FROM v_permissions
 		WHERE permission_name = ANY(permission_names)
-	) <> 4 THEN
+	) <> 8 THEN
 		RAISE EXCEPTION 'Fonik service permissions are missing; run install.sql first';
 	END IF;
 
@@ -50,8 +58,12 @@ BEGIN
 		permission_enabled := CASE permission_names[i]
 			WHEN 'fonik_click_to_call_manage' THEN allow_click_to_call
 			WHEN 'fonik_popup_manage' THEN allow_popup
-			WHEN 'fonik_callback_manage' THEN allow_callback
+			WHEN 'fonik_callback_incoming' THEN allow_callback_incoming
+			WHEN 'fonik_callback_outgoing' THEN allow_callback_outgoing
+			WHEN 'fonik_callback_missed' THEN allow_callback_missed
 			WHEN 'fonik_gateway_sync' THEN allow_gateway_sync
+			WHEN 'fonik_recording_notify_manage' THEN allow_recording_notify
+			WHEN 'fonik_secure_call_manage' THEN allow_secure_call
 			ELSE FALSE
 		END;
 
@@ -98,7 +110,11 @@ JOIN v_domains AS d ON d.domain_uuid = p.domain_uuid
 WHERE p.permission_name IN (
 	'fonik_click_to_call_manage',
 	'fonik_popup_manage',
-	'fonik_callback_manage',
-	'fonik_gateway_sync'
+	'fonik_callback_incoming',
+	'fonik_callback_outgoing',
+	'fonik_callback_missed',
+	'fonik_gateway_sync',
+	'fonik_recording_notify_manage',
+	'fonik_secure_call_manage'
 )
 ORDER BY d.domain_name, p.group_name, p.permission_name;

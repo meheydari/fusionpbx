@@ -9,13 +9,20 @@ final class FonikAddonsPage
 	private const SAVE_SUCCESS_MESSAGE = 'تنظیمات با موفقیت ذخیره شد.';
 	private const SAVE_ERROR_MESSAGE = 'ذخیره تنظیمات انجام نشد. لطفاً دوباره تلاش کنید یا با پشتیبانی تماس بگیرید.';
 
-	public static function requireAccess(string $permission, bool $superadminOnly = false): void
+	/** @param string|list<string> $permission */
+	public static function requireAccess(string|array $permission, bool $superadminOnly = false): void
 	{
 		if (!self::featureEnabled()) {
 			self::renderUnavailable();
 		}
 
-		if (!permission_exists($permission) || ($superadminOnly && !if_group('superadmin'))) {
+		$permissions = is_array($permission) ? $permission : [$permission];
+		$allowed = if_group('superadmin');
+		foreach ($permissions as $permissionName) {
+			$allowed = $allowed || permission_exists($permissionName);
+		}
+
+		if (!$allowed || ($superadminOnly && !if_group('superadmin'))) {
 			http_response_code(403);
 			echo 'access denied';
 			exit;
@@ -137,19 +144,21 @@ final class FonikAddonsPage
 		$documentationUrl = self::documentationUrl($documentationSetting);
 		echo '<link rel="stylesheet" href="'.PROJECT_PATH.'/app/fonik_addons/resources/css/fonik_addons.css">';
 		echo '<main class="fonik-shell">';
-		echo '<header class="fonik-page-header">';
-		echo '<div class="fonik-page-copy"><h1>'.escape($title).'</h1>';
-		if ($description !== '') {
-			echo '<p>'.escape($description).'</p>';
-		}
-		echo '</div><div class="fonik-page-actions">';
+		echo '<div class="action_bar fonik-page-header"><div class="heading"><b>'.escape($title).'</b></div><div class="actions">';
 		if ($active !== null) {
 			echo '<span class="fonik-status '.($active ? 'fonik-status--active' : '').'">'.($active ? 'فعال' : 'غیرفعال').'</span>';
 		}
 		if ($documentationUrl !== '') {
-			echo '<a class="fonik-documentation-link" href="'.escape($documentationUrl).'" target="_blank" rel="noopener noreferrer" download>دانلود مستندات</a>';
+			echo '<a href="'.escape($documentationUrl).'" target="_blank" rel="noopener noreferrer" download>'.button::create([
+				'type' => 'button',
+				'label' => 'دانلود مستندات',
+				'icon' => 'download',
+			]).'</a>';
 		}
-		echo '</div></header>';
+		echo '</div><div style="clear: both;"></div></div>';
+		if ($description !== '') {
+			echo '<div class="fonik-description">'.escape($description).'</div>';
+		}
 	}
 
 	public static function end(): void
@@ -184,27 +193,43 @@ final class FonikAddonsPage
 
 	public static function formStart(): void
 	{
-		global $token;
+		$tokenObject = new token();
+		$formToken = $tokenObject->create($_SERVER['PHP_SELF']);
 		echo '<form method="post" class="fonik-form">';
-		echo '<input type="hidden" name="token" value="'.escape((string) $token).'">';
+		echo '<input type="hidden" name="'.escape((string) $formToken['name']).'" value="'.escape((string) $formToken['hash']).'">';
+	}
+
+	public static function fieldsStart(): void
+	{
+		echo '<table class="fonik-fields" width="100%" border="0" cellpadding="0" cellspacing="0">';
+	}
+
+	public static function fieldsEnd(): void
+	{
+		echo '</table>';
+	}
+
+	public static function fieldsHeading(string $title): void
+	{
+		echo '<tr><td class="vtable fonik-fields-heading" colspan="2">'.escape($title).'</td></tr>';
 	}
 
 	public static function field(string $label, string $control, string $hint = '', bool $wide = false, string $group = ''): void
 	{
 		$groupAttribute = $group !== '' ? ' data-fonik-group="'.escape($group).'"' : '';
-		echo '<div class="fonik-field'.($wide ? ' fonik-field--wide' : '').'"'.$groupAttribute.'>';
-		echo '<span class="fonik-label">'.escape($label).'</span>'.$control;
+		echo '<tr class="fonik-field"'.$groupAttribute.'>';
+		echo '<td class="vncell" valign="top" nowrap="nowrap" width="30%">'.escape($label).'</td><td class="vtable">'.$control;
 		if ($hint !== '') {
-			echo '<span class="fonik-hint">'.escape($hint).'</span>';
+			echo '<div class="fonik-hint">'.escape($hint).'</div>';
 		}
-		echo '</div>';
+		echo '</td></tr>';
 	}
 
 	public static function checkbox(string $name, mixed $checked): string
 	{
-		return '<label class="fonik-toggle"><input type="checkbox" name="'.escape($name).'" value="true"'.
+		return '<label class="switch"><input type="checkbox" name="'.escape($name).'" value="true"'.
 			(filter_var($checked, FILTER_VALIDATE_BOOLEAN) ? ' checked="checked"' : '').
-			'><span aria-hidden="true"></span></label>';
+			'><span class="slider"></span></label>';
 	}
 
 	public static function submit(string $label = 'ذخیره تنظیمات'): void

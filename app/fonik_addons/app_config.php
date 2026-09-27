@@ -93,6 +93,22 @@
 		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Gateway synchronization documentation URL.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "380ee17d-a3fa-4fdd-bbf0-1433f68ec80b";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "recording_notify_documentation_url";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Recording notification documentation URL.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "dca59f0a-9807-4333-8aa6-b12863f7edd4";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "secure_call_documentation_url";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Secure Call documentation URL.";
 
 	//permission details - service permissions are granted per domain
 		$y = 0;
@@ -106,10 +122,22 @@
 		$apps[$x]['permissions'][$y]['name'] = "fonik_popup_manage";
 		$apps[$x]['permissions'][$y]['menu']['uuid'] = "94b4cce1-a6c4-4918-a631-0252bfb18957";
 		$y++;
-		$apps[$x]['permissions'][$y]['name'] = "fonik_callback_manage";
+		$apps[$x]['permissions'][$y]['name'] = "fonik_callback_incoming";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "44903cd9-a1e4-45ab-a004-f24b8bdd9061";
+		$y++;
+		$apps[$x]['permissions'][$y]['name'] = "fonik_callback_outgoing";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "44903cd9-a1e4-45ab-a004-f24b8bdd9061";
+		$y++;
+		$apps[$x]['permissions'][$y]['name'] = "fonik_callback_missed";
 		$apps[$x]['permissions'][$y]['menu']['uuid'] = "44903cd9-a1e4-45ab-a004-f24b8bdd9061";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "fonik_gateway_sync";
 		$apps[$x]['permissions'][$y]['menu']['uuid'] = "161ebc6f-fea1-4a57-8897-2804ab28085d";
+		$y++;
+		$apps[$x]['permissions'][$y]['name'] = "fonik_recording_notify_manage";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "5fe78340-7118-4db7-8952-e45e3b7046f7";
+		$y++;
+		$apps[$x]['permissions'][$y]['name'] = "fonik_secure_call_manage";
+		$apps[$x]['permissions'][$y]['menu']['uuid'] = "be128886-1fe0-4c3d-9a52-2535c40a0bdd";
 
 ?>

@@ -110,6 +110,13 @@ assertSameValue([], $recordingNotify['errors'], 'A valid Recording Notify payloa
 assertSameValue('WEBHOOK', $recordingNotify['payload']['delivery_type'], 'Recording delivery type must be normalized.');
 
 require_once dirname(__DIR__).'/resources/classes/fonik_addons_page.php';
+$pageReflection = new ReflectionClass(FonikAddonsPage::class);
+$accessDeniedMessage = $pageReflection->getReflectionConstant('ACCESS_DENIED_MESSAGE');
+assertSameValue(
+	true,
+	$accessDeniedMessage !== false && str_contains((string) $accessDeniedMessage->getValue(), 'با پشتیبانی تماس بگیرید'),
+	'The access denied page must direct users to support.'
+);
 $_SESSION['fonik_addons']['enabled']['boolean'] = 'true';
 assertSameValue(true, FonikAddonsPage::featureEnabled(), 'The tenant feature flag must accept a true boolean setting.');
 $_SESSION['fonik_addons']['enabled']['boolean'] = 'false';
@@ -153,16 +160,17 @@ assertSameValue(false, $visibility->invoke($menu, $clickMenuItem), 'Disabled ten
 
 $_SESSION['fonik_addons']['enabled']['boolean'] = true;
 assertSameValue(true, $visibility->invoke($menu, $fonikParent), 'Enabled tenant with a module permission must see the parent menu.');
-assertSameValue(true, $visibility->invoke($menu, $clickMenuItem), 'A tenant must see its permitted module.');
-assertSameValue(false, $visibility->invoke($menu, $popupMenuItem), 'A tenant must not see a module without its permission.');
-assertSameValue(false, $visibility->invoke($menu, $callbackMenuItem), 'Callback menu requires at least one Callback permission.');
+assertSameValue(true, $visibility->invoke($menu, $clickMenuItem), 'An enabled tenant must see a permitted module.');
+assertSameValue(true, $visibility->invoke($menu, $popupMenuItem), 'An enabled tenant must see a module even without its permission.');
+assertSameValue(true, $visibility->invoke($menu, $callbackMenuItem), 'An enabled tenant must see Callback before access is granted.');
 assertSameValue(false, $visibility->invoke($menu, $companyMenuItem), 'An admin must not see company settings.');
 
 $_SESSION['permissions']['fonik_callback_missed'] = true;
 assertSameValue(true, $visibility->invoke($menu, $callbackMenuItem), 'Any Callback sub-permission must show the Callback menu.');
 
 $_SESSION['permissions'] = [];
-assertSameValue(false, $visibility->invoke($menu, $fonikParent), 'A tenant without module permissions must not see the parent menu.');
+assertSameValue(true, $visibility->invoke($menu, $fonikParent), 'An enabled tenant without module permissions must see the parent menu.');
+assertSameValue(true, $visibility->invoke($menu, $clickMenuItem), 'An enabled tenant without module permissions must see service menu items.');
 
 $_SESSION['groups'] = [['group_name' => 'superadmin']];
 $_SESSION['permissions'] = ['fonik_company_settings' => true];

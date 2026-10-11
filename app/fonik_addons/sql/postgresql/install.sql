@@ -347,26 +347,33 @@ WHERE NOT EXISTS (
 
 WITH menu_groups(item_uuid, group_name) AS (
 	VALUES
+		('929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'user'),
 		('929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'admin'),
 		('929a8d95-1ddb-4400-9a12-6d94b461ec66'::uuid, 'superadmin'),
 		('b0af7bb9-c86a-4252-9ce0-ecd8488d895b'::uuid, 'superadmin'),
+		('db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid, 'user'),
 		('db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid, 'admin'),
 		('db0eefde-f64b-408f-ae9f-789fc24fca1a'::uuid, 'superadmin'),
+		('94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid, 'user'),
 		('94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid, 'admin'),
 		('94b4cce1-a6c4-4918-a631-0252bfb18957'::uuid, 'superadmin'),
+		('44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid, 'user'),
 		('44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid, 'admin'),
 		('44903cd9-a1e4-45ab-a004-f24b8bdd9061'::uuid, 'superadmin'),
+		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'user'),
 		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'admin'),
 		('161ebc6f-fea1-4a57-8897-2804ab28085d'::uuid, 'superadmin'),
+		('5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid, 'user'),
 		('5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid, 'admin'),
 		('5fe78340-7118-4db7-8952-e45e3b7046f7'::uuid, 'superadmin'),
+		('be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid, 'user'),
 		('be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid, 'admin'),
 		('be128886-1fe0-4c3d-9a52-2535c40a0bdd'::uuid, 'superadmin')
 ), target_items AS (
 	SELECT menu_item_uuid, menu_uuid, uuid FROM v_menu_items
 ), target_groups AS (
 	SELECT group_uuid, group_name FROM v_groups
-	WHERE domain_uuid IS NULL AND group_name IN ('admin', 'superadmin')
+	WHERE domain_uuid IS NULL AND group_name IN ('user', 'admin', 'superadmin')
 )
 INSERT INTO v_menu_item_groups (
 	menu_item_group_uuid,

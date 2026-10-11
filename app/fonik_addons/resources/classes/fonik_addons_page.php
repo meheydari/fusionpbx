@@ -5,6 +5,7 @@ declare(strict_types=1);
 final class FonikAddonsPage
 {
 	private const UNAVAILABLE_MESSAGE = 'قابلیت افزودنی‌های CRM برای حساب شما فعال نیست. برای فعال‌سازی با پشتیبانی تماس بگیرید.';
+	private const ACCESS_DENIED_MESSAGE = 'دسترسی شما به این بخش فعال نیست. برای دریافت دسترسی با پشتیبانی تماس بگیرید.';
 	private const COMPANY_MISSING_MESSAGE = 'راه‌اندازی این سرویس برای حساب شما کامل نشده است. لطفاً با پشتیبانی تماس بگیرید.';
 	private const SAVE_SUCCESS_MESSAGE = 'تنظیمات با موفقیت ذخیره شد.';
 	private const SAVE_ERROR_MESSAGE = 'ذخیره تنظیمات انجام نشد. لطفاً دوباره تلاش کنید یا با پشتیبانی تماس بگیرید.';
@@ -23,9 +24,7 @@ final class FonikAddonsPage
 		}
 
 		if (!$allowed || ($superadminOnly && !if_group('superadmin'))) {
-			http_response_code(403);
-			echo 'access denied';
-			exit;
+			self::renderAccessDenied();
 		}
 	}
 
@@ -45,6 +44,19 @@ final class FonikAddonsPage
 		require 'resources/header.php';
 		self::start('افزودنی‌ها', '', '');
 		echo '<section class="fonik-notice fonik-notice--warning" role="status">'.escape(self::UNAVAILABLE_MESSAGE).'</section>';
+		self::end();
+		require 'resources/footer.php';
+		exit;
+	}
+
+	public static function renderAccessDenied(): never
+	{
+		global $document;
+		http_response_code(403);
+		$document['title'] = 'افزودنی‌ها';
+		require 'resources/header.php';
+		self::start('افزودنی‌ها', '', '');
+		echo '<section class="fonik-notice fonik-notice--warning" role="alert">'.escape(self::ACCESS_DENIED_MESSAGE).'</section>';
 		self::end();
 		require 'resources/footer.php';
 		exit;

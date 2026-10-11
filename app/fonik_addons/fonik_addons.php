@@ -32,5 +32,4 @@ foreach ($routes as $route) {
 	}
 }
 
-http_response_code(403);
-echo 'access denied';
+FonikAddonsPage::renderAccessDenied();

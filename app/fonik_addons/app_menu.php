@@ -10,6 +10,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-puzzle-piece";
 	$apps[$x]['menu'][$y]['path'] = "";
 	$apps[$x]['menu'][$y]['order'] = "22";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
@@ -35,6 +36,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-phone";
 	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/click_to_call.php";
 	$apps[$x]['menu'][$y]['order'] = "20";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
@@ -48,6 +50,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-bell";
 	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/popup.php";
 	$apps[$x]['menu'][$y]['order'] = "30";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
@@ -61,6 +64,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-reply";
 	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/callback.php";
 	$apps[$x]['menu'][$y]['order'] = "40";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
@@ -74,6 +78,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-refresh";
 	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/gateway_sync.php";
 	$apps[$x]['menu'][$y]['order'] = "50";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
@@ -87,6 +92,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-file-audio-o";
 	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/record_notify.php";
 	$apps[$x]['menu'][$y]['order'] = "60";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
@@ -100,6 +106,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-lock";
 	$apps[$x]['menu'][$y]['path'] = "/app/fonik_addons/secure_call.php";
 	$apps[$x]['menu'][$y]['order'] = "70";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 

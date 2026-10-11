@@ -742,35 +742,15 @@ if (!class_exists('menu')) {
 					return false;
 				}
 
-				$company_visible = if_group('superadmin') && permission_exists('fonik_company_settings');
-				$module_visible = function($permissions) {
-					if (if_group('superadmin')) {
-						return true;
-					}
-					foreach ($permissions as $permission) {
-						if (permission_exists($permission)) {
-							return true;
-						}
-					}
-					return false;
-				};
 				if ($uuid === '929a8d95-1ddb-4400-9a12-6d94b461ec66') {
-					if ($company_visible) {
-						return true;
-					}
-					foreach ($fonik_permissions as $item_uuid => $permissions) {
-						if ($item_uuid !== 'b0af7bb9-c86a-4252-9ce0-ecd8488d895b' && $module_visible($permissions)) {
-							return true;
-						}
-					}
-					return false;
+					return true;
 				}
 
 				if ($uuid === 'b0af7bb9-c86a-4252-9ce0-ecd8488d895b') {
-					return $company_visible;
+					return if_group('superadmin') && permission_exists('fonik_company_settings');
 				}
 
-				return $module_visible($fonik_permissions[$uuid]);
+				return true;
 			}
 
 			return true;

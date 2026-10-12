@@ -4,7 +4,7 @@ This FusionPBX application manages Fonik services for the active tenant. Each se
 
 ## Menu and permissions
 
-The parent menu is `افزودنی‌ها`. It and its service submenus are visible to signed-in users when `fonik_addons.enabled` is true for the active domain. A service page without the required permission returns HTTP 403 and shows a support contact message. Company settings remain visible only to superadmins.
+The parent menu is `افزودنی‌ها`. It and its service submenus remain visible to signed-in users so the feature is discoverable. A disabled tenant or a service page without the required permission returns HTTP 403 and shows a support contact message. Company settings remain visible only to superadmins.
 
 | Page | Permission | Scope |
 |---|---|---|

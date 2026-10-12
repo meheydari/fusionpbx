@@ -155,11 +155,11 @@ $callbackMenuItem = ['uuid' => '44903cd9-a1e4-45ab-a004-f24b8bdd9061'];
 $_SESSION['groups'] = [['group_name' => 'admin']];
 $_SESSION['permissions'] = ['fonik_click_to_call_manage' => true];
 $_SESSION['fonik_addons']['enabled']['boolean'] = false;
-assertSameValue(false, $visibility->invoke($menu, $fonikParent), 'Disabled tenant must not see the Fonik parent menu.');
-assertSameValue(false, $visibility->invoke($menu, $clickMenuItem), 'Disabled tenant must not see a Fonik child menu.');
+assertSameValue(true, $visibility->invoke($menu, $fonikParent), 'A tenant without Fonik access must still see the parent menu.');
+assertSameValue(true, $visibility->invoke($menu, $clickMenuItem), 'A tenant without Fonik access must still see service menu items.');
 
 $_SESSION['fonik_addons']['enabled']['boolean'] = true;
-assertSameValue(true, $visibility->invoke($menu, $fonikParent), 'Enabled tenant with a module permission must see the parent menu.');
+assertSameValue(true, $visibility->invoke($menu, $fonikParent), 'A tenant with a module permission must see the parent menu.');
 assertSameValue(true, $visibility->invoke($menu, $clickMenuItem), 'An enabled tenant must see a permitted module.');
 assertSameValue(true, $visibility->invoke($menu, $popupMenuItem), 'An enabled tenant must see a module even without its permission.');
 assertSameValue(true, $visibility->invoke($menu, $callbackMenuItem), 'An enabled tenant must see Callback before access is granted.');

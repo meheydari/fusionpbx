@@ -718,7 +718,7 @@ if (!class_exists('menu')) {
 		}
 
 		/**
-		 * Apply application feature flags that must be evaluated for the active domain.
+		 * Keep Fonik service menus discoverable; page-level authorization handles access.
 		 */
 		private function runtime_item_visible($row) {
 			$fonik_permissions = [
@@ -734,14 +734,6 @@ if (!class_exists('menu')) {
 			$is_fonik_item = $uuid === '929a8d95-1ddb-4400-9a12-6d94b461ec66' || isset($fonik_permissions[$uuid]);
 
 			if ($is_fonik_item) {
-				$enabled = filter_var(
-					$_SESSION['fonik_addons']['enabled']['boolean'] ?? false,
-					FILTER_VALIDATE_BOOLEAN
-				);
-				if (!$enabled) {
-					return false;
-				}
-
 				if ($uuid === '929a8d95-1ddb-4400-9a12-6d94b461ec66') {
 					return true;
 				}

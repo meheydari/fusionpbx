@@ -190,6 +190,11 @@
 		$view->assign('domain_uuid', $_SESSION['domain_uuid']);
 	//menu container
 		//load menu array into the session
+			$fonik_menu_visibility_version = 2;
+			if (($_SESSION['menu']['fonik_visibility_version'] ?? 0) < $fonik_menu_visibility_version) {
+				unset($_SESSION['menu']['array']);
+				$_SESSION['menu']['fonik_visibility_version'] = $fonik_menu_visibility_version;
+			}
 			if (!isset($_SESSION['menu']['array'])) {
 				$menu = new menu;
 				$menu->menu_uuid = $_SESSION['domain']['menu']['uuid'];

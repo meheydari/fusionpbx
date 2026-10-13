@@ -7,7 +7,7 @@ require_once 'resources/check_auth.php';
 require_once __DIR__.'/resources/classes/fonik_api_client.php';
 require_once __DIR__.'/resources/classes/fonik_addons_page.php';
 
-if (!FonikAddonsPage::featureEnabled()) {
+if (!FonikAddonsPage::tenantAvailableToCurrentUser()) {
 	FonikAddonsPage::renderUnavailable();
 }
 

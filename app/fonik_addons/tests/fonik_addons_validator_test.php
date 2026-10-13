@@ -121,6 +121,10 @@ $_SESSION['fonik_addons']['enabled']['boolean'] = 'true';
 assertSameValue(true, FonikAddonsPage::featureEnabled(), 'The tenant feature flag must accept a true boolean setting.');
 $_SESSION['fonik_addons']['enabled']['boolean'] = 'false';
 assertSameValue(false, FonikAddonsPage::featureEnabled(), 'The tenant feature flag must reject a false boolean setting.');
+$_SESSION['groups'] = [['group_name' => 'admin']];
+assertSameValue(false, FonikAddonsPage::tenantAvailableToCurrentUser(), 'A regular user must not bypass a disabled tenant.');
+$_SESSION['groups'] = [['group_name' => 'superadmin']];
+assertSameValue(true, FonikAddonsPage::tenantAvailableToCurrentUser(), 'A superadmin must bypass a disabled tenant.');
 
 $_SERVER['PHP_SELF'] = '/app/fonik_addons/company.php';
 ob_start();
@@ -173,9 +177,9 @@ assertSameValue(true, $visibility->invoke($menu, $fonikParent), 'An enabled tena
 assertSameValue(true, $visibility->invoke($menu, $clickMenuItem), 'An enabled tenant without module permissions must see service menu items.');
 
 $_SESSION['groups'] = [['group_name' => 'superadmin']];
-$_SESSION['permissions'] = ['fonik_company_settings' => true];
+$_SESSION['permissions'] = [];
 assertSameValue(true, $visibility->invoke($menu, $fonikParent), 'An enabled tenant must show the parent menu to an authorized superadmin.');
-assertSameValue(true, $visibility->invoke($menu, $companyMenuItem), 'Only an authorized superadmin may see company settings.');
+assertSameValue(true, $visibility->invoke($menu, $companyMenuItem), 'A superadmin must see company settings without a cached permission entry.');
 assertSameValue('Company Settings', $tooltip->invoke($menu, $companyMenuItem), 'Company settings must have an English hover title.');
 assertSameValue('Callback', $tooltip->invoke($menu, $callbackMenuItem), 'Callback must have an English hover title.');
 

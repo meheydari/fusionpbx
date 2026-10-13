@@ -739,7 +739,7 @@ if (!class_exists('menu')) {
 				}
 
 				if ($uuid === 'b0af7bb9-c86a-4252-9ce0-ecd8488d895b') {
-					return if_group('superadmin') && permission_exists('fonik_company_settings');
+					return if_group('superadmin');
 				}
 
 				return true;

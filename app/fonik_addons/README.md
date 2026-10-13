@@ -4,7 +4,7 @@ This FusionPBX application manages Fonik services for the active tenant. Each se
 
 ## Menu and permissions
 
-The parent menu is `افزودنی‌ها`. It and its service submenus remain visible to signed-in users so the feature is discoverable. A disabled tenant or a service page without the required permission returns HTTP 403 and shows a support contact message. Company settings remain visible only to superadmins.
+The parent menu is `افزودنی‌ها`. It and its service submenus remain visible to signed-in users so the feature is discoverable. A disabled tenant or a service page without the required permission returns HTTP 403 and shows a support contact message. Company settings remain visible only to superadmins. Superadmins can open every add-on page even when the active tenant is disabled, so they can configure and activate it.
 
 | Page | Permission | Scope |
 |---|---|---|
@@ -48,7 +48,7 @@ Only an authorized superadmin can create or update a company. Service pages rema
 
 ## Security behavior
 
-- The tenant feature flag applies to all users, including superadmins.
+- The tenant feature flag applies to regular users. Superadmins bypass it so they can configure any tenant.
 - Every page validates its own permission; hiding a menu item is not treated as authorization.
 - All mutations require a FusionPBX CSRF token.
 - Tenant domain and company ID are derived server-side.

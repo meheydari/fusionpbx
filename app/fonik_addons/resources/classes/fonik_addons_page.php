@@ -13,19 +13,25 @@ final class FonikAddonsPage
 	/** @param string|list<string> $permission */
 	public static function requireAccess(string|array $permission, bool $superadminOnly = false): void
 	{
-		if (!self::featureEnabled()) {
+		$isSuperadmin = if_group('superadmin');
+		if (!$isSuperadmin && !self::featureEnabled()) {
 			self::renderUnavailable();
 		}
 
 		$permissions = is_array($permission) ? $permission : [$permission];
-		$allowed = if_group('superadmin');
+		$allowed = $isSuperadmin;
 		foreach ($permissions as $permissionName) {
 			$allowed = $allowed || permission_exists($permissionName);
 		}
 
-		if (!$allowed || ($superadminOnly && !if_group('superadmin'))) {
+		if (!$allowed || ($superadminOnly && !$isSuperadmin)) {
 			self::renderAccessDenied();
 		}
+	}
+
+	public static function tenantAvailableToCurrentUser(): bool
+	{
+		return if_group('superadmin') || self::featureEnabled();
 	}
 
 	public static function featureEnabled(): bool

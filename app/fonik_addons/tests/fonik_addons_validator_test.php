@@ -50,6 +50,31 @@ if (!function_exists('escape')) {
 	}
 }
 
+if (!function_exists('uuid')) {
+	function uuid(): string
+	{
+		return '11111111-1111-4111-8111-111111111111';
+	}
+}
+
+if (!class_exists('database')) {
+	class database
+	{
+		/** @var list<string> */
+		public static array $executedSql = [];
+
+		public function execute(string $sql, array $parameters = []): void
+		{
+			self::$executedSql[] = $sql.'|'.json_encode($parameters);
+		}
+
+		public function select(string $sql, array $parameters = [], string $returnType = 'all'): array
+		{
+			return [];
+		}
+	}
+}
+
 $click = FonikAddonsValidator::clickToCall(['enabled' => 'true']);
 assertSameValue(true, $click['enabled'], 'Click to Call enabled must be normalized to boolean.');
 assertSameValue(false, $click['has_record'], 'Missing has_record must be false.');
@@ -137,6 +162,19 @@ assertSameValue(
 );
 
 $documentationUrl = new ReflectionMethod(FonikAddonsPage::class, 'documentationUrl');
+$_SESSION['domain_name'] = 'codarx.fonik.cloud';
+$_SESSION['fonik_addons']['popup_documentation_url']['text'] = '';
+assertSameValue(
+	'https://codarx.fonik.cloud/docs/Pop-up.pdf',
+	$documentationUrl->invoke(null, 'popup_documentation_url'),
+	'Popup documentation must default to the active tenant domain.'
+);
+$_SESSION['fonik_addons']['secure_call_documentation_url']['text'] = 'https://etehad.fonik.cloud/docs/security-call.pdf';
+assertSameValue(
+	'https://codarx.fonik.cloud/docs/security-call.pdf',
+	$documentationUrl->invoke(null, 'secure_call_documentation_url'),
+	'The shared documentation host must be replaced with the active tenant domain.'
+);
 $_SESSION['fonik_addons']['popup_documentation_url']['text'] = 'https://docs.example.com/popup.pdf';
 assertSameValue(
 	'https://docs.example.com/popup.pdf',
@@ -145,6 +183,13 @@ assertSameValue(
 );
 $_SESSION['fonik_addons']['popup_documentation_url']['text'] = 'javascript:alert(1)';
 assertSameValue('', $documentationUrl->invoke(null, 'popup_documentation_url'), 'Unsafe documentation URL schemes must be rejected.');
+
+require_once dirname(__DIR__).'/resources/classes/fonik_tenant_permissions.php';
+database::$executedSql = [];
+FonikTenantPermissions::setFeatureEnabled('22222222-2222-4222-8222-222222222222', true);
+assertSameValue(true, $_SESSION['fonik_addons']['enabled']['boolean'], 'Saving an active company must enable the tenant in the current session.');
+assertSameValue(2, count(database::$executedSql), 'A missing tenant feature setting must be updated or inserted.');
+assertSameValue(true, str_contains(database::$executedSql[1], "'fonik_addons', 'enabled'"), 'The inserted tenant setting must target fonik_addons.enabled.');
 
 require_once dirname(__DIR__, 3).'/resources/classes/menu.php';
 $menu = new menu();

@@ -74,7 +74,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "popup_documentation_url";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "https://{domain}/docs/Pop-up.pdf";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Popup documentation URL.";
 		$y++;
@@ -98,7 +98,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "recording_notify_documentation_url";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "https://{domain}/docs/record-notify.pdf";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Recording notification documentation URL.";
 		$y++;
@@ -106,7 +106,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "fonik_addons";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "secure_call_documentation_url";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "https://{domain}/docs/security-call.pdf";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Secure Call documentation URL.";
 

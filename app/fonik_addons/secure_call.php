@@ -26,7 +26,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $context['company_exists'] && $cont
 $data = $service['data'];
 $document['title'] = 'تماس امن';
 require_once 'resources/header.php';
-FonikAddonsPage::start('تماس امن', '', 'secure_call_documentation_url', filter_var($data['enabled'] ?? false, FILTER_VALIDATE_BOOLEAN));
+FonikAddonsPage::start(
+	'تماس امن',
+	'',
+	'secure_call_documentation_url',
+	filter_var($data['enabled'] ?? false, FILTER_VALIDATE_BOOLEAN),
+	(string) ($context['company']['api_key'] ?? '')
+);
 FonikAddonsPage::panelStart();
 
 if ($context['error'] !== '') {

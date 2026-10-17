@@ -73,4 +73,43 @@ final class FonikTenantPermissions
 
 		unset($_SESSION['menu']['array']);
 	}
+
+	public static function setFeatureEnabled(string $domainUuid, bool $enabled): void
+	{
+		$database = new database();
+		$value = $enabled ? 'true' : 'false';
+		$parameters = [
+			'domain_uuid' => $domainUuid,
+			'domain_setting_value' => $value,
+		];
+		$database->execute(
+			"update v_domain_settings set domain_setting_name = 'boolean', domain_setting_value = :domain_setting_value, ".
+			"domain_setting_enabled = 'true', domain_setting_description = 'Enable Fonik Add-ons for this tenant.', update_date = current_timestamp ".
+			"where domain_uuid = :domain_uuid and domain_setting_category = 'fonik_addons' and domain_setting_subcategory = 'enabled'",
+			$parameters
+		);
+
+		$existing = $database->select(
+			"select domain_setting_uuid from v_domain_settings where domain_uuid = :domain_uuid ".
+			"and domain_setting_category = 'fonik_addons' and domain_setting_subcategory = 'enabled'",
+			['domain_uuid' => $domainUuid],
+			'row'
+		);
+		if (!is_array($existing) || empty($existing['domain_setting_uuid'])) {
+			$database->execute(
+				"insert into v_domain_settings (domain_uuid, domain_setting_uuid, app_uuid, domain_setting_category, domain_setting_subcategory, ".
+				"domain_setting_name, domain_setting_value, domain_setting_order, domain_setting_enabled, domain_setting_description, insert_date) ".
+				"values (:domain_uuid, :domain_setting_uuid, 'a8bc49c2-cf17-4a68-a796-3031a059ddbf', 'fonik_addons', 'enabled', ".
+				"'boolean', :domain_setting_value, 10, 'true', 'Enable Fonik Add-ons for this tenant.', current_timestamp)",
+				[
+					'domain_uuid' => $domainUuid,
+					'domain_setting_uuid' => uuid(),
+					'domain_setting_value' => $value,
+				]
+			);
+		}
+
+		$_SESSION['fonik_addons']['enabled']['boolean'] = $enabled;
+		unset($_SESSION['menu']['array']);
+	}
 }

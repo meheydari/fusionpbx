@@ -14,11 +14,12 @@ $context = FonikAddonsPage::context();
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	FonikAddonsPage::validatePostToken();
 	if ($context['error'] === '') {
+		$isActive = filter_var($_POST['is_active'] ?? false, FILTER_VALIDATE_BOOLEAN);
 		$result = null;
 		if ($context['company_exists']) {
 			$result = $context['api']->updateCompany(
 				(int) ($context['company']['id'] ?? 0),
-				filter_var($_POST['is_active'] ?? false, FILTER_VALIDATE_BOOLEAN)
+				$isActive
 			);
 		}
 		else {
@@ -30,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				$result = $context['api']->createCompany(
 					$name,
 					$context['domain'],
-					filter_var($_POST['is_active'] ?? false, FILTER_VALIDATE_BOOLEAN)
+					$isActive
 				);
 			}
 		}
@@ -39,12 +40,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			try {
 				$selectedPermissions = is_array($_POST['permissions'] ?? null) ? $_POST['permissions'] : [];
 				FonikTenantPermissions::save((string) $_SESSION['domain_uuid'], $selectedPermissions);
+				FonikTenantPermissions::setFeatureEnabled((string) $_SESSION['domain_uuid'], $isActive);
 				message::add('تنظیمات با موفقیت ذخیره شد.');
 				FonikAddonsPage::redirect('company.php');
 			}
 			catch (Throwable $exception) {
-				error_log('[fonik_addons] Permission save failed: '.$exception->getMessage());
-				message::add('شرکت ذخیره شد اما ذخیره دسترسی‌ها انجام نشد.', 'negative');
+				error_log('[fonik_addons] Tenant access save failed: '.$exception->getMessage());
+				message::add('شرکت ذخیره شد اما فعال‌سازی دسترسی‌های tenant انجام نشد.', 'negative');
 			}
 		}
 		elseif (is_array($result)) {

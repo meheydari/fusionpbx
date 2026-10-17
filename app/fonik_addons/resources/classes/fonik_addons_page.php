@@ -157,9 +157,10 @@ final class FonikAddonsPage
 		return ['exists' => false, 'data' => [], 'error' => $result['error']];
 	}
 
-	public static function start(string $title, string $description, string $documentationSetting, ?bool $active = null): void
+	public static function start(string $title, string $description, string $documentationSetting, ?bool $active = null, ?string $companyApiKey = null): void
 	{
 		$documentationUrl = self::documentationUrl($documentationSetting);
+		$companyApiKey = trim((string) $companyApiKey);
 		echo '<link rel="stylesheet" href="'.PROJECT_PATH.'/app/fonik_addons/resources/css/fonik_addons.css">';
 		echo '<main class="fonik-shell">';
 		echo '<div class="action_bar fonik-page-header"><div class="heading"><b>'.escape($title).'</b></div><div class="actions">';
@@ -173,7 +174,19 @@ final class FonikAddonsPage
 				'icon' => 'download',
 			]).'</a>';
 		}
+		if ($companyApiKey !== '') {
+			echo button::create([
+				'type' => 'button',
+				'label' => 'دریافت API Key',
+				'icon' => 'key',
+				'id' => 'fonik-api-key-open',
+				'collapse' => 'hide-xs',
+			]);
+		}
 		echo '</div><div style="clear: both;"></div></div>';
+		if ($companyApiKey !== '') {
+			self::apiKeyDialog($companyApiKey);
+		}
 		if ($description !== '') {
 			echo '<div class="fonik-description">'.escape($description).'</div>';
 		}
@@ -260,13 +273,53 @@ final class FonikAddonsPage
 		]).'</div>';
 	}
 
+	private static function apiKeyDialog(string $apiKey): void
+	{
+		echo '<dialog class="fonik-api-key-dialog" id="fonik-api-key-dialog" aria-labelledby="fonik-api-key-title">';
+		echo '<div class="fonik-api-key-dialog__header"><b id="fonik-api-key-title">API Key شرکت</b>';
+		echo '<button type="button" class="fonik-api-key-dialog__close" id="fonik-api-key-close" aria-label="بستن">&times;</button></div>';
+		echo '<div class="fonik-api-key-dialog__body">';
+		echo '<p>این کلید را فقط در سامانه‌های مورد اعتماد استفاده کنید.</p>';
+		echo '<div class="fonik-api-key-value"><input class="formfld" id="fonik-api-key-value" type="text" readonly="readonly" dir="ltr" value="'.escape($apiKey).'">';
+		echo button::create([
+			'type' => 'button',
+			'label' => 'کپی کلید',
+			'icon' => 'copy',
+			'id' => 'fonik-api-key-copy',
+			'collapse' => false,
+		]).'</div>';
+		echo '<div class="fonik-api-key-feedback" id="fonik-api-key-feedback" role="status" aria-live="polite"></div>';
+		echo '</div></dialog>';
+		echo '<script src="'.PROJECT_PATH.'/app/fonik_addons/resources/js/api_key.js"></script>';
+	}
+
 	private static function documentationUrl(string $setting): string
 	{
 		if ($setting === '') {
 			return '';
 		}
 
+		$defaults = [
+			'popup_documentation_url' => 'https://{domain}/docs/Pop-up.pdf',
+			'recording_notify_documentation_url' => 'https://{domain}/docs/record-notify.pdf',
+			'secure_call_documentation_url' => 'https://{domain}/docs/security-call.pdf',
+		];
 		$url = trim((string) ($_SESSION['fonik_addons'][$setting]['text'] ?? ''));
+		if ($url === '') {
+			$url = $defaults[$setting] ?? '';
+		}
+
+		$domain = trim((string) ($_SESSION['domain_name'] ?? ''));
+		if ($domain === '' || preg_match('/[\s\/?#]/', $domain) === 1) {
+			return '';
+		}
+		$url = str_replace('{domain}', $domain, $url);
+		if (strtolower((string) parse_url($url, PHP_URL_HOST)) === 'etehad.fonik.cloud') {
+			$scheme = (string) parse_url($url, PHP_URL_SCHEME);
+			$path = (string) parse_url($url, PHP_URL_PATH);
+			$query = parse_url($url, PHP_URL_QUERY);
+			$url = $scheme.'://'.$domain.$path.($query !== null && $query !== false ? '?'.$query : '');
+		}
 		if (filter_var($url, FILTER_VALIDATE_URL) === false) {
 			return '';
 		}

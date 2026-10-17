@@ -30,7 +30,7 @@ Service permissions are deliberately not granted to the global `admin` group. A 
 
 ## Documentation links
 
-Set these shared HTTP(S) URLs in Default Settings. A page hides its documentation button while its URL is empty or invalid.
+Set these shared HTTP(S) URLs in Default Settings. The `{domain}` placeholder is replaced with the active tenant domain. Popup, Recording Notify, and Secure Call also have tenant-domain defaults, so their download buttons work without per-tenant settings. A page hides its documentation button while its URL is empty or invalid.
 
 - `company_documentation_url`
 - `click_to_call_documentation_url`
@@ -45,6 +45,8 @@ Set these shared HTTP(S) URLs in Default Settings. A page hides its documentatio
 The active FusionPBX `domain_name` is the immutable Fonik company domain. The application lists companies from Fonik and matches only the exact active domain; users cannot submit a company ID or another tenant domain. The Fonik API remains the source of truth and no duplicate local mapping table is maintained.
 
 Only an authorized superadmin can create or update a company. Service pages remain unavailable until the active tenant company exists.
+
+Saving Company Settings now synchronizes `fonik_addons.enabled` with the company's active state. This ensures the selected tenant admin permissions become usable immediately after the tenant signs in again. Click to Call and Secure Call expose the company's API key through an explicit modal with a copy action; the key is never added to URLs.
 
 ## Security behavior
 

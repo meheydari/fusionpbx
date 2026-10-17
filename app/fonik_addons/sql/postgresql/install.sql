@@ -155,11 +155,11 @@ WITH setting_rows(
 		('6f9dc4d4-70c4-4e07-b2bd-1945c0f77092'::uuid, 'request_timeout', 'numeric', '15', 50, 'Request timeout in seconds.'),
 		('1fd717f4-363d-4d5f-b160-dbec78180100'::uuid, 'company_documentation_url', 'text', '', 60, 'Company settings documentation URL.'),
 		('c0cca4ad-cba0-4dfa-816f-cc76079ba017'::uuid, 'click_to_call_documentation_url', 'text', '', 70, 'Click to Call documentation URL.'),
-		('2b586bec-7313-4229-b7c7-86f41ee6f227'::uuid, 'popup_documentation_url', 'text', '', 80, 'Popup documentation URL.'),
+		('2b586bec-7313-4229-b7c7-86f41ee6f227'::uuid, 'popup_documentation_url', 'text', 'https://{domain}/docs/Pop-up.pdf', 80, 'Popup documentation URL.'),
 		('cfda0b41-2cf6-489a-ae98-4a9891f6f89e'::uuid, 'callback_documentation_url', 'text', '', 90, 'Callback documentation URL.'),
 		('e6f39d49-d422-40fd-89b1-fea72f411fb8'::uuid, 'gateway_sync_documentation_url', 'text', '', 100, 'Gateway synchronization documentation URL.'),
-		('380ee17d-a3fa-4fdd-bbf0-1433f68ec80b'::uuid, 'recording_notify_documentation_url', 'text', '', 110, 'Recording notification documentation URL.'),
-		('dca59f0a-9807-4333-8aa6-b12863f7edd4'::uuid, 'secure_call_documentation_url', 'text', '', 120, 'Secure Call documentation URL.')
+		('380ee17d-a3fa-4fdd-bbf0-1433f68ec80b'::uuid, 'recording_notify_documentation_url', 'text', 'https://{domain}/docs/record-notify.pdf', 110, 'Recording notification documentation URL.'),
+		('dca59f0a-9807-4333-8aa6-b12863f7edd4'::uuid, 'secure_call_documentation_url', 'text', 'https://{domain}/docs/security-call.pdf', 120, 'Secure Call documentation URL.')
 )
 INSERT INTO v_default_settings (
 	default_setting_uuid,

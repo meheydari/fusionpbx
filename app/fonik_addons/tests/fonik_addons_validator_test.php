@@ -191,6 +191,11 @@ assertSameValue(true, $_SESSION['fonik_addons']['enabled']['boolean'], 'Saving a
 assertSameValue(2, count(database::$executedSql), 'A missing tenant feature setting must be updated or inserted.');
 assertSameValue(true, str_contains(database::$executedSql[1], "'fonik_addons', 'enabled'"), 'The inserted tenant setting must target fonik_addons.enabled.');
 
+$companyPageSource = file_get_contents(dirname(__DIR__).'/company.php');
+assertSameValue(true, is_string($companyPageSource), 'The Company Settings page source must be readable.');
+assertSameValue(false, str_contains((string) $companyPageSource, "checkbox('is_active'"), 'Company Settings must not render a separate active-state field.');
+assertSameValue(true, str_contains((string) $companyPageSource, "\$context['company_exists']\n"), 'The company badge must derive its state from API existence.');
+
 require_once dirname(__DIR__, 3).'/resources/classes/menu.php';
 $menu = new menu();
 $visibility = new ReflectionMethod($menu, 'runtime_item_visible');

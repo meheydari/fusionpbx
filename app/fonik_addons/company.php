@@ -11,18 +11,21 @@ require_once __DIR__.'/resources/classes/fonik_tenant_permissions.php';
 FonikAddonsPage::requireAccess('fonik_company_settings', true);
 $context = FonikAddonsPage::context();
 
+if ($context['company_exists'] && !FonikAddonsPage::featureEnabled()) {
+	try {
+		FonikTenantPermissions::setFeatureEnabled((string) $_SESSION['domain_uuid'], true);
+	}
+	catch (Throwable $exception) {
+		error_log('[fonik_addons] Existing company activation sync failed: '.$exception->getMessage());
+		message::add('شرکت در Fonik فعال است اما همگام‌سازی دسترسی tenant انجام نشد.', 'negative');
+	}
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	FonikAddonsPage::validatePostToken();
 	if ($context['error'] === '') {
-		$isActive = filter_var($_POST['is_active'] ?? false, FILTER_VALIDATE_BOOLEAN);
-		$result = null;
-		if ($context['company_exists']) {
-			$result = $context['api']->updateCompany(
-				(int) ($context['company']['id'] ?? 0),
-				$isActive
-			);
-		}
-		else {
+		$result = ['ok' => true, 'status' => 200, 'data' => $context['company'], 'error' => ''];
+		if (!$context['company_exists']) {
 			$name = trim((string) ($_POST['name'] ?? ''));
 			if ($name === '') {
 				message::add('نام شرکت الزامی است.', 'negative');
@@ -31,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				$result = $context['api']->createCompany(
 					$name,
 					$context['domain'],
-					$isActive
+					true
 				);
 			}
 		}
@@ -40,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			try {
 				$selectedPermissions = is_array($_POST['permissions'] ?? null) ? $_POST['permissions'] : [];
 				FonikTenantPermissions::save((string) $_SESSION['domain_uuid'], $selectedPermissions);
-				FonikTenantPermissions::setFeatureEnabled((string) $_SESSION['domain_uuid'], $isActive);
+				FonikTenantPermissions::setFeatureEnabled((string) $_SESSION['domain_uuid'], true);
 				message::add('تنظیمات با موفقیت ذخیره شد.');
 				FonikAddonsPage::redirect('company.php');
 			}
@@ -63,7 +66,7 @@ FonikAddonsPage::start(
 	'تنظیمات شرکت',
 	'اطلاعات شرکت متصل به حساب Fonik را مدیریت کنید.',
 	'company_documentation_url',
-	$context['company_exists'] ? filter_var($company['is_active'] ?? false, FILTER_VALIDATE_BOOLEAN) : false
+	$context['company_exists']
 );
 FonikAddonsPage::panelStart();
 
@@ -81,7 +84,6 @@ else {
 	if ($context['company_exists']) {
 		FonikAddonsPage::field('شناسه شرکت', '<input class="formfld" type="text" value="'.escape((string) ($company['id'] ?? '')).'" readonly="readonly">');
 	}
-	FonikAddonsPage::field('وضعیت شرکت', FonikAddonsPage::checkbox('is_active', $company['is_active'] ?? true));
 	FonikAddonsPage::fieldsHeading('دسترسی مدیر tenant');
 	foreach (FonikTenantPermissions::definitions() as $permissionName => $permissionLabel) {
 		FonikAddonsPage::field(
@@ -90,7 +92,7 @@ else {
 		);
 	}
 	FonikAddonsPage::fieldsEnd();
-	FonikAddonsPage::submit($context['company_exists'] ? 'ذخیره تغییرات' : 'ثبت شرکت');
+	FonikAddonsPage::submit($context['company_exists'] ? 'ذخیره دسترسی‌ها' : 'ثبت شرکت');
 	echo '</form>';
 }
 

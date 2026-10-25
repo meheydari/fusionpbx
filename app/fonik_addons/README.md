@@ -46,7 +46,7 @@ The active FusionPBX `domain_name` is the immutable Fonik company domain. The ap
 
 Only an authorized superadmin can create or update a company. Service pages remain unavailable until the active tenant company exists.
 
-Saving Company Settings now synchronizes `fonik_addons.enabled` with the company's active state. This ensures the selected tenant admin permissions become usable immediately after the tenant signs in again. Click to Call and Secure Call expose the company's API key through an explicit modal with a copy action; the key is never added to URLs.
+The company status is derived from its existence in the Fonik API. Creating a company always sends `is_active=true`; a successful response enables `fonik_addons.enabled`. Opening Company Settings also repairs a missing or stale disabled tenant flag when the company already exists. There is no separate company-status input in FusionPBX. Click to Call and Secure Call expose the company's API key through an explicit modal with a copy action; the key is never added to URLs.
 
 ## Security behavior
 

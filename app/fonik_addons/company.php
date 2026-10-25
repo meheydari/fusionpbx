@@ -76,13 +76,17 @@ if ($context['error'] !== '') {
 else {
 	FonikAddonsPage::formStart();
 	FonikAddonsPage::fieldsStart();
-	FonikAddonsPage::field(
-		'نام شرکت',
-		'<input class="formfld" type="text" name="name" maxlength="255" value="'.escape((string) ($company['name'] ?? '')).'"'.($context['company_exists'] ? ' readonly="readonly"' : ' required="required"').'>'
-	);
-	FonikAddonsPage::field('دامنه', '<input class="formfld" type="text" value="'.escape($context['domain']).'" readonly="readonly">');
 	if ($context['company_exists']) {
-		FonikAddonsPage::field('شناسه شرکت', '<input class="formfld" type="text" value="'.escape((string) ($company['id'] ?? '')).'" readonly="readonly">');
+		FonikAddonsPage::field('نام شرکت', '<span class="fonik-readonly-value">'.escape((string) ($company['name'] ?? '')).'</span>');
+		FonikAddonsPage::field('دامنه', '<span class="fonik-readonly-value" dir="ltr">'.escape($context['domain']).'</span>');
+		FonikAddonsPage::field('شناسه شرکت', '<span class="fonik-readonly-value" dir="ltr">'.escape((string) ($company['id'] ?? '')).'</span>');
+	}
+	else {
+		FonikAddonsPage::field(
+			'نام شرکت',
+			'<input class="formfld" type="text" name="name" maxlength="255" required="required">'
+		);
+		FonikAddonsPage::field('دامنه', '<span class="fonik-readonly-value" dir="ltr">'.escape($context['domain']).'</span>');
 	}
 	FonikAddonsPage::fieldsHeading('دسترسی مدیر tenant');
 	foreach (FonikTenantPermissions::definitions() as $permissionName => $permissionLabel) {

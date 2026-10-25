@@ -9,6 +9,7 @@
 .fonik-status--active { background: #e5f3eb; color: #28764d; }
 .fonik-panel-heading h2 { margin: 0 0 12px; font-size: inherit; }
 .fonik-fields .formfld { box-sizing: border-box; width: 100%; }
+.fonik-readonly-value { display: inline-block; padding: 7px 0; color: var(--text-color, inherit); overflow-wrap: anywhere; }
 .fonik-hint { margin-top: 4px; color: var(--text-color-disabled, #777); }
 .fonik-form-actions { margin-top: 15px; text-align: left; }
 .fonik-notice { margin: 0 0 15px; padding: 10px 12px; border: 1px solid var(--input-border-color, #ccc); border-radius: var(--input-border-radius, 4px); }

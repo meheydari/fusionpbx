@@ -195,6 +195,8 @@ $companyPageSource = file_get_contents(dirname(__DIR__).'/company.php');
 assertSameValue(true, is_string($companyPageSource), 'The Company Settings page source must be readable.');
 assertSameValue(false, str_contains((string) $companyPageSource, "checkbox('is_active'"), 'Company Settings must not render a separate active-state field.');
 assertSameValue(true, str_contains((string) $companyPageSource, "\$context['company_exists']\n"), 'The company badge must derive its state from API existence.');
+assertSameValue(false, str_contains((string) $companyPageSource, 'name="name" maxlength="255" value='), 'An existing company name must not remain editable.');
+assertSameValue(true, str_contains((string) $companyPageSource, "FonikAddonsPage::field('شناسه شرکت', '<span"), 'The company ID must be rendered as display-only text.');
 
 require_once dirname(__DIR__, 3).'/resources/classes/menu.php';
 $menu = new menu();

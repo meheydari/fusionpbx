@@ -30,7 +30,7 @@ FonikAddonsPage::start(
 	'تماس امن',
 	'',
 	'secure_call_documentation_url',
-	filter_var($data['enabled'] ?? false, FILTER_VALIDATE_BOOLEAN),
+	null,
 	(string) ($context['company']['api_key'] ?? '')
 );
 FonikAddonsPage::panelStart();

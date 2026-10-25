@@ -54,8 +54,7 @@ require_once 'resources/header.php';
 FonikAddonsPage::start(
 	'تماس بازگشتی',
 	'شرایط و بازه زمانی ایجاد تماس بازگشتی را تنظیم کنید.',
-	'callback_documentation_url',
-	filter_var($data['enabled'] ?? false, FILTER_VALIDATE_BOOLEAN)
+	'callback_documentation_url'
 );
 FonikAddonsPage::panelStart();
 

@@ -39,8 +39,7 @@ require_once 'resources/header.php';
 FonikAddonsPage::start(
 	'پاپ‌آپ تماس',
 	'نحوه ارسال اطلاعات تماس به سامانه مقصد را تنظیم کنید.',
-	'popup_documentation_url',
-	filter_var($data['enabled'] ?? false, FILTER_VALIDATE_BOOLEAN)
+	'popup_documentation_url'
 );
 FonikAddonsPage::panelStart();
 

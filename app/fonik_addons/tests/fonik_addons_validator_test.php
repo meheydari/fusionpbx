@@ -221,6 +221,19 @@ assertSameValue(true, str_contains((string) $companyPageSource, "\$context['comp
 assertSameValue(false, str_contains((string) $companyPageSource, 'name="name" maxlength="255" value='), 'An existing company name must not remain editable.');
 assertSameValue(true, str_contains((string) $companyPageSource, "FonikAddonsPage::field('شناسه شرکت', '<span"), 'The company ID must be rendered as display-only text.');
 
+$servicePageFiles = ['click_to_call.php', 'popup.php', 'callback.php', 'gateway_sync.php', 'record_notify.php', 'secure_call.php'];
+foreach ($servicePageFiles as $servicePageFile) {
+	$servicePageSource = file_get_contents(dirname(__DIR__).'/'.$servicePageFile);
+	assertSameValue(true, is_string($servicePageSource), $servicePageFile.' source must be readable.');
+	$startCall = [];
+	assertSameValue(1, preg_match('/FonikAddonsPage::start\(([\s\S]*?)\);/', (string) $servicePageSource, $startCall), $servicePageFile.' must render the shared page header.');
+	assertSameValue(
+		false,
+		str_contains((string) ($startCall[1] ?? ''), 'FILTER_VALIDATE_BOOLEAN'),
+		$servicePageFile.' must not pass a service status badge to the page header.'
+	);
+}
+
 require_once dirname(__DIR__, 3).'/resources/classes/menu.php';
 $menu = new menu();
 $visibility = new ReflectionMethod($menu, 'runtime_item_visible');

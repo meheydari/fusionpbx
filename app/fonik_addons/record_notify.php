@@ -34,7 +34,7 @@ $deliveryType = strtoupper((string) ($data['delivery_type'] ?? 'AI'));
 $webhookMethod = strtoupper((string) ($data['webhook_method'] ?? 'POST'));
 $document['title'] = 'اعلان رکورد تماس';
 require_once 'resources/header.php';
-FonikAddonsPage::start('اعلان رکورد تماس', '', 'recording_notify_documentation_url', filter_var($data['enabled'] ?? false, FILTER_VALIDATE_BOOLEAN));
+FonikAddonsPage::start('اعلان رکورد تماس', '', 'recording_notify_documentation_url');
 FonikAddonsPage::panelStart();
 
 if ($context['error'] !== '') {

@@ -29,7 +29,7 @@ FonikAddonsPage::start(
 	'کلیک برای تماس',
 	'تنظیمات سرویس کلیک برای تماس را مدیریت کنید.',
 	'click_to_call_documentation_url',
-	filter_var($service['data']['enabled'] ?? false, FILTER_VALIDATE_BOOLEAN),
+	null,
 	(string) ($context['company']['api_key'] ?? '')
 );
 FonikAddonsPage::panelStart();

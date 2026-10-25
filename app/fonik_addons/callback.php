@@ -15,8 +15,9 @@ $callbackPermissions = [
 ];
 FonikAddonsPage::requireAccess(array_values($callbackPermissions));
 $allowedCallbackFlags = [];
+$grantedCallbackPermissions = FonikAddonsPage::grantedServicePermissions(array_values($callbackPermissions));
 foreach ($callbackPermissions as $flag => $permissionName) {
-	if (if_group('superadmin') || permission_exists($permissionName)) {
+	if (in_array($permissionName, $grantedCallbackPermissions, true)) {
 		$allowedCallbackFlags[] = $flag;
 	}
 }

@@ -62,6 +62,8 @@ if (!class_exists('database')) {
 	{
 		/** @var list<string> */
 		public static array $executedSql = [];
+		/** @var list<array<string, mixed>> */
+		public static array $selectedRows = [];
 
 		public function execute(string $sql, array $parameters = []): void
 		{
@@ -70,7 +72,7 @@ if (!class_exists('database')) {
 
 		public function select(string $sql, array $parameters = [], string $returnType = 'all'): array
 		{
-			return [];
+			return self::$selectedRows;
 		}
 	}
 }
@@ -150,6 +152,14 @@ $_SESSION['groups'] = [['group_name' => 'admin']];
 assertSameValue(false, FonikAddonsPage::tenantAvailableToCurrentUser(), 'A regular user must not bypass a disabled tenant.');
 $_SESSION['groups'] = [['group_name' => 'superadmin']];
 assertSameValue(true, FonikAddonsPage::tenantAvailableToCurrentUser(), 'A superadmin must bypass a disabled tenant.');
+$_SESSION['domain_uuid'] = '22222222-2222-4222-8222-222222222222';
+$_SESSION['permissions'] = ['fonik_click_to_call_manage' => true];
+database::$selectedRows = [];
+assertSameValue(false, FonikAddonsPage::hasServiceAccess('fonik_click_to_call_manage'), 'A superadmin must not bypass a disabled tenant service using personal permissions.');
+database::$selectedRows = [['permission_name' => 'fonik_popup_manage', 'permission_assigned' => 'true']];
+assertSameValue(true, FonikAddonsPage::hasServiceAccess('fonik_popup_manage'), 'A superadmin must receive service access from the tenant admin permission.');
+assertSameValue(false, FonikAddonsPage::hasServiceAccess('fonik_click_to_call_manage'), 'A superadmin must be denied services not enabled for the tenant admin.');
+database::$selectedRows = [];
 
 $_SERVER['PHP_SELF'] = '/app/fonik_addons/company.php';
 ob_start();

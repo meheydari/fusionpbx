@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+require_once __DIR__.'/fonik_tenant_permissions.php';
+
 final class FonikAddonsPage
 {
 	private const UNAVAILABLE_MESSAGE = 'قابلیت افزودنی‌های CRM برای حساب شما فعال نیست. برای فعال‌سازی با پشتیبانی تماس بگیرید.';
@@ -14,19 +16,61 @@ final class FonikAddonsPage
 	public static function requireAccess(string|array $permission, bool $superadminOnly = false): void
 	{
 		$isSuperadmin = if_group('superadmin');
-		if (!$isSuperadmin && !self::featureEnabled()) {
+		if ($superadminOnly) {
+			if (!$isSuperadmin) {
+				self::renderAccessDenied();
+			}
+
+			return;
+		}
+
+		if (!self::featureEnabled()) {
 			self::renderUnavailable();
 		}
 
-		$permissions = is_array($permission) ? $permission : [$permission];
-		$allowed = $isSuperadmin;
-		foreach ($permissions as $permissionName) {
-			$allowed = $allowed || permission_exists($permissionName);
-		}
-
-		if (!$allowed || ($superadminOnly && !$isSuperadmin)) {
+		if (!self::hasServiceAccess($permission)) {
 			self::renderAccessDenied();
 		}
+	}
+
+	/** @param string|list<string> $permission */
+	public static function hasServiceAccess(string|array $permission): bool
+	{
+		return self::grantedServicePermissions(is_array($permission) ? $permission : [$permission]) !== [];
+	}
+
+	/**
+	 * Superadmins manage a tenant but are not members of its admin group. Their service access must
+	 * therefore be evaluated against the tenant's configured admin permissions instead of their own session.
+	 *
+	 * @param list<string> $permissions
+	 * @return list<string>
+	 */
+	public static function grantedServicePermissions(array $permissions): array
+	{
+		$granted = [];
+		if (if_group('superadmin')) {
+			$domainUuid = trim((string) ($_SESSION['domain_uuid'] ?? ''));
+			if ($domainUuid === '') {
+				return [];
+			}
+			$tenantPermissions = FonikTenantPermissions::get($domainUuid);
+			foreach ($permissions as $permissionName) {
+				if ($tenantPermissions[$permissionName] ?? false) {
+					$granted[] = $permissionName;
+				}
+			}
+
+			return $granted;
+		}
+
+		foreach ($permissions as $permissionName) {
+			if (permission_exists($permissionName)) {
+				$granted[] = $permissionName;
+			}
+		}
+
+		return $granted;
 	}
 
 	public static function tenantAvailableToCurrentUser(): bool

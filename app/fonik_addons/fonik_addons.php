@@ -22,12 +22,10 @@ $routes = [
 ];
 
 foreach ($routes as $route) {
-	$permissions = is_array($route['permission']) ? $route['permission'] : [$route['permission']];
-	$allowed = if_group('superadmin');
-	foreach ($permissions as $permission) {
-		$allowed = $allowed || permission_exists($permission);
-	}
-	if ($allowed && (!$route['superadmin'] || if_group('superadmin'))) {
+	$allowed = $route['superadmin']
+		? if_group('superadmin')
+		: FonikAddonsPage::hasServiceAccess($route['permission']);
+	if ($allowed) {
 		FonikAddonsPage::redirect($route['path']);
 	}
 }

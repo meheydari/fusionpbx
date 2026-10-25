@@ -47,28 +47,41 @@ final class FonikTenantPermissions
 
 		foreach (self::definitions() as $permissionName => $label) {
 			$assigned = isset($selected[$permissionName]) ? 'true' : 'false';
-			$parameters = [
+			$updateParameters = [
 				'domain_uuid' => $domainUuid,
 				'group_uuid' => $group['group_uuid'],
-				'group_name' => $groupName,
 				'permission_name' => $permissionName,
 				'permission_assigned' => $assigned,
 			];
-			$database->execute(
+			$updated = $database->execute(
 				"update v_group_permissions set permission_assigned = :permission_assigned, update_date = current_timestamp ".
 				"where domain_uuid = :domain_uuid and group_uuid = :group_uuid and permission_name = :permission_name",
-				$parameters
+				$updateParameters
 			);
-			$parameters['group_permission_uuid'] = uuid();
-			$parameters['check_domain_uuid'] = $domainUuid;
-			$parameters['check_group_uuid'] = $group['group_uuid'];
-			$parameters['check_permission_name'] = $permissionName;
-			$database->execute(
+			if ($updated === false) {
+				throw new RuntimeException('به‌روزرسانی دسترسی tenant انجام نشد.');
+			}
+
+			$insertParameters = [
+				'group_permission_uuid' => uuid(),
+				'domain_uuid' => $domainUuid,
+				'permission_name' => $permissionName,
+				'permission_assigned' => $assigned,
+				'group_name' => $groupName,
+				'group_uuid' => $group['group_uuid'],
+				'check_domain_uuid' => $domainUuid,
+				'check_group_uuid' => $group['group_uuid'],
+				'check_permission_name' => $permissionName,
+			];
+			$inserted = $database->execute(
 				"insert into v_group_permissions (group_permission_uuid, domain_uuid, permission_name, permission_protected, permission_assigned, group_name, group_uuid, insert_date) ".
 				"select :group_permission_uuid, :domain_uuid, :permission_name, 'false', :permission_assigned, :group_name, :group_uuid, current_timestamp ".
 				"where not exists (select 1 from v_group_permissions where domain_uuid = :check_domain_uuid and group_uuid = :check_group_uuid and permission_name = :check_permission_name)",
-				$parameters
+				$insertParameters
 			);
+			if ($inserted === false) {
+				throw new RuntimeException('ایجاد دسترسی tenant انجام نشد.');
+			}
 		}
 
 		unset($_SESSION['menu']['array']);

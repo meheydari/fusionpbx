@@ -65,14 +65,16 @@ if (!class_exists('database')) {
 		/** @var list<array<string, mixed>> */
 		public static array $selectedRows = [];
 
-		public function execute(string $sql, array $parameters = []): void
+		public function execute(string $sql, array $parameters = []): array|false
 		{
 			self::$executedSql[] = $sql.'|'.json_encode($parameters);
+
+			return [];
 		}
 
 		public function select(string $sql, array $parameters = [], string $returnType = 'all'): array
 		{
-			return self::$selectedRows;
+			return $returnType === 'row' ? (self::$selectedRows[0] ?? []) : self::$selectedRows;
 		}
 	}
 }
@@ -195,6 +197,17 @@ $_SESSION['fonik_addons']['popup_documentation_url']['text'] = 'javascript:alert
 assertSameValue('', $documentationUrl->invoke(null, 'popup_documentation_url'), 'Unsafe documentation URL schemes must be rejected.');
 
 require_once dirname(__DIR__).'/resources/classes/fonik_tenant_permissions.php';
+database::$selectedRows = [['group_uuid' => '080acfeb-7594-41a3-9e3c-f77e81615d2e']];
+database::$executedSql = [];
+FonikTenantPermissions::save(
+	'22222222-2222-4222-8222-222222222222',
+	['fonik_click_to_call_manage' => 'true']
+);
+assertSameValue(16, count(database::$executedSql), 'Saving tenant permissions must update or insert all eight module permissions.');
+assertSameValue(true, str_contains(database::$executedSql[0], '"permission_assigned":"true"'), 'The selected permission must be persisted as true.');
+assertSameValue(false, str_contains(database::$executedSql[0], '"group_name"'), 'The update query must not receive unused PDO parameters.');
+
+database::$selectedRows = [];
 database::$executedSql = [];
 FonikTenantPermissions::setFeatureEnabled('22222222-2222-4222-8222-222222222222', true);
 assertSameValue(true, $_SESSION['fonik_addons']['enabled']['boolean'], 'Saving an active company must enable the tenant in the current session.');
